@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/mysterypaintwo/mxf-json-data/master/schema/mxf-enemies.schema.json",
+  "$id": "https://raw.githubusercontent.com/vg-json-data/mxf-json-data/master/schema/mxf-enemies.schema.json",
 
   "definitions": {
     "enemyDrops": {
