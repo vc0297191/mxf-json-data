@@ -97,6 +97,9 @@
       }
     },
 
+    "itemDefinitionTableAddr": { "$ref": "#/definitions/hexString" },
+    "progressiveUpgradeTableAddr": { "$ref": "#/definitions/hexString" },
+
     "implicitItems": {
       "type": "array",
       "items": { "type": "string" }
