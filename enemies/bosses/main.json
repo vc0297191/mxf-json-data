@@ -26,6 +26,7 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "SRX"
       ],
@@ -56,6 +57,9 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "Morph Ball"
+      ],
       "areas": [
         "SRX"
       ],
@@ -86,6 +90,9 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "Varia Suit"
+      ],
       "areas": [
         "NOC"
       ],
@@ -116,6 +123,9 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "MissileLv2"
+      ],
       "areas": [
         "DMX"
       ],
@@ -146,6 +156,7 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "DMX"
       ],
@@ -176,6 +187,7 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "SRX"
       ],
@@ -206,6 +218,7 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "SRX"
       ],
@@ -236,6 +249,7 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "DMX"
       ],
@@ -266,6 +280,7 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "DMX"
       ],
@@ -296,6 +311,7 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "DMX"
       ],
@@ -303,6 +319,70 @@
     },
     {
       "id": 11,
+      "name": "Meta Draygon-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 0,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 32
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "dropsUpgrade": [],
+      "areas": [
+        "AQA"
+      ],
+      "note": "Head is [32,32] w/2816 HP, Back is [128,32] with 2816 HP, Tail is [32,32] hitbox w/1408 HP"
+    },
+    {
+      "id": 12,
+      "name": "Meta Draygon-X Core",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 896,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "dropsUpgrade": [
+        "SpeedBoosterLv2"
+      ],
+      "areas": [
+        "AQA"
+      ],
+      "note": ""
+    },
+    {
+      "id": 13,
       "name": "Neo-Crocomire",
       "attacks": [
         {
@@ -326,13 +406,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "PYR"
       ],
       "note": "Doesn\u0027t have a health bar; dies when knocked off into the pit on the right side of the room"
     },
     {
-      "id": 12,
+      "id": 14,
       "name": "Neo-Ridley",
       "attacks": [
         {
@@ -358,13 +439,14 @@
       "invul": [
         "PowerBeam"
       ],
+      "dropsUpgrade": [],
       "areas": [
         "PYR"
       ],
       "note": ""
     },
     {
-      "id": 13,
+      "id": 15,
       "name": "Neo-Ridley Core-X",
       "attacks": [
         {
@@ -388,13 +470,16 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "Screw Attack"
+      ],
       "areas": [
         "PYR"
       ],
       "note": ""
     },
     {
-      "id": 14,
+      "id": 16,
       "name": "Nettori",
       "attacks": [
         {
@@ -418,43 +503,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "TRO"
       ],
       "note": ""
     },
     {
-      "id": 15,
-      "name": "Nettori-X Core",
-      "attacks": [
-        {
-          "name": "contact",
-          "baseDamage": 0
-        }
-      ],
-      "hp": 768,
-      "amountOfDrops": 0,
-      "drops": {
-        "noDrop": 0,
-        "yellowX": 0,
-        "greenX": 0,
-        "redX": 0
-      },
-      "dims": {
-        "w": 48,
-        "h": 48
-      },
-      "freezable": false,
-      "grapplable": false,
-      "damageMultipliers": [],
-      "invul": [],
-      "areas": [
-        "TRO"
-      ],
-      "note": ""
-    },
-    {
-      "id": 16,
+      "id": 17,
       "name": "Nightmare-X",
       "attacks": [
         {
@@ -478,13 +534,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "NOC"
       ],
       "note": "Tail is [56,32] hitbox w/2304 HP, head is [32,32] w/8704 HP"
     },
     {
-      "id": 17,
+      "id": 18,
       "name": "Nightmare-X Core",
       "attacks": [
         {
@@ -508,13 +565,16 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "Gravity Suit"
+      ],
       "areas": [
         "NOC"
       ],
       "note": ""
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "Omega Metroid",
       "attacks": [
         {
@@ -538,13 +598,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "LX-0"
       ],
       "note": ""
     },
     {
-      "id": 19,
+      "id": 20,
       "name": "Phantomire",
       "attacks": [
         {
@@ -568,13 +629,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "PYR"
       ],
       "note": ""
     },
     {
-      "id": 20,
+      "id": 21,
       "name": "Phantomire Core-X",
       "attacks": [
         {
@@ -598,13 +660,49 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "Grappling Beam"
+      ],
       "areas": [
         "PYR"
       ],
       "note": ""
     },
     {
-      "id": 21,
+      "id": 22,
+      "name": "Plasma Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 768,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "dropsUpgrade": [
+        "Plasma Beam"
+      ],
+      "areas": [
+        "TRO"
+      ],
+      "note": ""
+    },
+    {
+      "id": 23,
       "name": "SA-X True Form",
       "attacks": [
         {
@@ -628,13 +726,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "DMX"
       ],
       "note": ""
     },
     {
-      "id": 22,
+      "id": 24,
       "name": "Security Robot B.O.X.",
       "attacks": [
         {
@@ -658,43 +757,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "ARC"
       ],
       "note": ""
     },
     {
-      "id": 23,
-      "name": "Security Robot B.O.X. Core-X",
-      "attacks": [
-        {
-          "name": "contact",
-          "baseDamage": 0
-        }
-      ],
-      "hp": 768,
-      "amountOfDrops": 0,
-      "drops": {
-        "noDrop": 0,
-        "yellowX": 0,
-        "greenX": 0,
-        "redX": 0
-      },
-      "dims": {
-        "w": 48,
-        "h": 48
-      },
-      "freezable": false,
-      "grapplable": false,
-      "damageMultipliers": [],
-      "invul": [],
-      "areas": [
-        "ARC"
-      ],
-      "note": ""
-    },
-    {
-      "id": 24,
+      "id": 25,
       "name": "Serris-X",
       "attacks": [
         {
@@ -718,13 +788,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "AQA"
       ],
       "note": ""
     },
     {
-      "id": 25,
+      "id": 26,
       "name": "Serris-X Core",
       "attacks": [
         {
@@ -748,13 +819,16 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "SpeedBoosterLv1"
+      ],
       "areas": [
         "AQA"
       ],
       "note": ""
     },
     {
-      "id": 26,
+      "id": 27,
       "name": "Spikespawn",
       "attacks": [
         {
@@ -778,13 +852,16 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "Spike Breaker"
+      ],
       "areas": [
         "SRX"
       ],
       "note": ""
     },
     {
-      "id": 27,
+      "id": 28,
       "name": "Spikespawn Minions",
       "attacks": [
         {
@@ -808,13 +885,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "SRX"
       ],
       "note": ""
     },
     {
-      "id": 28,
+      "id": 29,
       "name": "Sucker Plant",
       "attacks": [
         {
@@ -838,13 +916,47 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "TRO"
       ],
       "note": ""
     },
     {
-      "id": 29,
+      "id": 30,
+      "name": "Wave Core-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 768,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 0,
+        "greenX": 0,
+        "redX": 0
+      },
+      "dims": {
+        "w": 48,
+        "h": 48
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "invul": [],
+      "dropsUpgrade": [
+        "Wave Beam"
+      ],
+      "areas": [
+        "ARC"
+      ],
+      "note": ""
+    },
+    {
+      "id": 31,
       "name": "Wide Core-X",
       "attacks": [
         {
@@ -868,13 +980,16 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "Wide Beam"
+      ],
       "areas": [
         "ARC"
       ],
       "note": ""
     },
     {
-      "id": 30,
+      "id": 32,
       "name": "Yakuza",
       "attacks": [
         {
@@ -898,13 +1013,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "MDK"
       ],
       "note": "Second phase begins at ~2428 HP"
     },
     {
-      "id": 31,
+      "id": 33,
       "name": "Yakuza Core-X",
       "attacks": [
         {
@@ -928,13 +1044,16 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "Space Jump"
+      ],
       "areas": [
         "MDK"
       ],
       "note": ""
     },
     {
-      "id": 32,
+      "id": 34,
       "name": "Zazabi Core-X",
       "attacks": [
         {
@@ -958,13 +1077,16 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [
+        "Super Jump"
+      ],
       "areas": [
         "TRO"
       ],
       "note": ""
     },
     {
-      "id": 33,
+      "id": 35,
       "name": "Zazabi-X (Blue)",
       "attacks": [
         {
@@ -988,13 +1110,14 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "TRO"
       ],
       "note": ""
     },
     {
-      "id": 34,
+      "id": 36,
       "name": "Zazabi-X (Red)",
       "attacks": [
         {
@@ -1018,6 +1141,7 @@
       "grapplable": false,
       "damageMultipliers": [],
       "invul": [],
+      "dropsUpgrade": [],
       "areas": [
         "TRO"
       ],

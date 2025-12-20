@@ -233,6 +233,16 @@
               "pattern": "^(.*)$"
             }
           },
+          "dropsUpgrade": {
+            "type": [ "array" ],
+            "title": "Invulnerability",
+            "description": "A list containing upgrade items dropped by this enemy",
+            "default": [],
+            "items": {
+              "type": "string",
+              "pattern": "^(.*)$"
+            }
+          },
           "damageMultipliers": {
             "type": "array",
             "title": "Damage Multipliers",
