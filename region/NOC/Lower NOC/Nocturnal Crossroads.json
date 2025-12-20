@@ -30,10 +30,10 @@
     },
     {
       "id": 61,
-      "name": "Item",
+      "name": "Aux Power Cell 2",
       "nodeType": "item",
       "nodeSubType": "visible",
-      "nodeItem": "Aux Power Cell 2",
+      "nodeItem": "Major",
       "nodeAddress": "0x0",
       "note": "Jump through the wall at the bottom-right of the room"
     },
