@@ -1,5 +1,5 @@
 # mxf-json-data
-JSON representations of Metroid X-Fusion Game Data
+JSON representations of Super Metroid: X-Fusion Game Data
 
 ## Contributing to the project
 1. Clone the [mxf-json-data repository](https://github.com/mysterypaintwo/mxf-json-data). I highly recommend using [Github Desktop](https://desktop.github.com/download/) if you've never used git before.
@@ -10,6 +10,7 @@ JSON representations of Metroid X-Fusion Game Data
 
 ## Credits
 
-- **Metaquarius** – For developing the awesome game and providing images of every room.
-- **InsaneFirebat** – For creating the practice ROM, sharing internal game data, and performing useful reverse-engineering research.
-- **Super Metroid Map Randomizer Team** - For creating the foundation that inspired this project
+- [**Metaquarius**](https://metaquarium.wordpress.com/xfusion) – For developing [Super Metroid: X-Fusion](https://metroidconstruction.com/hack.php?id=837) and providing images of every room.
+- [**InsaneFirebat**](https://github.com/InsaneFirebat) – For creating the practice ROM, sharing internal game data, and performing useful reverse-engineering research.
+- [**Super Metroid Map Randomizer Team**](https://maprando.com/) - For creating the foundation that inspired this project
+- [**Minnie A. Trethewey**](https://github.com/miketrethewey) - SM Map Rando Logic Designer and X-Fusion Rando Design Consultant
