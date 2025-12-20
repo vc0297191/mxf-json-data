@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 42,
+      "id": 60,
       "idMinorItemPlm": "0x6A",
       "name": "Missile Tank",
       "nodeType": "item",
@@ -29,7 +29,16 @@
       "mapTileY": 13
     },
     {
-      "id": 608,
+      "id": 61,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Aux Power Cell 2",
+      "nodeAddress": "0x0",
+      "note": "Jump through the wall at the bottom-right of the room"
+    },
+    {
+      "id": 646,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -42,7 +51,7 @@
       ]
     },
     {
-      "id": 609,
+      "id": 647,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +64,7 @@
       ]
     },
     {
-      "id": 610,
+      "id": 648,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -68,7 +77,7 @@
       ]
     },
     {
-      "id": 611,
+      "id": 649,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

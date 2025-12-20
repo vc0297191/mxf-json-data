@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 7,
+      "id": 11,
       "idMinorItemPlm": "0x42",
       "name": "Missile Tank",
       "nodeType": "item",
@@ -29,7 +29,7 @@
       "mapTileY": 13
     },
     {
-      "id": 180,
+      "id": 218,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "id": 181,
+      "id": 219,
       "name": "South-West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

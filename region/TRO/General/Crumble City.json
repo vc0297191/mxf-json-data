@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 72,
+      "id": 104,
       "idMinorItemPlm": "0x26",
       "name": "Power Bomb Tank",
       "nodeType": "item",
@@ -29,7 +29,7 @@
       "mapTileY": 16
     },
     {
-      "id": 73,
+      "id": 105,
       "idMinorItemPlm": "0x25",
       "name": "Missile Tank",
       "nodeType": "item",
@@ -40,12 +40,12 @@
       "mapTileY": 15
     },
     {
-      "id": 895,
+      "id": 933,
       "name": "East-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "top",
+      "doorOrientation": "up",
       "doorEnvironments": [
         {
           "physics": "air"
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "id": 896,
+      "id": 934,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -66,12 +66,12 @@
       ]
     },
     {
-      "id": 897,
+      "id": 935,
       "name": "East-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "bottom",
+      "doorOrientation": "down",
       "doorEnvironments": [
         {
           "physics": "air"

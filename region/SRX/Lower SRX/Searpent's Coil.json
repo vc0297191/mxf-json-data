@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 64,
+      "id": 90,
       "idMinorItemPlm": "0x17",
       "name": "Energy Tank",
       "nodeType": "item",
@@ -29,7 +29,7 @@
       "mapTileY": 18
     },
     {
-      "id": 813,
+      "id": 851,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

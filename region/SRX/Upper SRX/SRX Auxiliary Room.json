@@ -18,7 +18,16 @@
   ],
   "nodes": [
     {
-      "id": 857,
+      "id": 101,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Aux Power Cell 1",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 895,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

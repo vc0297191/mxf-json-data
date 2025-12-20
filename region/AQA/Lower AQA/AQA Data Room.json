@@ -18,7 +18,16 @@
   ],
   "nodes": [
     {
-      "id": 91,
+      "id": 1,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Diffusion Missile",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 129,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

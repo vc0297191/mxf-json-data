@@ -18,12 +18,21 @@
   ],
   "nodes": [
     {
-      "id": 503,
+      "id": 47,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major Space Jump (Yakuza Check)",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 541,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "top",
+      "doorOrientation": "up",
       "doorEnvironments": [
         {
           "physics": "air"
@@ -31,7 +40,7 @@
       ]
     },
     {
-      "id": 504,
+      "id": 542,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

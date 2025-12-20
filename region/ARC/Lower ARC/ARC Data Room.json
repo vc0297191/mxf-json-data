@@ -18,7 +18,16 @@
   ],
   "nodes": [
     {
-      "id": 266,
+      "id": 22,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Ice Missile",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 304,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -31,7 +40,7 @@
       ]
     },
     {
-      "id": 267,
+      "id": 305,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

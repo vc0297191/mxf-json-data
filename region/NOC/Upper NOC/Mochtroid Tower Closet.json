@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 44,
+      "id": 64,
       "idMinorItemPlm": "0x60",
       "name": "Hidden Missile Tank",
       "nodeType": "item",
@@ -29,7 +29,7 @@
       "mapTileY": 5
     },
     {
-      "id": 645,
+      "id": 683,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

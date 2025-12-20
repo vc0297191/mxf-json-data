@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 15,
+      "id": 24,
       "idMinorItemPlm": "0x5A",
       "name": "Missile Tank",
       "nodeType": "item",
@@ -29,7 +29,7 @@
       "mapTileY": 18
     },
     {
-      "id": 276,
+      "id": 314,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "id": 277,
+      "id": 315,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "id": 278,
+      "id": 316,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": 279,
+      "id": 317,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

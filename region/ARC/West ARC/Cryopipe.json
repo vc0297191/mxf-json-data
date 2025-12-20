@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 25,
+      "id": 37,
       "idMinorItemPlm": "0x59",
       "name": "Hidden Missile Tank",
       "nodeType": "item",
@@ -29,7 +29,7 @@
       "mapTileY": 22
     },
     {
-      "id": 342,
+      "id": 380,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "id": 343,
+      "id": 381,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

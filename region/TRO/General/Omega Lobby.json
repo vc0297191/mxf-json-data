@@ -18,7 +18,16 @@
   ],
   "nodes": [
     {
-      "id": 926,
+      "id": 109,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Aux Power Cell 6",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 964,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -31,7 +40,7 @@
       ]
     },
     {
-      "id": 927,
+      "id": 965,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -44,7 +53,7 @@
       ]
     },
     {
-      "id": 928,
+      "id": 966,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 34,
+      "id": 49,
       "idMinorItemPlm": "0x03",
       "name": "Energy Tank",
       "nodeType": "item",
@@ -29,7 +29,7 @@
       "mapTileY": 11
     },
     {
-      "id": 35,
+      "id": 50,
       "idMinorItemPlm": "0x04",
       "name": "Energy Tank",
       "nodeType": "item",
@@ -40,7 +40,7 @@
       "mapTileY": 11
     },
     {
-      "id": 513,
+      "id": 551,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "id": 514,
+      "id": 552,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -66,12 +66,12 @@
       ]
     },
     {
-      "id": 515,
+      "id": 553,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "bottom",
+      "doorOrientation": "down",
       "doorEnvironments": [
         {
           "physics": "air"

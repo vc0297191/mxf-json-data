@@ -18,7 +18,16 @@
   ],
   "nodes": [
     {
-      "id": 198,
+      "id": 14,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Etecoon 1",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 236,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

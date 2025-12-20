@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 391,
+      "id": 429,
       "name": "North-West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "id": 392,
+      "id": 430,
       "name": "North-East Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "id": 393,
+      "id": 431,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 74,
+      "id": 106,
       "idMinorItemPlm": "0x21",
       "name": "Power Bomb Tank",
       "nodeType": "item",
@@ -29,7 +29,7 @@
       "mapTileY": 13
     },
     {
-      "id": 898,
+      "id": 936,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "id": 899,
+      "id": 937,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,12 +55,12 @@
       ]
     },
     {
-      "id": 900,
+      "id": 938,
       "name": "East-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "bottom",
+      "doorOrientation": "down",
       "doorEnvironments": [
         {
           "physics": "air"

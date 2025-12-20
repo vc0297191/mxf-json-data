@@ -18,7 +18,16 @@
   ],
   "nodes": [
     {
-      "id": 320,
+      "id": 34,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Aux Power Cell 4",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 358,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -31,7 +40,7 @@
       ]
     },
     {
-      "id": 321,
+      "id": 359,
       "name": "South-West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

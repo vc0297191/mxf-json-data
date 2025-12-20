@@ -18,12 +18,21 @@
   ],
   "nodes": [
     {
-      "id": 697,
+      "id": 71,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Screw Attack",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 735,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "top",
+      "doorOrientation": "up",
       "doorEnvironments": [
         {
           "physics": "air"

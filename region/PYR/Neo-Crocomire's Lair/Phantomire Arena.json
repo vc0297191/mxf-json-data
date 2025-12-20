@@ -18,12 +18,21 @@
   ],
   "nodes": [
     {
-      "id": 737,
+      "id": 77,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Grapple Beam",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 775,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "top",
+      "doorOrientation": "up",
       "doorEnvironments": [
         {
           "physics": "air"
@@ -31,7 +40,7 @@
       ]
     },
     {
-      "id": 738,
+      "id": 776,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -44,7 +53,7 @@
       ]
     },
     {
-      "id": 739,
+      "id": 777,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

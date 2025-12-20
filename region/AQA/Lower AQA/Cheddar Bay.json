@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 1,
+      "id": 2,
       "idMinorItemPlm": "0x48",
       "name": "Hidden Power Bomb Tank",
       "nodeType": "item",
@@ -29,7 +29,7 @@
       "mapTileY": 13
     },
     {
-      "id": 2,
+      "id": 3,
       "idMinorItemPlm": "0x49",
       "name": "Power Bomb Tank",
       "nodeType": "item",
@@ -40,7 +40,7 @@
       "mapTileY": 15
     },
     {
-      "id": 121,
+      "id": 159,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "id": 122,
+      "id": 160,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "id": 123,
+      "id": 161,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "id": 124,
+      "id": 162,
       "name": "East-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -92,12 +92,12 @@
       ]
     },
     {
-      "id": 125,
+      "id": 163,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "bottom",
+      "doorOrientation": "down",
       "doorEnvironments": [
         {
           "physics": "air"
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "id": 126,
+      "id": 164,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "id": 127,
+      "id": 165,
       "name": "East-South Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

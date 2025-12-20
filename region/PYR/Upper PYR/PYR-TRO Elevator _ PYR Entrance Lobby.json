@@ -18,12 +18,12 @@
   ],
   "nodes": [
     {
-      "id": 786,
+      "id": 824,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "top",
+      "doorOrientation": "up",
       "doorEnvironments": [
         {
           "physics": "air"
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "id": 787,
+      "id": 825,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "id": 788,
+      "id": 826,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "id": 789,
+      "id": 827,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "id": 790,
+      "id": 828,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "id": 791,
+      "id": 829,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "id": 792,
+      "id": 830,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 630,
+      "id": 668,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -31,12 +31,12 @@
       ]
     },
     {
-      "id": 631,
+      "id": 669,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "bottom",
+      "doorOrientation": "down",
       "doorEnvironments": [
         {
           "physics": "air"

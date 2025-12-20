@@ -18,7 +18,16 @@
   ],
   "nodes": [
     {
-      "id": 166,
+      "id": 10,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Reserve X 2",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 204,
       "name": "East-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

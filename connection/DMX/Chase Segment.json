@@ -11,7 +11,7 @@
           "subarea": "Chase Segment",
           "roomid": 105,
           "roomName": "DMX Elevator Bottom",
-          "nodeid": 356,
+          "nodeid": 394,
           "nodeName": "North Door",
           "position": "top"
         },
@@ -20,7 +20,7 @@
           "subarea": "Chase Segment",
           "roomid": 106,
           "roomName": "DMX Elevator Middle",
-          "nodeid": 359,
+          "nodeid": 397,
           "nodeName": "South Door",
           "position": "bottom"
         }
@@ -36,7 +36,7 @@
           "subarea": "Chase Segment",
           "roomid": 106,
           "roomName": "DMX Elevator Middle",
-          "nodeid": 358,
+          "nodeid": 396,
           "nodeName": "North Door",
           "position": "top"
         },
@@ -45,7 +45,7 @@
           "subarea": "Chase Segment",
           "roomid": 107,
           "roomName": "DMX Elevator Top",
-          "nodeid": 361,
+          "nodeid": 399,
           "nodeName": "South Door",
           "position": "bottom"
         }
@@ -61,7 +61,7 @@
           "subarea": "Chase Segment",
           "roomid": 107,
           "roomName": "DMX Elevator Top",
-          "nodeid": 360,
+          "nodeid": 398,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -70,7 +70,7 @@
           "subarea": "Chase Segment",
           "roomid": 108,
           "roomName": "DMX Missile Check",
-          "nodeid": 363,
+          "nodeid": 401,
           "nodeName": "South Door",
           "position": "left"
         }
@@ -86,7 +86,7 @@
           "subarea": "Chase Segment",
           "roomid": 108,
           "roomName": "DMX Missile Check",
-          "nodeid": 362,
+          "nodeid": 400,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -95,7 +95,7 @@
           "subarea": "Chase Segment",
           "roomid": 116,
           "roomName": "Winding SA-X Chase",
-          "nodeid": 380,
+          "nodeid": 418,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -111,7 +111,7 @@
           "subarea": "Chase Segment",
           "roomid": 109,
           "roomName": "Frozen Metroid Climb",
-          "nodeid": 364,
+          "nodeid": 402,
           "nodeName": "North-East Door",
           "position": "right"
         },
@@ -120,7 +120,7 @@
           "subarea": "Chase Segment",
           "roomid": 110,
           "roomName": "Metroid Chase with Dev Exit",
-          "nodeid": 368,
+          "nodeid": 406,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -136,7 +136,7 @@
           "subarea": "Chase Segment",
           "roomid": 109,
           "roomName": "Frozen Metroid Climb",
-          "nodeid": 365,
+          "nodeid": 403,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -145,7 +145,7 @@
           "subarea": "Chase Segment",
           "roomid": 114,
           "roomName": "Serpentine Break",
-          "nodeid": 377,
+          "nodeid": 415,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -161,7 +161,7 @@
           "subarea": "Chase Segment",
           "roomid": 110,
           "roomName": "Metroid Chase with Dev Exit",
-          "nodeid": 366,
+          "nodeid": 404,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -170,7 +170,7 @@
           "subarea": "Chase Segment",
           "roomid": 115,
           "roomName": "Unavoidable SA-X Room",
-          "nodeid": 379,
+          "nodeid": 417,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -186,7 +186,7 @@
           "subarea": "Chase Segment",
           "roomid": 110,
           "roomName": "Metroid Chase with Dev Exit",
-          "nodeid": 367,
+          "nodeid": 405,
           "nodeName": "East-North Door",
           "position": "top"
         },
@@ -195,7 +195,7 @@
           "subarea": "Chase Segment",
           "roomid": 113,
           "roomName": "SA-X Hallway of Death",
-          "nodeid": 375,
+          "nodeid": 413,
           "nodeName": "East-South Door",
           "position": "bottom"
         }
@@ -211,7 +211,7 @@
           "subarea": "Chase Segment",
           "roomid": 111,
           "roomName": "Metroid Swarm Chase",
-          "nodeid": 370,
+          "nodeid": 408,
           "nodeName": "South-West Door",
           "position": "left"
         },
@@ -220,7 +220,7 @@
           "subarea": "Chase Segment",
           "roomid": 114,
           "roomName": "Serpentine Break",
-          "nodeid": 376,
+          "nodeid": 414,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -236,7 +236,7 @@
           "subarea": "Chase Segment",
           "roomid": 112,
           "roomName": "SA-X Grapple Climb",
-          "nodeid": 371,
+          "nodeid": 409,
           "nodeName": "North-East Door",
           "position": "right"
         },
@@ -245,7 +245,7 @@
           "subarea": "Chase Segment",
           "roomid": 113,
           "roomName": "SA-X Hallway of Death",
-          "nodeid": 373,
+          "nodeid": 411,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -261,7 +261,7 @@
           "subarea": "Chase Segment",
           "roomid": 112,
           "roomName": "SA-X Grapple Climb",
-          "nodeid": 372,
+          "nodeid": 410,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -270,7 +270,7 @@
           "subarea": "Chase Segment",
           "roomid": 115,
           "roomName": "Unavoidable SA-X Room",
-          "nodeid": 378,
+          "nodeid": 416,
           "nodeName": "West-Upper Door",
           "position": "left"
         }

@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 8,
+      "id": 12,
       "idMinorItemPlm": "0x40",
       "name": "Hidden Power Bomb Tank",
       "nodeType": "item",
@@ -29,7 +29,7 @@
       "mapTileY": 12
     },
     {
-      "id": 184,
+      "id": 222,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -42,12 +42,12 @@
       ]
     },
     {
-      "id": 185,
+      "id": 223,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "top",
+      "doorOrientation": "up",
       "doorEnvironments": [
         {
           "physics": "air"
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "id": 186,
+      "id": 224,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "id": 187,
+      "id": 225,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "id": 188,
+      "id": 226,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

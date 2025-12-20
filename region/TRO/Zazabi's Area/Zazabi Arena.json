@@ -18,7 +18,16 @@
   ],
   "nodes": [
     {
-      "id": 1002,
+      "id": 123,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Super Jump",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 1040,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -31,7 +40,7 @@
       ]
     },
     {
-      "id": 1003,
+      "id": 1041,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -44,7 +53,7 @@
       ]
     },
     {
-      "id": 1004,
+      "id": 1042,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

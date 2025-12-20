@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "id": 114,
+      "id": 152,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "id": 115,
+      "id": 153,
       "name": "East-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "id": 116,
+      "id": 154,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -57,12 +57,12 @@
       ]
     },
     {
-      "id": 117,
+      "id": 155,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "bottom",
+      "doorOrientation": "down",
       "doorEnvironments": [
         {
           "physics": "air"
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "id": 118,
+      "id": 156,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

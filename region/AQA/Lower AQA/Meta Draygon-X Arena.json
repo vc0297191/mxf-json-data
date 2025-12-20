@@ -18,7 +18,16 @@
   ],
   "nodes": [
     {
-      "id": 142,
+      "id": 7,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Speedbooster Lv2",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 180,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -31,7 +40,7 @@
       ]
     },
     {
-      "id": 143,
+      "id": 181,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

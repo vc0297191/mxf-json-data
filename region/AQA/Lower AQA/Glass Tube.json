@@ -18,12 +18,21 @@
   ],
   "nodes": [
     {
-      "id": 134,
+      "id": 6,
+      "name": "Item",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Aux Power Cell 3",
+      "nodeAddress": "0x0",
+      "note": ""
+    },
+    {
+      "id": 172,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "top",
+      "doorOrientation": "up",
       "doorEnvironments": [
         {
           "physics": "air"
@@ -31,7 +40,7 @@
       ]
     },
     {
-      "id": 135,
+      "id": 173,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -44,7 +53,7 @@
       ]
     },
     {
-      "id": 136,
+      "id": 174,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -57,7 +66,7 @@
       ]
     },
     {
-      "id": 137,
+      "id": 175,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -70,7 +79,7 @@
       ]
     },
     {
-      "id": 138,
+      "id": 176,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
