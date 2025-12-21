@@ -416,27 +416,27 @@
   "progressiveUpgrades": [
     {
       "name": "MissileLv2",
-      "pcAddress": "0x858190",
+      "pcAddress": "0x028190",
       "value": "0x0040"
     },
     {
       "name": "MissileLv3",
-      "pcAddress": "0x858192",
+      "pcAddress": "0x028192",
       "value": "0x0090"
     },
     {
       "name": "MissileLv4",
-      "pcAddress": "0x858194",
+      "pcAddress": "0x028194",
       "value": "0x0100"
     },
     {
       "name": "SpeedBoosterLv1",
-      "pcAddress": "0x858196",
+      "pcAddress": "0x028196",
       "value": "0x0060"
     },
     {
       "name": "SpeedBoosterLv2",
-      "pcAddress": "0x858198",
+      "pcAddress": "0x028198",
       "value": "0x0110"
     }
   ],
