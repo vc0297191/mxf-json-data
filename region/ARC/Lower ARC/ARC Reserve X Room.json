@@ -19,7 +19,7 @@
   "nodes": [
     {
       "id": 23,
-      "name": "Reserve X 3",
+      "name": "ARC Reserve X",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",

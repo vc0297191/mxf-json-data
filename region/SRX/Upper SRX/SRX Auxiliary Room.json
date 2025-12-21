@@ -19,7 +19,7 @@
   "nodes": [
     {
       "id": 101,
-      "name": "Aux Power Cell 1",
+      "name": "SRX Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",

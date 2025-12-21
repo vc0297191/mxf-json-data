@@ -19,7 +19,7 @@
   "nodes": [
     {
       "id": 47,
-      "name": "Major Space Jump (Yakuza Check)",
+      "name": "Space Jump",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",

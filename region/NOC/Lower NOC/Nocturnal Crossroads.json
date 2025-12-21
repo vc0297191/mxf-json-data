@@ -30,7 +30,7 @@
     },
     {
       "id": 61,
-      "name": "Aux Power Cell 2",
+      "name": "NOC Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",

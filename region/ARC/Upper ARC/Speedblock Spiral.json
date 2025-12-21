@@ -19,7 +19,7 @@
   "nodes": [
     {
       "id": 34,
-      "name": "Aux Power Cell 4",
+      "name": "ARC Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",

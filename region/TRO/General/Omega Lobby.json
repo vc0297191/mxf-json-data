@@ -19,7 +19,7 @@
   "nodes": [
     {
       "id": 109,
-      "name": "Aux Power Cell 6",
+      "name": "TRO Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",

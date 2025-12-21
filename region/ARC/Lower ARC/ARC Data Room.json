@@ -19,7 +19,7 @@
   "nodes": [
     {
       "id": 22,
-      "name": "Progressive Missile",
+      "name": "Ice Missile",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",

@@ -19,7 +19,7 @@
   "nodes": [
     {
       "id": 63,
-      "name": "Reserve X 5",
+      "name": "NOC Reserve X",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",
