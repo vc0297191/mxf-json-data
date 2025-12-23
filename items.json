@@ -461,6 +461,7 @@
     }
   ],
   "gameFlags": [
+    "f_DefeatedNotCeresRidley",
     "f_Undocumented_7ED800_Bit0",
     "f_Undocumented_7ED800_Bit1",
     "f_Undocumented_7ED800_Bit2",
