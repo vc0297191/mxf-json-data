@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 172,
+  "id": 175,
   "name": "Central Nexus / Concourse",
   "area": "MDK",
   "subarea": "West Main Deck",
@@ -30,7 +30,7 @@
       "mapTileY": 16
     },
     {
-      "id": 558,
+      "id": 568,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 559,
+      "id": 569,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 560,
+      "id": 570,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 561,
+      "id": 571,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "id": 562,
+      "id": 572,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "id": 563,
+      "id": 573,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 564,
+      "id": 574,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

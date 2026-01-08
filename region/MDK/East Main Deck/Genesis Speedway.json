@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 153,
+  "id": 156,
   "name": "Genesis Speedway",
   "area": "MDK",
   "subarea": "East Main Deck",
@@ -30,7 +30,7 @@
       "mapTileY": 18
     },
     {
-      "id": 510,
+      "id": 520,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 511,
+      "id": 521,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

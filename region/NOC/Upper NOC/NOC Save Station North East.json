@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 229,
+  "id": 232,
   "name": "NOC Save Station North East",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 704,
+      "id": 714,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 705,
+      "id": 715,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

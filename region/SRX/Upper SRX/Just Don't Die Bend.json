@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 307,
+  "id": 311,
   "name": "Just Don\u0027t Die Bend",
   "area": "SRX",
   "subarea": "Upper SRX",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 884,
+      "id": 897,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "id": 885,
+      "id": 898,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

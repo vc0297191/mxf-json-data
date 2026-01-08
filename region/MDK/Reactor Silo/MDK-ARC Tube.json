@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 161,
+  "id": 164,
   "name": "MDK-ARC Tube",
   "area": "MDK",
   "subarea": "Reactor Silo",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 529,
+      "id": 539,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 530,
+      "id": 540,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

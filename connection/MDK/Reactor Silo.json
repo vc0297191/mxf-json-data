@@ -9,18 +9,18 @@
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 159,
+          "roomid": 162,
           "roomName": "Central Reactor Core",
-          "nodeid": 523,
+          "nodeid": 533,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 162,
+          "roomid": 165,
           "roomName": "Silo Entry",
-          "nodeid": 534,
+          "nodeid": 544,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -34,18 +34,18 @@
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 159,
+          "roomid": 162,
           "roomName": "Central Reactor Core",
-          "nodeid": 524,
+          "nodeid": 534,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 164,
+          "roomid": 167,
           "roomName": "Silo Tunnel",
-          "nodeid": 540,
+          "nodeid": 550,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -59,18 +59,18 @@
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 159,
+          "roomid": 162,
           "roomName": "Central Reactor Core",
-          "nodeid": 525,
+          "nodeid": 535,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 163,
+          "roomid": 166,
           "roomName": "Silo Scaffolding",
-          "nodeid": 535,
+          "nodeid": 545,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -84,18 +84,18 @@
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 159,
+          "roomid": 162,
           "roomName": "Central Reactor Core",
-          "nodeid": 526,
+          "nodeid": 536,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 163,
+          "roomid": 166,
           "roomName": "Silo Scaffolding",
-          "nodeid": 537,
+          "nodeid": 547,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -109,18 +109,18 @@
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 160,
+          "roomid": 163,
           "roomName": "MDK Save Station South",
-          "nodeid": 528,
+          "nodeid": 538,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 165,
+          "roomid": 168,
           "roomName": "Yakuza Arena",
-          "nodeid": 542,
+          "nodeid": 552,
           "nodeName": "West Door",
           "position": "left"
         }
@@ -134,18 +134,18 @@
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 161,
+          "roomid": 164,
           "roomName": "MDK-ARC Tube",
-          "nodeid": 529,
+          "nodeid": 539,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 163,
+          "roomid": 166,
           "roomName": "Silo Scaffolding",
-          "nodeid": 536,
+          "nodeid": 546,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -159,18 +159,18 @@
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 163,
+          "roomid": 166,
           "roomName": "Silo Scaffolding",
-          "nodeid": 538,
+          "nodeid": 548,
           "nodeName": "East-South Door",
           "position": "bottom"
         },
         {
           "area": "MDK",
           "subarea": "Reactor Silo",
-          "roomid": 165,
+          "roomid": 168,
           "roomName": "Yakuza Arena",
-          "nodeid": 541,
+          "nodeid": 551,
           "nodeName": "North Door",
           "position": "top"
         }

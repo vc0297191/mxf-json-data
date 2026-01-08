@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 136,
+  "id": 139,
   "name": "Not Dead Scientist Room",
   "area": "L-X",
   "subarea": "General",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 469,
+      "id": 479,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 470,
+      "id": 480,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

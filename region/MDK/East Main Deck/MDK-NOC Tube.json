@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 155,
+  "id": 158,
   "name": "MDK-NOC Tube",
   "area": "MDK",
   "subarea": "East Main Deck",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 513,
+      "id": 523,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 514,
+      "id": 524,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

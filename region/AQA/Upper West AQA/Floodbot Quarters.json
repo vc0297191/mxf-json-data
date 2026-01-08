@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 56,
+  "id": 58,
   "name": "Floodbot Quarters",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 270,
+      "id": 275,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 271,
+      "id": 276,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 330,
+  "id": 334,
   "name": "Oasis Storage",
   "area": "TRO",
   "subarea": "General",
@@ -30,7 +30,7 @@
       "mapTileY": 18
     },
     {
-      "id": 957,
+      "id": 970,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 958,
+      "id": 971,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 959,
+      "id": 972,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

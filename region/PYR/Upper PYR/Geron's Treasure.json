@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 278,
+  "id": 282,
   "name": "Geron\u0027s Treasure",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -30,7 +30,7 @@
       "mapTileY": 13
     },
     {
-      "id": 815,
+      "id": 828,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

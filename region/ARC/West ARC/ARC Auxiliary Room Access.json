@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 93,
+  "id": 95,
   "name": "ARC Auxiliary Room Access",
   "area": "ARC",
   "subarea": "West ARC",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 366,
+      "id": 371,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 367,
+      "id": 372,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,8 +45,21 @@
       ]
     },
     {
-      "id": 368,
+      "id": 373,
       "name": "East-Upper Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 374,
+      "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 233,
+  "id": 236,
   "name": "Ripper Tower",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -42,7 +42,7 @@
       "note": "Center-Right"
     },
     {
-      "id": 711,
+      "id": 721,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "id": 712,
+      "id": 722,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 55,
+  "id": 57,
   "name": "Drain Pipe",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 266,
+      "id": 271,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 267,
+      "id": 272,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": 268,
+      "id": 273,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": 269,
+      "id": 274,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

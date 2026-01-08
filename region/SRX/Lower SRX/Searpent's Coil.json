@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 292,
+  "id": 296,
   "name": "Searpent\u0027s Coil",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -30,7 +30,7 @@
       "mapTileY": 18
     },
     {
-      "id": 851,
+      "id": 864,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

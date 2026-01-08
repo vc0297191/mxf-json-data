@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 64,
+  "id": 66,
   "name": "ARC Etecoon Room Access",
   "area": "ARC",
   "subarea": "AQA Access",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 291,
+      "id": 296,
       "name": "North-West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 292,
+      "id": 297,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": 293,
+      "id": 298,
       "name": "West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

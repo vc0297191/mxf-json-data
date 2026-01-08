@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 65,
+  "id": 67,
   "name": "ARC Etecoon Room",
   "area": "ARC",
   "subarea": "AQA Access",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 294,
+      "id": 299,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

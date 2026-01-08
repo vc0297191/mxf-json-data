@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 66,
+  "id": 68,
   "name": "ARC-AQA Access",
   "area": "ARC",
   "subarea": "AQA Access",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 295,
+      "id": 300,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 296,
+      "id": 301,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": 297,
+      "id": 302,
       "name": "South Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

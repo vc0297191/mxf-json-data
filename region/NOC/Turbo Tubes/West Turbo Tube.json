@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 213,
+  "id": 216,
   "name": "West Turbo Tube",
   "area": "NOC",
   "subarea": "Turbo Tubes",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 664,
+      "id": 674,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 665,
+      "id": 675,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

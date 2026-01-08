@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 165,
+  "id": 168,
   "name": "Yakuza Arena",
   "area": "MDK",
   "subarea": "Reactor Silo",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 541,
+      "id": 551,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "id": 542,
+      "id": 552,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

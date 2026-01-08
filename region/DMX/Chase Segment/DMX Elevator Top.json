@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 107,
+  "id": 110,
   "name": "DMX Elevator Top",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 398,
+      "id": 406,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 399,
+      "id": 407,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -9,18 +9,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 214,
+          "roomid": 217,
           "roomName": "Bull Reserve X Room",
-          "nodeid": 666,
+          "nodeid": 676,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 224,
+          "roomid": 227,
           "roomName": "NOC Auxiliary Room Access",
-          "nodeid": 692,
+          "nodeid": 702,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -34,18 +34,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 214,
+          "roomid": 217,
           "roomName": "Bull Reserve X Room",
-          "nodeid": 667,
+          "nodeid": 677,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 218,
+          "roomid": 221,
           "roomName": "Gravityclimb",
-          "nodeid": 676,
+          "nodeid": 686,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -59,18 +59,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 215,
+          "roomid": 218,
           "roomName": "Central Turbo Tube Access",
-          "nodeid": 668,
+          "nodeid": 678,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 223,
+          "roomid": 226,
           "roomName": "Mochtroid Trench",
-          "nodeid": 691,
+          "nodeid": 701,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -84,18 +84,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 216,
+          "roomid": 219,
           "roomName": "East Turbo Tube Access",
-          "nodeid": 670,
+          "nodeid": 680,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 222,
+          "roomid": 225,
           "roomName": "Mochtroid Tower",
-          "nodeid": 688,
+          "nodeid": 698,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -109,18 +109,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 216,
+          "roomid": 219,
           "roomName": "East Turbo Tube Access",
-          "nodeid": 671,
+          "nodeid": 681,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 229,
+          "roomid": 232,
           "roomName": "NOC Save Station North East",
-          "nodeid": 704,
+          "nodeid": 714,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -134,18 +134,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 217,
+          "roomid": 220,
           "roomName": "Glowcap Grotto",
-          "nodeid": 673,
+          "nodeid": 683,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 227,
+          "roomid": 230,
           "roomName": "NOC Entrance Lobby North",
-          "nodeid": 698,
+          "nodeid": 708,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -159,18 +159,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 217,
+          "roomid": 220,
           "roomName": "Glowcap Grotto",
-          "nodeid": 674,
+          "nodeid": 684,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 222,
+          "roomid": 225,
           "roomName": "Mochtroid Tower",
-          "nodeid": 685,
+          "nodeid": 695,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -184,18 +184,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 217,
+          "roomid": 220,
           "roomName": "Glowcap Grotto",
-          "nodeid": 675,
+          "nodeid": 685,
           "nodeName": "West-Upper Morph Ball Hole",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 227,
+          "roomid": 230,
           "roomName": "NOC Entrance Lobby North",
-          "nodeid": 700,
+          "nodeid": 710,
           "nodeName": "East-Upper Morph Ball Hole",
           "position": "right"
         }
@@ -209,18 +209,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 218,
+          "roomid": 221,
           "roomName": "Gravityclimb",
-          "nodeid": 677,
+          "nodeid": 687,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 235,
+          "roomid": 238,
           "roomName": "Upper Crane Pit",
-          "nodeid": 716,
+          "nodeid": 726,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -234,18 +234,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 218,
+          "roomid": 221,
           "roomName": "Gravityclimb",
-          "nodeid": 678,
+          "nodeid": 688,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 234,
+          "roomid": 237,
           "roomName": "Stabilizer Shaft",
-          "nodeid": 713,
+          "nodeid": 723,
           "nodeName": "North Door",
           "position": "left"
         }
@@ -259,18 +259,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 219,
+          "roomid": 222,
           "roomName": "L-X-NOC Tube Access",
-          "nodeid": 679,
+          "nodeid": 689,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 233,
+          "roomid": 236,
           "roomName": "Ripper Tower",
-          "nodeid": 712,
+          "nodeid": 722,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -284,18 +284,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 219,
+          "roomid": 222,
           "roomName": "L-X-NOC Tube Access",
-          "nodeid": 680,
+          "nodeid": 690,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 220,
+          "roomid": 223,
           "roomName": "L-X-NOC Tube",
-          "nodeid": 681,
+          "nodeid": 691,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -309,18 +309,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 221,
+          "roomid": 224,
           "roomName": "Mochtroid Tower Closet",
-          "nodeid": 683,
+          "nodeid": 693,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 222,
+          "roomid": 225,
           "roomName": "Mochtroid Tower",
-          "nodeid": 684,
+          "nodeid": 694,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -334,18 +334,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 222,
+          "roomid": 225,
           "roomName": "Mochtroid Tower",
-          "nodeid": 686,
+          "nodeid": 696,
           "nodeName": "East Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 235,
+          "roomid": 238,
           "roomName": "Upper Crane Pit",
-          "nodeid": 715,
+          "nodeid": 725,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -359,18 +359,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 222,
+          "roomid": 225,
           "roomName": "Mochtroid Tower",
-          "nodeid": 687,
+          "nodeid": 697,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 233,
+          "roomid": 236,
           "roomName": "Ripper Tower",
-          "nodeid": 711,
+          "nodeid": 721,
           "nodeName": "North Door",
           "position": "right"
         }
@@ -384,18 +384,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 223,
+          "roomid": 226,
           "roomName": "Mochtroid Trench",
-          "nodeid": 689,
+          "nodeid": 699,
           "nodeName": "North Door",
           "position": "top"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 227,
+          "roomid": 230,
           "roomName": "NOC Entrance Lobby North",
-          "nodeid": 701,
+          "nodeid": 711,
           "nodeName": "South Door",
           "position": "bottom"
         }
@@ -409,18 +409,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 223,
+          "roomid": 226,
           "roomName": "Mochtroid Trench",
-          "nodeid": 690,
+          "nodeid": 700,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 226,
+          "roomid": 229,
           "roomName": "NOC Data Room",
-          "nodeid": 695,
+          "nodeid": 705,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -434,18 +434,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 224,
+          "roomid": 227,
           "roomName": "NOC Auxiliary Room Access",
-          "nodeid": 693,
+          "nodeid": 703,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 225,
+          "roomid": 228,
           "roomName": "NOC Auxiliary Room",
-          "nodeid": 694,
+          "nodeid": 704,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -459,18 +459,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 227,
+          "roomid": 230,
           "roomName": "NOC Entrance Lobby North",
-          "nodeid": 697,
+          "nodeid": 707,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 230,
+          "roomid": 233,
           "roomName": "NOC Save Station North",
-          "nodeid": 707,
+          "nodeid": 717,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -484,18 +484,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 227,
+          "roomid": 230,
           "roomName": "NOC Entrance Lobby North",
-          "nodeid": 699,
+          "nodeid": 709,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 236,
+          "roomid": 239,
           "roomName": "West Turbo Tube Access",
-          "nodeid": 718,
+          "nodeid": 728,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -509,18 +509,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 228,
+          "roomid": 231,
           "roomName": "NOC Navigation Room",
-          "nodeid": 702,
+          "nodeid": 712,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 231,
+          "roomid": 234,
           "roomName": "NOC-SRX Elevator",
-          "nodeid": 709,
+          "nodeid": 719,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -534,18 +534,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 228,
+          "roomid": 231,
           "roomName": "NOC Navigation Room",
-          "nodeid": 703,
+          "nodeid": 713,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 230,
+          "roomid": 233,
           "roomName": "NOC Save Station North",
-          "nodeid": 706,
+          "nodeid": 716,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -559,18 +559,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 229,
+          "roomid": 232,
           "roomName": "NOC Save Station North East",
-          "nodeid": 705,
+          "nodeid": 715,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 234,
+          "roomid": 237,
           "roomName": "Stabilizer Shaft",
-          "nodeid": 714,
+          "nodeid": 724,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -584,18 +584,18 @@
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 232,
+          "roomid": 235,
           "roomName": "Pillar Highway",
-          "nodeid": 710,
+          "nodeid": 720,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Upper NOC",
-          "roomid": 236,
+          "roomid": 239,
           "roomName": "West Turbo Tube Access",
-          "nodeid": 717,
+          "nodeid": 727,
           "nodeName": "West-Upper Door",
           "position": "left"
         }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 190,
+  "id": 193,
   "name": "Ice-X Shaft",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -30,7 +30,7 @@
       "mapTileY": 13
     },
     {
-      "id": 607,
+      "id": 617,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 608,
+      "id": 618,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 609,
+      "id": 619,
       "name": "West-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 610,
+      "id": 620,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "id": 611,
+      "id": 621,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

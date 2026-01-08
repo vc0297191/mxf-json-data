@@ -9,18 +9,18 @@
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 323,
+          "roomid": 327,
           "roomName": "Cloister",
-          "nodeid": 926,
+          "nodeid": 939,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Nettori\u0027s Area",
-          "roomid": 360,
+          "roomid": 364,
           "roomName": "Overgrown Speedway",
-          "nodeid": 1024,
+          "nodeid": 1038,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -34,18 +34,18 @@
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 323,
+          "roomid": 327,
           "roomName": "Cloister",
-          "nodeid": 928,
+          "nodeid": 941,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Nettori\u0027s Area",
-          "roomid": 359,
+          "roomid": 363,
           "roomName": "Overgrown Pipeway",
-          "nodeid": 1021,
+          "nodeid": 1035,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -59,18 +59,18 @@
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 324,
+          "roomid": 328,
           "roomName": "Crum-Ball Tower",
-          "nodeid": 930,
+          "nodeid": 943,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Nettori\u0027s Area",
-          "roomid": 353,
+          "roomid": 357,
           "roomName": "Double Helix",
-          "nodeid": 1006,
+          "nodeid": 1020,
           "nodeName": "North Door",
           "position": "left"
         }
@@ -84,18 +84,18 @@
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 328,
+          "roomid": 332,
           "roomName": "Fusion Cathedral",
-          "nodeid": 951,
+          "nodeid": 964,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 366,
+          "roomid": 370,
           "roomName": "Zazabi Arena Access",
-          "nodeid": 1037,
+          "nodeid": 1051,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -109,18 +109,18 @@
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 328,
+          "roomid": 332,
           "roomName": "Fusion Cathedral",
-          "nodeid": 952,
+          "nodeid": 965,
           "nodeName": "East-South Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 365,
+          "roomid": 369,
           "roomName": "TRO Etecoon Room",
-          "nodeid": 1036,
+          "nodeid": 1050,
           "nodeName": "West-Upper Door",
           "position": "left"
         }

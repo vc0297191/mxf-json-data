@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 102,
+  "id": 105,
   "name": "Freezer Shaft East",
   "area": "ARC",
   "subarea": "West ARC",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 384,
+      "id": 392,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 385,
+      "id": 393,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": 386,
+      "id": 394,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": 387,
+      "id": 395,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": 388,
+      "id": 396,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 77,
+  "id": 79,
   "name": "Zeela Speedway Cache",
   "area": "ARC",
   "subarea": "Lower ARC",
@@ -30,7 +30,7 @@
       "mapTileY": 17
     },
     {
-      "id": 329,
+      "id": 334,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

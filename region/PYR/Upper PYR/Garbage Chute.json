@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 277,
+  "id": 281,
   "name": "Garbage Chute",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -43,7 +43,7 @@
       "note": "Middle"
     },
     {
-      "id": 811,
+      "id": 824,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 812,
+      "id": 825,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 813,
+      "id": 826,
       "name": "West-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "id": 814,
+      "id": 827,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

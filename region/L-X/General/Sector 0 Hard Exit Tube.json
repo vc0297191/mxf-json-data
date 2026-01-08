@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 143,
+  "id": 146,
   "name": "Sector 0 Hard Exit Tube",
   "area": "L-X",
   "subarea": "General",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 484,
+      "id": 494,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 485,
+      "id": 495,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

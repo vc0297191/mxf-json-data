@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 113,
+  "id": 116,
   "name": "SA-X Hallway of Death",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 411,
+      "id": 419,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 412,
+      "id": 420,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": 413,
+      "id": 421,
       "name": "East-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

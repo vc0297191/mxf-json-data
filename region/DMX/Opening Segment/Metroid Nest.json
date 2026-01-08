@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 126,
+  "id": 129,
   "name": "Metroid Nest",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 444,
+      "id": 452,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,20 @@
       ]
     },
     {
-      "id": 445,
+      "id": 453,
+      "name": "South-West Morph Ball Hole",
+      "nodeType": "door",
+      "nodeSubType": "passage",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 454,
       "name": "South-East Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

@@ -9,18 +9,18 @@
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 117,
+          "roomid": 120,
           "roomName": "Gold Gadora-X Arena",
-          "nodeid": 420,
+          "nodeid": 428,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 118,
+          "roomid": 121,
           "roomName": "Golden Four Containment",
-          "nodeid": 422,
+          "nodeid": 430,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -34,18 +34,18 @@
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 117,
+          "roomid": 120,
           "roomName": "Gold Gadora-X Arena",
-          "nodeid": 421,
+          "nodeid": 429,
           "nodeName": "South Door",
           "position": "bottom"
         },
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 119,
+          "roomid": 122,
           "roomName": "Hornoad Sewer",
-          "nodeid": 424,
+          "nodeid": 432,
           "nodeName": "West-North Door",
           "position": "top"
         }
@@ -59,18 +59,18 @@
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 118,
+          "roomid": 121,
           "roomName": "Golden Four Containment",
-          "nodeid": 423,
+          "nodeid": 431,
           "nodeName": "West-South Door",
           "position": "bottom"
         },
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 120,
+          "roomid": 123,
           "roomName": "Karid-X Arena",
-          "nodeid": 426,
+          "nodeid": 434,
           "nodeName": "North Door",
           "position": "top"
         }
@@ -84,18 +84,18 @@
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 120,
+          "roomid": 123,
           "roomName": "Karid-X Arena",
-          "nodeid": 427,
+          "nodeid": 435,
           "nodeName": "West-Upper Morph Ball Hole",
           "position": "left"
         },
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 121,
+          "roomid": 124,
           "roomName": "Ventilation B",
-          "nodeid": 429,
+          "nodeid": 437,
           "nodeName": "North-West Morph Ball Hole",
           "position": "left"
         }
@@ -109,18 +109,18 @@
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 120,
+          "roomid": 123,
           "roomName": "Karid-X Arena",
-          "nodeid": 428,
+          "nodeid": 436,
           "nodeName": "East-Upper Morph Ball Hole",
           "position": "right"
         },
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 121,
+          "roomid": 124,
           "roomName": "Ventilation B",
-          "nodeid": 430,
+          "nodeid": 438,
           "nodeName": "North-East Morph Ball Hole",
           "position": "right"
         }

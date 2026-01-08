@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 207,
+  "id": 210,
   "name": "Nocturnal Crossroads",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -39,7 +39,7 @@
       "note": "Jump through the wall at the bottom-right of the room"
     },
     {
-      "id": 646,
+      "id": 656,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "id": 647,
+      "id": 657,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": 648,
+      "id": 658,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "id": 649,
+      "id": 659,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

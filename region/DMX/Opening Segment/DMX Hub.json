@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 124,
+  "id": 127,
   "name": "DMX Hub",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 437,
+      "id": 445,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 438,
+      "id": 446,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": 439,
+      "id": 447,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": 440,
+      "id": 448,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -71,7 +71,7 @@
       ]
     },
     {
-      "id": 441,
+      "id": 449,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

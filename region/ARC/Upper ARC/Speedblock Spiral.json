@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 89,
+  "id": 91,
   "name": "Speedblock Spiral",
   "area": "ARC",
   "subarea": "Upper ARC",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 358,
+      "id": 363,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "id": 359,
+      "id": 364,
       "name": "South-West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

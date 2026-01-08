@@ -9,18 +9,18 @@
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 150,
+          "roomid": 153,
           "roomName": "Crew Quarters Hallway",
-          "nodeid": 499,
+          "nodeid": 509,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 152,
+          "roomid": 155,
           "roomName": "Crew Quarters",
-          "nodeid": 504,
+          "nodeid": 514,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -34,18 +34,18 @@
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 150,
+          "roomid": 153,
           "roomName": "Crew Quarters Hallway",
-          "nodeid": 500,
+          "nodeid": 510,
           "nodeName": "West Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 152,
+          "roomid": 155,
           "roomName": "Crew Quarters",
-          "nodeid": 506,
+          "nodeid": 516,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -59,18 +59,18 @@
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 150,
+          "roomid": 153,
           "roomName": "Crew Quarters Hallway",
-          "nodeid": 501,
+          "nodeid": 511,
           "nodeName": "East Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 156,
+          "roomid": 159,
           "roomName": "MDK-SRX Tube",
-          "nodeid": 515,
+          "nodeid": 525,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -84,18 +84,18 @@
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 151,
+          "roomid": 154,
           "roomName": "Crew Quarters NOC Access",
-          "nodeid": 502,
+          "nodeid": 512,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 158,
+          "roomid": 161,
           "roomName": "Operations Ventilation",
-          "nodeid": 518,
+          "nodeid": 528,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -109,18 +109,18 @@
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 151,
+          "roomid": 154,
           "roomName": "Crew Quarters NOC Access",
-          "nodeid": 503,
+          "nodeid": 513,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 155,
+          "roomid": 158,
           "roomName": "MDK-NOC Tube",
-          "nodeid": 513,
+          "nodeid": 523,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -134,18 +134,18 @@
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 152,
+          "roomid": 155,
           "roomName": "Crew Quarters",
-          "nodeid": 505,
+          "nodeid": 515,
           "nodeName": "West Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 158,
+          "roomid": 161,
           "roomName": "Operations Ventilation",
-          "nodeid": 520,
+          "nodeid": 530,
           "nodeName": "East Door",
           "position": "right"
         }
@@ -159,18 +159,18 @@
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 152,
+          "roomid": 155,
           "roomName": "Crew Quarters",
-          "nodeid": 507,
+          "nodeid": 517,
           "nodeName": "East Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 154,
+          "roomid": 157,
           "roomName": "MDK Save Station East",
-          "nodeid": 512,
+          "nodeid": 522,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -184,18 +184,18 @@
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 153,
+          "roomid": 156,
           "roomName": "Genesis Speedway",
-          "nodeid": 511,
+          "nodeid": 521,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 158,
+          "roomid": 161,
           "roomName": "Operations Ventilation",
-          "nodeid": 521,
+          "nodeid": 531,
           "nodeName": "South-West Door",
           "position": "left"
         }

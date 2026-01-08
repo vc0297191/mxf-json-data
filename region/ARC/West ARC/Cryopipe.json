@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 100,
+  "id": 103,
   "name": "Cryopipe",
   "area": "ARC",
   "subarea": "West ARC",
@@ -30,7 +30,7 @@
       "mapTileY": 22
     },
     {
-      "id": 380,
+      "id": 388,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 381,
+      "id": 389,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

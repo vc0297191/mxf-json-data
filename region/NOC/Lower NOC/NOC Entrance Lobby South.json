@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 196,
+  "id": 199,
   "name": "NOC Entrance Lobby South",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -30,7 +30,7 @@
       "mapTileY": 18
     },
     {
-      "id": 625,
+      "id": 635,
       "name": "West-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 626,
+      "id": 636,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 627,
+      "id": 637,
       "name": "East-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 628,
+      "id": 638,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "id": 629,
+      "id": 639,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

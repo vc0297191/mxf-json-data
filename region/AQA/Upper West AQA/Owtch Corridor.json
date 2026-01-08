@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 58,
+  "id": 60,
   "name": "Owtch Corridor",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -30,7 +30,7 @@
       "mapTileY": 11
     },
     {
-      "id": 274,
+      "id": 279,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 275,
+      "id": 280,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

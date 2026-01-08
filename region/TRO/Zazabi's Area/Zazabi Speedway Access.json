@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 368,
+  "id": 372,
   "name": "Zazabi Speedway Access",
   "area": "TRO",
   "subarea": "Zazabi\u0027s Area",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 1043,
+      "id": 1057,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 1044,
+      "id": 1058,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

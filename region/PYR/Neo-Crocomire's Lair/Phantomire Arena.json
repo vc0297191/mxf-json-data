@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 263,
+  "id": 266,
   "name": "Phantomire Arena",
   "area": "PYR",
   "subarea": "Neo-Crocomire\u0027s Lair",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 775,
+      "id": 786,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "id": 776,
+      "id": 787,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "id": 777,
+      "id": 788,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

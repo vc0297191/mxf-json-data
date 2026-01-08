@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 62,
+  "id": 64,
   "name": "Serris Speedway",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -30,7 +30,7 @@
       "mapTileY": 9
     },
     {
-      "id": 286,
+      "id": 291,
       "name": "North-West Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 287,
+      "id": 292,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

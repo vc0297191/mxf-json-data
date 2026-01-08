@@ -9,18 +9,18 @@
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 64,
+          "roomid": 66,
           "roomName": "ARC Etecoon Room Access",
-          "nodeid": 291,
+          "nodeid": 296,
           "nodeName": "North-West Morph Ball Hole",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 67,
+          "roomid": 69,
           "roomName": "ARC-AQA Elevator",
-          "nodeid": 298,
+          "nodeid": 303,
           "nodeName": "North-East Morph Ball Hole",
           "position": "right"
         }
@@ -34,18 +34,18 @@
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 64,
+          "roomid": 66,
           "roomName": "ARC Etecoon Room Access",
-          "nodeid": 292,
+          "nodeid": 297,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 65,
+          "roomid": 67,
           "roomName": "ARC Etecoon Room",
-          "nodeid": 294,
+          "nodeid": 299,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -59,18 +59,18 @@
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 64,
+          "roomid": 66,
           "roomName": "ARC Etecoon Room Access",
-          "nodeid": 293,
+          "nodeid": 298,
           "nodeName": "West Morph Ball Hole",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 67,
+          "roomid": 69,
           "roomName": "ARC-AQA Elevator",
-          "nodeid": 300,
+          "nodeid": 305,
           "nodeName": "East Morph Ball Hole",
           "position": "right"
         }

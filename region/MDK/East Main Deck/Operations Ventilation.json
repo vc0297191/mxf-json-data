@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 158,
+  "id": 161,
   "name": "Operations Ventilation",
   "area": "MDK",
   "subarea": "East Main Deck",
@@ -43,7 +43,7 @@
       "note": "Lower"
     },
     {
-      "id": 517,
+      "id": 527,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 518,
+      "id": 528,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 519,
+      "id": 529,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "id": 520,
+      "id": 530,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "id": 521,
+      "id": 531,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "id": 522,
+      "id": 532,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

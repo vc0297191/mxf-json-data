@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 131,
+  "id": 134,
   "name": "Xenometroid Birthplace",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 456,
+      "id": 466,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 457,
+      "id": 467,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": 458,
+      "id": 468,
       "name": "East-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

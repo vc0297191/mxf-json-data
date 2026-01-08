@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 234,
+  "id": 237,
   "name": "Stabilizer Shaft",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -30,7 +30,7 @@
       "mapTileY": 9
     },
     {
-      "id": 713,
+      "id": 723,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 714,
+      "id": 724,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

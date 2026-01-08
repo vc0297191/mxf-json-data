@@ -9,18 +9,18 @@
         {
           "area": "DMX",
           "subarea": "Chase Segment",
-          "roomid": 105,
+          "roomid": 108,
           "roomName": "DMX Elevator Bottom",
-          "nodeid": 395,
+          "nodeid": 403,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
-          "roomid": 124,
+          "roomid": 127,
           "roomName": "DMX Hub",
-          "nodeid": 439,
+          "nodeid": 447,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -34,18 +34,18 @@
         {
           "area": "DMX",
           "subarea": "Chase Segment",
-          "roomid": 111,
+          "roomid": 114,
           "roomName": "Metroid Swarm Chase",
-          "nodeid": 407,
+          "nodeid": 415,
           "nodeName": "North Door",
           "position": "left"
         },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
-          "roomid": 124,
+          "roomid": 127,
           "roomName": "DMX Hub",
-          "nodeid": 441,
+          "nodeid": 449,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -59,18 +59,18 @@
         {
           "area": "DMX",
           "subarea": "Chase Segment",
-          "roomid": 113,
+          "roomid": 116,
           "roomName": "SA-X Hallway of Death",
-          "nodeid": 412,
+          "nodeid": 420,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
-          "roomid": 124,
+          "roomid": 127,
           "roomName": "DMX Hub",
-          "nodeid": 438,
+          "nodeid": 446,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -84,18 +84,18 @@
         {
           "area": "DMX",
           "subarea": "Chase Segment",
-          "roomid": 116,
+          "roomid": 119,
           "roomName": "Winding SA-X Chase",
-          "nodeid": 419,
+          "nodeid": 427,
           "nodeName": "East-South Door",
           "position": "left"
         },
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 119,
+          "roomid": 122,
           "roomName": "Hornoad Sewer",
-          "nodeid": 425,
+          "nodeid": 433,
           "nodeName": "East Door",
           "position": "right"
         }
@@ -109,18 +109,18 @@
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 121,
+          "roomid": 124,
           "roomName": "Ventilation B",
-          "nodeid": 431,
+          "nodeid": 439,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
-          "roomid": 122,
+          "roomid": 125,
           "roomName": "DMX Entrance",
-          "nodeid": 432,
+          "nodeid": 440,
           "nodeName": "West-Upper Door",
           "position": "left"
         }

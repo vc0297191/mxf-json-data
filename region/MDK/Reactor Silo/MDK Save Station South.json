@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 160,
+  "id": 163,
   "name": "MDK Save Station South",
   "area": "MDK",
   "subarea": "Reactor Silo",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 527,
+      "id": 537,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 528,
+      "id": 538,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

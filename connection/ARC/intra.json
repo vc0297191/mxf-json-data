@@ -9,18 +9,18 @@
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 66,
+          "roomid": 68,
           "roomName": "ARC-AQA Access",
-          "nodeid": 295,
+          "nodeid": 300,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 92,
+          "roomid": 94,
           "roomName": "X-B.O.X. Arena",
-          "nodeid": 365,
+          "nodeid": 370,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -34,18 +34,18 @@
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 66,
+          "roomid": 68,
           "roomName": "ARC-AQA Access",
-          "nodeid": 297,
+          "nodeid": 302,
           "nodeName": "South Morph Ball Hole",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 76,
+          "roomid": 78,
           "roomName": "Frozen Tower",
-          "nodeid": 325,
+          "nodeid": 330,
           "nodeName": "North-West Morph Ball Hole",
           "position": "left"
         }
@@ -59,18 +59,18 @@
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 73,
+          "roomid": 75,
           "roomName": "Arctic Gauntlet",
-          "nodeid": 314,
+          "nodeid": 319,
           "nodeName": "North-West Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "West ARC",
-          "roomid": 102,
+          "roomid": 105,
           "roomName": "Freezer Shaft East",
-          "nodeid": 384,
+          "nodeid": 392,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -84,18 +84,18 @@
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 73,
+          "roomid": 75,
           "roomName": "Arctic Gauntlet",
-          "nodeid": 316,
+          "nodeid": 321,
           "nodeName": "South Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "West ARC",
-          "roomid": 99,
+          "roomid": 102,
           "roomName": "Chilling Passage",
-          "nodeid": 379,
+          "nodeid": 387,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -109,18 +109,18 @@
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 74,
+          "roomid": 76,
           "roomName": "Cellar",
-          "nodeid": 321,
+          "nodeid": 326,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "West ARC",
-          "roomid": 96,
+          "roomid": 98,
           "roomName": "ARC Security Room",
-          "nodeid": 373,
+          "nodeid": 379,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -134,18 +134,18 @@
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 78,
+          "roomid": 80,
           "roomName": "Zeela Speedway",
-          "nodeid": 330,
+          "nodeid": 335,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 79,
+          "roomid": 81,
           "roomName": "ARC Navigation Room",
-          "nodeid": 333,
+          "nodeid": 338,
           "nodeName": "West-Upper Door",
           "position": "left"
         }

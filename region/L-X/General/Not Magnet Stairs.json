@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 138,
+  "id": 141,
   "name": "Not Magnet Stairs",
   "area": "L-X",
   "subarea": "General",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 473,
+      "id": 483,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 474,
+      "id": 484,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": 475,
+      "id": 485,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

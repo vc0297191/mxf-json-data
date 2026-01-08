@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 88,
+  "id": 90,
   "name": "Gerubus Gully",
   "area": "ARC",
   "subarea": "Upper ARC",
@@ -30,7 +30,7 @@
       "mapTileY": 14
     },
     {
-      "id": 356,
+      "id": 361,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 357,
+      "id": 362,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

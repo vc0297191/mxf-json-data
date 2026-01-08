@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 152,
+  "id": 155,
   "name": "Crew Quarters",
   "area": "MDK",
   "subarea": "East Main Deck",
@@ -30,7 +30,7 @@
       "mapTileY": 13
     },
     {
-      "id": 504,
+      "id": 514,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 505,
+      "id": 515,
       "name": "West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 506,
+      "id": 516,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 507,
+      "id": 517,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "id": 508,
+      "id": 518,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "id": 509,
+      "id": 519,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 129,
+  "id": 132,
   "name": "Omega Queen\u0027s Room",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 450,
+      "id": 459,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,20 @@
       ]
     },
     {
-      "id": 451,
+      "id": 460,
+      "name": "East-Upper Morph Ball Hole",
+      "nodeType": "door",
+      "nodeSubType": "passage",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 461,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

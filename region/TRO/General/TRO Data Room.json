@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 340,
+  "id": 344,
   "name": "TRO Data Room",
   "area": "TRO",
   "subarea": "General",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 982,
+      "id": 996,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

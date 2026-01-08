@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 260,
+  "id": 263,
   "name": "Hot Potato",
   "area": "PYR",
   "subarea": "Neo-Crocomire\u0027s Lair",
@@ -30,7 +30,7 @@
       "mapTileY": 16
     },
     {
-      "id": 768,
+      "id": 779,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 769,
+      "id": 780,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 249,
+  "id": 252,
   "name": "PYR Etecoon Room",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 744,
+      "id": 754,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

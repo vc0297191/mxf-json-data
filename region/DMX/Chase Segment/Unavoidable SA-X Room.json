@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 115,
+  "id": 118,
   "name": "Unavoidable SA-X Room",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 416,
+      "id": 424,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 417,
+      "id": 425,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

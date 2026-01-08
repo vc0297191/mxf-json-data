@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 197,
+  "id": 200,
   "name": "NOC Etecoon Room",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 630,
+      "id": 640,
       "name": "East-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 119,
+  "id": 122,
   "name": "Hornoad Sewer",
   "area": "DMX",
   "subarea": "Ending Segment",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 424,
+      "id": 432,
       "name": "West-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 425,
+      "id": 433,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 297,
+  "id": 301,
   "name": "SRX-NOC Elevator Access",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -30,7 +30,7 @@
       "mapTileY": 16
     },
     {
-      "id": 857,
+      "id": 870,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 858,
+      "id": 871,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

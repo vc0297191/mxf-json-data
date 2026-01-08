@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 109,
+  "id": 112,
   "name": "Frozen Metroid Climb",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 402,
+      "id": 410,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 403,
+      "id": 411,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

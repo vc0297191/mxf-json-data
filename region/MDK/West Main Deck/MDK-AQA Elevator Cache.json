@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 179,
+  "id": 182,
   "name": "MDK-AQA Elevator Cache",
   "area": "MDK",
   "subarea": "West Main Deck",
@@ -30,7 +30,7 @@
       "mapTileY": 18
     },
     {
-      "id": 579,
+      "id": 589,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

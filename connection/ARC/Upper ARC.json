@@ -9,18 +9,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 79,
+          "roomid": 81,
           "roomName": "ARC Navigation Room",
-          "nodeid": 334,
+          "nodeid": 339,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 80,
+          "roomid": 82,
           "roomName": "ARC Save Station Central",
-          "nodeid": 335,
+          "nodeid": 340,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -34,18 +34,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 80,
+          "roomid": 82,
           "roomName": "ARC Save Station Central",
-          "nodeid": 336,
+          "nodeid": 341,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 87,
+          "roomid": 89,
           "roomName": "Blue Tower",
-          "nodeid": 354,
+          "nodeid": 359,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -59,18 +59,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 81,
+          "roomid": 83,
           "roomName": "ARC Save Station North",
-          "nodeid": 337,
+          "nodeid": 342,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 87,
+          "roomid": 89,
           "roomName": "Blue Tower",
-          "nodeid": 349,
+          "nodeid": 354,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -84,18 +84,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 82,
+          "roomid": 84,
           "roomName": "ARC-NOC Access",
-          "nodeid": 338,
+          "nodeid": 343,
           "nodeName": "East Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 83,
+          "roomid": 85,
           "roomName": "ARC-NOC Tube",
-          "nodeid": 340,
+          "nodeid": 345,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -109,18 +109,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 82,
+          "roomid": 84,
           "roomName": "ARC-NOC Access",
-          "nodeid": 339,
+          "nodeid": 344,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 87,
+          "roomid": 89,
           "roomName": "Blue Tower",
-          "nodeid": 353,
+          "nodeid": 358,
           "nodeName": "East Door",
           "position": "right"
         }
@@ -134,18 +134,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 84,
+          "roomid": 86,
           "roomName": "ARC-PYR Access",
-          "nodeid": 342,
+          "nodeid": 347,
           "nodeName": "North-East Morph Ball Hole",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 89,
+          "roomid": 91,
           "roomName": "Speedblock Spiral",
-          "nodeid": 359,
+          "nodeid": 364,
           "nodeName": "South-West Morph Ball Hole",
           "position": "left"
         }
@@ -159,18 +159,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 84,
+          "roomid": 86,
           "roomName": "ARC-PYR Access",
-          "nodeid": 343,
+          "nodeid": 348,
           "nodeName": "East Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 88,
+          "roomid": 90,
           "roomName": "Gerubus Gully",
-          "nodeid": 356,
+          "nodeid": 361,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -184,18 +184,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 84,
+          "roomid": 86,
           "roomName": "ARC-PYR Access",
-          "nodeid": 344,
+          "nodeid": 349,
           "nodeName": "South-West Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 85,
+          "roomid": 87,
           "roomName": "ARC-PYR Tube",
-          "nodeid": 346,
+          "nodeid": 351,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -209,18 +209,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 86,
+          "roomid": 88,
           "roomName": "ARC-SRX Tube",
-          "nodeid": 347,
+          "nodeid": 352,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 91,
+          "roomid": 93,
           "roomName": "Weapons Testing Grounds",
-          "nodeid": 363,
+          "nodeid": 368,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -234,18 +234,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 87,
+          "roomid": 89,
           "roomName": "Blue Tower",
-          "nodeid": 350,
+          "nodeid": 355,
           "nodeName": "North-East Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 91,
+          "roomid": 93,
           "roomName": "Weapons Testing Grounds",
-          "nodeid": 361,
+          "nodeid": 366,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -259,18 +259,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 87,
+          "roomid": 89,
           "roomName": "Blue Tower",
-          "nodeid": 351,
+          "nodeid": 356,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 89,
+          "roomid": 91,
           "roomName": "Speedblock Spiral",
-          "nodeid": 358,
+          "nodeid": 363,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -284,18 +284,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 87,
+          "roomid": 89,
           "roomName": "Blue Tower",
-          "nodeid": 352,
+          "nodeid": 357,
           "nodeName": "West Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 88,
+          "roomid": 90,
           "roomName": "Gerubus Gully",
-          "nodeid": 357,
+          "nodeid": 362,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -309,18 +309,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 87,
+          "roomid": 89,
           "roomName": "Blue Tower",
-          "nodeid": 355,
+          "nodeid": 360,
           "nodeName": "South-East Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 92,
+          "roomid": 94,
           "roomName": "X-B.O.X. Arena",
-          "nodeid": 364,
+          "nodeid": 369,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -334,18 +334,18 @@
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 90,
+          "roomid": 92,
           "roomName": "Tactical Evasion Course",
-          "nodeid": 360,
+          "nodeid": 365,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 91,
+          "roomid": 93,
           "roomName": "Weapons Testing Grounds",
-          "nodeid": 362,
+          "nodeid": 367,
           "nodeName": "South Door",
           "position": "left"
         }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 74,
+  "id": 76,
   "name": "Cellar",
   "area": "ARC",
   "subarea": "Lower ARC",
@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 318,
+      "id": 323,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "id": 319,
+      "id": 324,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "id": 320,
+      "id": 325,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": 321,
+      "id": 326,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

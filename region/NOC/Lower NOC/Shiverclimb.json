@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 208,
+  "id": 211,
   "name": "Shiverclimb",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -30,7 +30,7 @@
       "mapTileY": 16
     },
     {
-      "id": 650,
+      "id": 660,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 651,
+      "id": 661,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
