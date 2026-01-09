@@ -82,12 +82,160 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 0,
+      "name": "Top of the room",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "x": 104,
+      "y": 96,
+      "w": 48,
+      "h": 48,
+      "color": "#0000ff"
+    },
+    {
+      "id": 1,
+      "name": "Middle of the room",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "x": 96,
+      "y": 616,
+      "w": 64,
+      "h": 56,
+      "color": "#0000ff"
+    },
+    {
+      "id": 2,
+      "name": "Bottom of the room",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "x": 96,
+      "y": 864,
+      "w": 64,
+      "h": 48,
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
   "links": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Upper Speed booster blocks",
+      "obstacleType": "inanimate",
+      "id": "A"
+    },
+    {
+      "name": "Lower Speed booster blocks",
+      "obstacleType": "inanimate",
+      "id": "B"
+    },
+    {
+      "name": "Missile Blocks at top of the room",
+      "obstacleType": "inanimate",
+      "id": "C"
+    },
+    {
+      "name": "Crumble blocks at top of the room",
+      "obstacleType": "inanimate",
+      "id": "D"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Reach Middle of the room from Top of the Room",
+      "link": [
+        0,
+        1
+      ],
+      "requires": {
+        "and": [
+          {
+            "ammo": {
+              "type": "Missile",
+              "count": 1
+            }
+          },
+          {
+            "item": "Morph Ball"
+          }
+        ]
+      },
+      "clearsObstacles": [
+        "C"
+      ],
+      "resetsObstacles": [
+        "D"
+      ],
+      "id": "1"
+    },
+    {
+      "name": "Reach Middle of the Room from Bottom of the Room",
+      "link": [
+        2,
+        1
+      ],
+      "requires": {
+        "and": [
+          {
+            "or": [
+              {
+                "item": "Speed Booster Level 1"
+              },
+              {
+                "item": "Speed Booster Level 2"
+              }
+            ]
+          }
+        ]
+      },
+      "clearsObstacles": [
+        "B"
+      ],
+      "resetsObstacles": [
+        "A",
+        "B"
+      ],
+      "id": "2"
+    },
+    {
+      "name": "Reach North West Door from Top of the Room",
+      "link": [
+        0,
+        186
+      ],
+      "id": "3"
+    },
+    {
+      "name": "Reach West Upper Door from Middle of the Room",
+      "link": [
+        1,
+        187
+      ],
+      "id": "4"
+    },
+    {
+      "name": "Reach West Door from Bottom of the Room",
+      "link": [
+        2,
+        188
+      ],
+      "id": "5"
+    },
+    {
+      "name": "Reach South West Door from Bottom of the Room",
+      "id": "6"
+    },
+    {
+      "name": "Reach East Door from Bottom of the Room",
+      "link": [
+        2,
+        189
+      ],
+      "id": "7"
+    }
+  ],
+  "roomImageFile": "AQA Room 7B400.jpg",
+  "roomAddress": "0x7B400",
   "nextStratId": 1,
   "nextNotableId": 1
 }
