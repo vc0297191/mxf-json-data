@@ -1,11 +1,11 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 348,
-  "name": "TRO Entrance Lobby Storage",
-  "area": "TRO",
-  "subarea": "General",
-  "roomImageFile": "TRO Room 78800.jpg",
-  "roomAddress": "0x78800",
+  "id": 160,
+  "name": "Operations Ventilation Maintenance Room",
+  "area": "MDK",
+  "subarea": "East Main Deck",
+  "roomImageFile": "MDK Room 17.png",
+  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -19,18 +19,20 @@
   ],
   "nodes": [
     {
-      "id": 114,
-      "idMinorItemPlm": "0x20",
-      "name": "Hidden Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "hidden",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7D782",
-      "mapTileX": 27,
-      "mapTileY": 12
+      "id": 528,
+      "name": "West-Upper Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
     },
     {
-      "id": 1010,
+      "id": 529,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

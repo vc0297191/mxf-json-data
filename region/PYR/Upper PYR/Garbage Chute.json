@@ -43,7 +43,7 @@
       "note": "Middle"
     },
     {
-      "id": 834,
+      "id": 833,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 835,
+      "id": 834,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 836,
+      "id": 835,
       "name": "East Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "id": 837,
+      "id": 836,
       "name": "West-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "id": 838,
+      "id": 837,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

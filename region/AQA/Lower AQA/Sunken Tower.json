@@ -102,7 +102,8 @@
       "y": 616,
       "w": 64,
       "h": 56,
-      "color": "#0000ff"
+      "color": "#0000ff",
+      "nodeSubType": "visible"
     },
     {
       "id": 2,
@@ -116,6 +117,8 @@
       "color": "#0000ff"
     }
   ],
+  "enemies": [],
+  "links": [],
   "obstacles": [
     {
       "name": "Upper Speed booster blocks",
@@ -138,8 +141,6 @@
       "id": "D"
     }
   ],
-  "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -11,7 +11,7 @@
           "subarea": "Lower PYR",
           "roomid": 242,
           "roomName": "Boiler Room",
-          "nodeid": 740,
+          "nodeid": 739,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -20,7 +20,7 @@
           "subarea": "Lower PYR",
           "roomid": 260,
           "roomName": "Yameba Tower",
-          "nodeid": 775,
+          "nodeid": 774,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -36,7 +36,7 @@
           "subarea": "Lower PYR",
           "roomid": 243,
           "roomName": "Deceptive Station",
-          "nodeid": 741,
+          "nodeid": 740,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -45,7 +45,7 @@
           "subarea": "Lower PYR",
           "roomid": 251,
           "roomName": "Neo-Ridley Gauntlet Access",
-          "nodeid": 757,
+          "nodeid": 756,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -61,7 +61,7 @@
           "subarea": "Lower PYR",
           "roomid": 244,
           "roomName": "Elevator Passage to Neo-Ridley",
-          "nodeid": 742,
+          "nodeid": 741,
           "nodeName": "North Door",
           "position": "top"
         },
@@ -70,7 +70,7 @@
           "subarea": "Lower PYR",
           "roomid": 245,
           "roomName": "Elevator to Neo-Ridley",
-          "nodeid": 745,
+          "nodeid": 744,
           "nodeName": "South Door",
           "position": "bottom"
         }
@@ -86,7 +86,7 @@
           "subarea": "Lower PYR",
           "roomid": 244,
           "roomName": "Elevator Passage to Neo-Ridley",
-          "nodeid": 743,
+          "nodeid": 742,
           "nodeName": "South Door",
           "position": "bottom"
         },
@@ -95,7 +95,7 @@
           "subarea": "Lower PYR",
           "roomid": 250,
           "roomName": "Neo-Ridley Arena",
-          "nodeid": 755,
+          "nodeid": 754,
           "nodeName": "North Door",
           "position": "top"
         }
@@ -111,7 +111,7 @@
           "subarea": "Lower PYR",
           "roomid": 245,
           "roomName": "Elevator to Neo-Ridley",
-          "nodeid": 744,
+          "nodeid": 743,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -120,7 +120,7 @@
           "subarea": "Lower PYR",
           "roomid": 252,
           "roomName": "PYR Auxiliary Room Access",
-          "nodeid": 761,
+          "nodeid": 760,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -136,7 +136,7 @@
           "subarea": "Lower PYR",
           "roomid": 246,
           "roomName": "Fune Tower",
-          "nodeid": 746,
+          "nodeid": 745,
           "nodeName": "North-East Door",
           "position": "right"
         },
@@ -145,7 +145,7 @@
           "subarea": "Lower PYR",
           "roomid": 259,
           "roomName": "Yameba Gauntlet",
-          "nodeid": 773,
+          "nodeid": 772,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -161,7 +161,7 @@
           "subarea": "Lower PYR",
           "roomid": 246,
           "roomName": "Fune Tower",
-          "nodeid": 747,
+          "nodeid": 746,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -170,7 +170,7 @@
           "subarea": "Lower PYR",
           "roomid": 255,
           "roomName": "PYR Green Navigation Room",
-          "nodeid": 765,
+          "nodeid": 764,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -186,7 +186,7 @@
           "subarea": "Lower PYR",
           "roomid": 247,
           "roomName": "Hopping Barricade",
-          "nodeid": 748,
+          "nodeid": 747,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -195,7 +195,7 @@
           "subarea": "Lower PYR",
           "roomid": 260,
           "roomName": "Yameba Tower",
-          "nodeid": 777,
+          "nodeid": 776,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -211,7 +211,7 @@
           "subarea": "Lower PYR",
           "roomid": 247,
           "roomName": "Hopping Barricade",
-          "nodeid": 749,
+          "nodeid": 748,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -220,7 +220,7 @@
           "subarea": "Lower PYR",
           "roomid": 251,
           "roomName": "Neo-Ridley Gauntlet Access",
-          "nodeid": 758,
+          "nodeid": 757,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -236,7 +236,7 @@
           "subarea": "Lower PYR",
           "roomid": 248,
           "roomName": "Ironway",
-          "nodeid": 750,
+          "nodeid": 749,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -245,7 +245,7 @@
           "subarea": "Lower PYR",
           "roomid": 260,
           "roomName": "Yameba Tower",
-          "nodeid": 776,
+          "nodeid": 775,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -261,7 +261,7 @@
           "subarea": "Lower PYR",
           "roomid": 248,
           "roomName": "Ironway",
-          "nodeid": 751,
+          "nodeid": 750,
           "nodeName": "North-East Door",
           "position": "right"
         },
@@ -270,7 +270,7 @@
           "subarea": "Lower PYR",
           "roomid": 249,
           "roomName": "Lava Dive Room",
-          "nodeid": 754,
+          "nodeid": 753,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -286,7 +286,7 @@
           "subarea": "Lower PYR",
           "roomid": 248,
           "roomName": "Ironway",
-          "nodeid": 752,
+          "nodeid": 751,
           "nodeName": "South Door",
           "position": "left"
         },
@@ -295,7 +295,7 @@
           "subarea": "Lower PYR",
           "roomid": 254,
           "roomName": "PYR Etecoon Room",
-          "nodeid": 764,
+          "nodeid": 763,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -311,7 +311,7 @@
           "subarea": "Lower PYR",
           "roomid": 251,
           "roomName": "Neo-Ridley Gauntlet Access",
-          "nodeid": 756,
+          "nodeid": 755,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -320,7 +320,7 @@
           "subarea": "Lower PYR",
           "roomid": 255,
           "roomName": "PYR Green Navigation Room",
-          "nodeid": 766,
+          "nodeid": 765,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -336,7 +336,7 @@
           "subarea": "Lower PYR",
           "roomid": 251,
           "roomName": "Neo-Ridley Gauntlet Access",
-          "nodeid": 759,
+          "nodeid": 758,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -345,7 +345,7 @@
           "subarea": "Lower PYR",
           "roomid": 256,
           "roomName": "PYR Save Station South",
-          "nodeid": 767,
+          "nodeid": 766,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -361,7 +361,7 @@
           "subarea": "Lower PYR",
           "roomid": 252,
           "roomName": "PYR Auxiliary Room Access",
-          "nodeid": 760,
+          "nodeid": 759,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -370,7 +370,7 @@
           "subarea": "Lower PYR",
           "roomid": 259,
           "roomName": "Yameba Gauntlet",
-          "nodeid": 774,
+          "nodeid": 773,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -386,7 +386,7 @@
           "subarea": "Lower PYR",
           "roomid": 252,
           "roomName": "PYR Auxiliary Room Access",
-          "nodeid": 762,
+          "nodeid": 761,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -395,7 +395,7 @@
           "subarea": "Lower PYR",
           "roomid": 253,
           "roomName": "PYR Auxiliary Room",
-          "nodeid": 763,
+          "nodeid": 762,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -411,7 +411,7 @@
           "subarea": "Lower PYR",
           "roomid": 256,
           "roomName": "PYR Save Station South",
-          "nodeid": 768,
+          "nodeid": 767,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -420,7 +420,7 @@
           "subarea": "Lower PYR",
           "roomid": 257,
           "roomName": "PYR Security Room Access",
-          "nodeid": 769,
+          "nodeid": 768,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -436,7 +436,7 @@
           "subarea": "Lower PYR",
           "roomid": 257,
           "roomName": "PYR Security Room Access",
-          "nodeid": 770,
+          "nodeid": 769,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -445,7 +445,7 @@
           "subarea": "Lower PYR",
           "roomid": 258,
           "roomName": "PYR Security Room",
-          "nodeid": 771,
+          "nodeid": 770,
           "nodeName": "West-Upper Door",
           "position": "left"
         }

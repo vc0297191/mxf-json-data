@@ -95,7 +95,7 @@
           "subarea": "East Main Deck",
           "roomid": 161,
           "roomName": "Operations Ventilation",
-          "nodeid": 529,
+          "nodeid": 531,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -128,7 +128,7 @@
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Crew Quarters and Operations Ventilation",
+      "description": "Horizontal Door connection between Crew Quarters and Operations Ventilation Maintenance Room",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -143,9 +143,9 @@
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 161,
-          "roomName": "Operations Ventilation",
-          "nodeid": 532,
+          "roomid": 160,
+          "roomName": "Operations Ventilation Maintenance Room",
+          "nodeid": 529,
           "nodeName": "East-Upper Door",
           "position": "right"
         }

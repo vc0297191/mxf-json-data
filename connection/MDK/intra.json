@@ -95,7 +95,7 @@
           "subarea": "West Main Deck",
           "roomid": 188,
           "roomName": "Nexus Crossing",
-          "nodeid": 610,
+          "nodeid": 609,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -111,7 +111,7 @@
           "subarea": "East Main Deck",
           "roomid": 161,
           "roomName": "Operations Ventilation",
-          "nodeid": 528,
+          "nodeid": 530,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -136,7 +136,7 @@
           "subarea": "East Main Deck",
           "roomid": 161,
           "roomName": "Operations Ventilation",
-          "nodeid": 530,
+          "nodeid": 532,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -147,31 +147,6 @@
           "roomName": "Concourse Tower",
           "nodeid": 577,
           "nodeName": "North-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Operations Ventilation and Concourse Tower",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "East Main Deck",
-          "roomid": 161,
-          "roomName": "Operations Ventilation",
-          "nodeid": 531,
-          "nodeName": "West Door",
-          "position": "left"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 176,
-          "roomName": "Concourse Tower",
-          "nodeid": 579,
-          "nodeName": "East Door",
           "position": "right"
         }
       ]
@@ -220,7 +195,7 @@
           "subarea": "West Main Deck",
           "roomid": 180,
           "roomName": "Elevator to Habitation Deck",
-          "nodeid": 591,
+          "nodeid": 590,
           "nodeName": "North Door",
           "position": "top"
         }
@@ -245,7 +220,7 @@
           "subarea": "West Main Deck",
           "roomid": 177,
           "roomName": "Concourse",
-          "nodeid": 582,
+          "nodeid": 581,
           "nodeName": "North-East Door",
           "position": "right"
         }

@@ -30,7 +30,7 @@
       "mapTileY": 11
     },
     {
-      "id": 927,
+      "id": 926,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 928,
+      "id": 927,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 929,
+      "id": 928,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 930,
+      "id": 929,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "id": 931,
+      "id": 930,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
