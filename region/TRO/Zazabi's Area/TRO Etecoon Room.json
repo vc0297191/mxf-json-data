@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 120,
+      "id": 121,
       "name": "TRO Etecoon",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 1063,
+      "id": 1064,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

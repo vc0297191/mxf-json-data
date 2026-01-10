@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 86,
+      "id": 87,
       "idMinorItemPlm": "0x32",
       "name": "Hidden Power Bomb Tank",
       "nodeType": "item",
@@ -30,7 +30,7 @@
       "mapTileY": 17
     },
     {
-      "id": 854,
+      "id": 855,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 855,
+      "id": 856,
       "name": "West-North Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 856,
+      "id": 857,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -11,7 +11,7 @@
           "subarea": "Docking Bay",
           "roomid": 150,
           "roomName": "Docking Bay Climb",
-          "nodeid": 503,
+          "nodeid": 504,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -20,33 +20,8 @@
           "subarea": "East Main Deck",
           "roomid": 155,
           "roomName": "Crew Quarters",
-          "nodeid": 520,
+          "nodeid": 521,
           "nodeName": "South-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Docking Bay Climb and Silo Entry",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "Docking Bay",
-          "roomid": 150,
-          "roomName": "Docking Bay Climb",
-          "nodeid": 505,
-          "nodeName": "West Door",
-          "position": "left"
-        },
-        {
-          "area": "MDK",
-          "subarea": "Reactor Silo",
-          "roomid": 165,
-          "roomName": "Silo Entry",
-          "nodeid": 544,
-          "nodeName": "East-North Door",
           "position": "right"
         }
       ]
@@ -62,6 +37,31 @@
           "roomid": 150,
           "roomName": "Docking Bay Climb",
           "nodeid": 506,
+          "nodeName": "West Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 165,
+          "roomName": "Silo Entry",
+          "nodeid": 545,
+          "nodeName": "East-North Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between Docking Bay Climb and Silo Entry",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Docking Bay",
+          "roomid": 150,
+          "roomName": "Docking Bay Climb",
+          "nodeid": 507,
           "nodeName": "South-West Door",
           "position": "left"
         },
@@ -70,7 +70,7 @@
           "subarea": "Reactor Silo",
           "roomid": 165,
           "roomName": "Silo Entry",
-          "nodeid": 546,
+          "nodeid": 547,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -86,7 +86,7 @@
           "subarea": "East Main Deck",
           "roomid": 156,
           "roomName": "Genesis Speedway",
-          "nodeid": 521,
+          "nodeid": 522,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -95,7 +95,7 @@
           "subarea": "West Main Deck",
           "roomid": 188,
           "roomName": "Nexus Crossing",
-          "nodeid": 609,
+          "nodeid": 610,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -111,7 +111,7 @@
           "subarea": "East Main Deck",
           "roomid": 161,
           "roomName": "Operations Ventilation",
-          "nodeid": 530,
+          "nodeid": 531,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -120,7 +120,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 172,
           "roomName": "Habitation Deck",
-          "nodeid": 566,
+          "nodeid": 567,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -136,7 +136,7 @@
           "subarea": "East Main Deck",
           "roomid": 161,
           "roomName": "Operations Ventilation",
-          "nodeid": 532,
+          "nodeid": 533,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -145,7 +145,7 @@
           "subarea": "West Main Deck",
           "roomid": 176,
           "roomName": "Concourse Tower",
-          "nodeid": 577,
+          "nodeid": 578,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -161,7 +161,7 @@
           "subarea": "East Main Deck",
           "roomid": 161,
           "roomName": "Operations Ventilation",
-          "nodeid": 535,
+          "nodeid": 536,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -170,7 +170,7 @@
           "subarea": "Reactor Silo",
           "roomid": 165,
           "roomName": "Silo Entry",
-          "nodeid": 545,
+          "nodeid": 546,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -186,7 +186,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 169,
           "roomName": "Elevator to Central Nexus",
-          "nodeid": 559,
+          "nodeid": 560,
           "nodeName": "South Door",
           "position": "bottom"
         },
@@ -195,7 +195,7 @@
           "subarea": "West Main Deck",
           "roomid": 180,
           "roomName": "Elevator to Habitation Deck",
-          "nodeid": 590,
+          "nodeid": 591,
           "nodeName": "North Door",
           "position": "top"
         }
@@ -211,7 +211,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 170,
           "roomName": "Etecoon Hangar Bay",
-          "nodeid": 562,
+          "nodeid": 563,
           "nodeName": "South-West Door",
           "position": "left"
         },
@@ -220,7 +220,7 @@
           "subarea": "West Main Deck",
           "roomid": 177,
           "roomName": "Concourse",
-          "nodeid": 581,
+          "nodeid": 582,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -236,7 +236,7 @@
           "subarea": "Upper Main Deck",
           "roomid": 170,
           "roomName": "Etecoon Hangar Bay",
-          "nodeid": 563,
+          "nodeid": 564,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -245,7 +245,7 @@
           "subarea": "West Main Deck",
           "roomid": 176,
           "roomName": "Concourse Tower",
-          "nodeid": 578,
+          "nodeid": 579,
           "nodeName": "West-Upper Door",
           "position": "left"
         }

@@ -11,7 +11,7 @@
           "subarea": "Reactor Silo",
           "roomid": 162,
           "roomName": "Central Reactor Core",
-          "nodeid": 536,
+          "nodeid": 537,
           "nodeName": "North-East Door",
           "position": "right"
         },
@@ -20,7 +20,7 @@
           "subarea": "Reactor Silo",
           "roomid": 165,
           "roomName": "Silo Entry",
-          "nodeid": 547,
+          "nodeid": 548,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -36,7 +36,7 @@
           "subarea": "Reactor Silo",
           "roomid": 162,
           "roomName": "Central Reactor Core",
-          "nodeid": 537,
+          "nodeid": 538,
           "nodeName": "West-Upper Morph Ball Hole",
           "position": "left"
         },
@@ -45,7 +45,7 @@
           "subarea": "Reactor Silo",
           "roomid": 167,
           "roomName": "Silo Tunnel",
-          "nodeid": 554,
+          "nodeid": 555,
           "nodeName": "East-Upper Morph Ball Hole",
           "position": "right"
         }
@@ -61,7 +61,7 @@
           "subarea": "Reactor Silo",
           "roomid": 162,
           "roomName": "Central Reactor Core",
-          "nodeid": 538,
+          "nodeid": 539,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -70,7 +70,7 @@
           "subarea": "Reactor Silo",
           "roomid": 166,
           "roomName": "Silo Scaffolding",
-          "nodeid": 548,
+          "nodeid": 549,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -86,7 +86,7 @@
           "subarea": "Reactor Silo",
           "roomid": 162,
           "roomName": "Central Reactor Core",
-          "nodeid": 539,
+          "nodeid": 540,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -95,7 +95,7 @@
           "subarea": "Reactor Silo",
           "roomid": 166,
           "roomName": "Silo Scaffolding",
-          "nodeid": 550,
+          "nodeid": 551,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -111,7 +111,7 @@
           "subarea": "Reactor Silo",
           "roomid": 163,
           "roomName": "MDK Save Station South",
-          "nodeid": 540,
+          "nodeid": 541,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -120,7 +120,7 @@
           "subarea": "Reactor Silo",
           "roomid": 166,
           "roomName": "Silo Scaffolding",
-          "nodeid": 551,
+          "nodeid": 552,
           "nodeName": "South Door",
           "position": "right"
         }
@@ -136,7 +136,7 @@
           "subarea": "Reactor Silo",
           "roomid": 163,
           "roomName": "MDK Save Station South",
-          "nodeid": 541,
+          "nodeid": 542,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -145,7 +145,7 @@
           "subarea": "Reactor Silo",
           "roomid": 168,
           "roomName": "Yakuza Arena",
-          "nodeid": 556,
+          "nodeid": 557,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -161,7 +161,7 @@
           "subarea": "Reactor Silo",
           "roomid": 164,
           "roomName": "MDK-ARC Tube",
-          "nodeid": 542,
+          "nodeid": 543,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -170,7 +170,7 @@
           "subarea": "Reactor Silo",
           "roomid": 166,
           "roomName": "Silo Scaffolding",
-          "nodeid": 549,
+          "nodeid": 550,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -186,7 +186,7 @@
           "subarea": "Reactor Silo",
           "roomid": 166,
           "roomName": "Silo Scaffolding",
-          "nodeid": 552,
+          "nodeid": 553,
           "nodeName": "East-South Door",
           "position": "bottom"
         },
@@ -195,7 +195,7 @@
           "subarea": "Reactor Silo",
           "roomid": 168,
           "roomName": "Yakuza Arena",
-          "nodeid": 555,
+          "nodeid": 556,
           "nodeName": "North Door",
           "position": "top"
         }

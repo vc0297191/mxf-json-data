@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 90,
+      "id": 91,
       "name": "Spike Breaker",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 877,
+      "id": 878,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

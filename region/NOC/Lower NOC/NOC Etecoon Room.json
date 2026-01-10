@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 57,
+      "id": 58,
       "name": "NOC Etecoon",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 649,
+      "id": 650,
       "name": "East-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

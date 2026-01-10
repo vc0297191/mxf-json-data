@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 79,
+      "id": 80,
       "idMinorItemPlm": "0x36",
       "name": "Missile Tank",
       "nodeType": "item",
@@ -31,7 +31,7 @@
       "note": "Top"
     },
     {
-      "id": 80,
+      "id": 81,
       "idMinorItemPlm": "0x37",
       "name": "Missile Tank",
       "nodeType": "item",
@@ -43,7 +43,7 @@
       "note": "Bottom"
     },
     {
-      "id": 813,
+      "id": 814,
       "name": "North-East Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 814,
+      "id": 815,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 815,
+      "id": 816,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

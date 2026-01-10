@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 97,
+      "id": 98,
       "name": "SRX Reserve X",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 910,
+      "id": 911,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "id": 911,
+      "id": 912,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

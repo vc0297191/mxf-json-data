@@ -19,7 +19,18 @@
   ],
   "nodes": [
     {
-      "id": 586,
+      "id": 51,
+      "idMinorItemPlm": "0x02",
+      "name": "Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7D35E",
+      "mapTileX": 27,
+      "mapTileY": 16
+    },
+    {
+      "id": 587,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -32,7 +43,7 @@
       ]
     },
     {
-      "id": 587,
+      "id": 588,
       "name": "East-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",

@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 93,
+      "id": 94,
       "idMinorItemPlm": "0x18",
       "name": "Missile Tank",
       "nodeType": "item",
@@ -30,7 +30,7 @@
       "mapTileY": 22
     },
     {
-      "id": 892,
+      "id": 893,
       "name": "West-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 893,
+      "id": 894,
       "name": "East-North Door",
       "nodeType": "door",
       "nodeSubType": "blue",

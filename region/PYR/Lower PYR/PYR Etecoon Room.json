@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 71,
+      "id": 72,
       "name": "PYR Etecoon",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 763,
+      "id": 764,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

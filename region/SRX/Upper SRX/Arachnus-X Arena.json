@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 94,
+      "id": 95,
       "name": "Morph Ball",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 900,
+      "id": 901,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "id": 901,
+      "id": 902,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "id": 902,
+      "id": 903,
       "name": "South Door",
       "nodeType": "door",
       "nodeSubType": "blue",

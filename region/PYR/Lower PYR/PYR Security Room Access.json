@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 72,
+      "id": 73,
       "idMinorItemPlm": "0x3D",
       "name": "Power Bomb Tank",
       "nodeType": "item",
@@ -30,7 +30,7 @@
       "mapTileY": 18
     },
     {
-      "id": 768,
+      "id": 769,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 769,
+      "id": 770,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

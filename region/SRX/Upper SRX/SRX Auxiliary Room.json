@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 100,
+      "id": 101,
       "name": "SRX Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 921,
+      "id": 922,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

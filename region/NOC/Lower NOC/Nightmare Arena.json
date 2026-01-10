@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 55,
+      "id": 56,
       "name": "Gravity Suit",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 639,
+      "id": 640,
       "name": "North-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 65,
+      "id": 66,
       "idMinorItemPlm": "0x62",
       "name": "Power Bomb Tank",
       "nodeType": "item",
@@ -30,7 +30,7 @@
       "mapTileY": 9
     },
     {
-      "id": 66,
+      "id": 67,
       "idMinorItemPlm": "0x63",
       "name": "Missile Tank",
       "nodeType": "item",
@@ -42,7 +42,7 @@
       "note": "Center-Right"
     },
     {
-      "id": 730,
+      "id": 731,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "id": 731,
+      "id": 732,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

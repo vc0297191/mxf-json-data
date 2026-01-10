@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 77,
+      "id": 78,
       "name": "Super Missile",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 801,
+      "id": 802,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

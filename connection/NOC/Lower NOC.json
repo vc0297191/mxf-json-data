@@ -11,7 +11,7 @@
           "subarea": "Lower NOC",
           "roomid": 191,
           "roomName": "Barrier Core-X Arena",
-          "nodeid": 614,
+          "nodeid": 615,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -20,7 +20,7 @@
           "subarea": "Lower NOC",
           "roomid": 212,
           "roomName": "Nocturnal Crossroads",
-          "nodeid": 667,
+          "nodeid": 668,
           "nodeName": "East Door",
           "position": "right"
         }
@@ -36,7 +36,7 @@
           "subarea": "Lower NOC",
           "roomid": 191,
           "roomName": "Barrier Core-X Arena",
-          "nodeid": 615,
+          "nodeid": 616,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -45,7 +45,7 @@
           "subarea": "Lower NOC",
           "roomid": 192,
           "roomName": "Barrier Core-X Chozo Room",
-          "nodeid": 616,
+          "nodeid": 617,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -61,7 +61,7 @@
           "subarea": "Lower NOC",
           "roomid": 192,
           "roomName": "Barrier Core-X Chozo Room",
-          "nodeid": 617,
+          "nodeid": 618,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -70,7 +70,7 @@
           "subarea": "Lower NOC",
           "roomid": 214,
           "roomName": "Warehouse",
-          "nodeid": 671,
+          "nodeid": 672,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -86,7 +86,7 @@
           "subarea": "Lower NOC",
           "roomid": 193,
           "roomName": "Catacombs Runway",
-          "nodeid": 618,
+          "nodeid": 619,
           "nodeName": "North-East Door",
           "position": "right"
         },
@@ -95,7 +95,7 @@
           "subarea": "Lower NOC",
           "roomid": 215,
           "roomName": "Zozoro Crossing",
-          "nodeid": 677,
+          "nodeid": 678,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -111,7 +111,7 @@
           "subarea": "Lower NOC",
           "roomid": 193,
           "roomName": "Catacombs Runway",
-          "nodeid": 619,
+          "nodeid": 620,
           "nodeName": "South-West Morph Ball Hole",
           "position": "left"
         },
@@ -120,7 +120,7 @@
           "subarea": "Lower NOC",
           "roomid": 194,
           "roomName": "Catacombs",
-          "nodeid": 623,
+          "nodeid": 624,
           "nodeName": "East-Upper Morph Ball Hole",
           "position": "right"
         }
@@ -136,7 +136,7 @@
           "subarea": "Lower NOC",
           "roomid": 193,
           "roomName": "Catacombs Runway",
-          "nodeid": 620,
+          "nodeid": 621,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -145,7 +145,7 @@
           "subarea": "Lower NOC",
           "roomid": 213,
           "roomName": "Shiverclimb",
-          "nodeid": 669,
+          "nodeid": 670,
           "nodeName": "North Door",
           "position": "left"
         }
@@ -161,7 +161,7 @@
           "subarea": "Lower NOC",
           "roomid": 194,
           "roomName": "Catacombs",
-          "nodeid": 621,
+          "nodeid": 622,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -170,7 +170,7 @@
           "subarea": "Lower NOC",
           "roomid": 200,
           "roomName": "Ninja Room",
-          "nodeid": 641,
+          "nodeid": 642,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -186,7 +186,7 @@
           "subarea": "Lower NOC",
           "roomid": 194,
           "roomName": "Catacombs",
-          "nodeid": 622,
+          "nodeid": 623,
           "nodeName": "West Morph Ball Hole",
           "position": "left"
         },
@@ -195,7 +195,7 @@
           "subarea": "Lower NOC",
           "roomid": 200,
           "roomName": "Ninja Room",
-          "nodeid": 642,
+          "nodeid": 643,
           "nodeName": "East Morph Ball Hole",
           "position": "right"
         }
@@ -211,7 +211,7 @@
           "subarea": "Lower NOC",
           "roomid": 194,
           "roomName": "Catacombs",
-          "nodeid": 624,
+          "nodeid": 625,
           "nodeName": "South-West Morph Ball Hole",
           "position": "left"
         },
@@ -220,7 +220,7 @@
           "subarea": "Lower NOC",
           "roomid": 200,
           "roomName": "Ninja Room",
-          "nodeid": 643,
+          "nodeid": 644,
           "nodeName": "South-East Morph Ball Hole",
           "position": "right"
         }
@@ -236,7 +236,7 @@
           "subarea": "Lower NOC",
           "roomid": 194,
           "roomName": "Catacombs",
-          "nodeid": 625,
+          "nodeid": 626,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -245,7 +245,7 @@
           "subarea": "Lower NOC",
           "roomid": 207,
           "roomName": "NOC Save Station South Central",
-          "nodeid": 657,
+          "nodeid": 658,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -261,7 +261,7 @@
           "subarea": "Lower NOC",
           "roomid": 195,
           "roomName": "Ice-X Shaft",
-          "nodeid": 626,
+          "nodeid": 627,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -270,7 +270,7 @@
           "subarea": "Lower NOC",
           "roomid": 215,
           "roomName": "Zozoro Crossing",
-          "nodeid": 676,
+          "nodeid": 677,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -286,7 +286,7 @@
           "subarea": "Lower NOC",
           "roomid": 195,
           "roomName": "Ice-X Shaft",
-          "nodeid": 628,
+          "nodeid": 629,
           "nodeName": "West-Upper Morph Ball Hole",
           "position": "left"
         },
@@ -295,7 +295,7 @@
           "subarea": "Lower NOC",
           "roomid": 215,
           "roomName": "Zozoro Crossing",
-          "nodeid": 678,
+          "nodeid": 679,
           "nodeName": "South-East Morph Ball Hole",
           "position": "right"
         }
@@ -311,7 +311,7 @@
           "subarea": "Lower NOC",
           "roomid": 195,
           "roomName": "Ice-X Shaft",
-          "nodeid": 629,
+          "nodeid": 630,
           "nodeName": "West Door",
           "position": "left"
         },
@@ -320,7 +320,7 @@
           "subarea": "Lower NOC",
           "roomid": 213,
           "roomName": "Shiverclimb",
-          "nodeid": 670,
+          "nodeid": 671,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -336,7 +336,7 @@
           "subarea": "Lower NOC",
           "roomid": 195,
           "roomName": "Ice-X Shaft",
-          "nodeid": 630,
+          "nodeid": 631,
           "nodeName": "South Door",
           "position": "bottom"
         },
@@ -345,7 +345,7 @@
           "subarea": "Lower NOC",
           "roomid": 201,
           "roomName": "NOC Entrance Lobby South",
-          "nodeid": 646,
+          "nodeid": 647,
           "nodeName": "East-North Door",
           "position": "top"
         }
@@ -361,7 +361,7 @@
           "subarea": "Lower NOC",
           "roomid": 196,
           "roomName": "Lower Crane Pit",
-          "nodeid": 632,
+          "nodeid": 633,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -370,7 +370,7 @@
           "subarea": "Lower NOC",
           "roomid": 214,
           "roomName": "Warehouse",
-          "nodeid": 672,
+          "nodeid": 673,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -386,7 +386,7 @@
           "subarea": "Lower NOC",
           "roomid": 196,
           "roomName": "Lower Crane Pit",
-          "nodeid": 633,
+          "nodeid": 634,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -395,7 +395,7 @@
           "subarea": "Lower NOC",
           "roomid": 215,
           "roomName": "Zozoro Crossing",
-          "nodeid": 675,
+          "nodeid": 676,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -411,7 +411,7 @@
           "subarea": "Lower NOC",
           "roomid": 197,
           "roomName": "Menu Hallway",
-          "nodeid": 634,
+          "nodeid": 635,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -420,7 +420,7 @@
           "subarea": "Lower NOC",
           "roomid": 212,
           "roomName": "Nocturnal Crossroads",
-          "nodeid": 666,
+          "nodeid": 667,
           "nodeName": "North-East Door",
           "position": "right"
         }
@@ -436,7 +436,7 @@
           "subarea": "Lower NOC",
           "roomid": 197,
           "roomName": "Menu Hallway",
-          "nodeid": 635,
+          "nodeid": 636,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -445,7 +445,7 @@
           "subarea": "Lower NOC",
           "roomid": 198,
           "roomName": "Nightmare Arena Access",
-          "nodeid": 637,
+          "nodeid": 638,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -461,7 +461,7 @@
           "subarea": "Lower NOC",
           "roomid": 198,
           "roomName": "Nightmare Arena Access",
-          "nodeid": 638,
+          "nodeid": 639,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -470,7 +470,7 @@
           "subarea": "Lower NOC",
           "roomid": 199,
           "roomName": "Nightmare Arena",
-          "nodeid": 639,
+          "nodeid": 640,
           "nodeName": "North-West Door",
           "position": "left"
         }
@@ -486,7 +486,7 @@
           "subarea": "Lower NOC",
           "roomid": 200,
           "roomName": "Ninja Room",
-          "nodeid": 640,
+          "nodeid": 641,
           "nodeName": "North-East Door",
           "position": "right"
         },
@@ -495,7 +495,7 @@
           "subarea": "Lower NOC",
           "roomid": 214,
           "roomName": "Warehouse",
-          "nodeid": 673,
+          "nodeid": 674,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -511,7 +511,7 @@
           "subarea": "Lower NOC",
           "roomid": 201,
           "roomName": "NOC Entrance Lobby South",
-          "nodeid": 645,
+          "nodeid": 646,
           "nodeName": "North-East Door",
           "position": "right"
         },
@@ -520,7 +520,7 @@
           "subarea": "Lower NOC",
           "roomid": 203,
           "roomName": "NOC Maintenance Wing Access",
-          "nodeid": 650,
+          "nodeid": 651,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -536,7 +536,7 @@
           "subarea": "Lower NOC",
           "roomid": 201,
           "roomName": "NOC Entrance Lobby South",
-          "nodeid": 647,
+          "nodeid": 648,
           "nodeName": "South Door",
           "position": "left"
         },
@@ -545,7 +545,7 @@
           "subarea": "Lower NOC",
           "roomid": 209,
           "roomName": "NOC-AQA Tube",
-          "nodeid": 660,
+          "nodeid": 661,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -561,7 +561,7 @@
           "subarea": "Lower NOC",
           "roomid": 201,
           "roomName": "NOC Entrance Lobby South",
-          "nodeid": 648,
+          "nodeid": 649,
           "nodeName": "South-East Door",
           "position": "right"
         },
@@ -570,7 +570,7 @@
           "subarea": "Lower NOC",
           "roomid": 208,
           "roomName": "NOC Save Station South East",
-          "nodeid": 658,
+          "nodeid": 659,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -586,7 +586,7 @@
           "subarea": "Lower NOC",
           "roomid": 202,
           "roomName": "NOC Etecoon Room",
-          "nodeid": 649,
+          "nodeid": 650,
           "nodeName": "East-Upper Morph Ball Hole",
           "position": "right"
         },
@@ -595,7 +595,7 @@
           "subarea": "Lower NOC",
           "roomid": 204,
           "roomName": "NOC Maintenance Wing",
-          "nodeid": 654,
+          "nodeid": 655,
           "nodeName": "South-West Morph Ball Hole",
           "position": "left"
         }
@@ -611,7 +611,7 @@
           "subarea": "Lower NOC",
           "roomid": 203,
           "roomName": "NOC Maintenance Wing Access",
-          "nodeid": 651,
+          "nodeid": 652,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -620,7 +620,7 @@
           "subarea": "Lower NOC",
           "roomid": 204,
           "roomName": "NOC Maintenance Wing",
-          "nodeid": 653,
+          "nodeid": 654,
           "nodeName": "West-Upper Door",
           "position": "left"
         }
@@ -636,7 +636,7 @@
           "subarea": "Lower NOC",
           "roomid": 204,
           "roomName": "NOC Maintenance Wing",
-          "nodeid": 652,
+          "nodeid": 653,
           "nodeName": "North-West Door",
           "position": "left"
         },
@@ -645,7 +645,7 @@
           "subarea": "Lower NOC",
           "roomid": 205,
           "roomName": "NOC Mimic Lodge",
-          "nodeid": 655,
+          "nodeid": 656,
           "nodeName": "East-Upper Door",
           "position": "right"
         }
@@ -661,7 +661,7 @@
           "subarea": "Lower NOC",
           "roomid": 206,
           "roomName": "NOC Save Station Central",
-          "nodeid": 656,
+          "nodeid": 657,
           "nodeName": "West-Upper Door",
           "position": "left"
         },
@@ -670,7 +670,7 @@
           "subarea": "Lower NOC",
           "roomid": 214,
           "roomName": "Warehouse",
-          "nodeid": 674,
+          "nodeid": 675,
           "nodeName": "South-East Door",
           "position": "right"
         }
@@ -686,7 +686,7 @@
           "subarea": "Lower NOC",
           "roomid": 210,
           "roomName": "NOC-ARC Tube",
-          "nodeid": 662,
+          "nodeid": 663,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -695,7 +695,7 @@
           "subarea": "Lower NOC",
           "roomid": 212,
           "roomName": "Nocturnal Crossroads",
-          "nodeid": 668,
+          "nodeid": 669,
           "nodeName": "South-West Door",
           "position": "left"
         }
@@ -711,7 +711,7 @@
           "subarea": "Lower NOC",
           "roomid": 211,
           "roomName": "NOC-MDK Tube",
-          "nodeid": 664,
+          "nodeid": 665,
           "nodeName": "East-Upper Door",
           "position": "right"
         },
@@ -720,7 +720,7 @@
           "subarea": "Lower NOC",
           "roomid": 212,
           "roomName": "Nocturnal Crossroads",
-          "nodeid": 665,
+          "nodeid": 666,
           "nodeName": "North-West Door",
           "position": "left"
         }

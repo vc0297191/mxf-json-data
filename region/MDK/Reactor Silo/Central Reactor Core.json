@@ -30,7 +30,7 @@
       "mapTileY": 19
     },
     {
-      "id": 536,
+      "id": 537,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 537,
+      "id": 538,
       "name": "West-Upper Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 538,
+      "id": 539,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 539,
+      "id": 540,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 109,
+      "id": 110,
       "idMinorItemPlm": "0x2B",
       "name": "Hidden Energy Tank",
       "nodeType": "item",
@@ -30,7 +30,7 @@
       "mapTileY": 19
     },
     {
-      "id": 993,
+      "id": 994,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 52,
+      "id": 53,
       "idMinorItemPlm": "0x05",
       "name": "Hidden Power Bomb Tank",
       "nodeType": "item",
@@ -30,7 +30,7 @@
       "mapTileY": 17
     },
     {
-      "id": 612,
+      "id": 613,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": 613,
+      "id": 614,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

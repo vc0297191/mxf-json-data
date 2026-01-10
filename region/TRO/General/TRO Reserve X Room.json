@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 115,
+      "id": 116,
       "name": "TRO Reserve X",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 1017,
+      "id": 1018,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

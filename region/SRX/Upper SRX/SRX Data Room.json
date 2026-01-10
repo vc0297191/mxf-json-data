@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 101,
+      "id": 102,
       "name": "Bombs",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 925,
+      "id": 926,
       "name": "West-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

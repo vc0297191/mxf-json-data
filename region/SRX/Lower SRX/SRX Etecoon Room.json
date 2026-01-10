@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 91,
+      "id": 92,
       "name": "SRX Etecoon",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 878,
+      "id": 879,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",

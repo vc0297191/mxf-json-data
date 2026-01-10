@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 76,
+      "id": 77,
       "name": "Grapple Beam",
       "nodeType": "item",
       "nodeSubType": "visible",
@@ -28,7 +28,7 @@
       "note": ""
     },
     {
-      "id": 795,
+      "id": 796,
       "name": "North Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "id": 796,
+      "id": 797,
       "name": "East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "id": 797,
+      "id": 798,
       "name": "South-West Door",
       "nodeType": "door",
       "nodeSubType": "blue",

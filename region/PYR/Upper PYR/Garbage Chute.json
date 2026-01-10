@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 82,
+      "id": 83,
       "idMinorItemPlm": "0x30",
       "name": "Power Bomb Tank",
       "nodeType": "item",
@@ -31,7 +31,7 @@
       "note": "Top"
     },
     {
-      "id": 83,
+      "id": 84,
       "idMinorItemPlm": "0x31",
       "name": "Hidden Missile Tank",
       "nodeType": "item",
@@ -43,7 +43,7 @@
       "note": "Middle"
     },
     {
-      "id": 833,
+      "id": 834,
       "name": "North-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "id": 834,
+      "id": 835,
       "name": "East-Upper Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 835,
+      "id": 836,
       "name": "East Morph Ball Hole",
       "nodeType": "door",
       "nodeSubType": "passage",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "id": 836,
+      "id": 837,
       "name": "West-South Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "id": 837,
+      "id": 838,
       "name": "South-East Door",
       "nodeType": "door",
       "nodeSubType": "blue",
