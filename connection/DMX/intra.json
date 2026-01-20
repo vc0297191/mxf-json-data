@@ -3,9 +3,18 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [DMX Elevator Bottom - Left Door] and [DMX Hub - Right Door]",
-      "direction": "Bidirectional",
+      "description": "Horizontal Door connection between [DMX Hub - Top-Right Door] and [DMX Elevator Bottom - Left Door]",
+      "direction": "Forward",
       "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 122,
+          "roomName": "DMX Hub",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
+          "position": "right"
+        },
         {
           "area": "DMX",
           "subarea": "Chase Segment",
@@ -14,23 +23,23 @@
           "nodeid": 1,
           "nodeName": "Left Door",
           "position": "left"
-        },
-        {
-          "area": "DMX",
-          "subarea": "Opening Segment",
-          "roomid": 122,
-          "roomName": "DMX Hub",
-          "nodeid": 3,
-          "nodeName": "Right Door",
-          "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Metroid Swarm Chase - Top Door] and [DMX Hub - Bottom-Right Door]",
-      "direction": "Bidirectional",
+      "description": "Horizontal Door connection between [DMX Hub - Bottom-Right Door] and [Metroid Swarm Chase - Top Door]",
+      "direction": "Forward",
       "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 122,
+          "roomName": "DMX Hub",
+          "nodeid": 6,
+          "nodeName": "Bottom-Right Door",
+          "position": "right"
+        },
         {
           "area": "DMX",
           "subarea": "Chase Segment",
@@ -39,22 +48,13 @@
           "nodeid": 1,
           "nodeName": "Top Door",
           "position": "left"
-        },
-        {
-          "area": "DMX",
-          "subarea": "Opening Segment",
-          "roomid": 122,
-          "roomName": "DMX Hub",
-          "nodeid": 5,
-          "nodeName": "Bottom-Right Door",
-          "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [SA-X Hallway of Death - Right Door] and [DMX Hub - Left Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -70,7 +70,7 @@
           "subarea": "Opening Segment",
           "roomid": 122,
           "roomName": "DMX Hub",
-          "nodeid": 2,
+          "nodeid": 3,
           "nodeName": "Left Door",
           "position": "left"
         }
@@ -79,7 +79,7 @@
     {
       "connectionType": "VerticalDoor",
       "description": "Vertical Door connection between [Winding SA-X Chase - Right-Bottom Door] and [Sewer Bottom - Top Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -104,7 +104,7 @@
     {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [Ventilation B - Bottom-Right Door] and [DMX Entrance - Left Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",

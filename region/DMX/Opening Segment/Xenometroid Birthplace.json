@@ -19,7 +19,7 @@
   ],
   "nodes": [
     {
-      "id": 2,
+      "id": 3,
       "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
@@ -45,10 +45,23 @@
       ]
     },
     {
-      "id": 3,
-      "name": "Right-Bottom Door",
+      "id": 2,
+      "name": "Left-Lower Tunnel",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "passage",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Right-Bottom Tunnel",
+      "nodeType": "door",
+      "nodeSubType": "passage",
       "nodeAddress": "0x0",
       "doorOrientation": "down",
       "doorEnvironments": [

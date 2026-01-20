@@ -3,18 +3,9 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [L-X-TRO Tube - Right Door] and [Sector 0 Omega Exit - Left Door]",
-      "direction": "Bidirectional",
+      "description": "Horizontal Door connection between [Sector 0 Omega Exit - Left Door] and [L-X-TRO Tube - Right Door]",
+      "direction": "Forward",
       "nodes": [
-        {
-          "area": "L-X",
-          "subarea": "General",
-          "roomid": 130,
-          "roomName": "L-X-TRO Tube",
-          "nodeid": 2,
-          "nodeName": "Right Door",
-          "position": "right"
-        },
         {
           "area": "L-X",
           "subarea": "General",
@@ -23,6 +14,15 @@
           "nodeid": 1,
           "nodeName": "Sector 0 Omega Exit - Left Door",
           "position": "left"
+        },
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 130,
+          "roomName": "L-X-TRO Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
         }
       ]
     },
@@ -79,7 +79,7 @@
     {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [Not Ceres Elevator - Top-Left Door] and [Sector 0 Hard Exit Tube - Right Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "L-X",

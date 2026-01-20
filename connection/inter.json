@@ -329,7 +329,7 @@
     {
       "connectionType": "ConnectionBridge",
       "description": "Connection Bridge connection between [L-X-TRO Tube - Left Door] and [TRO-L-X Tube - Right Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "L-X",
@@ -379,7 +379,7 @@
     {
       "connectionType": "ConnectionBridge",
       "description": "Connection Bridge connection between [Sector 0 Normal Exit Tube - Right Door] and [L-X-SRX Normal Exit Tube - Left Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "L-X",

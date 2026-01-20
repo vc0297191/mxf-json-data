@@ -20,9 +20,9 @@
   "nodes": [
     {
       "id": 2,
-      "name": "Left-Top Door",
+      "name": "Left-Top Tunnel",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "passage",
       "nodeAddress": "0x0",
       "doorOrientation": "up",
       "doorEnvironments": [

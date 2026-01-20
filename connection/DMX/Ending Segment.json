@@ -4,7 +4,7 @@
     {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [Gold Gadora-X Arena - Left Door] and [Golden Four Containment - Right Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -28,18 +28,9 @@
     },
     {
       "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between [Gold Gadora-X Arena - Bottom Door] and [Hornoad Shaft - Top Door]",
-      "direction": "Bidirectional",
+      "description": "Vertical Door connection between [Hornoad Shaft - Top Door] and [Gold Gadora-X Arena - Bottom Door]",
+      "direction": "Forward",
       "nodes": [
-        {
-          "area": "DMX",
-          "subarea": "Ending Segment",
-          "roomid": 115,
-          "roomName": "Gold Gadora-X Arena",
-          "nodeid": 2,
-          "nodeName": "Bottom Door",
-          "position": "bottom"
-        },
         {
           "area": "DMX",
           "subarea": "Ending Segment",
@@ -48,13 +39,22 @@
           "nodeid": 3,
           "nodeName": "Hornoad Shaft - Top Door",
           "position": "top"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 115,
+          "roomName": "Gold Gadora-X Arena",
+          "nodeid": 2,
+          "nodeName": "Bottom Door",
+          "position": "bottom"
         }
       ]
     },
     {
       "connectionType": "VerticalDoor",
       "description": "Vertical Door connection between [Golden Four Containment - Left-Bottom Door] and [Karid-X Arena - Top Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -79,7 +79,7 @@
     {
       "connectionType": "VerticalDoor",
       "description": "Vertical Door connection between [Hornoad Sewer - Top Door] and [Hornoad Shaft - Bottom Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -103,18 +103,9 @@
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Hornoad Sewer - Right Door] and [Sewer Bottom - Left Door]",
-      "direction": "Bidirectional",
+      "description": "Horizontal Door connection between [Sewer Bottom - Left Door] and [Hornoad Sewer - Right Door]",
+      "direction": "Forward",
       "nodes": [
-        {
-          "area": "DMX",
-          "subarea": "Ending Segment",
-          "roomid": 117,
-          "roomName": "Hornoad Sewer / Hornoad Shaft / Sewer Bottom",
-          "nodeid": 1,
-          "nodeName": "Hornoad Sewer - Right Door",
-          "position": "right"
-        },
         {
           "area": "DMX",
           "subarea": "Ending Segment",
@@ -123,13 +114,22 @@
           "nodeid": 5,
           "nodeName": "Sewer Bottom - Left Door",
           "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Ending Segment",
+          "roomid": 117,
+          "roomName": "Hornoad Sewer / Hornoad Shaft / Sewer Bottom",
+          "nodeid": 1,
+          "nodeName": "Hornoad Sewer - Right Door",
+          "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalTunnel",
       "description": "Horizontal Tunnel connection between [Karid-X Arena - Left Tunnel] and [Ventilation B - Top-Left Tunnel]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -154,7 +154,7 @@
     {
       "connectionType": "HorizontalTunnel",
       "description": "Horizontal Tunnel connection between [Karid-X Arena - Right Tunnel] and [Ventilation B - Top-Right Tunnel]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",

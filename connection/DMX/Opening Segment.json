@@ -4,7 +4,7 @@
     {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [DMX Entrance - Right Door] and [DMX Hallway - Left Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -29,7 +29,7 @@
     {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [DMX Hallway - Right Door] and [DMX Hub - Top-Left Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -53,18 +53,9 @@
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [DMX Hub - Right-Lower Door] and [Xenometroid Birthplace - Left Door]",
-      "direction": "Bidirectional",
+      "description": "Horizontal Door connection between [Xenometroid Birthplace - Left Door] and [DMX Hub - Right Door]",
+      "direction": "Forward",
       "nodes": [
-        {
-          "area": "DMX",
-          "subarea": "Opening Segment",
-          "roomid": 122,
-          "roomName": "DMX Hub",
-          "nodeid": 4,
-          "nodeName": "Right-Lower Door",
-          "position": "right"
-        },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
@@ -73,13 +64,47 @@
           "nodeid": 1,
           "nodeName": "Left Door",
           "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 122,
+          "roomName": "DMX Hub",
+          "nodeid": 4,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [DMX Hub - Right-Lower Tunnel] and [Xenometroid Birthplace - Left-Lower Tunnel]",
+      "direction": "Forward",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 122,
+          "roomName": "DMX Hub",
+          "nodeid": 5,
+          "nodeName": "Right-Lower Tunnel",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 129,
+          "roomName": "Xenometroid Birthplace",
+          "nodeid": 2,
+          "nodeName": "Left-Lower Tunnel",
+          "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [Dusty Arachnus - Left Door] and [Omega Queen\u0027s Room - Top-Right Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -103,18 +128,9 @@
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Dusty Arachnus - Right Door] and [Metroid Nest - Top-Left Door]",
-      "direction": "Bidirectional",
+      "description": "Horizontal Door connection between [Metroid Nest - Top-Left Door] and [Dusty Arachnus - Right Door]",
+      "direction": "Forward",
       "nodes": [
-        {
-          "area": "DMX",
-          "subarea": "Opening Segment",
-          "roomid": 123,
-          "roomName": "Dusty Arachnus",
-          "nodeid": 2,
-          "nodeName": "Right Door",
-          "position": "right"
-        },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
@@ -123,6 +139,15 @@
           "nodeid": 1,
           "nodeName": "Top-Left Door",
           "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 123,
+          "roomName": "Dusty Arachnus",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
         }
       ]
     },
@@ -153,18 +178,9 @@
     },
     {
       "connectionType": "HorizontalTunnel",
-      "description": "Horizontal Tunnel connection between [Metroid Nest - Bottom-Right Tunnel] and [Ventilation A - Top Tunnel]",
-      "direction": "Bidirectional",
+      "description": "Horizontal Tunnel connection between [Ventilation A - Top Tunnel] and [Metroid Nest - Bottom-Right Tunnel]",
+      "direction": "Forward",
       "nodes": [
-        {
-          "area": "DMX",
-          "subarea": "Opening Segment",
-          "roomid": 124,
-          "roomName": "Metroid Nest",
-          "nodeid": 3,
-          "nodeName": "Bottom-Right Tunnel",
-          "position": "right"
-        },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
@@ -173,38 +189,47 @@
           "nodeid": 1,
           "nodeName": "Top Tunnel",
           "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 124,
+          "roomName": "Metroid Nest",
+          "nodeid": 3,
+          "nodeName": "Bottom-Right Tunnel",
+          "position": "right"
         }
       ]
     },
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between [Metroid Room 1 - Left-Top Door] and [Xenometroid Birthplace - Right-Bottom Door]",
-      "direction": "Bidirectional",
+      "connectionType": "VerticalTunnel",
+      "description": "Vertical Tunnel connection between [Xenometroid Birthplace - Right-Bottom Tunnel] and [Metroid Room 1 - Left-Top Tunnel]",
+      "direction": "Forward",
       "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 129,
+          "roomName": "Xenometroid Birthplace",
+          "nodeid": 4,
+          "nodeName": "Right-Bottom Tunnel",
+          "position": "bottom"
+        },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
           "roomid": 125,
           "roomName": "Metroid Room 1",
           "nodeid": 2,
-          "nodeName": "Left-Top Door",
+          "nodeName": "Left-Top Tunnel",
           "position": "top"
-        },
-        {
-          "area": "DMX",
-          "subarea": "Opening Segment",
-          "roomid": 129,
-          "roomName": "Xenometroid Birthplace",
-          "nodeid": 3,
-          "nodeName": "Right-Bottom Door",
-          "position": "bottom"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [Metroid Room 1 - Right Door] and [Metroid Room 2 - Bottom-Left Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -229,7 +254,7 @@
     {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [Metroid Room 2 - Top-Left Door] and [Ventilation A - Bottom-Right Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -254,7 +279,7 @@
     {
       "connectionType": "VerticalDoor",
       "description": "Vertical Door connection between [Omega Queen\u0027s Room - Bottom Door] and [Xenometroid Birthplace - Top Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "DMX",
@@ -270,7 +295,7 @@
           "subarea": "Opening Segment",
           "roomid": 129,
           "roomName": "Xenometroid Birthplace",
-          "nodeid": 2,
+          "nodeid": 3,
           "nodeName": "Top Door",
           "position": "top"
         }
