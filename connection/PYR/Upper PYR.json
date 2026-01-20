@@ -302,8 +302,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Chute Pit - Left-Top Door] and [Garbage Chute - Left-Bottom Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Chute Pit - Left-Top Door] and [Garbage Chute - Left-Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {

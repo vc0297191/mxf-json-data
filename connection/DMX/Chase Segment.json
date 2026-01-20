@@ -202,8 +202,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Metroid Chase with Dev Exit - Right-Top Door] and [SA-X Hallway of Death - Right-Bottom Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Metroid Chase with Dev Exit - Right-Top Door] and [SA-X Hallway of Death - Right-Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {

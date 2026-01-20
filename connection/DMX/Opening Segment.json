@@ -177,8 +177,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Metroid Room 1 - Left-Top Door] and [Xenometroid Birthplace - Right-Bottom Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Metroid Room 1 - Left-Top Door] and [Xenometroid Birthplace - Right-Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {

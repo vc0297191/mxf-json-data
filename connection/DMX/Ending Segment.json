@@ -52,8 +52,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Golden Four Containment - Left-Bottom Door] and [Karid-X Arena - Top Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Golden Four Containment - Left-Bottom Door] and [Karid-X Arena - Top Door]",
       "direction": "Bidirectional",
       "nodes": [
         {

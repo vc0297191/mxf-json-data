@@ -177,8 +177,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Silo Scaffolding - Right-Bottom Door] and [Yakuza Arena - Top Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Silo Scaffolding - Right-Bottom Door] and [Yakuza Arena - Top Door]",
       "direction": "Forward",
       "nodes": [
         {

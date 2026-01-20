@@ -252,8 +252,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Concourse Tower - Left-Bottom Door] and [Wrecked Storage - Top Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Concourse Tower - Left-Bottom Door] and [Wrecked Storage - Top Door]",
       "direction": "Bidirectional",
       "nodes": [
         {

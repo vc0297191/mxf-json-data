@@ -177,8 +177,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Crumble Crossing - Right-Bottom Door] and [Crumble City - Right-Top Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Crumble Crossing - Right-Bottom Door] and [Crumble City - Right-Top Door]",
       "direction": "Forward",
       "nodes": [
         {
@@ -227,8 +227,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Crumble City - Right-Bottom Door] and [Oasis - Right-Top Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Crumble City - Right-Bottom Door] and [Oasis - Right-Top Door]",
       "direction": "Forward",
       "nodes": [
         {
@@ -302,8 +302,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Cultivation Station - Left-Top Door] and [Reo Courtyard - Left-Bottom Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Cultivation Station - Left-Top Door] and [Reo Courtyard - Left-Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -727,8 +727,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Sanctum Access - Right-Bottom Door] and [Sanctum - Right-Top Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Sanctum Access - Right-Bottom Door] and [Sanctum - Right-Top Door]",
       "direction": "Forward",
       "nodes": [
         {

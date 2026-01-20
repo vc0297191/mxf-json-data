@@ -377,8 +377,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Vacuum Verge - Left-Top Door] and [West Spike Tower - Bottom Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Vacuum Verge - Left-Top Door] and [West Spike Tower - Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {

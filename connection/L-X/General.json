@@ -202,8 +202,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Not Ceres Ridley\u0027s Arena - Right-Bottom Door] and [Omega Metroid Arena - Right-Top Door]",
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Not Ceres Ridley\u0027s Arena - Right-Bottom Door] and [Omega Metroid Arena - Right-Top Door]",
       "direction": "Forward",
       "nodes": [
         {
