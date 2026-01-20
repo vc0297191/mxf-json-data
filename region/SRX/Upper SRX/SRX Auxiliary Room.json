@@ -33,7 +33,7 @@
     },
     {
       "id": 2,
-      "name": "SRX Aux Power Cell",
+      "name": "SRX Auxiliary Room - SRX Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",

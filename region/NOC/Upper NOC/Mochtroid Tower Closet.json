@@ -34,7 +34,7 @@
     {
       "id": 2,
       "idMinorItemPlm": "0x60",
-      "name": "Hidden Missile Tank",
+      "name": "Mochtroid Tower Closet - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "Missile",

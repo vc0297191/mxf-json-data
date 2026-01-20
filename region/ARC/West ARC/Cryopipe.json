@@ -47,7 +47,7 @@
     {
       "id": 3,
       "idMinorItemPlm": "0x59",
-      "name": "Hidden Missile Tank",
+      "name": "Cryopipe - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "Missile",

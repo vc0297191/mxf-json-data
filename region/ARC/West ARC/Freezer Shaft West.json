@@ -60,7 +60,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x5B",
-      "name": "Power Bomb Tank",
+      "name": "Freezer Shaft West - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "PowerBomb",

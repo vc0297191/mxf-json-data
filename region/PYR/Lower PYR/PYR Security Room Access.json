@@ -47,7 +47,7 @@
     {
       "id": 3,
       "idMinorItemPlm": "0x3D",
-      "name": "Power Bomb Tank",
+      "name": "PYR Security Room Access - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "PowerBomb",

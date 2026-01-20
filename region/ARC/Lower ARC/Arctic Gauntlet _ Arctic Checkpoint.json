@@ -73,7 +73,7 @@
     {
       "id": 5,
       "idMinorItemPlm": "0x5A",
-      "name": "Missile Tank",
+      "name": "Arctic Gauntlet - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

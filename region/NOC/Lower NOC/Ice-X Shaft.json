@@ -86,7 +86,7 @@
     {
       "id": 6,
       "idMinorItemPlm": "0x67",
-      "name": "Missile Tank",
+      "name": "Ice-X Shaft - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

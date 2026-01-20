@@ -86,7 +86,7 @@
     {
       "id": 6,
       "idMinorItemPlm": "0x27",
-      "name": "Missile Tank",
+      "name": "Cultivation Station - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

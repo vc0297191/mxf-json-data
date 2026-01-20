@@ -60,7 +60,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x56",
-      "name": "Missile Tank",
+      "name": "Frostbite Hall - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",
@@ -97,7 +97,7 @@
     {
       "id": 7,
       "idMinorItemPlm": "0x55",
-      "name": "Energy Tank",
+      "name": "Frostbite Nook - Energy Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "ETank",

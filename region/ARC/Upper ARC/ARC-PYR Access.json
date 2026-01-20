@@ -60,7 +60,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x52",
-      "name": "Missile Tank",
+      "name": "ARC-PYR Access - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

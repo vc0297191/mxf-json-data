@@ -47,7 +47,7 @@
     {
       "id": 3,
       "idMinorItemPlm": "0x3A",
-      "name": "Energy Tank",
+      "name": "Hot Potato - Energy Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "ETank",

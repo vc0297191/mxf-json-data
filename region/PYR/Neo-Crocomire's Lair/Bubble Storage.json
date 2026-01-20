@@ -34,7 +34,7 @@
     {
       "id": 2,
       "idMinorItemPlm": "0x3B",
-      "name": "Missile Tank",
+      "name": "Bubble Storage - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

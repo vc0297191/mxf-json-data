@@ -60,7 +60,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x2C",
-      "name": "Missile Tank",
+      "name": "Oasis Storage - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

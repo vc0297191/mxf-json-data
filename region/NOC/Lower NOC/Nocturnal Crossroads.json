@@ -73,7 +73,7 @@
     {
       "id": 6,
       "idMinorItemPlm": "0x6A",
-      "name": "Missile Tank",
+      "name": "Nocturnal Crossroads - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",
@@ -83,7 +83,7 @@
     },
     {
       "id": 5,
-      "name": "NOC Aux Power Cell",
+      "name": "Nocturnal Crossroads - NOC Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",

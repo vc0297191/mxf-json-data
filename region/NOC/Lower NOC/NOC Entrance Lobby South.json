@@ -86,7 +86,7 @@
     {
       "id": 6,
       "idMinorItemPlm": "0x65",
-      "name": "Missile Tank",
+      "name": "NOC Entrance Lobby South - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

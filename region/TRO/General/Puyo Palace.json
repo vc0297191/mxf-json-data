@@ -20,9 +20,9 @@
   "nodes": [
     {
       "id": 1,
-      "name": "Top-Left Door",
+      "name": "Top-Left Tunnel",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "passage",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -73,7 +73,7 @@
     {
       "id": 5,
       "idMinorItemPlm": "0x22",
-      "name": "Missile Tank",
+      "name": "Puyo Palace - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

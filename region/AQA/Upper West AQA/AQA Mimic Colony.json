@@ -34,7 +34,7 @@
     {
       "id": 2,
       "idMinorItemPlm": "0x43",
-      "name": "Hidden Missile Tank",
+      "name": "AQA Mimic Colony - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "Missile",

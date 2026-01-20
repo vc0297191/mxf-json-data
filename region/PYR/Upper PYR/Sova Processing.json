@@ -60,7 +60,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x33",
-      "name": "Missile Tank",
+      "name": "Sova Processing - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

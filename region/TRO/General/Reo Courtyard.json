@@ -60,7 +60,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x23",
-      "name": "Missile Tank",
+      "name": "Reo Courtyard - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

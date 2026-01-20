@@ -47,7 +47,7 @@
     {
       "id": 3,
       "idMinorItemPlm": "0x18",
-      "name": "Missile Tank",
+      "name": "Vacuum Verge - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

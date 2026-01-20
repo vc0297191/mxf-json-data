@@ -47,7 +47,7 @@
     {
       "id": 3,
       "idMinorItemPlm": "0x44",
-      "name": "Missile Tank",
+      "name": "Owtch Corridor - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

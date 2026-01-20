@@ -86,7 +86,7 @@
     {
       "id": 6,
       "idMinorItemPlm": "0x11",
-      "name": "Missile Tank",
+      "name": "SRX Entrance Lobby - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

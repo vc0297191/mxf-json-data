@@ -34,7 +34,7 @@
     {
       "id": 2,
       "idMinorItemPlm": "0x2B",
-      "name": "Hidden Energy Tank",
+      "name": "Overgrown Cache - Hidden Energy Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "ETank",

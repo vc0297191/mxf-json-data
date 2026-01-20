@@ -47,7 +47,7 @@
     {
       "id": 3,
       "idMinorItemPlm": "0x62",
-      "name": "Power Bomb Tank",
+      "name": "Ripper Tower - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "PowerBomb",
@@ -84,7 +84,7 @@
     {
       "id": 6,
       "idMinorItemPlm": "0x63",
-      "name": "Missile Tank",
+      "name": "Vault - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

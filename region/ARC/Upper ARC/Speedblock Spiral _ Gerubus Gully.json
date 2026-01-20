@@ -46,7 +46,7 @@
     },
     {
       "id": 3,
-      "name": "ARC Aux Power Cell",
+      "name": "Speedblock Spiral - ARC Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",
@@ -82,7 +82,7 @@
     {
       "id": 6,
       "idMinorItemPlm": "0x51",
-      "name": "Hidden Power Bomb Tank",
+      "name": "Gerubus Gully - Hidden Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "PowerBomb",

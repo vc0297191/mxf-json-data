@@ -60,7 +60,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x50",
-      "name": "Power Bomb Tank",
+      "name": "Weapons Testing Grounds - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "PowerBomb",

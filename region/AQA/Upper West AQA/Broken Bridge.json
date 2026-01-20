@@ -60,7 +60,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x45",
-      "name": "Energy Tank",
+      "name": "Broken Bridge - Energy Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "ETank",

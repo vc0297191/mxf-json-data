@@ -47,7 +47,7 @@
     {
       "id": 3,
       "idMinorItemPlm": "0x12",
-      "name": "Energy Tank",
+      "name": "Hornoad Hole - Energy Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "ETank",

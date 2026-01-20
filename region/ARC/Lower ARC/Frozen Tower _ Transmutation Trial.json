@@ -86,7 +86,7 @@
     {
       "id": 6,
       "idMinorItemPlm": "0x57",
-      "name": "Missile Tank",
+      "name": "Frozen Tower - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",
@@ -110,7 +110,7 @@
     {
       "id": 8,
       "idMinorItemPlm": "0x58",
-      "name": "Hidden Missile Tank",
+      "name": "Transmutation Trial - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "Missile",

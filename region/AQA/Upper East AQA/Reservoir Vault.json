@@ -60,7 +60,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x41",
-      "name": "Missile Tank",
+      "name": "Reservoir Vault - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

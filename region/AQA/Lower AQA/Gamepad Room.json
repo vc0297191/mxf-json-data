@@ -34,7 +34,7 @@
     {
       "id": 2,
       "idMinorItemPlm": "0x4A",
-      "name": "Hidden Missile Tank",
+      "name": "Gamepad Room - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "Missile",

@@ -60,26 +60,24 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x36",
-      "name": "Missile Tank",
+      "name": "Big Red Maintenance Storage [Top] - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",
       "nodeAddress": "0x7DA8E",
       "mapTileX": 34,
-      "mapTileY": 13,
-      "note": "Top"
+      "mapTileY": 13
     },
     {
       "id": 5,
       "idMinorItemPlm": "0x37",
-      "name": "Missile Tank",
+      "name": "Big Red Maintenance Storage [Bottom] - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",
       "nodeAddress": "0x7DA94",
       "mapTileX": 34,
-      "mapTileY": 14,
-      "note": "Bottom"
+      "mapTileY": 14
     }
   ],
   "enemies": [],

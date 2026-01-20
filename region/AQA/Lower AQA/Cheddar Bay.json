@@ -112,26 +112,24 @@
     {
       "id": 8,
       "idMinorItemPlm": "0x48",
-      "name": "Hidden Power Bomb Tank",
+      "name": "Cheddar Bay [Top-Left] - Hidden Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "PowerBomb",
       "nodeAddress": "0x7DD9E",
       "mapTileX": 26,
-      "mapTileY": 13,
-      "note": "Top-Left"
+      "mapTileY": 13
     },
     {
       "id": 9,
       "idMinorItemPlm": "0x49",
-      "name": "Power Bomb Tank",
+      "name": "Cheddar Bay [Bottom-Right] - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "PowerBomb",
       "nodeAddress": "0x7DDD6",
       "mapTileX": 30,
-      "mapTileY": 15,
-      "note": "Bottom-Right"
+      "mapTileY": 15
     }
   ],
   "enemies": [],

@@ -34,7 +34,7 @@
     {
       "id": 2,
       "idMinorItemPlm": "0x0A",
-      "name": "Hidden Missile Tank",
+      "name": "Docking Bay Supply Room - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "Missile",

@@ -73,7 +73,7 @@
     {
       "id": 5,
       "idMinorItemPlm": "0x0B",
-      "name": "Hidden Missile Tank",
+      "name": "Central Reactor Core - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "Missile",

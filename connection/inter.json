@@ -277,8 +277,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [ARC-TRO Access - Right Door] and [Puyo Palace - Top-Left Door]",
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [ARC-TRO Access - Right Tunnel] and [Puyo Palace - Top-Left Tunnel]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -287,7 +287,7 @@
           "roomid": 95,
           "roomName": "ARC-TRO Access",
           "nodeid": 2,
-          "nodeName": "Right Door",
+          "nodeName": "Right Tunnel",
           "position": "right"
         },
         {
@@ -296,7 +296,7 @@
           "roomid": 330,
           "roomName": "Puyo Palace",
           "nodeid": 1,
-          "nodeName": "Top-Left Door",
+          "nodeName": "Top-Left Tunnel",
           "position": "left"
         }
       ]

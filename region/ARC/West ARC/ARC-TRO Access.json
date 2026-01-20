@@ -33,9 +33,9 @@
     },
     {
       "id": 2,
-      "name": "Right Door",
+      "name": "Right Tunnel",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "passage",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [

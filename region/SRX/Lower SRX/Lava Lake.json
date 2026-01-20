@@ -60,7 +60,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x15",
-      "name": "Missile Tank",
+      "name": "Lava Lake - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

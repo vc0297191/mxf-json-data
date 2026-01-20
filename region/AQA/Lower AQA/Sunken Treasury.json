@@ -34,7 +34,7 @@
     {
       "id": 2,
       "idMinorItemPlm": "0x4D",
-      "name": "Energy Tank",
+      "name": "Sunken Treasury - Energy Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "ETank",

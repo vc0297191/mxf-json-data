@@ -86,26 +86,24 @@
     {
       "id": 6,
       "idMinorItemPlm": "0x30",
-      "name": "Power Bomb Tank",
+      "name": "Garbage Chute [Top] - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "PowerBomb",
       "nodeAddress": "0x7DA28",
       "mapTileX": 21,
-      "mapTileY": 10,
-      "note": "Top"
+      "mapTileY": 10
     },
     {
       "id": 7,
       "idMinorItemPlm": "0x31",
-      "name": "Hidden Missile Tank",
+      "name": "Garbage Chute [Middle] - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "Missile",
       "nodeAddress": "0x7DA2E",
       "mapTileX": 21,
-      "mapTileY": 12,
-      "note": "Middle"
+      "mapTileY": 12
     }
   ],
   "enemies": [],

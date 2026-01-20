@@ -60,7 +60,7 @@
     {
       "id": 5,
       "idMinorItemPlm": "0x26",
-      "name": "Power Bomb Tank",
+      "name": "Crumble City - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "PowerBomb",
@@ -71,7 +71,7 @@
     {
       "id": 4,
       "idMinorItemPlm": "0x25",
-      "name": "Missile Tank",
+      "name": "Crumble City - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

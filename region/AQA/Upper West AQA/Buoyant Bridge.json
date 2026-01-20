@@ -47,7 +47,7 @@
     {
       "id": 3,
       "idMinorItemPlm": "0x46",
-      "name": "Missile Tank",
+      "name": "Buoyant Bridge - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Missile",

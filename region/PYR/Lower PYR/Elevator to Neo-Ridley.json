@@ -47,7 +47,7 @@
     {
       "id": 3,
       "idMinorItemPlm": "0x3C",
-      "name": "Energy Tank",
+      "name": "Elevator to Neo-Ridley - Energy Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "ETank",

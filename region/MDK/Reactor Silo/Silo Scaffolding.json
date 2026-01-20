@@ -86,7 +86,7 @@
     {
       "id": 6,
       "idMinorItemPlm": "0x0C",
-      "name": "Power Bomb Tank",
+      "name": "Silo Scaffolding - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "PowerBomb",

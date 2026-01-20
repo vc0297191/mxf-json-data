@@ -47,7 +47,7 @@
     {
       "id": 3,
       "idMinorItemPlm": "0x10",
-      "name": "Hidden Missile Tank",
+      "name": "Moto Towerway - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "nodeItem": "Missile",

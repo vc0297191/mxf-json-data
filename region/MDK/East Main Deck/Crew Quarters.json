@@ -99,7 +99,7 @@
     {
       "id": 7,
       "idMinorItemPlm": "0x09",
-      "name": "Power Bomb Tank",
+      "name": "Crew Quarters - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "PowerBomb",
