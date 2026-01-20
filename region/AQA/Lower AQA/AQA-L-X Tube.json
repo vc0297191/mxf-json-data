@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 10,
+  "id": 9,
   "name": "AQA-L-X Tube",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 142,
-      "name": "West Door",
+      "id": 1,
+      "name": "Left-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 143,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -46,7 +46,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 309,
+  "id": 300,
   "name": "West Spike Tower",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 895,
-      "name": "North-East Door",
+      "id": 1,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 896,
-      "name": "West-Upper Door",
+      "id": 2,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 897,
-      "name": "West Door",
+      "id": 3,
+      "name": "Left-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "id": 898,
-      "name": "East-Upper Door",
+      "id": 4,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "id": 899,
-      "name": "East Door",
+      "id": 5,
+      "name": "Right-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -84,8 +84,8 @@
       ]
     },
     {
-      "id": 900,
-      "name": "South Door",
+      "id": 6,
+      "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -98,7 +98,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

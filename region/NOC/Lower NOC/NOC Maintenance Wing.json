@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 204,
+  "id": 196,
   "name": "NOC Maintenance Wing",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 653,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 654,
-      "name": "West-Upper Door",
+      "id": 2,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 655,
-      "name": "South-West Morph Ball Hole",
+      "id": 3,
+      "name": "Bottom-Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -59,7 +59,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

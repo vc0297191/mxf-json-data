@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 323,
+  "id": 312,
   "name": "SRX Navigation Room",
   "area": "SRX",
   "subarea": "Upper SRX",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 932,
-      "name": "North Door",
+      "id": 3,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 933,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 934,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -59,7 +59,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

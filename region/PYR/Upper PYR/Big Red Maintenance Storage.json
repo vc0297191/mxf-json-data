@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 277,
+  "id": 268,
   "name": "Big Red Maintenance Storage",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -19,32 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 80,
-      "idMinorItemPlm": "0x36",
-      "name": "Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7DA8E",
-      "mapTileX": 34,
-      "mapTileY": 13,
-      "note": "Top"
-    },
-    {
-      "id": 81,
-      "idMinorItemPlm": "0x37",
-      "name": "Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7DA94",
-      "mapTileX": 34,
-      "mapTileY": 14,
-      "note": "Bottom"
-    },
-    {
-      "id": 814,
-      "name": "North-East Morph Ball Hole",
+      "id": 1,
+      "name": "Top-Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -56,8 +32,8 @@
       ]
     },
     {
-      "id": 815,
-      "name": "West-Upper Door",
+      "id": 2,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -69,8 +45,8 @@
       ]
     },
     {
-      "id": 816,
-      "name": "South-East Door",
+      "id": 3,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -80,10 +56,33 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "idMinorItemPlm": "0x36",
+      "name": "Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7DA8E",
+      "mapTileX": 34,
+      "mapTileY": 13,
+      "note": "Top"
+    },
+    {
+      "id": 5,
+      "idMinorItemPlm": "0x37",
+      "name": "Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7DA94",
+      "mapTileX": 34,
+      "mapTileY": 14,
+      "note": "Bottom"
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

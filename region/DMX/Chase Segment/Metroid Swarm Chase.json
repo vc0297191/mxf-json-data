@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 114,
+  "id": 109,
   "name": "Metroid Swarm Chase",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 417,
-      "name": "North Door",
+      "id": 1,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 418,
-      "name": "South-West Door",
+      "id": 2,
+      "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -46,7 +46,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

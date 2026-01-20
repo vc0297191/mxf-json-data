@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 100,
+  "id": 95,
   "name": "ARC-TRO Access",
   "area": "ARC",
   "subarea": "West ARC",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 384,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 385,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -46,7 +46,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

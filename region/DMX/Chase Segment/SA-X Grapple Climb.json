@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 115,
+  "id": 110,
   "name": "SA-X Grapple Climb",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 419,
-      "name": "North-East Door",
+      "id": 1,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 420,
-      "name": "South-East Door",
+      "id": 2,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -46,7 +46,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

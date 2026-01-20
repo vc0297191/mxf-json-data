@@ -2,626 +2,626 @@
   "$schema": "../schema/mxf-connection.schema.json",
   "connections": [
     {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between AQA-L-X Tube and TRO-L-X Tube",
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [AQA-L-X Tube - Left-Lower Door] and [TRO-L-X Tube - Right-Lower Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Lower AQA",
+          "roomid": 9,
+          "roomName": "AQA-L-X Tube",
+          "nodeid": 1,
+          "nodeName": "Left-Lower Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 345,
+          "roomName": "TRO-L-X Tube",
+          "nodeid": 3,
+          "nodeName": "Right-Lower Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between [AQA-MDK Elevator - Top Door] and [MDK-AQA Elevator - Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Lower AQA",
           "roomid": 10,
-          "roomName": "AQA-L-X Tube",
-          "nodeid": 142,
-          "nodeName": "West Door",
-          "position": "left"
-        },
-        {
-          "area": "TRO",
-          "subarea": "General",
-          "roomid": 356,
-          "roomName": "TRO-L-X Tube",
-          "nodeid": 1027,
-          "nodeName": "East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "Elevator",
-      "description": "Elevator connection between AQA-MDK Elevator and MDK-AQA Elevator",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "AQA",
-          "subarea": "Lower AQA",
-          "roomid": 11,
           "roomName": "AQA-MDK Elevator",
-          "nodeid": 144,
-          "nodeName": "North Door",
+          "nodeid": 2,
+          "nodeName": "Top Door",
           "position": "top"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 185,
+          "roomid": 177,
           "roomName": "MDK-AQA Elevator",
-          "nodeid": 602,
-          "nodeName": "South Door",
+          "nodeid": 3,
+          "nodeName": "Bottom Door",
           "position": "bottom"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between East Tunnel and ARC-AQA Elevator",
+      "description": "Horizontal Door connection between [West Tunnel - Left Door] and [ARC-AQA Access - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Lower AQA",
-          "roomid": 17,
-          "roomName": "East Tunnel",
-          "nodeid": 170,
-          "nodeName": "East-Upper Door",
-          "position": "right"
+          "roomid": 24,
+          "roomName": "West Tunnel / East Tunnel",
+          "nodeid": 1,
+          "nodeName": "West Tunnel - Left Door",
+          "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 69,
-          "roomName": "ARC-AQA Elevator",
-          "nodeid": 306,
-          "nodeName": "West-Upper Door",
-          "position": "left"
+          "roomid": 64,
+          "roomName": "ARC-AQA Access",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between West Tunnel and ARC-AQA Access",
+      "description": "Horizontal Door connection between [East Tunnel - Right Door] and [ARC-AQA Elevator - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Lower AQA",
-          "roomid": 26,
-          "roomName": "West Tunnel",
-          "nodeid": 192,
-          "nodeName": "West-Upper Door",
-          "position": "left"
+          "roomid": 24,
+          "roomName": "West Tunnel / East Tunnel",
+          "nodeid": 4,
+          "nodeName": "East Tunnel - Right Door",
+          "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 68,
-          "roomName": "ARC-AQA Access",
-          "nodeid": 303,
-          "nodeName": "East-Upper Door",
-          "position": "right"
+          "roomid": 65,
+          "roomName": "ARC-AQA Elevator",
+          "nodeid": 2,
+          "nodeName": "Left Door",
+          "position": "left"
         }
       ]
     },
     {
       "connectionType": "Elevator",
-      "description": "Elevator connection between AQA-ARC Elevator and ARC-AQA Elevator",
+      "description": "Elevator connection between [AQA-ARC Elevator - Top Door] and [ARC-AQA Elevator - Bottom Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 31,
+          "roomName": "AQA-ARC Elevator",
+          "nodeid": 3,
+          "nodeName": "Top Door",
+          "position": "top"
+        },
+        {
+          "area": "ARC",
+          "subarea": "AQA Access",
+          "roomid": 65,
+          "roomName": "ARC-AQA Elevator",
+          "nodeid": 4,
+          "nodeName": "Bottom Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [AQA-NOC Tube - Right Door] and [NOC-AQA Tube - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 33,
-          "roomName": "AQA-ARC Elevator",
-          "nodeid": 210,
-          "nodeName": "North Door",
-          "position": "top"
-        },
-        {
-          "area": "ARC",
-          "subarea": "AQA Access",
-          "roomid": 69,
-          "roomName": "ARC-AQA Elevator",
-          "nodeid": 308,
-          "nodeName": "South Door",
-          "position": "bottom"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between AQA-NOC Tube and NOC-AQA Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 35,
           "roomName": "AQA-NOC Tube",
-          "nodeid": 217,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Lower NOC",
-          "roomid": 209,
+          "roomid": 201,
           "roomName": "NOC-AQA Tube",
-          "nodeid": 660,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between AQA-PYR Tube and PYR-AQA Tube",
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [AQA-PYR Tube - Left Door] and [PYR-AQA Tube - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper West AQA",
-          "roomid": 49,
+          "roomid": 47,
           "roomName": "AQA-PYR Tube",
-          "nodeid": 250,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
         {
           "area": "PYR",
           "subarea": "Neo-Crocomire\u0027s Lair",
-          "roomid": 273,
+          "roomid": 264,
           "roomName": "PYR-AQA Tube",
-          "nodeid": 807,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between ARC-NOC Tube and NOC-ARC Tube",
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [ARC-NOC Tube - Right Door] and [NOC-ARC Tube - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 85,
+          "roomid": 80,
           "roomName": "ARC-NOC Tube",
-          "nodeid": 348,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "NOC",
           "subarea": "Lower NOC",
-          "roomid": 210,
+          "roomid": 202,
           "roomName": "NOC-ARC Tube",
-          "nodeid": 662,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between ARC-PYR Tube and PYR-ARC Tube",
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [ARC-PYR Tube - Left Door] and [PYR-ARC Tube - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 87,
+          "roomid": 82,
           "roomName": "ARC-PYR Tube",
-          "nodeid": 352,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
-        {
-          "area": "PYR",
-          "subarea": "Upper PYR",
-          "roomid": 289,
-          "roomName": "PYR-ARC Tube",
-          "nodeid": 847,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between ARC-SRX Tube and SRX-ARC Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 88,
-          "roomName": "ARC-SRX Tube",
-          "nodeid": 355,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 303,
-          "roomName": "SRX-ARC Tube",
-          "nodeid": 882,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between ARC-MDK Tube and MDK-ARC Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "West ARC",
-          "roomid": 99,
-          "roomName": "ARC-MDK Tube",
-          "nodeid": 382,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "MDK",
-          "subarea": "Reactor Silo",
-          "roomid": 164,
-          "roomName": "MDK-ARC Tube",
-          "nodeid": 544,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC-TRO Access and Puyo Palace",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "West ARC",
-          "roomid": 100,
-          "roomName": "ARC-TRO Access",
-          "nodeid": 385,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "TRO",
-          "subarea": "General",
-          "roomid": 342,
-          "roomName": "Puyo Palace",
-          "nodeid": 996,
-          "nodeName": "North-West Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between DMX Entrance and DMX Security Gate",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "DMX",
-          "subarea": "Opening Segment",
-          "roomid": 125,
-          "roomName": "DMX Entrance",
-          "nodeid": 444,
-          "nodeName": "South Door",
-          "position": "bottom"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 179,
-          "roomName": "DMX Security Gate",
-          "nodeid": 589,
-          "nodeName": "North Door",
-          "position": "top"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between L-X-TRO Tube and TRO-L-X Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "L-X",
-          "subarea": "General",
-          "roomid": 135,
-          "roomName": "L-X-TRO Tube",
-          "nodeid": 471,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "TRO",
-          "subarea": "General",
-          "roomid": 356,
-          "roomName": "TRO-L-X Tube",
-          "nodeid": 1026,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between Sector 0 Hard Exit Tube and Just Don\u0027t Die Bend",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "L-X",
-          "subarea": "General",
-          "roomid": 146,
-          "roomName": "Sector 0 Hard Exit Tube",
-          "nodeid": 496,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 314,
-          "roomName": "Just Don\u0027t Die Bend",
-          "nodeid": 912,
-          "nodeName": "South-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between Sector 0 Normal Exit Tube and L-X-SRX Normal Exit Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "L-X",
-          "subarea": "General",
-          "roomid": 147,
-          "roomName": "Sector 0 Normal Exit Tube",
-          "nodeid": 499,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 315,
-          "roomName": "L-X-SRX Normal Exit Tube",
-          "nodeid": 913,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between MDK-NOC Tube and NOC-MDK Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "East Main Deck",
-          "roomid": 158,
-          "roomName": "MDK-NOC Tube",
-          "nodeid": 526,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "NOC",
-          "subarea": "Lower NOC",
-          "roomid": 211,
-          "roomName": "NOC-MDK Tube",
-          "nodeid": 664,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between MDK-SRX Tube and SRX-MDK Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "East Main Deck",
-          "roomid": 159,
-          "roomName": "MDK-SRX Tube",
-          "nodeid": 528,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 326,
-          "roomName": "SRX-MDK Tube",
-          "nodeid": 937,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalMorphBallHole",
-      "description": "Horizontal Morph Ball Hole connection between Silo Tunnel and Overgrown Entrance",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "Reactor Silo",
-          "roomid": 167,
-          "roomName": "Silo Tunnel",
-          "nodeid": 554,
-          "nodeName": "West-Upper Morph Ball Hole",
-          "position": "left"
-        },
-        {
-          "area": "TRO",
-          "subarea": "Nettori\u0027s Area",
-          "roomid": 365,
-          "roomName": "Overgrown Entrance",
-          "nodeid": 1047,
-          "nodeName": "North-East Morph Ball Hole",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between MDK-PYR Tube and PYR-MDK Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "Upper Main Deck",
-          "roomid": 174,
-          "roomName": "MDK-PYR Tube",
-          "nodeid": 571,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "PYR",
-          "subarea": "Neo-Crocomire\u0027s Lair",
-          "roomid": 275,
-          "roomName": "PYR-MDK Tube",
-          "nodeid": 811,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between MDK-TRO Tube and TRO-MDK Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 187,
-          "roomName": "MDK-TRO Tube",
-          "nodeid": 605,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "TRO",
-          "subarea": "General",
-          "roomid": 357,
-          "roomName": "TRO-MDK Tube",
-          "nodeid": 1029,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between L-X-NOC Tube and L-X-SRX Normal Exit Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "NOC",
-          "subarea": "Upper NOC",
-          "roomid": 225,
-          "roomName": "L-X-NOC Tube",
-          "nodeid": 702,
-          "nodeName": "East Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 315,
-          "roomName": "L-X-SRX Normal Exit Tube",
-          "nodeid": 914,
-          "nodeName": "West Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "Elevator",
-      "description": "Elevator connection between NOC-SRX Elevator and SRX-NOC Elevator",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "NOC",
-          "subarea": "Upper NOC",
-          "roomid": 236,
-          "roomName": "NOC-SRX Elevator",
-          "nodeid": 728,
-          "nodeName": "North Door",
-          "position": "top"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 305,
-          "roomName": "SRX-NOC Elevator",
-          "nodeid": 887,
-          "nodeName": "South Door",
-          "position": "bottom"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Chute Pit and Cruciform Hall",
-      "direction": "Bidirectional",
-      "nodes": [
         {
           "area": "PYR",
           "subarea": "Upper PYR",
           "roomid": 280,
-          "roomName": "Chute Pit",
-          "nodeid": 828,
-          "nodeName": "South-West Door",
-          "position": "left"
+          "roomName": "PYR-ARC Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [ARC-SRX Tube - Right Door] and [SRX-ARC Tube - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 83,
+          "roomName": "ARC-SRX Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
           "roomid": 294,
+          "roomName": "SRX-ARC Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [ARC-MDK Tube - Left Door] and [MDK-ARC Tube - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 94,
+          "roomName": "ARC-MDK Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 158,
+          "roomName": "MDK-ARC Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [ARC-TRO Access - Right Door] and [Puyo Palace - Top-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 95,
+          "roomName": "ARC-TRO Access",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 330,
+          "roomName": "Puyo Palace",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [DMX Entrance - Bottom Door] and [DMX Security Gate - Top Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 120,
+          "roomName": "DMX Entrance",
+          "nodeid": 3,
+          "nodeName": "Bottom Door",
+          "position": "bottom"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 171,
+          "roomName": "DMX Security Gate",
+          "nodeid": 2,
+          "nodeName": "Top Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [L-X-TRO Tube - Left Door] and [TRO-L-X Tube - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 130,
+          "roomName": "L-X-TRO Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 345,
+          "roomName": "TRO-L-X Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [Sector 0 Hard Exit Tube - Left Door] and [Just Don\u0027t Die Bend - Bottom-Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 140,
+          "roomName": "Sector 0 Hard Exit Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 304,
+          "roomName": "Just Don\u0027t Die Bend",
+          "nodeid": 2,
+          "nodeName": "Bottom-Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [Sector 0 Normal Exit Tube - Right Door] and [L-X-SRX Normal Exit Tube - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "L-X",
+          "subarea": "General",
+          "roomid": 141,
+          "roomName": "Sector 0 Normal Exit Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 305,
+          "roomName": "L-X-SRX Normal Exit Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [MDK-NOC Tube - Right Door] and [NOC-MDK Tube - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "East Main Deck",
+          "roomid": 152,
+          "roomName": "MDK-NOC Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Lower NOC",
+          "roomid": 203,
+          "roomName": "NOC-MDK Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [MDK-SRX Tube - Right Door] and [SRX-MDK Tube - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "East Main Deck",
+          "roomid": 153,
+          "roomName": "MDK-SRX Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 315,
+          "roomName": "SRX-MDK Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [Silo Tunnel - Left Tunnel] and [Overgrown Entrance - Top-Right Tunnel]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Reactor Silo",
+          "roomid": 161,
+          "roomName": "Silo Tunnel",
+          "nodeid": 1,
+          "nodeName": "Left Tunnel",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "Nettori\u0027s Area",
+          "roomid": 354,
+          "roomName": "Overgrown Entrance",
+          "nodeid": 2,
+          "nodeName": "Top-Right Tunnel",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [MDK-PYR Tube - Left Door] and [PYR-MDK Tube - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "Upper Main Deck",
+          "roomid": 168,
+          "roomName": "MDK-PYR Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Neo-Crocomire\u0027s Lair",
+          "roomid": 266,
+          "roomName": "PYR-MDK Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [MDK-TRO Tube - Left Door] and [TRO-MDK Tube - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 179,
+          "roomName": "MDK-TRO Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "TRO",
+          "subarea": "General",
+          "roomid": 346,
+          "roomName": "TRO-MDK Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "ConnectionBridge",
+      "description": "Connection Bridge connection between [L-X-NOC Tube - Right-Lower Door] and [L-X-SRX Normal Exit Tube - Left-Lower Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 216,
+          "roomName": "L-X-NOC Tube",
+          "nodeid": 2,
+          "nodeName": "Right-Lower Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 305,
+          "roomName": "L-X-SRX Normal Exit Tube",
+          "nodeid": 2,
+          "nodeName": "Left-Lower Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "Elevator",
+      "description": "Elevator connection between [NOC-SRX Elevator - Top Door] and [SRX-NOC Elevator - Bottom Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 227,
+          "roomName": "NOC-SRX Elevator",
+          "nodeid": 2,
+          "nodeName": "Top Door",
+          "position": "top"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 296,
+          "roomName": "SRX-NOC Elevator",
+          "nodeid": 2,
+          "nodeName": "Bottom Door",
+          "position": "bottom"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [Chute Pit - Bottom-Left Tunnel] and [Cruciform Hall - Bottom-Right Tunnel]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 271,
+          "roomName": "Chute Pit",
+          "nodeid": 1,
+          "nodeName": "Bottom-Left Tunnel",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 285,
           "roomName": "Cruciform Hall",
-          "nodeid": 868,
-          "nodeName": "South-East Door",
+          "nodeid": 5,
+          "nodeName": "Bottom-Right Tunnel",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "Elevator",
-      "description": "Elevator connection between PYR-TRO Elevator / PYR Entrance Lobby and TRO-PYR Elevator",
+      "description": "Elevator connection between [PYR-TRO Elevator / PYR Entrance Lobby - Top Door] and [TRO-PYR Elevator - Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "PYR",
           "subarea": "Upper PYR",
-          "roomid": 290,
+          "roomid": 281,
           "roomName": "PYR-TRO Elevator / PYR Entrance Lobby",
-          "nodeid": 849,
-          "nodeName": "North Door",
+          "nodeid": 7,
+          "nodeName": "Top Door",
           "position": "top"
         },
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 359,
+          "roomid": 348,
           "roomName": "TRO-PYR Elevator",
-          "nodeid": 1033,
-          "nodeName": "South Door",
+          "nodeid": 2,
+          "nodeName": "Bottom Door",
           "position": "bottom"
         }
       ]

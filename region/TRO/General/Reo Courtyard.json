@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 343,
+  "id": 331,
   "name": "Reo Courtyard",
   "area": "TRO",
   "subarea": "General",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 113,
-      "idMinorItemPlm": "0x23",
-      "name": "Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7D7CC",
-      "mapTileX": 22,
-      "mapTileY": 13
-    },
-    {
-      "id": 1000,
-      "name": "North-East Door",
+      "id": 1,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -43,8 +32,8 @@
       ]
     },
     {
-      "id": 1001,
-      "name": "South-West Door",
+      "id": 2,
+      "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -56,8 +45,8 @@
       ]
     },
     {
-      "id": 1002,
-      "name": "West-South Door",
+      "id": 3,
+      "name": "Left-Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -67,10 +56,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "idMinorItemPlm": "0x23",
+      "name": "Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7D7CC",
+      "mapTileX": 22,
+      "mapTileY": 13
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

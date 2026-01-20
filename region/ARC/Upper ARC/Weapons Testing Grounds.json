@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 93,
+  "id": 88,
   "name": "Weapons Testing Grounds",
   "area": "ARC",
   "subarea": "Upper ARC",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 35,
-      "idMinorItemPlm": "0x50",
-      "name": "Power Bomb Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7DF12",
-      "mapTileX": 30,
-      "mapTileY": 8
-    },
-    {
-      "id": 368,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -43,8 +32,8 @@
       ]
     },
     {
-      "id": 369,
-      "name": "South Door",
+      "id": 3,
+      "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -56,8 +45,8 @@
       ]
     },
     {
-      "id": 370,
-      "name": "South-East Door",
+      "id": 2,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -67,10 +56,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "idMinorItemPlm": "0x50",
+      "name": "Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7DF12",
+      "mapTileX": 30,
+      "mapTileY": 8
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

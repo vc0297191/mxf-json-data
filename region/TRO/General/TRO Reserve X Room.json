@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 351,
+  "id": 339,
   "name": "TRO Reserve X Room",
   "area": "TRO",
   "subarea": "General",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 116,
-      "name": "TRO Reserve X",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 1018,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -39,10 +30,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "TRO Reserve X",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

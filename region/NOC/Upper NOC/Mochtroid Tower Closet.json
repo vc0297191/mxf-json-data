@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 226,
+  "id": 217,
   "name": "Mochtroid Tower Closet",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 64,
-      "idMinorItemPlm": "0x60",
-      "name": "Hidden Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "hidden",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7E170",
-      "mapTileX": 33,
-      "mapTileY": 5
-    },
-    {
-      "id": 703,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,10 +30,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "idMinorItemPlm": "0x60",
+      "name": "Hidden Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "hidden",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7E170",
+      "mapTileX": 33,
+      "mapTileY": 5
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

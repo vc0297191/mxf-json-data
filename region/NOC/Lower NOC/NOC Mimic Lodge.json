@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 205,
+  "id": 197,
   "name": "NOC Mimic Lodge",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 59,
-      "idMinorItemPlm": "0x66",
-      "name": "Energy Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "ETank",
-      "nodeAddress": "0x7E1FE",
-      "mapTileX": 36,
-      "mapTileY": 17
-    },
-    {
-      "id": 656,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,10 +30,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "idMinorItemPlm": "0x66",
+      "name": "Energy Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "ETank",
+      "nodeAddress": "0x7E1FE",
+      "mapTileX": 36,
+      "mapTileY": 17
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

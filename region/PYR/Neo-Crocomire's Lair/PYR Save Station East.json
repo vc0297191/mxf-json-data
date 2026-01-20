@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 272,
+  "id": 263,
   "name": "PYR Save Station East",
   "area": "PYR",
   "subarea": "Neo-Crocomire\u0027s Lair",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 805,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -33,7 +33,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 370,
+  "id": 359,
   "name": "Thornvault",
   "area": "TRO",
   "subarea": "Nettori\u0027s Area",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 120,
-      "idMinorItemPlm": "0x2D",
-      "name": "Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7D92E",
-      "mapTileX": 37,
-      "mapTileY": 13
-    },
-    {
-      "id": 1061,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -43,8 +32,21 @@
       ]
     },
     {
-      "id": 1062,
-      "name": "South Door",
+      "id": 2,
+      "name": "Left-Lower Tunnel",
+      "nodeType": "door",
+      "nodeSubType": "passage",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -54,10 +56,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "idMinorItemPlm": "0x2D",
+      "name": "Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7D92E",
+      "mapTileX": 37,
+      "mapTileY": 13
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

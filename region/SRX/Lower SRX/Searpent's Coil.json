@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 298,
+  "id": 289,
   "name": "Searpent\u0027s Coil",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 90,
-      "idMinorItemPlm": "0x17",
-      "name": "Energy Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "ETank",
-      "nodeAddress": "0x7D71E",
-      "mapTileX": 28,
-      "mapTileY": 18
-    },
-    {
-      "id": 877,
-      "name": "South-East Door",
+      "id": 1,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,10 +30,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "idMinorItemPlm": "0x17",
+      "name": "Energy Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "ETank",
+      "nodeAddress": "0x7D71E",
+      "mapTileX": 28,
+      "mapTileY": 18
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 254,
+  "id": 245,
   "name": "PYR Etecoon Room",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 72,
-      "name": "PYR Etecoon",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 764,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -39,10 +30,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "PYR Etecoon",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 72,
+  "id": 68,
   "name": "ARC Reserve X Room",
   "area": "ARC",
   "subarea": "Lower ARC",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 23,
-      "name": "ARC Reserve X",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 313,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -39,10 +30,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "ARC Reserve X",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

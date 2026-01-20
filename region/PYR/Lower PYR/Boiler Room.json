@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 242,
+  "id": 233,
   "name": "Boiler Room",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 69,
-      "name": "PYR Reserve X",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 740,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -39,10 +30,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "PYR Reserve X",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

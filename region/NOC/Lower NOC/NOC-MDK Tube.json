@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 211,
+  "id": 203,
   "name": "NOC-MDK Tube",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 664,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 665,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -46,7 +46,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

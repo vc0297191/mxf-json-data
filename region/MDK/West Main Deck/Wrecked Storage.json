@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 190,
+  "id": 182,
   "name": "Wrecked Storage",
   "area": "MDK",
   "subarea": "West Main Deck",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 53,
-      "idMinorItemPlm": "0x05",
-      "name": "Hidden Power Bomb Tank",
-      "nodeType": "item",
-      "nodeSubType": "hidden",
-      "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7D406",
-      "mapTileX": 31,
-      "mapTileY": 17
-    },
-    {
-      "id": 613,
-      "name": "North Door",
+      "id": 2,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -43,8 +32,8 @@
       ]
     },
     {
-      "id": 614,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -54,10 +43,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 3,
+      "idMinorItemPlm": "0x05",
+      "name": "Hidden Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "hidden",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7D406",
+      "mapTileX": 31,
+      "mapTileY": 17
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 166,
+  "id": 160,
   "name": "Silo Scaffolding",
   "area": "MDK",
   "subarea": "Reactor Silo",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 46,
-      "idMinorItemPlm": "0x0C",
-      "name": "Power Bomb Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7D492",
-      "mapTileX": 36,
-      "mapTileY": 19
-    },
-    {
-      "id": 549,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -43,8 +32,8 @@
       ]
     },
     {
-      "id": 550,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -56,8 +45,8 @@
       ]
     },
     {
-      "id": 551,
-      "name": "South-West Door",
+      "id": 3,
+      "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -69,8 +58,8 @@
       ]
     },
     {
-      "id": 552,
-      "name": "South Door",
+      "id": 4,
+      "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -82,8 +71,8 @@
       ]
     },
     {
-      "id": 553,
-      "name": "East-South Door",
+      "id": 5,
+      "name": "Right-Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -93,10 +82,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 6,
+      "idMinorItemPlm": "0x0C",
+      "name": "Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7D492",
+      "mapTileX": 36,
+      "mapTileY": 19
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

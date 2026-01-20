@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 32,
+  "id": 30,
   "name": "AQA-ARC Elevator Access",
   "area": "AQA",
   "subarea": "Upper East AQA",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 206,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 207,
-      "name": "West-Upper Morph Ball Hole",
+      "id": 2,
+      "name": "Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 208,
-      "name": "South-West Door",
+      "id": 3,
+      "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "id": 209,
-      "name": "South Door",
+      "id": 4,
+      "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -72,7 +72,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

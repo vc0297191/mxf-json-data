@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 129,
+  "id": 124,
   "name": "Metroid Nest",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 454,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 455,
-      "name": "South-West Morph Ball Hole",
+      "id": 2,
+      "name": "Bottom-Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 456,
-      "name": "South-East Morph Ball Hole",
+      "id": 3,
+      "name": "Bottom-Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -59,7 +59,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

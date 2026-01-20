@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 130,
+  "id": 125,
   "name": "Metroid Room 1",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 457,
-      "name": "West-North Door",
+      "id": 2,
+      "name": "Left-Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 458,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -46,7 +46,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

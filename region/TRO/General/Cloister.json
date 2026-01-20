@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 330,
+  "id": 319,
   "name": "Cloister",
   "area": "TRO",
   "subarea": "General",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 950,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 951,
-      "name": "North-East Door",
+      "id": 2,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 952,
-      "name": "West-Upper Door",
+      "id": 3,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "id": 953,
-      "name": "East-Upper Door",
+      "id": 4,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "id": 954,
-      "name": "South-West Morph Ball Hole",
+      "id": 5,
+      "name": "Bottom-Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -84,8 +84,8 @@
       ]
     },
     {
-      "id": 955,
-      "name": "South-East Door",
+      "id": 6,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -98,7 +98,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

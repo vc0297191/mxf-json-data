@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 44,
+  "id": 42,
   "name": "AQA Mimic Colony",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 15,
-      "idMinorItemPlm": "0x43",
-      "name": "Hidden Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "hidden",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7DD0E",
-      "mapTileX": 28,
-      "mapTileY": 9
-    },
-    {
-      "id": 239,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,10 +30,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "idMinorItemPlm": "0x43",
+      "name": "Hidden Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "hidden",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7DD0E",
+      "mapTileX": 28,
+      "mapTileY": 9
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

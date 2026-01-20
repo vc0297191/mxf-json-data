@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 333,
+  "id": 322,
   "name": "Crumble Crossing",
   "area": "TRO",
   "subarea": "General",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 106,
-      "idMinorItemPlm": "0x21",
-      "name": "Power Bomb Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7D992",
-      "mapTileX": 27,
-      "mapTileY": 13
-    },
-    {
-      "id": 963,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -43,8 +32,8 @@
       ]
     },
     {
-      "id": 964,
-      "name": "North-East Door",
+      "id": 2,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -56,8 +45,8 @@
       ]
     },
     {
-      "id": 965,
-      "name": "East-South Door",
+      "id": 3,
+      "name": "Right-Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -67,10 +56,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "idMinorItemPlm": "0x21",
+      "name": "Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7D992",
+      "mapTileX": 27,
+      "mapTileY": 13
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

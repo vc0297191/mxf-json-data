@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 366,
+  "id": 355,
   "name": "Overgrown Pipeway",
   "area": "TRO",
   "subarea": "Nettori\u0027s Area",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 1049,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 1050,
-      "name": "North-East Door",
+      "id": 2,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 1051,
-      "name": "East Morph Ball Hole",
+      "id": 3,
+      "name": "Right-Lower Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -59,7 +59,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

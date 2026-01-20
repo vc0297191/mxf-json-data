@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 127,
+  "id": 122,
   "name": "DMX Hub",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 447,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 448,
-      "name": "West-Upper Door",
+      "id": 2,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 449,
-      "name": "East-Upper Door",
+      "id": 3,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "id": 450,
-      "name": "East Door",
+      "id": 4,
+      "name": "Right-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "id": 451,
-      "name": "South-East Door",
+      "id": 5,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -85,7 +85,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

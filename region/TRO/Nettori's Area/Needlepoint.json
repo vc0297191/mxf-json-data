@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 361,
+  "id": 350,
   "name": "Needlepoint",
   "area": "TRO",
   "subarea": "Nettori\u0027s Area",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 118,
-      "idMinorItemPlm": "0x2E",
-      "name": "Hidden Power Bomb Tank",
-      "nodeType": "item",
-      "nodeSubType": "hidden",
-      "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7D97A",
-      "mapTileX": 33,
-      "mapTileY": 14
-    },
-    {
-      "id": 1036,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,10 +30,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "idMinorItemPlm": "0x2E",
+      "name": "Hidden Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "hidden",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7D97A",
+      "mapTileX": 33,
+      "mapTileY": 14
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

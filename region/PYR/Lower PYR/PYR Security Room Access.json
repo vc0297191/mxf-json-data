@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 257,
+  "id": 248,
   "name": "PYR Security Room Access",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 73,
-      "idMinorItemPlm": "0x3D",
-      "name": "Power Bomb Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7DC68",
-      "mapTileX": 37,
-      "mapTileY": 18
-    },
-    {
-      "id": 769,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -43,8 +32,8 @@
       ]
     },
     {
-      "id": 770,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -54,10 +43,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 3,
+      "idMinorItemPlm": "0x3D",
+      "name": "Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7DC68",
+      "mapTileX": 37,
+      "mapTileY": 18
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

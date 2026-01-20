@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 18,
+  "id": 16,
   "name": "Gamepad Room",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 5,
-      "idMinorItemPlm": "0x4A",
-      "name": "Hidden Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "hidden",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7DDF4",
-      "mapTileX": 26,
-      "mapTileY": 16
-    },
-    {
-      "id": 171,
-      "name": "West-Upper Morph Ball Hole",
+      "id": 1,
+      "name": "Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -41,10 +30,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "idMinorItemPlm": "0x4A",
+      "name": "Hidden Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "hidden",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7DDF4",
+      "mapTileX": 26,
+      "mapTileY": 16
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -3,425 +3,425 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Central Nexus and MDK-TRO Access",
+      "description": "Horizontal Door connection between [Central Nexus - Top-Left Door] and [MDK-TRO Access - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 175,
-          "roomName": "Central Nexus",
-          "nodeid": 573,
-          "nodeName": "North-West Door",
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 1,
+          "nodeName": "Central Nexus - Top-Left Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 186,
+          "roomid": 178,
           "roomName": "MDK-TRO Access",
-          "nodeid": 604,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Central Nexus and Elevator to Habitation Deck",
+      "description": "Horizontal Door connection between [Central Nexus - Top-Right Door] and [Elevator to Habitation Deck - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 175,
-          "roomName": "Central Nexus",
-          "nodeid": 574,
-          "nodeName": "North-East Door",
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 2,
+          "nodeName": "Central Nexus - Top-Right Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 172,
+          "roomName": "Elevator to Habitation Deck",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Central Nexus - Right Door] and [Nexus Storage - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 3,
+          "nodeName": "Central Nexus - Right Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 6,
+          "nodeName": "Nexus Storage - Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Central Nexus - Bottom-Left Door] and [MDK Save Station West - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 4,
+          "nodeName": "Central Nexus - Bottom-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 174,
+          "roomName": "MDK Save Station West",
+          "nodeid": 1,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Central Nexus - Bottom-Right Door] and [Nexus Crossing - Top-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 5,
+          "nodeName": "Central Nexus - Bottom-Right Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
           "roomid": 180,
-          "roomName": "Elevator to Habitation Deck",
-          "nodeid": 592,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Central Nexus and Cubby Storage",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 175,
-          "roomName": "Central Nexus",
-          "nodeid": 575,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 178,
-          "roomName": "Cubby Storage",
-          "nodeid": 587,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Central Nexus and MDK Save Station West",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 175,
-          "roomName": "Central Nexus",
-          "nodeid": 576,
-          "nodeName": "South-West Door",
-          "position": "left"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 182,
-          "roomName": "MDK Save Station West",
-          "nodeid": 596,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Central Nexus and Nexus Crossing",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 175,
-          "roomName": "Central Nexus",
-          "nodeid": 577,
-          "nodeName": "South-East Door",
-          "position": "right"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 188,
           "roomName": "Nexus Crossing",
-          "nodeid": 607,
-          "nodeName": "North-West Door",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [Nexus Storage - Right Tunnel] and [Concourse - Bottom-Left Tunnel]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 7,
+          "nodeName": "Nexus Storage - Right Tunnel",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 12,
+          "nodeName": "Concourse - Bottom-Left Tunnel",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Concourse Tower and Quarantine Bay",
+      "description": "Horizontal Door connection between [Concourse - Left Door] and [Elevator to Habitation Deck - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 176,
-          "roomName": "Concourse Tower",
-          "nodeid": 580,
-          "nodeName": "South-West Door",
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 10,
+          "nodeName": "Concourse - Left Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 189,
-          "roomName": "Quarantine Bay",
-          "nodeid": 612,
-          "nodeName": "East-Upper Door",
+          "roomid": 172,
+          "roomName": "Elevator to Habitation Deck",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Concourse Tower and Wrecked Storage",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Concourse - Right Door] and [MDK Navigation Room - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 176,
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 11,
+          "nodeName": "Concourse - Right Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 173,
+          "roomName": "MDK Navigation Room",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Concourse - Bottom-Right Door] and [Quarantine Bay - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 169,
+          "roomName": "Central Nexus / Nexus Storage / Concourse",
+          "nodeid": 13,
+          "nodeName": "Concourse - Bottom-Right Door",
+          "position": "right"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 181,
+          "roomName": "Quarantine Bay",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Concourse Tower - Bottom-Left Door] and [Quarantine Bay - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 170,
           "roomName": "Concourse Tower",
-          "nodeid": 581,
-          "nodeName": "West-South Door",
+          "nodeid": 4,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 181,
+          "roomName": "Quarantine Bay",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Concourse Tower - Left-Bottom Door] and [Wrecked Storage - Top Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 170,
+          "roomName": "Concourse Tower",
+          "nodeid": 5,
+          "nodeName": "Left-Bottom Door",
           "position": "bottom"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 190,
+          "roomid": 182,
           "roomName": "Wrecked Storage",
-          "nodeid": 613,
-          "nodeName": "North Door",
+          "nodeid": 2,
+          "nodeName": "Top Door",
           "position": "top"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Concourse and Elevator to Habitation Deck",
+      "description": "Horizontal Door connection between [DMX Security Gate - Left Door] and [MDK Navigation Room - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 177,
-          "roomName": "Concourse",
-          "nodeid": 583,
-          "nodeName": "West-Upper Door",
+          "roomid": 171,
+          "roomName": "DMX Security Gate",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 173,
+          "roomName": "MDK Navigation Room",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [MDK-AQA Access - Left Door] and [MDK-AQA Elevator - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 175,
+          "roomName": "MDK-AQA Access",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 177,
+          "roomName": "MDK-AQA Elevator",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [MDK-AQA Access - Right Door] and [Nexus Crossing - Bottom-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "West Main Deck",
+          "roomid": 175,
+          "roomName": "MDK-AQA Access",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
           "roomid": 180,
-          "roomName": "Elevator to Habitation Deck",
-          "nodeid": 593,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Concourse and MDK Navigation Room",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 177,
-          "roomName": "Concourse",
-          "nodeid": 584,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 181,
-          "roomName": "MDK Navigation Room",
-          "nodeid": 594,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalMorphBallHole",
-      "description": "Horizontal Morph Ball Hole connection between Concourse and Cubby Storage",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 177,
-          "roomName": "Concourse",
-          "nodeid": 585,
-          "nodeName": "South-West Morph Ball Hole",
-          "position": "left"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 178,
-          "roomName": "Cubby Storage",
-          "nodeid": 588,
-          "nodeName": "East-Upper Morph Ball Hole",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Concourse and Quarantine Bay",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 177,
-          "roomName": "Concourse",
-          "nodeid": 586,
-          "nodeName": "South-East Door",
-          "position": "right"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 189,
-          "roomName": "Quarantine Bay",
-          "nodeid": 611,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between DMX Security Gate and MDK Navigation Room",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 179,
-          "roomName": "DMX Security Gate",
-          "nodeid": 590,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 181,
-          "roomName": "MDK Navigation Room",
-          "nodeid": 595,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between MDK-AQA Access and MDK-AQA Elevator",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 183,
-          "roomName": "MDK-AQA Access",
-          "nodeid": 597,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 185,
-          "roomName": "MDK-AQA Elevator",
-          "nodeid": 601,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between MDK-AQA Access and Nexus Crossing",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 183,
-          "roomName": "MDK-AQA Access",
-          "nodeid": 598,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "MDK",
-          "subarea": "West Main Deck",
-          "roomid": 188,
           "roomName": "Nexus Crossing",
-          "nodeid": 609,
-          "nodeName": "South-West Door",
+          "nodeid": 3,
+          "nodeName": "Bottom-Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "Elevator",
-      "description": "Elevator connection between MDK-AQA Elevator Cache and MDK-AQA Elevator",
+      "description": "Elevator connection between [MDK-AQA Elevator Cache - Right Door] and [MDK-AQA Elevator - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 184,
+          "roomid": 176,
           "roomName": "MDK-AQA Elevator Cache",
-          "nodeid": 599,
-          "nodeName": "East-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 185,
+          "roomid": 177,
           "roomName": "MDK-AQA Elevator",
-          "nodeid": 600,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between MDK-TRO Access and MDK-TRO Tube",
+      "description": "Horizontal Door connection between [MDK-TRO Access - Left Door] and [MDK-TRO Tube - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 186,
+          "roomid": 178,
           "roomName": "MDK-TRO Access",
-          "nodeid": 603,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 187,
+          "roomid": 179,
           "roomName": "MDK-TRO Tube",
-          "nodeid": 606,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Nexus Crossing and Wrecked Storage",
+      "description": "Horizontal Door connection between [Nexus Crossing - Top-Right Door] and [Wrecked Storage - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 188,
+          "roomid": 180,
           "roomName": "Nexus Crossing",
-          "nodeid": 608,
-          "nodeName": "North-East Door",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "West Main Deck",
-          "roomid": 190,
+          "roomid": 182,
           "roomName": "Wrecked Storage",
-          "nodeid": 614,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]

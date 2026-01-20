@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 30,
+  "id": 28,
   "name": "AQA Reserve X Room",
   "area": "AQA",
   "subarea": "Upper East AQA",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 10,
-      "name": "AQA Reserve X",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 204,
-      "name": "East-Upper Morph Ball Hole",
+      "id": 1,
+      "name": "Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -39,10 +30,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "AQA Reserve X",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -916,7 +916,7 @@
         "name": "f_NightmareArena_CoreXRevealed",
         "address": "7ED821",
         "bit": 2,
-        "description": "[Nightmare Arena] Core-X Revealed (Nightmare's body destroyed)"
+        "description": "[Nightmare Arena] Core-X Revealed (Nightmare\u0027s body destroyed)"
       },
       {
         "name": "f_BarrierCoreXChozoRoom_CoreXRevealed",
@@ -1050,7 +1050,7 @@
         "name": "f_CentralNexus_GreenGeronDestroyed",
         "address": "7ED8B0",
         "bit": 3,
-        "description": "[Central Nexus / Concourse] Green Geron Destroyed"
+        "description": "[Central Nexus] Green Geron Destroyed"
       },
       {
         "name": "f_ConcourseTower_GreenGeronDestroyed",
@@ -1092,7 +1092,7 @@
         "name": "f_FoolsDeadEnd_BlueGeronDestroyed",
         "address": "7ED8B3",
         "bit": 0,
-        "description": "[Fool's Dead End] Blue Geron Destroyed"
+        "description": "[Fool\u0027s Dead End] Blue Geron Destroyed"
       },
       {
         "name": "f_TurboTunnel_OrangeGeronDestroyed",
@@ -1176,7 +1176,7 @@
         "name": "f_GeronsTreasure_GreenGeronDestroyed",
         "address": "7ED8B6",
         "bit": 3,
-        "description": "[Geron's Treasure] Green Geron Destroyed"
+        "description": "[Geron\u0027s Treasure] Green Geron Destroyed"
       },
       {
         "name": "f_BubbleHeights_GadoraDefeated",
@@ -1239,10 +1239,10 @@
         "description": "[Meta Draygon-X Access] Gadora Defeated"
       },
       {
-        "name": "f_ARCNOCAccess_OrangeGeronDestroyed",
+        "name": "f_CrowsNest_OrangeGeronDestroyed",
         "address": "7ED8BA",
         "bit": 2,
-        "description": "[ARC-NOC Access] Orange Geron Destroyed"
+        "description": "[Crow\u0027s Nest] Orange Geron Destroyed"
       },
       {
         "name": "f_ARCEtecoonRoomAccess_BlueGeronDestroyed",
@@ -1346,7 +1346,7 @@
         "name": "f_JustDontDieBend_ReserveXCollected",
         "address": "7ED829",
         "bit": 7,
-        "description": "[Just Don't Die Bend] Reserve-X Collected"
+        "description": "[Just Don\u0027t Die Bend] Reserve-X Collected"
       },
       {
         "name": "f_TROReserveXRoom_ReserveXCollected",
@@ -1385,10 +1385,10 @@
         "description": "[MDK-AQA Elevator Cache] Power Bomb Tank Collected"
       },
       {
-        "name": "f_CentralNexus_MissileTank_Collected",
+        "name": "f_CubbyStorage_MissileTank_Collected",
         "address": "7ED870",
         "bit": 2,
-        "description": "[Central Nexus / Concourse] Missile Tank Collected"
+        "description": "[Nexus Storage] Missile Tank Collected"
       },
       {
         "name": "f_HabitationDeck_EnergyTankLeft_Collected",
@@ -1472,7 +1472,7 @@
         "name": "f_FoolsDeadEnd_MissileTank_Collected",
         "address": "7ED872",
         "bit": 3,
-        "description": "[Fool's Dead End] Missile Tank Collected"
+        "description": "[Fool\u0027s Dead End] Missile Tank Collected"
       },
       {
         "name": "f_LavaHorseshoe_PowerBombTank_Collected",
@@ -1496,7 +1496,7 @@
         "name": "f_SearpentsCoil_EnergyTank_Collected",
         "address": "7ED872",
         "bit": 7,
-        "description": "[Searpent's Coil] Energy Tank Collected"
+        "description": "[Searpent\u0027s Coil] Energy Tank Collected"
       },
       {
         "name": "f_VacuumVerge_MissileTank_Collected",
@@ -1622,7 +1622,7 @@
         "name": "f_BobsAbode_MissileTank_Collected",
         "address": "7ED876",
         "bit": 4,
-        "description": "[Bob's Abode] Missile Tank (Bob the Missile) Collected"
+        "description": "[Bob\u0027s Abode] Missile Tank (Bob the Missile) Collected"
       },
       {
         "name": "f_OverthinkingChamber_PowerBombTank_Collected",
@@ -1646,7 +1646,7 @@
         "name": "f_GeronsTreasure_MissileTank_Collected",
         "address": "7ED877",
         "bit": 0,
-        "description": "[Geron's Treasure] Missile Tank Collected"
+        "description": "[Geron\u0027s Treasure] Missile Tank Collected"
       },
       {
         "name": "f_PYRMDKAccess_MissileTank_Collected",
@@ -1781,10 +1781,10 @@
         "description": "[ARC-PYR Access] Missile Tank Collected"
       },
       {
-        "name": "f_ARCNOCAccess_PowerBombTank_Collected",
+        "name": "f_CrowsNest_PowerBombTank_Collected",
         "address": "7ED87A",
         "bit": 3,
-        "description": "[ARC-NOC Access] Power Bomb Tank Collected"
+        "description": "[Crow\u0027s Nest] Power Bomb Tank Collected"
       },
       {
         "name": "f_ZeelaSpeedwayCache_EnergyTank_Collected",
@@ -1793,10 +1793,10 @@
         "description": "[Zeela Speedway Cache] Energy Tank Collected"
       },
       {
-        "name": "f_FrostbiteHall_EnergyTank_Collected",
+        "name": "f_FrostbiteNook_EnergyTank_Collected",
         "address": "7ED87A",
         "bit": 5,
-        "description": "[Frostbite Hall] Energy Tank Collected"
+        "description": "[Frostbite Nook] Energy Tank Collected"
       },
       {
         "name": "f_FrostbiteHall_MissileTank_Collected",

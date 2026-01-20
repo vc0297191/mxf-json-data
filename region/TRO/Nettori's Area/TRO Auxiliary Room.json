@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 371,
+  "id": 360,
   "name": "TRO Auxiliary Room",
   "area": "TRO",
   "subarea": "Nettori\u0027s Area",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 1063,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -33,7 +33,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

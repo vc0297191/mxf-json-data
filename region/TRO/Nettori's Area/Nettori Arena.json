@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 363,
+  "id": 352,
   "name": "Nettori Arena",
   "area": "TRO",
   "subarea": "Nettori\u0027s Area",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 119,
-      "name": "Plasma Beam",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 1040,
-      "name": "North Door",
+      "id": 3,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,8 +32,8 @@
       ]
     },
     {
-      "id": 1041,
-      "name": "South-West Door",
+      "id": 1,
+      "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -54,8 +45,8 @@
       ]
     },
     {
-      "id": 1042,
-      "name": "South-East Door",
+      "id": 2,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -65,10 +56,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Plasma Beam",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

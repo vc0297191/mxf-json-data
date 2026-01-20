@@ -3,125 +3,125 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Cloister and Overgrown Speedway",
+      "description": "Horizontal Door connection between [Cloister - Right Door] and [Overgrown Speedway - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 330,
+          "roomid": 319,
           "roomName": "Cloister",
-          "nodeid": 953,
-          "nodeName": "East-Upper Door",
+          "nodeid": 4,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Nettori\u0027s Area",
-          "roomid": 367,
+          "roomid": 356,
           "roomName": "Overgrown Speedway",
-          "nodeid": 1052,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Cloister and Overgrown Pipeway",
+      "description": "Horizontal Door connection between [Cloister - Bottom-Right Door] and [Overgrown Pipeway - Top-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 330,
+          "roomid": 319,
           "roomName": "Cloister",
-          "nodeid": 955,
-          "nodeName": "South-East Door",
+          "nodeid": 6,
+          "nodeName": "Bottom-Right Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Nettori\u0027s Area",
-          "roomid": 366,
+          "roomid": 355,
           "roomName": "Overgrown Pipeway",
-          "nodeid": 1049,
-          "nodeName": "North-West Door",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Crum-Ball Tower and Double Helix",
+      "description": "Horizontal Door connection between [Crum-Ball Tower - Top-Right Door] and [Double Helix - Top Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 331,
+          "roomid": 320,
           "roomName": "Crum-Ball Tower",
-          "nodeid": 957,
-          "nodeName": "North-East Door",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Nettori\u0027s Area",
-          "roomid": 360,
+          "roomid": 349,
           "roomName": "Double Helix",
-          "nodeid": 1034,
-          "nodeName": "North Door",
+          "nodeid": 2,
+          "nodeName": "Top Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Fusion Cathedral and Zazabi Arena Access",
+      "description": "Horizontal Door connection between [Fusion Cathedral - Bottom-Right Door] and [Zazabi Arena Access - Top-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 335,
+          "roomid": 324,
           "roomName": "Fusion Cathedral",
-          "nodeid": 978,
-          "nodeName": "South-East Door",
+          "nodeid": 8,
+          "nodeName": "Bottom-Right Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 373,
+          "roomid": 362,
           "roomName": "Zazabi Arena Access",
-          "nodeid": 1065,
-          "nodeName": "North-West Door",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         }
       ]
     },
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Fusion Cathedral and TRO Etecoon Room",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Fusion Cathedral - Right-Bottom Door] and [TRO Etecoon Room - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "TRO",
           "subarea": "General",
-          "roomid": 335,
+          "roomid": 324,
           "roomName": "Fusion Cathedral",
-          "nodeid": 979,
-          "nodeName": "East-South Door",
+          "nodeid": 9,
+          "nodeName": "Right-Bottom Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 372,
+          "roomid": 361,
           "roomName": "TRO Etecoon Room",
-          "nodeid": 1064,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]

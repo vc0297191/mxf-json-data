@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 304,
+  "id": 295,
   "name": "SRX-NOC Elevator Access",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 93,
-      "idMinorItemPlm": "0x16",
-      "name": "Hidden Power Bomb Tank",
-      "nodeType": "item",
-      "nodeSubType": "hidden",
-      "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7D752",
-      "mapTileX": 36,
-      "mapTileY": 16
-    },
-    {
-      "id": 884,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -43,8 +32,8 @@
       ]
     },
     {
-      "id": 885,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -54,10 +43,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 3,
+      "idMinorItemPlm": "0x16",
+      "name": "Hidden Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "hidden",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7D752",
+      "mapTileX": 36,
+      "mapTileY": 16
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

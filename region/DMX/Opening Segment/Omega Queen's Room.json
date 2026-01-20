@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 132,
+  "id": 127,
   "name": "Omega Queen\u0027s Room",
   "area": "DMX",
   "subarea": "Opening Segment",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 461,
-      "name": "North-East Door",
+      "id": 1,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 462,
-      "name": "East-Upper Morph Ball Hole",
+      "id": 2,
+      "name": "Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 463,
-      "name": "South Door",
+      "id": 3,
+      "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -59,7 +59,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 124,
+  "id": 119,
   "name": "Ventilation B",
   "area": "DMX",
   "subarea": "Ending Segment",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 439,
-      "name": "North-West Morph Ball Hole",
+      "id": 1,
+      "name": "Top-Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 440,
-      "name": "North-East Morph Ball Hole",
+      "id": 2,
+      "name": "Top-Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 441,
-      "name": "South-East Door",
+      "id": 3,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -59,7 +59,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 119,
+  "id": 114,
   "name": "Winding SA-X Chase",
   "area": "DMX",
   "subarea": "Chase Segment",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 428,
-      "name": "North-East Door",
+      "id": 1,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,12 +32,12 @@
       ]
     },
     {
-      "id": 429,
-      "name": "East-South Door",
+      "id": 2,
+      "name": "Right-Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
-      "doorOrientation": "left",
+      "doorOrientation": "down",
       "doorEnvironments": [
         {
           "physics": "air"
@@ -46,7 +46,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

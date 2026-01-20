@@ -3,450 +3,450 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between AQA Central Hub and Assembly Line",
+      "description": "Horizontal Door connection between [AQA Central Hub - Top-Right Door] and [Assembly Line - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 28,
+          "roomid": 26,
           "roomName": "AQA Central Hub",
-          "nodeid": 196,
-          "nodeName": "North-East Door",
+          "nodeid": 1,
+          "nodeName": "Top-Right Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 36,
+          "roomid": 34,
           "roomName": "Assembly Line",
-          "nodeid": 218,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between AQA Central Hub and AQA Navigation Room",
+      "description": "Horizontal Door connection between [AQA Central Hub - Right Door] and [AQA Navigation Room - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 28,
+          "roomid": 26,
           "roomName": "AQA Central Hub",
-          "nodeid": 199,
-          "nodeName": "East-Upper Door",
+          "nodeid": 4,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 29,
+          "roomid": 27,
           "roomName": "AQA Navigation Room",
-          "nodeid": 202,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between AQA Central Hub and Reservoir Speedway",
+      "description": "Horizontal Door connection between [AQA Central Hub - Bottom-Right Door] and [Reservoir Speedway - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 28,
+          "roomid": 26,
           "roomName": "AQA Central Hub",
-          "nodeid": 201,
-          "nodeName": "South-East Door",
+          "nodeid": 6,
+          "nodeName": "Bottom-Right Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 38,
+          "roomName": "Reservoir Speedway",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [AQA Navigation Room - Right Door] and [Spark Shaft Runway - Bottom-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 27,
+          "roomName": "AQA Navigation Room",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 40,
-          "roomName": "Reservoir Speedway",
-          "nodeid": 229,
-          "nodeName": "West-Upper Door",
+          "roomName": "Spark Shaft Runway",
+          "nodeid": 2,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [AQA Reserve X Room - Right Tunnel] and [AQA-ARC Elevator Access - Left Tunnel]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 28,
+          "roomName": "AQA Reserve X Room",
+          "nodeid": 1,
+          "nodeName": "Right Tunnel",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 30,
+          "roomName": "AQA-ARC Elevator Access",
+          "nodeid": 2,
+          "nodeName": "Left Tunnel",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between AQA Navigation Room and Spark Shaft Runway",
+      "description": "Horizontal Door connection between [AQA Save Station North East - Right Door] and [Reservoir Vault - Bottom-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 29,
-          "roomName": "AQA Navigation Room",
-          "nodeid": 203,
-          "nodeName": "East-Upper Door",
+          "roomName": "AQA Save Station North East",
+          "nodeid": 1,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 42,
-          "roomName": "Spark Shaft Runway",
-          "nodeid": 237,
-          "nodeName": "South-West Door",
+          "roomid": 39,
+          "roomName": "Reservoir Vault",
+          "nodeid": 2,
+          "nodeName": "Bottom-Left Door",
           "position": "left"
         }
       ]
     },
     {
-      "connectionType": "HorizontalMorphBallHole",
-      "description": "Horizontal Morph Ball Hole connection between AQA Reserve X Room and AQA-ARC Elevator Access",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [AQA-ARC Elevator Access - Top-Left Door] and [AQA-ARC Elevator - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 30,
-          "roomName": "AQA Reserve X Room",
-          "nodeid": 204,
-          "nodeName": "East-Upper Morph Ball Hole",
-          "position": "right"
+          "roomName": "AQA-ARC Elevator Access",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 32,
-          "roomName": "AQA-ARC Elevator Access",
-          "nodeid": 207,
-          "nodeName": "West-Upper Morph Ball Hole",
-          "position": "left"
+          "roomid": 31,
+          "roomName": "AQA-ARC Elevator",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between AQA Save Station North East and Reservoir Vault",
+      "description": "Horizontal Door connection between [AQA-ARC Elevator Access - Bottom-Left Door] and [Reservoir Access - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 30,
+          "roomName": "AQA-ARC Elevator Access",
+          "nodeid": 3,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 36,
+          "roomName": "Reservoir Access",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [AQA-ARC Elevator Access - Bottom Door] and [AQA-NOC Access - Top Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 30,
+          "roomName": "AQA-ARC Elevator Access",
+          "nodeid": 4,
+          "nodeName": "Bottom Door",
+          "position": "bottom"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 32,
+          "roomName": "AQA-NOC Access",
+          "nodeid": 3,
+          "nodeName": "Top Door",
+          "position": "top"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [AQA-ARC Elevator - Left Door] and [Reservoir Vault - Top-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 31,
-          "roomName": "AQA Save Station North East",
-          "nodeid": 205,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 41,
-          "roomName": "Reservoir Vault",
-          "nodeid": 233,
-          "nodeName": "South-West Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between AQA-ARC Elevator Access and AQA-ARC Elevator",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 32,
-          "roomName": "AQA-ARC Elevator Access",
-          "nodeid": 206,
-          "nodeName": "North-West Door",
-          "position": "left"
-        },
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 33,
           "roomName": "AQA-ARC Elevator",
-          "nodeid": 212,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between AQA-ARC Elevator Access and Reservoir Access",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 32,
-          "roomName": "AQA-ARC Elevator Access",
-          "nodeid": 208,
-          "nodeName": "South-West Door",
-          "position": "left"
-        },
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 38,
-          "roomName": "Reservoir Access",
-          "nodeid": 223,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between AQA-ARC Elevator Access and AQA-NOC Access",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 32,
-          "roomName": "AQA-ARC Elevator Access",
-          "nodeid": 209,
-          "nodeName": "South Door",
-          "position": "bottom"
-        },
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 34,
-          "roomName": "AQA-NOC Access",
-          "nodeid": 213,
-          "nodeName": "North Door",
-          "position": "top"
-        }
-      ]
-    },
-    {
-      "connectionType": "Elevator",
-      "description": "Elevator connection between AQA-ARC Elevator and Reservoir Vault",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 33,
-          "roomName": "AQA-ARC Elevator",
-          "nodeid": 211,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 41,
-          "roomName": "Reservoir Vault",
-          "nodeid": 232,
-          "nodeName": "North-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between AQA-NOC Access and Reservoir East",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 34,
-          "roomName": "AQA-NOC Access",
-          "nodeid": 214,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 39,
-          "roomName": "Reservoir East",
-          "nodeid": 227,
-          "nodeName": "East-Upper Door",
+          "roomName": "Reservoir Vault",
+          "nodeid": 1,
+          "nodeName": "Top-Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between AQA-NOC Access and AQA-NOC Tube",
+      "description": "Horizontal Door connection between [AQA-NOC Access - Left Door] and [Reservoir East - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 34,
+          "roomid": 32,
           "roomName": "AQA-NOC Access",
-          "nodeid": 215,
-          "nodeName": "East-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 37,
+          "roomName": "Reservoir East",
+          "nodeid": 3,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [AQA-NOC Access - Right Door] and [AQA-NOC Tube - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 32,
+          "roomName": "AQA-NOC Access",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 35,
+          "roomid": 33,
           "roomName": "AQA-NOC Tube",
-          "nodeid": 216,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Assembly Line and Spark Shaft Runway",
+      "description": "Horizontal Door connection between [Assembly Line - Right Door] and [Spark Shaft Runway - Top Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 34,
+          "roomName": "Assembly Line",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 40,
+          "roomName": "Spark Shaft Runway",
+          "nodeid": 3,
+          "nodeName": "Top Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Hydrospark - Top-Right Door] and [Reservoir Speedway - Bottom Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 35,
+          "roomName": "Hydrospark",
+          "nodeid": 1,
+          "nodeName": "Top-Right Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 38,
+          "roomName": "Reservoir Speedway",
+          "nodeid": 3,
+          "nodeName": "Bottom Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Reservoir Access - Left Door] and [Reservoir East - Top-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 36,
-          "roomName": "Assembly Line",
-          "nodeid": 219,
-          "nodeName": "East-Upper Door",
-          "position": "right"
+          "roomName": "Reservoir Access",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 42,
-          "roomName": "Spark Shaft Runway",
-          "nodeid": 235,
-          "nodeName": "North Door",
-          "position": "left"
+          "roomid": 37,
+          "roomName": "Reservoir East",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
+          "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Hydrospark and Reservoir Speedway",
+      "description": "Horizontal Door connection between [Reservoir East - Top-Left Door] and [Spark Shaft Runway - Top-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 37,
-          "roomName": "Hydrospark",
-          "nodeid": 220,
-          "nodeName": "North-East Door",
-          "position": "right"
+          "roomName": "Reservoir East",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 40,
-          "roomName": "Reservoir Speedway",
-          "nodeid": 231,
-          "nodeName": "South Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Reservoir Access and Reservoir East",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 38,
-          "roomName": "Reservoir Access",
-          "nodeid": 222,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 39,
-          "roomName": "Reservoir East",
-          "nodeid": 226,
-          "nodeName": "North-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Reservoir East and Spark Shaft Runway",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 39,
-          "roomName": "Reservoir East",
-          "nodeid": 224,
-          "nodeName": "North-West Door",
-          "position": "left"
-        },
-        {
-          "area": "AQA",
-          "subarea": "Upper East AQA",
-          "roomid": 42,
           "roomName": "Spark Shaft Runway",
-          "nodeid": 236,
-          "nodeName": "North-East Door",
+          "nodeid": 1,
+          "nodeName": "Top-Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Reservoir East and Reservoir Vault",
+      "description": "Vertical Door connection between [Reservoir East - Top Door] and [Reservoir Vault - Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 39,
+          "roomid": 37,
           "roomName": "Reservoir East",
-          "nodeid": 225,
-          "nodeName": "North Door",
+          "nodeid": 5,
+          "nodeName": "Top Door",
           "position": "top"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 41,
+          "roomid": 39,
           "roomName": "Reservoir Vault",
-          "nodeid": 234,
-          "nodeName": "South Door",
+          "nodeid": 3,
+          "nodeName": "Bottom Door",
           "position": "bottom"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Reservoir East and Reservoir Speedway",
+      "description": "Horizontal Door connection between [Reservoir East - Bottom-Left Door] and [Reservoir Speedway - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 39,
+          "roomid": 37,
           "roomName": "Reservoir East",
-          "nodeid": 228,
-          "nodeName": "South-West Door",
+          "nodeid": 4,
+          "nodeName": "Bottom-Left Door",
           "position": "left"
         },
         {
           "area": "AQA",
           "subarea": "Upper East AQA",
-          "roomid": 40,
+          "roomid": 38,
           "roomName": "Reservoir Speedway",
-          "nodeid": 230,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]

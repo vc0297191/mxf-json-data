@@ -2,126 +2,126 @@
   "$schema": "../../../schema/mxf-connection.schema.json",
   "connections": [
     {
-      "connectionType": "Elevator",
-      "description": "Elevator connection between Elevator to Central Nexus and Habitation Deck Holding",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Elevator to Central Nexus - Left Door] and [Habitation Deck Holding - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "Upper Main Deck",
-          "roomid": 169,
+          "roomid": 163,
           "roomName": "Elevator to Central Nexus",
-          "nodeid": 558,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "Upper Main Deck",
-          "roomid": 171,
+          "roomid": 165,
           "roomName": "Habitation Deck Holding",
-          "nodeid": 565,
-          "nodeName": "East-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
-      "connectionType": "Elevator",
-      "description": "Elevator connection between Elevator to Central Nexus and MDK Security Room",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Elevator to Central Nexus - Right Door] and [MDK Security Room - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "Upper Main Deck",
-          "roomid": 169,
+          "roomid": 163,
           "roomName": "Elevator to Central Nexus",
-          "nodeid": 559,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "Upper Main Deck",
-          "roomid": 173,
+          "roomid": 167,
           "roomName": "MDK Security Room",
-          "nodeid": 569,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Etecoon Hangar Bay and Habitation Deck",
+      "description": "Vertical Door connection between [Etecoon Hangar Bay - Top Door] and [Habitation Deck - Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "Upper Main Deck",
-          "roomid": 170,
+          "roomid": 164,
           "roomName": "Etecoon Hangar Bay",
-          "nodeid": 561,
-          "nodeName": "North Door",
+          "nodeid": 4,
+          "nodeName": "Top Door",
           "position": "top"
         },
         {
           "area": "MDK",
           "subarea": "Upper Main Deck",
-          "roomid": 172,
+          "roomid": 166,
           "roomName": "Habitation Deck",
-          "nodeid": 568,
-          "nodeName": "South Door",
+          "nodeid": 3,
+          "nodeName": "Bottom Door",
           "position": "bottom"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Etecoon Hangar Bay and MDK Security Room",
+      "description": "Horizontal Door connection between [Etecoon Hangar Bay - Left Door] and [MDK Security Room - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "Upper Main Deck",
-          "roomid": 170,
+          "roomid": 164,
           "roomName": "Etecoon Hangar Bay",
-          "nodeid": 562,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "Upper Main Deck",
-          "roomid": 173,
+          "roomid": 167,
           "roomName": "MDK Security Room",
-          "nodeid": 570,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Habitation Deck and MDK-PYR Tube",
+      "description": "Horizontal Door connection between [Habitation Deck - Top-Left Door] and [MDK-PYR Tube - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "Upper Main Deck",
-          "roomid": 172,
+          "roomid": 166,
           "roomName": "Habitation Deck",
-          "nodeid": 566,
-          "nodeName": "North-West Door",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "Upper Main Deck",
-          "roomid": 174,
+          "roomid": 168,
           "roomName": "MDK-PYR Tube",
-          "nodeid": 572,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]

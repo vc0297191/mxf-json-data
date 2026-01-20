@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 19,
+  "id": 17,
   "name": "Glass Tube",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 6,
-      "name": "AQA Aux Power Cell",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 172,
-      "name": "North Door",
+      "id": 4,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,8 +32,8 @@
       ]
     },
     {
-      "id": 173,
-      "name": "North-East Door",
+      "id": 1,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -54,8 +45,8 @@
       ]
     },
     {
-      "id": 174,
-      "name": "West Door",
+      "id": 2,
+      "name": "Left-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -67,8 +58,8 @@
       ]
     },
     {
-      "id": 175,
-      "name": "East Door",
+      "id": 3,
+      "name": "Right-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -80,8 +71,8 @@
       ]
     },
     {
-      "id": 176,
-      "name": "South Door",
+      "id": 5,
+      "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -91,10 +82,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 6,
+      "name": "AQA Aux Power Cell",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

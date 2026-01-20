@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 280,
+  "id": 271,
   "name": "Chute Pit",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 827,
-      "name": "West-North Door",
+      "id": 2,
+      "name": "Left-Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,10 +32,10 @@
       ]
     },
     {
-      "id": 828,
-      "name": "South-West Door",
+      "id": 1,
+      "name": "Bottom-Left Tunnel",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "passage",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -46,7 +46,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

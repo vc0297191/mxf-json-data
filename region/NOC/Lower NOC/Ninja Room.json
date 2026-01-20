@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 200,
+  "id": 192,
   "name": "Ninja Room",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 641,
-      "name": "North-East Door",
+      "id": 1,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 642,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -45,21 +45,8 @@
       ]
     },
     {
-      "id": 643,
-      "name": "East Morph Ball Hole",
-      "nodeType": "door",
-      "nodeSubType": "passage",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
-      "doorEnvironments": [
-        {
-          "physics": "air"
-        }
-      ]
-    },
-    {
-      "id": 644,
-      "name": "South-East Morph Ball Hole",
+      "id": 3,
+      "name": "Bottom-Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -72,7 +59,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

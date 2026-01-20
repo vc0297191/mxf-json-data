@@ -3,150 +3,150 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC-AQA Access and X-B.O.X. Arena",
+      "description": "Horizontal Door connection between [ARC-AQA Access - Left Door] and [X-B.O.X. Arena - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 68,
+          "roomid": 64,
           "roomName": "ARC-AQA Access",
-          "nodeid": 302,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 94,
+          "roomid": 89,
           "roomName": "X-B.O.X. Arena",
-          "nodeid": 372,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
-      "connectionType": "VerticalMorphBallHole",
-      "description": "Vertical Morph Ball Hole connection between ARC-AQA Access and Frozen Tower",
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [ARC-AQA Access - Bottom Tunnel] and [Frozen Tower - Top-Left Tunnel]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "AQA Access",
-          "roomid": 68,
+          "roomid": 64,
           "roomName": "ARC-AQA Access",
-          "nodeid": 304,
-          "nodeName": "South Morph Ball Hole",
+          "nodeid": 3,
+          "nodeName": "Bottom Tunnel",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 78,
-          "roomName": "Frozen Tower",
-          "nodeid": 332,
-          "nodeName": "North-West Morph Ball Hole",
+          "roomid": 74,
+          "roomName": "Frozen Tower / Transmutation Trial",
+          "nodeid": 1,
+          "nodeName": "Frozen Tower - Top-Left Tunnel",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Arctic Gauntlet and Freezer Shaft East",
+      "description": "Horizontal Door connection between [Arctic Gauntlet - Top-Left Door] and [Freezer Shaft East - Top-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 75,
-          "roomName": "Arctic Gauntlet",
-          "nodeid": 321,
-          "nodeName": "North-West Door",
+          "roomid": 71,
+          "roomName": "Arctic Gauntlet / Arctic Checkpoint",
+          "nodeid": 1,
+          "nodeName": "Arctic Gauntlet - Top-Left Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "West ARC",
-          "roomid": 105,
+          "roomid": 100,
           "roomName": "Freezer Shaft East",
-          "nodeid": 394,
-          "nodeName": "North-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Arctic Gauntlet and Chilling Passage",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 75,
-          "roomName": "Arctic Gauntlet",
-          "nodeid": 323,
-          "nodeName": "South Door",
-          "position": "left"
-        },
-        {
-          "area": "ARC",
-          "subarea": "West ARC",
-          "roomid": 102,
-          "roomName": "Chilling Passage",
-          "nodeid": 389,
-          "nodeName": "East-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Top-Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Cellar and ARC Security Room",
+      "description": "Horizontal Door connection between [Arctic Gauntlet - Bottom Door] and [Chilling Passage - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 71,
+          "roomName": "Arctic Gauntlet / Arctic Checkpoint",
+          "nodeid": 4,
+          "nodeName": "Arctic Gauntlet - Bottom Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 97,
+          "roomName": "Chilling Passage",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Cellar - Bottom-Left Door] and [ARC Security Room - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 72,
+          "roomName": "Cellar",
+          "nodeid": 4,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 93,
+          "roomName": "ARC Security Room",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Arctic Ripper Junction - Top-Right Door] and [ARC Navigation Room - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Lower ARC",
           "roomid": 76,
-          "roomName": "Cellar",
-          "nodeid": 328,
-          "nodeName": "South-West Door",
-          "position": "left"
-        },
-        {
-          "area": "ARC",
-          "subarea": "West ARC",
-          "roomid": 98,
-          "roomName": "ARC Security Room",
-          "nodeid": 381,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Zeela Speedway and ARC Navigation Room",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 80,
-          "roomName": "Zeela Speedway",
-          "nodeid": 337,
-          "nodeName": "North-East Door",
+          "roomName": "Zeela Speedway / Arctic Ripper Junction",
+          "nodeid": 3,
+          "nodeName": "Arctic Ripper Junction - Top-Right Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 81,
+          "roomid": 77,
           "roomName": "ARC Navigation Room",
-          "nodeid": 340,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]

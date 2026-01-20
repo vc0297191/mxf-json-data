@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 194,
+  "id": 186,
   "name": "Catacombs",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 622,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,21 +32,8 @@
       ]
     },
     {
-      "id": 623,
-      "name": "West Morph Ball Hole",
-      "nodeType": "door",
-      "nodeSubType": "passage",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
-      "doorEnvironments": [
-        {
-          "physics": "air"
-        }
-      ]
-    },
-    {
-      "id": 624,
-      "name": "East-Upper Morph Ball Hole",
+      "id": 2,
+      "name": "Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -58,8 +45,8 @@
       ]
     },
     {
-      "id": 625,
-      "name": "South-West Morph Ball Hole",
+      "id": 3,
+      "name": "Bottom-Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -71,8 +58,8 @@
       ]
     },
     {
-      "id": 626,
-      "name": "South-East Door",
+      "id": 4,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -85,7 +72,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

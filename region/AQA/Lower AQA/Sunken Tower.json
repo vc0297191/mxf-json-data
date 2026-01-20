@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 24,
+  "id": 22,
   "name": "Sunken Tower",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 186,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 187,
-      "name": "West-Upper Door",
+      "id": 2,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 188,
-      "name": "West Door",
+      "id": 3,
+      "name": "Left-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "id": 189,
-      "name": "East Door",
+      "id": 4,
+      "name": "Right-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "id": 190,
-      "name": "South-West Door",
+      "id": 5,
+      "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -82,65 +82,9 @@
           "physics": "air"
         }
       ]
-    },
-    {
-      "id": 0,
-      "name": "Top of the room",
-      "nodeType": "junction",
-      "nodeSubType": "visible",
-      "x": 104,
-      "y": 96,
-      "w": 48,
-      "h": 48,
-      "color": "#0000ff"
-    },
-    {
-      "id": 1,
-      "name": "Middle of the room",
-      "nodeType": "junction",
-      "x": 96,
-      "y": 616,
-      "w": 64,
-      "h": 56,
-      "color": "#0000ff",
-      "nodeSubType": "visible"
-    },
-    {
-      "id": 2,
-      "name": "Bottom of the room",
-      "nodeType": "junction",
-      "nodeSubType": "visible",
-      "x": 96,
-      "y": 864,
-      "w": 64,
-      "h": 48,
-      "color": "#0000ff"
     }
   ],
   "enemies": [],
-  "links": [],
-  "obstacles": [
-    {
-      "name": "Upper Speed booster blocks",
-      "obstacleType": "inanimate",
-      "id": "A"
-    },
-    {
-      "name": "Lower Speed booster blocks",
-      "obstacleType": "inanimate",
-      "id": "B"
-    },
-    {
-      "name": "Missile Blocks at top of the room",
-      "obstacleType": "inanimate",
-      "id": "C"
-    },
-    {
-      "name": "Crumble blocks at top of the room",
-      "obstacleType": "inanimate",
-      "id": "D"
-    }
-  ],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

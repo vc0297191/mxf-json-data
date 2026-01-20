@@ -3,75 +3,75 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Lava Dive Room and Sova Processing",
+      "description": "Horizontal Door connection between [Lava Dive Room - Top-Left Door] and [Sova Processing - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "PYR",
+          "subarea": "Lower PYR",
+          "roomid": 240,
+          "roomName": "Lava Dive Room",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "PYR",
+          "subarea": "Upper PYR",
+          "roomid": 283,
+          "roomName": "Sova Processing",
+          "nodeid": 3,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [PYR Security Room - Right Door] and [PYR Data Room Access - Top-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "PYR",
           "subarea": "Lower PYR",
           "roomid": 249,
-          "roomName": "Lava Dive Room",
-          "nodeid": 753,
-          "nodeName": "North-West Door",
-          "position": "left"
-        },
-        {
-          "area": "PYR",
-          "subarea": "Upper PYR",
-          "roomid": 292,
-          "roomName": "Sova Processing",
-          "nodeid": 860,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between PYR Security Room and PYR Data Room Access",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "PYR",
-          "subarea": "Lower PYR",
-          "roomid": 258,
           "roomName": "PYR Security Room",
-          "nodeid": 772,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "PYR",
           "subarea": "Neo-Crocomire\u0027s Lair",
-          "roomid": 269,
+          "roomid": 260,
           "roomName": "PYR Data Room Access",
-          "nodeid": 799,
-          "nodeName": "North-West Door",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between PYR Navigation Room and Big Red",
+      "description": "Horizontal Door connection between [PYR Navigation Room - Left Door] and [Big Red - Bottom-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "PYR",
           "subarea": "Neo-Crocomire\u0027s Lair",
-          "roomid": 271,
+          "roomid": 262,
           "roomName": "PYR Navigation Room",
-          "nodeid": 803,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
         {
           "area": "PYR",
           "subarea": "Upper PYR",
-          "roomid": 278,
+          "roomid": 269,
           "roomName": "Big Red",
-          "nodeid": 823,
-          "nodeName": "South-East Door",
+          "nodeid": 7,
+          "nodeName": "Bottom-Right Door",
           "position": "right"
         }
       ]

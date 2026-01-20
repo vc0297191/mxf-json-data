@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 16,
+  "id": 15,
   "name": "Drowned Junction",
   "area": "AQA",
   "subarea": "Lower AQA",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 4,
-      "idMinorItemPlm": "0x47",
-      "name": "Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7DD90",
-      "mapTileX": 21,
-      "mapTileY": 15
-    },
-    {
-      "id": 166,
-      "name": "North-East Door",
+      "id": 1,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -43,8 +32,8 @@
       ]
     },
     {
-      "id": 167,
-      "name": "West-Upper Door",
+      "id": 2,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -56,8 +45,8 @@
       ]
     },
     {
-      "id": 168,
-      "name": "East-Upper Door",
+      "id": 3,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -67,10 +56,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "idMinorItemPlm": "0x47",
+      "name": "Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7DD90",
+      "mapTileX": 21,
+      "mapTileY": 15
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

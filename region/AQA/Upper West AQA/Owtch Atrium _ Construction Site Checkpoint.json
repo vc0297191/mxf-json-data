@@ -1,0 +1,79 @@
+{
+  "$schema": "../../../schema/mxf-room.schema.json",
+  "id": 56,
+  "name": "Owtch Atrium / Construction Site Checkpoint",
+  "area": "AQA",
+  "subarea": "Upper West AQA",
+  "roomImageFile": "AQA Room 79700.jpg",
+  "roomAddress": "0x79700",
+  "roomEnvironments": [
+    {
+      "heated": false,
+      "cold": false
+    }
+  ],
+  "mapTileMask": [
+    [
+      0
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Owtch Atrium - Left Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Owtch Atrium - Right Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Construction Site Checkpoint - Left Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Construction Site Checkpoint - Right Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    }
+  ],
+  "enemies": [],
+  "strats": [],
+  "notables": [],
+  "nextStratId": 1,
+  "nextNotableId": 1
+}

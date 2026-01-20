@@ -1,0 +1,103 @@
+{
+  "$schema": "../../../schema/mxf-room.schema.json",
+  "id": 270,
+  "name": "Bob\u0027s Abode / Deserted Junction",
+  "area": "PYR",
+  "subarea": "Upper PYR",
+  "roomImageFile": "PYR Room 79000.jpg",
+  "roomAddress": "0x79000",
+  "roomEnvironments": [
+    {
+      "heated": false,
+      "cold": false
+    }
+  ],
+  "mapTileMask": [
+    [
+      0
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Bob\u0027s Abode - Left Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bob\u0027s Abode - Right Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "idMinorItemPlm": "0x34",
+      "name": "Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7DA58",
+      "mapTileX": 27,
+      "mapTileY": 13
+    },
+    {
+      "id": 6,
+      "name": "Deserted Junction - Top Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "up",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Deserted Junction - Left Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Deserted Junction - Right Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    }
+  ],
+  "enemies": [],
+  "strats": [],
+  "notables": [],
+  "nextStratId": 1,
+  "nextNotableId": 1
+}

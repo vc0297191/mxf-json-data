@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 335,
+  "id": 324,
   "name": "Fusion Cathedral",
   "area": "TRO",
   "subarea": "General",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 971,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 972,
-      "name": "North-East Door",
+      "id": 2,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 973,
-      "name": "East-North Morph Ball Hole",
+      "id": 3,
+      "name": "Right-Top Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "id": 974,
-      "name": "West-Upper Door",
+      "id": 4,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "id": 975,
-      "name": "East-Upper Morph Ball Hole",
+      "id": 5,
+      "name": "Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -84,8 +84,8 @@
       ]
     },
     {
-      "id": 976,
-      "name": "East Door",
+      "id": 6,
+      "name": "Right-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -97,8 +97,8 @@
       ]
     },
     {
-      "id": 977,
-      "name": "South-West Door",
+      "id": 7,
+      "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -110,8 +110,8 @@
       ]
     },
     {
-      "id": 978,
-      "name": "South-East Door",
+      "id": 8,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -123,8 +123,8 @@
       ]
     },
     {
-      "id": 979,
-      "name": "East-South Door",
+      "id": 9,
+      "name": "Right-Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -137,7 +137,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

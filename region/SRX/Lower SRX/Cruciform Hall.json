@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 294,
+  "id": 285,
   "name": "Cruciform Hall",
   "area": "SRX",
   "subarea": "Lower SRX",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 863,
-      "name": "North Door",
+      "id": 6,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 864,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 865,
-      "name": "West Door",
+      "id": 2,
+      "name": "Left-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "id": 866,
-      "name": "East-Upper Door",
+      "id": 3,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "id": 867,
-      "name": "South Door",
+      "id": 4,
+      "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -84,10 +84,10 @@
       ]
     },
     {
-      "id": 868,
-      "name": "South-East Door",
+      "id": 5,
+      "name": "Bottom-Right Tunnel",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "passage",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -98,7 +98,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

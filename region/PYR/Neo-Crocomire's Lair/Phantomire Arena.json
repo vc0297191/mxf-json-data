@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 268,
+  "id": 259,
   "name": "Phantomire Arena",
   "area": "PYR",
   "subarea": "Neo-Crocomire\u0027s Lair",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 77,
-      "name": "Grapple Beam",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 796,
-      "name": "North Door",
+      "id": 3,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,8 +32,8 @@
       ]
     },
     {
-      "id": 797,
-      "name": "East Door",
+      "id": 1,
+      "name": "Right-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -54,8 +45,8 @@
       ]
     },
     {
-      "id": 798,
-      "name": "South-West Door",
+      "id": 2,
+      "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -65,10 +56,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Grapple Beam",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

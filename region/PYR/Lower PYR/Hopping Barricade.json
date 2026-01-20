@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 247,
+  "id": 238,
   "name": "Hopping Barricade",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -19,8 +19,21 @@
   ],
   "nodes": [
     {
-      "id": 748,
-      "name": "West-Upper Door",
+      "id": 3,
+      "name": "Top Tunnel",
+      "nodeType": "door",
+      "nodeSubType": "passage",
+      "nodeAddress": "0x0",
+      "doorOrientation": "up",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +45,8 @@
       ]
     },
     {
-      "id": 749,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -46,7 +59,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

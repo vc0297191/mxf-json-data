@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 283,
+  "id": 274,
   "name": "Garbage Chute",
   "area": "PYR",
   "subarea": "Upper PYR",
@@ -19,32 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 83,
-      "idMinorItemPlm": "0x30",
-      "name": "Power Bomb Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7DA28",
-      "mapTileX": 21,
-      "mapTileY": 10,
-      "note": "Top"
-    },
-    {
-      "id": 84,
-      "idMinorItemPlm": "0x31",
-      "name": "Hidden Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "hidden",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7DA2E",
-      "mapTileX": 21,
-      "mapTileY": 12,
-      "note": "Middle"
-    },
-    {
-      "id": 834,
-      "name": "North-East Door",
+      "id": 1,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -56,8 +32,8 @@
       ]
     },
     {
-      "id": 835,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -69,8 +45,8 @@
       ]
     },
     {
-      "id": 836,
-      "name": "East Morph Ball Hole",
+      "id": 3,
+      "name": "Right-Lower Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -82,8 +58,8 @@
       ]
     },
     {
-      "id": 837,
-      "name": "West-South Door",
+      "id": 5,
+      "name": "Left-Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -95,8 +71,8 @@
       ]
     },
     {
-      "id": 838,
-      "name": "South-East Door",
+      "id": 4,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -106,10 +82,33 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 6,
+      "idMinorItemPlm": "0x30",
+      "name": "Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7DA28",
+      "mapTileX": 21,
+      "mapTileY": 10,
+      "note": "Top"
+    },
+    {
+      "id": 7,
+      "idMinorItemPlm": "0x31",
+      "name": "Hidden Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "hidden",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7DA2E",
+      "mapTileX": 21,
+      "mapTileY": 12,
+      "note": "Middle"
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

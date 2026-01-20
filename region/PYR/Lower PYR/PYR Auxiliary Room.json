@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 253,
+  "id": 244,
   "name": "PYR Auxiliary Room",
   "area": "PYR",
   "subarea": "Lower PYR",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 763,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -33,7 +33,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

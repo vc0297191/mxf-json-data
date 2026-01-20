@@ -3,325 +3,425 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC Data Room Access and Cellar",
+      "description": "Horizontal Door connection between [ARC Data Room Access - Left Door] and [Cellar - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 66,
+          "roomName": "ARC Data Room Access",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 72,
+          "roomName": "Cellar",
+          "nodeid": 3,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [ARC Data Room Access - Right Door] and [ARC Data Room - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 66,
+          "roomName": "ARC Data Room Access",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 67,
+          "roomName": "ARC Data Room",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [ARC Data Room - Right Door] and [Frozen Tower - Bottom-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 67,
+          "roomName": "ARC Data Room",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 74,
+          "roomName": "Frozen Tower / Transmutation Trial",
+          "nodeid": 4,
+          "nodeName": "Frozen Tower - Bottom-Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [ARC Reserve X Room - Right Door] and [Frozen Tower - Left-Lower Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 68,
+          "roomName": "ARC Reserve X Room",
+          "nodeid": 1,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 74,
+          "roomName": "Frozen Tower / Transmutation Trial",
+          "nodeid": 3,
+          "nodeName": "Frozen Tower - Left-Lower Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [ARC Save Station South - Right Door] and [Cellar - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 69,
+          "roomName": "ARC Save Station South",
+          "nodeid": 1,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 72,
+          "roomName": "Cellar",
+          "nodeid": 2,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Arctic Containment - Top-Left Door] and [Arctic Ripper Junction - Bottom-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Lower ARC",
           "roomid": 70,
-          "roomName": "ARC Data Room Access",
-          "nodeid": 309,
-          "nodeName": "West-Upper Door",
+          "roomName": "Arctic Containment",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "Lower ARC",
           "roomid": 76,
-          "roomName": "Cellar",
-          "nodeid": 327,
-          "nodeName": "East-Upper Door",
+          "roomName": "Zeela Speedway / Arctic Ripper Junction",
+          "nodeid": 5,
+          "nodeName": "Arctic Ripper Junction - Bottom-Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC Data Room Access and ARC Data Room",
+      "description": "Horizontal Door connection between [Arctic Containment - Top-Right Door] and [Frostbite Nook - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Lower ARC",
           "roomid": 70,
-          "roomName": "ARC Data Room Access",
-          "nodeid": 310,
-          "nodeName": "East-Upper Door",
+          "roomName": "Arctic Containment",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 71,
-          "roomName": "ARC Data Room",
-          "nodeid": 311,
-          "nodeName": "West-Upper Door",
+          "roomid": 73,
+          "roomName": "Frostbite Hall / Frostbite Nook",
+          "nodeid": 5,
+          "nodeName": "Frostbite Nook - Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC Data Room and Frozen Tower",
+      "description": "Horizontal Door connection between [Arctic Containment - Left Door] and [Arctic Checkpoint - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Lower ARC",
+          "roomid": 70,
+          "roomName": "Arctic Containment",
+          "nodeid": 3,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
           "roomid": 71,
-          "roomName": "ARC Data Room",
-          "nodeid": 312,
-          "nodeName": "East-Upper Door",
+          "roomName": "Arctic Gauntlet / Arctic Checkpoint",
+          "nodeid": 7,
+          "nodeName": "Arctic Checkpoint - Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Arctic Containment - Right Door] and [Frostbite Hall - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 70,
+          "roomName": "Arctic Containment",
+          "nodeid": 4,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 78,
-          "roomName": "Frozen Tower",
-          "nodeid": 335,
-          "nodeName": "South-West Door",
+          "roomid": 73,
+          "roomName": "Frostbite Hall / Frostbite Nook",
+          "nodeid": 1,
+          "nodeName": "Frostbite Hall - Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC Reserve X Room and Frozen Tower",
+      "description": "Horizontal Door connection between [Arctic Containment - Bottom-Left Door] and [Arctic Gauntlet - Bottom-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 70,
+          "roomName": "Arctic Containment",
+          "nodeid": 5,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 71,
+          "roomName": "Arctic Gauntlet / Arctic Checkpoint",
+          "nodeid": 3,
+          "nodeName": "Arctic Gauntlet - Bottom-Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Arctic Containment - Bottom-Right Door] and [Cellar - Top-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 70,
+          "roomName": "Arctic Containment",
+          "nodeid": 6,
+          "nodeName": "Bottom-Right Door",
+          "position": "right"
+        },
         {
           "area": "ARC",
           "subarea": "Lower ARC",
           "roomid": 72,
-          "roomName": "ARC Reserve X Room",
-          "nodeid": 313,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 78,
-          "roomName": "Frozen Tower",
-          "nodeid": 334,
-          "nodeName": "West Door",
+          "roomName": "Cellar",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC Save Station South and Cellar",
+      "description": "Horizontal Door connection between [Arctic Gauntlet - Top-Right Door] and [Arctic Checkpoint - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 71,
+          "roomName": "Arctic Gauntlet / Arctic Checkpoint",
+          "nodeid": 2,
+          "nodeName": "Arctic Gauntlet - Top-Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 71,
+          "roomName": "Arctic Gauntlet / Arctic Checkpoint",
+          "nodeid": 6,
+          "nodeName": "Arctic Checkpoint - Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "VerticalDoor",
+      "description": "Vertical Door connection between [Frostbite Hall - Top Door] and [Frostbite Nook - Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Lower ARC",
           "roomid": 73,
-          "roomName": "ARC Save Station South",
-          "nodeid": 314,
-          "nodeName": "East-Upper Door",
-          "position": "right"
+          "roomName": "Frostbite Hall / Frostbite Nook",
+          "nodeid": 3,
+          "nodeName": "Frostbite Hall - Top Door",
+          "position": "top"
         },
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 76,
-          "roomName": "Cellar",
-          "nodeid": 326,
-          "nodeName": "West-Upper Door",
-          "position": "left"
+          "roomid": 73,
+          "roomName": "Frostbite Hall / Frostbite Nook",
+          "nodeid": 6,
+          "nodeName": "Frostbite Nook - Bottom Door",
+          "position": "bottom"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Arctic Containment and Zeela Speedway",
+      "description": "Horizontal Door connection between [Frostbite Hall - Right Door] and [Frozen Tower - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 73,
+          "roomName": "Frostbite Hall / Frostbite Nook",
+          "nodeid": 2,
+          "nodeName": "Frostbite Hall - Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 74,
+          "roomName": "Frozen Tower / Transmutation Trial",
+          "nodeid": 2,
+          "nodeName": "Frozen Tower - Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [Frozen Tower - Bottom-Right Tunnel] and [Transmutation Trial - Left Tunnel]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Lower ARC",
           "roomid": 74,
-          "roomName": "Arctic Containment",
-          "nodeid": 315,
-          "nodeName": "North-West Door",
-          "position": "left"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 80,
-          "roomName": "Zeela Speedway",
-          "nodeid": 339,
-          "nodeName": "South-East Door",
+          "roomName": "Frozen Tower / Transmutation Trial",
+          "nodeid": 5,
+          "nodeName": "Frozen Tower - Bottom-Right Tunnel",
           "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Arctic Containment and Frostbite Hall",
-      "direction": "Bidirectional",
-      "nodes": [
+        },
         {
           "area": "ARC",
           "subarea": "Lower ARC",
           "roomid": 74,
-          "roomName": "Arctic Containment",
-          "nodeid": 316,
-          "nodeName": "North-East Door",
-          "position": "right"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 77,
-          "roomName": "Frostbite Hall",
-          "nodeid": 329,
-          "nodeName": "North-West Door",
+          "roomName": "Frozen Tower / Transmutation Trial",
+          "nodeid": 7,
+          "nodeName": "Transmutation Trial - Left Tunnel",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Arctic Containment and Arctic Gauntlet",
+      "description": "Horizontal Door connection between [Zeela Speedway Cache - Right Door] and [Zeela Speedway - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 74,
-          "roomName": "Arctic Containment",
-          "nodeid": 317,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
         {
           "area": "ARC",
           "subarea": "Lower ARC",
           "roomid": 75,
-          "roomName": "Arctic Gauntlet",
-          "nodeid": 322,
-          "nodeName": "North-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Arctic Containment and Frostbite Hall",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 74,
-          "roomName": "Arctic Containment",
-          "nodeid": 318,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 77,
-          "roomName": "Frostbite Hall",
-          "nodeid": 330,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Arctic Containment and Arctic Gauntlet",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 74,
-          "roomName": "Arctic Containment",
-          "nodeid": 319,
-          "nodeName": "South-West Door",
-          "position": "left"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 75,
-          "roomName": "Arctic Gauntlet",
-          "nodeid": 324,
-          "nodeName": "South-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Arctic Containment and Cellar",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 74,
-          "roomName": "Arctic Containment",
-          "nodeid": 320,
-          "nodeName": "South-East Door",
-          "position": "right"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 76,
-          "roomName": "Cellar",
-          "nodeid": 325,
-          "nodeName": "North-West Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Frostbite Hall and Frozen Tower",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 77,
-          "roomName": "Frostbite Hall",
-          "nodeid": 331,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 78,
-          "roomName": "Frozen Tower",
-          "nodeid": 333,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Zeela Speedway Cache and Zeela Speedway",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Lower ARC",
-          "roomid": 79,
           "roomName": "Zeela Speedway Cache",
-          "nodeid": 336,
-          "nodeName": "East-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Lower ARC",
-          "roomid": 80,
-          "roomName": "Zeela Speedway",
-          "nodeid": 338,
-          "nodeName": "South-West Door",
+          "roomid": 76,
+          "roomName": "Zeela Speedway / Arctic Ripper Junction",
+          "nodeid": 1,
+          "nodeName": "Zeela Speedway - Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Zeela Speedway - Right Door] and [Arctic Ripper Junction - Bottom-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 76,
+          "roomName": "Zeela Speedway / Arctic Ripper Junction",
+          "nodeid": 2,
+          "nodeName": "Zeela Speedway - Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Lower ARC",
+          "roomid": 76,
+          "roomName": "Zeela Speedway / Arctic Ripper Junction",
+          "nodeid": 4,
+          "nodeName": "Arctic Ripper Junction - Bottom-Left Door",
           "position": "left"
         }
       ]

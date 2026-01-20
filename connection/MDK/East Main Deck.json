@@ -3,225 +3,225 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Crew Quarters Hallway and Crew Quarters",
+      "description": "Horizontal Door connection between [Crew Quarters Hallway - Top-Left Door] and [Crew Quarters - Top-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 153,
+          "roomid": 147,
           "roomName": "Crew Quarters Hallway",
-          "nodeid": 511,
-          "nodeName": "North-West Door",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 155,
+          "roomid": 149,
           "roomName": "Crew Quarters",
-          "nodeid": 516,
-          "nodeName": "North-East Door",
+          "nodeid": 1,
+          "nodeName": "Top-Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Crew Quarters Hallway and Crew Quarters",
+      "description": "Horizontal Door connection between [Crew Quarters Hallway - Left-Lower Door] and [Crew Quarters - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 153,
+          "roomid": 147,
           "roomName": "Crew Quarters Hallway",
-          "nodeid": 512,
-          "nodeName": "West Door",
+          "nodeid": 2,
+          "nodeName": "Left-Lower Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 155,
+          "roomid": 149,
           "roomName": "Crew Quarters",
-          "nodeid": 518,
-          "nodeName": "East-Upper Door",
+          "nodeid": 3,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Crew Quarters Hallway and MDK-SRX Tube",
+      "description": "Horizontal Door connection between [Crew Quarters Hallway - Right-Lower Door] and [MDK-SRX Tube - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 153,
+          "roomid": 147,
           "roomName": "Crew Quarters Hallway",
-          "nodeid": 513,
-          "nodeName": "East Door",
+          "nodeid": 3,
+          "nodeName": "Right-Lower Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 159,
+          "roomid": 153,
           "roomName": "MDK-SRX Tube",
-          "nodeid": 527,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Crew Quarters NOC Access and Operations Ventilation",
+      "description": "Horizontal Door connection between [Crew Quarters NOC Access - Left Door] and [Operations Ventilation - Top-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 154,
+          "roomid": 148,
           "roomName": "Crew Quarters NOC Access",
-          "nodeid": 514,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 161,
+          "roomid": 155,
           "roomName": "Operations Ventilation",
-          "nodeid": 532,
-          "nodeName": "North-East Door",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Crew Quarters NOC Access and MDK-NOC Tube",
+      "description": "Horizontal Door connection between [Crew Quarters NOC Access - Right Door] and [MDK-NOC Tube - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 154,
+          "roomid": 148,
           "roomName": "Crew Quarters NOC Access",
-          "nodeid": 515,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 158,
+          "roomid": 152,
           "roomName": "MDK-NOC Tube",
-          "nodeid": 525,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Crew Quarters and Operations Ventilation Maintenance Room",
+      "description": "Horizontal Door connection between [Crew Quarters - Left-Lower Door] and [Operations Ventilation Maintenance Room - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 155,
+          "roomid": 149,
           "roomName": "Crew Quarters",
-          "nodeid": 517,
-          "nodeName": "West Door",
+          "nodeid": 2,
+          "nodeName": "Left-Lower Door",
           "position": "left"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 160,
+          "roomid": 154,
           "roomName": "Operations Ventilation Maintenance Room",
-          "nodeid": 530,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Crew Quarters and MDK Save Station East",
+      "description": "Horizontal Door connection between [Crew Quarters - Right-Lower Door] and [MDK Save Station East - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 155,
+          "roomid": 149,
           "roomName": "Crew Quarters",
-          "nodeid": 519,
-          "nodeName": "East Door",
+          "nodeid": 4,
+          "nodeName": "Right-Lower Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 157,
+          "roomid": 151,
           "roomName": "MDK Save Station East",
-          "nodeid": 524,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Crew Quarters and Operations Ventilation",
+      "description": "Horizontal Door connection between [Crew Quarters - Bottom-Left Door] and [Operations Ventilation - Right-Lower Door]",
       "direction": "Bidirectional",
       "nodes": [
+        {
+          "area": "MDK",
+          "subarea": "East Main Deck",
+          "roomid": 149,
+          "roomName": "Crew Quarters",
+          "nodeid": 5,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
           "roomid": 155,
-          "roomName": "Crew Quarters",
-          "nodeid": 520,
-          "nodeName": "South-West Door",
-          "position": "left"
-        },
-        {
-          "area": "MDK",
-          "subarea": "East Main Deck",
-          "roomid": 161,
           "roomName": "Operations Ventilation",
-          "nodeid": 534,
-          "nodeName": "East Door",
+          "nodeid": 4,
+          "nodeName": "Right-Lower Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Genesis Speedway and Operations Ventilation",
+      "description": "Horizontal Door connection between [Genesis Speedway - Right Door] and [Operations Ventilation - Bottom-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 156,
+          "roomid": 150,
           "roomName": "Genesis Speedway",
-          "nodeid": 523,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "MDK",
           "subarea": "East Main Deck",
-          "roomid": 161,
+          "roomid": 155,
           "roomName": "Operations Ventilation",
-          "nodeid": 535,
-          "nodeName": "South-West Door",
+          "nodeid": 5,
+          "nodeName": "Bottom-Left Door",
           "position": "left"
         }
       ]

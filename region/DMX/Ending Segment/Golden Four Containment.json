@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 121,
+  "id": 116,
   "name": "Golden Four Containment",
   "area": "DMX",
   "subarea": "Ending Segment",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 432,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 433,
-      "name": "West-South Door",
+      "id": 2,
+      "name": "Left-Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -46,7 +46,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

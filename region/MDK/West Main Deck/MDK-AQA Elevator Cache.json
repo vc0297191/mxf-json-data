@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 184,
+  "id": 176,
   "name": "MDK-AQA Elevator Cache",
   "area": "MDK",
   "subarea": "West Main Deck",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 52,
-      "idMinorItemPlm": "0x01",
-      "name": "Power Bomb Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7D2FC",
-      "mapTileX": 23,
-      "mapTileY": 18
-    },
-    {
-      "id": 599,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,10 +30,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "idMinorItemPlm": "0x01",
+      "name": "Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7D2FC",
+      "mapTileX": 23,
+      "mapTileY": 18
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

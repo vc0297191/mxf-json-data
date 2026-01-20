@@ -3,100 +3,100 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Zazabi Arena Access and Zazabi Arena",
+      "description": "Horizontal Door connection between [Zazabi Arena Access - Top-Right Door] and [Zazabi Arena - Bottom-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 373,
+          "roomid": 362,
           "roomName": "Zazabi Arena Access",
-          "nodeid": 1066,
-          "nodeName": "North-East Door",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 374,
+          "roomid": 363,
           "roomName": "Zazabi Arena",
-          "nodeid": 1068,
-          "nodeName": "North-West Door",
+          "nodeid": 3,
+          "nodeName": "Bottom-Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Zazabi Arena Access and Zazabi Arena",
+      "description": "Horizontal Door connection between [Zazabi Arena Access - Bottom-Right Door] and [Zazabi Arena - Top-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 373,
+          "roomid": 362,
           "roomName": "Zazabi Arena Access",
-          "nodeid": 1067,
-          "nodeName": "South-East Door",
+          "nodeid": 3,
+          "nodeName": "Bottom-Right Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 374,
+          "roomid": 363,
           "roomName": "Zazabi Arena",
-          "nodeid": 1070,
-          "nodeName": "South-West Door",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Zazabi Arena and Zazabi Speedway Access",
+      "description": "Horizontal Door connection between [Zazabi Arena - Top-Right Door] and [Zazabi Speedway Access - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 374,
+          "roomid": 363,
           "roomName": "Zazabi Arena",
-          "nodeid": 1069,
-          "nodeName": "North-East Door",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 375,
+          "roomid": 364,
           "roomName": "Zazabi Speedway Access",
-          "nodeid": 1071,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Zazabi Speedway Access and Zazabi Speedway",
+      "description": "Horizontal Door connection between [Zazabi Speedway Access - Right Door] and [Zazabi Speedway - Top-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 375,
+          "roomid": 364,
           "roomName": "Zazabi Speedway Access",
-          "nodeid": 1072,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "TRO",
           "subarea": "Zazabi\u0027s Area",
-          "roomid": 376,
+          "roomid": 365,
           "roomName": "Zazabi Speedway",
-          "nodeid": 1073,
-          "nodeName": "North-West Door",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         }
       ]

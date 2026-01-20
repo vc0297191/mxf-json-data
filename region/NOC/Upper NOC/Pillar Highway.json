@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 237,
+  "id": 228,
   "name": "Pillar Highway",
   "area": "NOC",
   "subarea": "Upper NOC",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 65,
-      "idMinorItemPlm": "0x64",
-      "name": "Energy Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "ETank",
-      "nodeAddress": "0x7E1D2",
-      "mapTileX": 25,
-      "mapTileY": 7
-    },
-    {
-      "id": 730,
-      "name": "East-Upper Door",
+      "id": 1,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,10 +30,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "idMinorItemPlm": "0x64",
+      "name": "Energy Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "ETank",
+      "nodeAddress": "0x7E1D2",
+      "mapTileX": 25,
+      "mapTileY": 7
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

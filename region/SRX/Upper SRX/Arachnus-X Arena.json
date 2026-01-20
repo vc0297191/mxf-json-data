@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 310,
+  "id": 301,
   "name": "Arachnus-X Arena",
   "area": "SRX",
   "subarea": "Upper SRX",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 95,
-      "name": "Morph Ball",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 901,
-      "name": "North Door",
+      "id": 2,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,8 +32,8 @@
       ]
     },
     {
-      "id": 902,
-      "name": "South-West Door",
+      "id": 1,
+      "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -54,8 +45,8 @@
       ]
     },
     {
-      "id": 903,
-      "name": "South Door",
+      "id": 3,
+      "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -65,10 +56,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Morph Ball",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

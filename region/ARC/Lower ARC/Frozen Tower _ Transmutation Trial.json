@@ -1,0 +1,127 @@
+{
+  "$schema": "../../../schema/mxf-room.schema.json",
+  "id": 74,
+  "name": "Frozen Tower / Transmutation Trial",
+  "area": "ARC",
+  "subarea": "Lower ARC",
+  "roomImageFile": "ARC Room 79A00.jpg",
+  "roomAddress": "0x79A00",
+  "roomEnvironments": [
+    {
+      "heated": false,
+      "cold": false
+    }
+  ],
+  "mapTileMask": [
+    [
+      0
+    ]
+  ],
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Frozen Tower - Top-Left Tunnel",
+      "nodeType": "door",
+      "nodeSubType": "passage",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Frozen Tower - Left Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Frozen Tower - Left-Lower Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Frozen Tower - Bottom-Left Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Frozen Tower - Bottom-Right Tunnel",
+      "nodeType": "door",
+      "nodeSubType": "passage",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "idMinorItemPlm": "0x57",
+      "name": "Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7E024",
+      "mapTileX": 32,
+      "mapTileY": 17
+    },
+    {
+      "id": 7,
+      "name": "Transmutation Trial - Left Tunnel",
+      "nodeType": "door",
+      "nodeSubType": "passage",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "idMinorItemPlm": "0x58",
+      "name": "Hidden Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "hidden",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7E030",
+      "mapTileX": 33,
+      "mapTileY": 20
+    }
+  ],
+  "enemies": [],
+  "strats": [],
+  "notables": [],
+  "nextStratId": 1,
+  "nextNotableId": 1
+}

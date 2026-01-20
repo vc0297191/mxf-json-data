@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 157,
+  "id": 151,
   "name": "MDK Save Station East",
   "area": "MDK",
   "subarea": "East Main Deck",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 524,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -33,7 +33,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

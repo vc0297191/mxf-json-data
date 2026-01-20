@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 373,
+  "id": 362,
   "name": "Zazabi Arena Access",
   "area": "TRO",
   "subarea": "Zazabi\u0027s Area",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 122,
-      "idMinorItemPlm": "0x29",
-      "name": "Hidden Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "hidden",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7D850",
-      "mapTileX": 31,
-      "mapTileY": 20
-    },
-    {
-      "id": 1065,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -43,8 +32,8 @@
       ]
     },
     {
-      "id": 1066,
-      "name": "North-East Door",
+      "id": 2,
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -56,8 +45,8 @@
       ]
     },
     {
-      "id": 1067,
-      "name": "South-East Door",
+      "id": 3,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -67,10 +56,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "idMinorItemPlm": "0x29",
+      "name": "Hidden Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "hidden",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7D850",
+      "mapTileX": 31,
+      "mapTileY": 20
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 264,
+  "id": 255,
   "name": "Checkpoint Crossing",
   "area": "PYR",
   "subarea": "Neo-Crocomire\u0027s Lair",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 75,
-      "name": "PYR Aux Power Cell",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 786,
-      "name": "North Door",
+      "id": 3,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,8 +32,8 @@
       ]
     },
     {
-      "id": 787,
-      "name": "South-West Door",
+      "id": 1,
+      "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -54,8 +45,8 @@
       ]
     },
     {
-      "id": 788,
-      "name": "South-East Door",
+      "id": 2,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -65,10 +56,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "PYR Aux Power Cell",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

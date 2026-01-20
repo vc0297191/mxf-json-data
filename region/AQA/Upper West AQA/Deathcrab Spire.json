@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 56,
+  "id": 53,
   "name": "Deathcrab Spire",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 267,
-      "name": "North-West Morph Ball Hole",
+      "id": 1,
+      "name": "Top-Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 268,
-      "name": "North-East Morph Ball Hole",
+      "id": 2,
+      "name": "Top-Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 269,
-      "name": "West-Upper Morph Ball Hole",
+      "id": 3,
+      "name": "Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "id": 270,
-      "name": "West Door",
+      "id": 4,
+      "name": "Left-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -71,8 +71,8 @@
       ]
     },
     {
-      "id": 271,
-      "name": "East Morph Ball Hole",
+      "id": 5,
+      "name": "Right-Lower Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -84,8 +84,8 @@
       ]
     },
     {
-      "id": 272,
-      "name": "South-East Door",
+      "id": 6,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -98,7 +98,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

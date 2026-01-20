@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 376,
+  "id": 365,
   "name": "Zazabi Speedway",
   "area": "TRO",
   "subarea": "Zazabi\u0027s Area",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 124,
-      "idMinorItemPlm": "0x2A",
-      "name": "Power Bomb Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7D87E",
-      "mapTileX": 36,
-      "mapTileY": 20
-    },
-    {
-      "id": 1073,
-      "name": "North-West Door",
+      "id": 1,
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,10 +30,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "idMinorItemPlm": "0x2A",
+      "name": "Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7D87E",
+      "mapTileX": 36,
+      "mapTileY": 20
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

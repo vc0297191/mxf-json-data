@@ -19,8 +19,21 @@
   ],
   "nodes": [
     {
-      "id": 135,
-      "name": "North Door",
+      "id": 3,
+      "name": "Top Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "up",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,21 +45,8 @@
       ]
     },
     {
-      "id": 136,
-      "name": "West-Upper Door",
-      "nodeType": "door",
-      "nodeSubType": "blue",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
-      "doorEnvironments": [
-        {
-          "physics": "air"
-        }
-      ]
-    },
-    {
-      "id": 137,
-      "name": "East-Upper Door",
+      "id": 2,
+      "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -59,7 +59,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

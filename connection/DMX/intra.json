@@ -2,126 +2,126 @@
   "$schema": "../../../schema/mxf-connection.schema.json",
   "connections": [
     {
-      "connectionType": "Elevator",
-      "description": "Elevator connection between DMX Elevator Bottom and DMX Hub",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [DMX Elevator Bottom - Left Door] and [DMX Hub - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "DMX",
           "subarea": "Chase Segment",
-          "roomid": 108,
+          "roomid": 103,
           "roomName": "DMX Elevator Bottom",
-          "nodeid": 405,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
-          "roomid": 127,
+          "roomid": 122,
           "roomName": "DMX Hub",
-          "nodeid": 449,
-          "nodeName": "East-Upper Door",
+          "nodeid": 3,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Metroid Swarm Chase and DMX Hub",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Metroid Swarm Chase - Top Door] and [DMX Hub - Bottom-Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 109,
+          "roomName": "Metroid Swarm Chase",
+          "nodeid": 1,
+          "nodeName": "Top Door",
+          "position": "left"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 122,
+          "roomName": "DMX Hub",
+          "nodeid": 5,
+          "nodeName": "Bottom-Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SA-X Hallway of Death - Right Door] and [DMX Hub - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "DMX",
+          "subarea": "Chase Segment",
+          "roomid": 111,
+          "roomName": "SA-X Hallway of Death",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 122,
+          "roomName": "DMX Hub",
+          "nodeid": 2,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Winding SA-X Chase - Right-Bottom Door] and [Sewer Bottom - Top Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "DMX",
           "subarea": "Chase Segment",
           "roomid": 114,
-          "roomName": "Metroid Swarm Chase",
-          "nodeid": 417,
-          "nodeName": "North Door",
-          "position": "left"
-        },
-        {
-          "area": "DMX",
-          "subarea": "Opening Segment",
-          "roomid": 127,
-          "roomName": "DMX Hub",
-          "nodeid": 451,
-          "nodeName": "South-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SA-X Hallway of Death and DMX Hub",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "DMX",
-          "subarea": "Chase Segment",
-          "roomid": 116,
-          "roomName": "SA-X Hallway of Death",
-          "nodeid": 422,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "DMX",
-          "subarea": "Opening Segment",
-          "roomid": 127,
-          "roomName": "DMX Hub",
-          "nodeid": 448,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Winding SA-X Chase and Hornoad Sewer",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "DMX",
-          "subarea": "Chase Segment",
-          "roomid": 119,
           "roomName": "Winding SA-X Chase",
-          "nodeid": 429,
-          "nodeName": "East-South Door",
-          "position": "left"
+          "nodeid": 2,
+          "nodeName": "Right-Bottom Door",
+          "position": "bottom"
         },
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 122,
-          "roomName": "Hornoad Sewer",
-          "nodeid": 435,
-          "nodeName": "East Door",
-          "position": "right"
+          "roomid": 117,
+          "roomName": "Hornoad Sewer / Hornoad Shaft / Sewer Bottom",
+          "nodeid": 6,
+          "nodeName": "Sewer Bottom - Top Door",
+          "position": "top"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Ventilation B and DMX Entrance",
+      "description": "Horizontal Door connection between [Ventilation B - Bottom-Right Door] and [DMX Entrance - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "DMX",
           "subarea": "Ending Segment",
-          "roomid": 124,
+          "roomid": 119,
           "roomName": "Ventilation B",
-          "nodeid": 441,
-          "nodeName": "South-East Door",
+          "nodeid": 3,
+          "nodeName": "Bottom-Right Door",
           "position": "right"
         },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
-          "roomid": 125,
+          "roomid": 120,
           "roomName": "DMX Entrance",
-          "nodeid": 442,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]

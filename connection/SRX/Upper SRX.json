@@ -2,526 +2,526 @@
   "$schema": "../../../schema/mxf-connection.schema.json",
   "connections": [
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Arachnus-X Arena and Just Don\u0027t Die Bend",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Arachnus-X Arena - Top Door] and [Just Don\u0027t Die Bend - Top-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 310,
+          "roomid": 301,
           "roomName": "Arachnus-X Arena",
-          "nodeid": 901,
-          "nodeName": "North Door",
+          "nodeid": 2,
+          "nodeName": "Top Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 314,
+          "roomid": 304,
           "roomName": "Just Don\u0027t Die Bend",
-          "nodeid": 911,
-          "nodeName": "North-West Door",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Arachnus-X Arena and Twin Junctions East",
+      "description": "Horizontal Door connection between [Arachnus-X Arena - Bottom-Left Door] and [Twin Junctions East - Top-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 310,
+          "roomid": 301,
           "roomName": "Arachnus-X Arena",
-          "nodeid": 902,
-          "nodeName": "South-West Door",
+          "nodeid": 1,
+          "nodeName": "Bottom-Left Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 327,
+          "roomid": 316,
           "roomName": "Twin Junctions East",
-          "nodeid": 940,
-          "nodeName": "North-East Door",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Arachnus-X Arena and SRX Navigation Room",
-      "direction": "Bidirectional",
+      "description": "Vertical Door connection between [Arachnus-X Arena - Bottom Door] and [SRX Navigation Room - Top Door]",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 310,
+          "roomid": 301,
           "roomName": "Arachnus-X Arena",
-          "nodeid": 903,
-          "nodeName": "South Door",
+          "nodeid": 3,
+          "nodeName": "Bottom Door",
           "position": "bottom"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 323,
+          "roomid": 312,
           "roomName": "SRX Navigation Room",
-          "nodeid": 932,
-          "nodeName": "North Door",
+          "nodeid": 3,
+          "nodeName": "Top Door",
           "position": "top"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Data Room Checkpoint and Lava Tornado",
+      "description": "Horizontal Door connection between [Fool\u0027s Dead End - Top-Left Door] and [Twin Junctions East - Bottom-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 311,
-          "roomName": "Data Room Checkpoint",
-          "nodeid": 904,
-          "nodeName": "West-Upper Door",
+          "roomid": 302,
+          "roomName": "Fool\u0027s Dead End",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 316,
+          "roomName": "Twin Junctions East",
+          "nodeid": 5,
+          "nodeName": "Bottom-Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Hornoad Hole - Left Door] and [Yameba Corridor - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 303,
+          "roomName": "Hornoad Hole",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 318,
+          "roomName": "Yameba Corridor",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Hornoad Hole - Right Door] and [Twin Junctions East - Top-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 303,
+          "roomName": "Hornoad Hole",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 316,
+          "roomName": "Twin Junctions East",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [L-X-SRX Normal Exit Tube - Right Door] and [Moto Towerway - Top-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 305,
+          "roomName": "L-X-SRX Normal Exit Tube",
+          "nodeid": 3,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 307,
+          "roomName": "Moto Towerway",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [Lava Horseshoe - Right Tunnel] and [Twin Junctions West - Bottom-Left Tunnel]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 306,
+          "roomName": "Lava Horseshoe / Lava Tornado",
+          "nodeid": 1,
+          "nodeName": "Lava Horseshoe - Right Tunnel",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 317,
+          "roomName": "Twin Junctions West / Data Room Checkpoint",
+          "nodeid": 3,
+          "nodeName": "Twin Junctions West - Bottom-Left Tunnel",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Lava Tornado - Top-Left Door] and [Twin Junctions West - Bottom-Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 306,
+          "roomName": "Lava Horseshoe / Lava Tornado",
+          "nodeid": 3,
+          "nodeName": "Lava Tornado - Top-Left Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
           "roomid": 317,
-          "roomName": "Lava Tornado",
-          "nodeid": 918,
-          "nodeName": "North-East Door",
+          "roomName": "Twin Junctions West / Data Room Checkpoint",
+          "nodeid": 4,
+          "nodeName": "Twin Junctions West - Bottom-Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Data Room Checkpoint and SRX Data Room Access",
+      "description": "Horizontal Door connection between [Lava Tornado - Top-Right Door] and [Data Room Checkpoint - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 311,
-          "roomName": "Data Room Checkpoint",
-          "nodeid": 905,
-          "nodeName": "East-Upper Door",
+          "roomid": 306,
+          "roomName": "Lava Horseshoe / Lava Tornado",
+          "nodeid": 4,
+          "nodeName": "Lava Tornado - Top-Right Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 320,
-          "roomName": "SRX Data Room Access",
-          "nodeid": 925,
-          "nodeName": "South-West Door",
+          "roomid": 317,
+          "roomName": "Twin Junctions West / Data Room Checkpoint",
+          "nodeid": 5,
+          "nodeName": "Data Room Checkpoint - Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Fool\u0027s Dead End and Twin Junctions East",
+      "description": "Horizontal Door connection between [Moto Towerway - Bottom-Left Door] and [SRX Entrance Lobby - Top-Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 307,
+          "roomName": "Moto Towerway",
+          "nodeid": 2,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 311,
+          "roomName": "SRX Entrance Lobby",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX Auxiliary Room - Left Door] and [SRX Navigation Room - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 308,
+          "roomName": "SRX Auxiliary Room",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 312,
+          "roomName": "SRX Navigation Room",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX Data Room Access - Top-Left Door] and [SRX Entrance Lobby - Bottom-Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 309,
+          "roomName": "SRX Data Room Access",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 311,
+          "roomName": "SRX Entrance Lobby",
+          "nodeid": 5,
+          "nodeName": "Bottom-Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX Data Room Access - Top-Right Door] and [SRX Data Room - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 309,
+          "roomName": "SRX Data Room Access",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 310,
+          "roomName": "SRX Data Room",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX Data Room Access - Bottom-Left Door] and [Data Room Checkpoint - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 309,
+          "roomName": "SRX Data Room Access",
+          "nodeid": 3,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 317,
+          "roomName": "Twin Junctions West / Data Room Checkpoint",
+          "nodeid": 6,
+          "nodeName": "Data Room Checkpoint - Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX Entrance Lobby - Top-Left Door] and [SRX-MDK Tube - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 311,
+          "roomName": "SRX Entrance Lobby",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 315,
+          "roomName": "SRX-MDK Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX Entrance Lobby - Right Door] and [Yameba Corridor - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 311,
+          "roomName": "SRX Entrance Lobby",
+          "nodeid": 3,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 318,
+          "roomName": "Yameba Corridor",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX Entrance Lobby - Bottom-Left Door] and [Twin Junctions West - Top-Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 311,
+          "roomName": "SRX Entrance Lobby",
+          "nodeid": 4,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 317,
+          "roomName": "Twin Junctions West / Data Room Checkpoint",
+          "nodeid": 2,
+          "nodeName": "Twin Junctions West - Top-Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX Navigation Room - Left Door] and [Twin Junctions East - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Upper SRX",
           "roomid": 312,
-          "roomName": "Fool\u0027s Dead End",
-          "nodeid": 906,
-          "nodeName": "North-West Door",
+          "roomName": "SRX Navigation Room",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 327,
-          "roomName": "Twin Junctions East",
-          "nodeid": 943,
-          "nodeName": "South-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Hornoad Hole and Yameba Corridor",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 313,
-          "roomName": "Hornoad Hole",
-          "nodeid": 909,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 329,
-          "roomName": "Yameba Corridor",
-          "nodeid": 949,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Hornoad Hole and Twin Junctions East",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 313,
-          "roomName": "Hornoad Hole",
-          "nodeid": 910,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 327,
-          "roomName": "Twin Junctions East",
-          "nodeid": 939,
-          "nodeName": "North-West Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between L-X-SRX Normal Exit Tube and Moto Towerway",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 315,
-          "roomName": "L-X-SRX Normal Exit Tube",
-          "nodeid": 915,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 318,
-          "roomName": "Moto Towerway",
-          "nodeid": 920,
-          "nodeName": "North-West Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Lava Horseshoe and Twin Junctions West",
-      "direction": "Bidirectional",
-      "nodes": [
         {
           "area": "SRX",
           "subarea": "Upper SRX",
           "roomid": 316,
-          "roomName": "Lava Horseshoe",
-          "nodeid": 916,
-          "nodeName": "East-Upper Door",
+          "roomName": "Twin Junctions East",
+          "nodeid": 3,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX Save Station Central - Right Door] and [Twin Junctions East - Bottom-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 313,
+          "roomName": "SRX Save Station Central",
+          "nodeid": 1,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
-          "roomid": 328,
-          "roomName": "Twin Junctions West",
-          "nodeid": 946,
-          "nodeName": "South-West Door",
+          "roomid": 316,
+          "roomName": "Twin Junctions East",
+          "nodeid": 4,
+          "nodeName": "Bottom-Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Lava Tornado and Twin Junctions West",
+      "description": "Horizontal Door connection between [SRX Save Station West - Right Door] and [Twin Junctions West - Top-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Upper SRX",
+          "roomid": 314,
+          "roomName": "SRX Save Station West",
+          "nodeid": 1,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
         {
           "area": "SRX",
           "subarea": "Upper SRX",
           "roomid": 317,
-          "roomName": "Lava Tornado",
-          "nodeid": 917,
-          "nodeName": "North-West Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 328,
-          "roomName": "Twin Junctions West",
-          "nodeid": 947,
-          "nodeName": "South-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Moto Towerway and SRX Entrance Lobby",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 318,
-          "roomName": "Moto Towerway",
-          "nodeid": 921,
-          "nodeName": "South-West Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 322,
-          "roomName": "SRX Entrance Lobby",
-          "nodeid": 928,
-          "nodeName": "North-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX Auxiliary Room and SRX Navigation Room",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 319,
-          "roomName": "SRX Auxiliary Room",
-          "nodeid": 922,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 323,
-          "roomName": "SRX Navigation Room",
-          "nodeid": 934,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX Data Room Access and SRX Entrance Lobby",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 320,
-          "roomName": "SRX Data Room Access",
-          "nodeid": 923,
-          "nodeName": "North-West Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 322,
-          "roomName": "SRX Entrance Lobby",
-          "nodeid": 931,
-          "nodeName": "South-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX Data Room Access and SRX Data Room",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 320,
-          "roomName": "SRX Data Room Access",
-          "nodeid": 924,
-          "nodeName": "North-East Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 321,
-          "roomName": "SRX Data Room",
-          "nodeid": 926,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX Entrance Lobby and SRX-MDK Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 322,
-          "roomName": "SRX Entrance Lobby",
-          "nodeid": 927,
-          "nodeName": "North-West Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 326,
-          "roomName": "SRX-MDK Tube",
-          "nodeid": 938,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX Entrance Lobby and Yameba Corridor",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 322,
-          "roomName": "SRX Entrance Lobby",
-          "nodeid": 929,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 329,
-          "roomName": "Yameba Corridor",
-          "nodeid": 948,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX Entrance Lobby and Twin Junctions West",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 322,
-          "roomName": "SRX Entrance Lobby",
-          "nodeid": 930,
-          "nodeName": "South-West Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 328,
-          "roomName": "Twin Junctions West",
-          "nodeid": 945,
-          "nodeName": "North-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX Navigation Room and Twin Junctions East",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 323,
-          "roomName": "SRX Navigation Room",
-          "nodeid": 933,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 327,
-          "roomName": "Twin Junctions East",
-          "nodeid": 941,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX Save Station Central and Twin Junctions East",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 324,
-          "roomName": "SRX Save Station Central",
-          "nodeid": 935,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 327,
-          "roomName": "Twin Junctions East",
-          "nodeid": 942,
-          "nodeName": "South-West Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX Save Station West and Twin Junctions West",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 325,
-          "roomName": "SRX Save Station West",
-          "nodeid": 936,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Upper SRX",
-          "roomid": 328,
-          "roomName": "Twin Junctions West",
-          "nodeid": 944,
-          "nodeName": "North-West Door",
+          "roomName": "Twin Junctions West / Data Room Checkpoint",
+          "nodeid": 1,
+          "nodeName": "Twin Junctions West - Top-Left Door",
           "position": "left"
         }
       ]

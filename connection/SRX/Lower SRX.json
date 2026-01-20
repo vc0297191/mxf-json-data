@@ -3,400 +3,400 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Cruciform Hall and West Spike Tower",
+      "description": "Horizontal Door connection between [Cruciform Hall - Left Door] and [West Spike Tower - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 294,
+          "roomid": 285,
           "roomName": "Cruciform Hall",
-          "nodeid": 864,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 309,
+          "roomid": 300,
           "roomName": "West Spike Tower",
-          "nodeid": 898,
-          "nodeName": "East-Upper Door",
+          "nodeid": 4,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Cruciform Hall and West Spike Tower",
+      "description": "Horizontal Door connection between [Cruciform Hall - Left-Lower Door] and [West Spike Tower - Right-Lower Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 294,
+          "roomid": 285,
           "roomName": "Cruciform Hall",
-          "nodeid": 865,
-          "nodeName": "West Door",
+          "nodeid": 2,
+          "nodeName": "Left-Lower Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 309,
+          "roomid": 300,
           "roomName": "West Spike Tower",
-          "nodeid": 899,
-          "nodeName": "East Door",
+          "nodeid": 5,
+          "nodeName": "Right-Lower Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Cruciform Hall and SRX-NOC Elevator Access",
+      "description": "Horizontal Door connection between [Cruciform Hall - Right Door] and [SRX-NOC Elevator Access - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 294,
+          "roomid": 285,
           "roomName": "Cruciform Hall",
-          "nodeid": 866,
-          "nodeName": "East-Upper Door",
+          "nodeid": 3,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 304,
+          "roomid": 295,
           "roomName": "SRX-NOC Elevator Access",
-          "nodeid": 884,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Cruciform Hall and SRX Save Station East Central",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Cruciform Hall - Bottom Door] and [SRX Save Station East Central - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 294,
+          "roomid": 285,
           "roomName": "Cruciform Hall",
-          "nodeid": 867,
-          "nodeName": "South Door",
+          "nodeid": 4,
+          "nodeName": "Bottom Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 301,
+          "roomid": 292,
           "roomName": "SRX Save Station East Central",
-          "nodeid": 880,
-          "nodeName": "East-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between East Spike Tower and Golden Arachnus-X Arena",
+      "description": "Horizontal Door connection between [East Spike Tower - Top-Left Door] and [Golden Arachnus-X Arena - Top-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 295,
+          "roomid": 286,
           "roomName": "East Spike Tower",
-          "nodeid": 869,
-          "nodeName": "North-West Door",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
           "position": "left"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 296,
+          "roomid": 287,
           "roomName": "Golden Arachnus-X Arena",
-          "nodeid": 872,
-          "nodeName": "North-East Door",
+          "nodeid": 1,
+          "nodeName": "Top-Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between East Spike Tower and SRX Save Station South East",
+      "description": "Horizontal Door connection between [East Spike Tower - Right Door] and [SRX Save Station South East - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 295,
+          "roomid": 286,
           "roomName": "East Spike Tower",
-          "nodeid": 870,
-          "nodeName": "East-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 302,
+          "roomid": 293,
           "roomName": "SRX Save Station South East",
-          "nodeid": 881,
-          "nodeName": "West-Upper Door",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between East Spike Tower and Vacuum Verge",
+      "description": "Vertical Door connection between [East Spike Tower - Bottom Door] and [Vacuum Verge - Right-Top Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 295,
+          "roomid": 286,
           "roomName": "East Spike Tower",
-          "nodeid": 871,
-          "nodeName": "South Door",
+          "nodeid": 3,
+          "nodeName": "Bottom Door",
           "position": "bottom"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 308,
+          "roomid": 299,
           "roomName": "Vacuum Verge",
-          "nodeid": 894,
-          "nodeName": "East-North Door",
+          "nodeid": 2,
+          "nodeName": "Right-Top Door",
           "position": "top"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Golden Arachnus-X Arena and Spikespawn Arena",
+      "description": "Horizontal Door connection between [Golden Arachnus-X Arena - Left Door] and [Spikespawn Arena - Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 287,
+          "roomName": "Golden Arachnus-X Arena",
+          "nodeid": 2,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 290,
+          "roomName": "Spikespawn Arena",
+          "nodeid": 1,
+          "nodeName": "Bottom Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Lava Lake - Left Door] and [Turbo Tunnel - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 288,
+          "roomName": "Lava Lake",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 297,
+          "roomName": "Turbo Tunnel",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Lava Lake - Right Door] and [Twin-Wing Crossing - Left-Lower Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 288,
+          "roomName": "Lava Lake",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 298,
+          "roomName": "Twin-Wing Crossing",
+          "nodeid": 2,
+          "nodeName": "Left-Lower Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Searpent\u0027s Coil - Bottom-Right Door] and [West Spike Tower - Left-Lower Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 289,
+          "roomName": "Searpent\u0027s Coil",
+          "nodeid": 1,
+          "nodeName": "Bottom-Right Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 300,
+          "roomName": "West Spike Tower",
+          "nodeid": 3,
+          "nodeName": "Left-Lower Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX Etecoon Room - Right Door] and [Twin-Wing Crossing - Top-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 291,
+          "roomName": "SRX Etecoon Room",
+          "nodeid": 1,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 298,
+          "roomName": "Twin-Wing Crossing",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX-ARC Tube - Right Door] and [Turbo Tunnel - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 294,
+          "roomName": "SRX-ARC Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 297,
+          "roomName": "Turbo Tunnel",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [SRX-NOC Elevator Access - Right Door] and [SRX-NOC Elevator - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 295,
+          "roomName": "SRX-NOC Elevator Access",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
           "roomid": 296,
-          "roomName": "Golden Arachnus-X Arena",
-          "nodeid": 873,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 299,
-          "roomName": "Spikespawn Arena",
-          "nodeid": 878,
-          "nodeName": "South Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Lava Lake and Turbo Tunnel",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 297,
-          "roomName": "Lava Lake",
-          "nodeid": 875,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 306,
-          "roomName": "Turbo Tunnel",
-          "nodeid": 889,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Lava Lake and Twin-Wing Crossing",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 297,
-          "roomName": "Lava Lake",
-          "nodeid": 876,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 307,
-          "roomName": "Twin-Wing Crossing",
-          "nodeid": 891,
-          "nodeName": "West Door",
+          "roomName": "SRX-NOC Elevator",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Searpent\u0027s Coil and West Spike Tower",
+      "description": "Horizontal Door connection between [Twin-Wing Crossing - Right-Lower Door] and [West Spike Tower - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Lower SRX",
           "roomid": 298,
-          "roomName": "Searpent\u0027s Coil",
-          "nodeid": 877,
-          "nodeName": "South-East Door",
+          "roomName": "Twin-Wing Crossing",
+          "nodeid": 3,
+          "nodeName": "Right-Lower Door",
           "position": "right"
         },
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 309,
-          "roomName": "West Spike Tower",
-          "nodeid": 897,
-          "nodeName": "West Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX Etecoon Room and Twin-Wing Crossing",
-      "direction": "Bidirectional",
-      "nodes": [
         {
           "area": "SRX",
           "subarea": "Lower SRX",
           "roomid": 300,
-          "roomName": "SRX Etecoon Room",
-          "nodeid": 879,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 307,
-          "roomName": "Twin-Wing Crossing",
-          "nodeid": 890,
-          "nodeName": "North-West Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between SRX-ARC Tube and Turbo Tunnel",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 303,
-          "roomName": "SRX-ARC Tube",
-          "nodeid": 883,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 306,
-          "roomName": "Turbo Tunnel",
-          "nodeid": 888,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between SRX-NOC Elevator Access and SRX-NOC Elevator",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 304,
-          "roomName": "SRX-NOC Elevator Access",
-          "nodeid": 885,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 305,
-          "roomName": "SRX-NOC Elevator",
-          "nodeid": 886,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Twin-Wing Crossing and West Spike Tower",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 307,
-          "roomName": "Twin-Wing Crossing",
-          "nodeid": 892,
-          "nodeName": "East Door",
-          "position": "right"
-        },
-        {
-          "area": "SRX",
-          "subarea": "Lower SRX",
-          "roomid": 309,
           "roomName": "West Spike Tower",
-          "nodeid": 896,
-          "nodeName": "West-Upper Door",
+          "nodeid": 2,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
-      "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between Vacuum Verge and West Spike Tower",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Vacuum Verge - Left-Top Door] and [West Spike Tower - Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 308,
+          "roomid": 299,
           "roomName": "Vacuum Verge",
-          "nodeid": 893,
-          "nodeName": "West-North Door",
+          "nodeid": 1,
+          "nodeName": "Left-Top Door",
           "position": "top"
         },
         {
           "area": "SRX",
           "subarea": "Lower SRX",
-          "roomid": 309,
+          "roomid": 300,
           "roomName": "West Spike Tower",
-          "nodeid": 900,
-          "nodeName": "South Door",
+          "nodeid": 6,
+          "nodeName": "Bottom Door",
           "position": "bottom"
         }
       ]

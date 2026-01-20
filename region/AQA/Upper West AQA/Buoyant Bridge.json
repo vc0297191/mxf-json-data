@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 52,
+  "id": 50,
   "name": "Buoyant Bridge",
   "area": "AQA",
   "subarea": "Upper West AQA",
@@ -19,19 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 17,
-      "idMinorItemPlm": "0x46",
-      "name": "Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7DD4E",
-      "mapTileX": 17,
-      "mapTileY": 10
-    },
-    {
-      "id": 257,
-      "name": "North-East Morph Ball Hole",
+      "id": 1,
+      "name": "Top-Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -43,8 +32,8 @@
       ]
     },
     {
-      "id": 258,
-      "name": "South-East Door",
+      "id": 2,
+      "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -54,10 +43,20 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 3,
+      "idMinorItemPlm": "0x46",
+      "name": "Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7DD4E",
+      "mapTileX": 17,
+      "mapTileY": 10
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

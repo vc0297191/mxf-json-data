@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 212,
+  "id": 204,
   "name": "Nocturnal Crossroads",
   "area": "NOC",
   "subarea": "Lower NOC",
@@ -19,7 +19,59 @@
   ],
   "nodes": [
     {
-      "id": 60,
+      "id": 1,
+      "name": "Top-Left Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Top-Right Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Right-Lower Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bottom-Left Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 6,
       "idMinorItemPlm": "0x6A",
       "name": "Missile Tank",
       "nodeType": "item",
@@ -30,69 +82,16 @@
       "mapTileY": 13
     },
     {
-      "id": 61,
+      "id": 5,
       "name": "NOC Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
       "nodeItem": "Major",
       "nodeAddress": "0x0",
       "note": "Jump through the wall at the bottom-right of the room"
-    },
-    {
-      "id": 666,
-      "name": "North-West Door",
-      "nodeType": "door",
-      "nodeSubType": "blue",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
-      "doorEnvironments": [
-        {
-          "physics": "air"
-        }
-      ]
-    },
-    {
-      "id": 667,
-      "name": "North-East Door",
-      "nodeType": "door",
-      "nodeSubType": "blue",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
-      "doorEnvironments": [
-        {
-          "physics": "air"
-        }
-      ]
-    },
-    {
-      "id": 668,
-      "name": "East Door",
-      "nodeType": "door",
-      "nodeSubType": "blue",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
-      "doorEnvironments": [
-        {
-          "physics": "air"
-        }
-      ]
-    },
-    {
-      "id": 669,
-      "name": "South-West Door",
-      "nodeType": "door",
-      "nodeSubType": "blue",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
-      "doorEnvironments": [
-        {
-          "physics": "air"
-        }
-      ]
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

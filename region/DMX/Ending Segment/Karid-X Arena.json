@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 123,
+  "id": 118,
   "name": "Karid-X Arena",
   "area": "DMX",
   "subarea": "Ending Segment",
@@ -19,8 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 436,
-      "name": "North Door",
+      "id": 3,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "id": 437,
-      "name": "West-Upper Morph Ball Hole",
+      "id": 1,
+      "name": "Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "id": 438,
-      "name": "East-Upper Morph Ball Hole",
+      "id": 2,
+      "name": "Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "nodeAddress": "0x0",
@@ -59,7 +59,6 @@
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

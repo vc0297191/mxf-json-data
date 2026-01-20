@@ -1,6 +1,6 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 168,
+  "id": 162,
   "name": "Yakuza Arena",
   "area": "MDK",
   "subarea": "Reactor Silo",
@@ -19,17 +19,8 @@
   ],
   "nodes": [
     {
-      "id": 47,
-      "name": "Space Jump",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "nodeItem": "Major",
-      "nodeAddress": "0x0",
-      "note": ""
-    },
-    {
-      "id": 556,
-      "name": "North Door",
+      "id": 2,
+      "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -41,8 +32,8 @@
       ]
     },
     {
-      "id": 557,
-      "name": "West-Upper Door",
+      "id": 1,
+      "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "nodeAddress": "0x0",
@@ -52,10 +43,18 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "Space Jump",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "nodeItem": "Major",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "enemies": [],
-  "links": [],
   "strats": [],
   "notables": [],
   "nextStratId": 1,

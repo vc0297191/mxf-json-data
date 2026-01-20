@@ -3,350 +3,350 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC Navigation Room and ARC Save Station Central",
+      "description": "Horizontal Door connection between [ARC Navigation Room - Right Door] and [ARC Save Station Central - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 77,
+          "roomName": "ARC Navigation Room",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 78,
+          "roomName": "ARC Save Station Central",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [ARC Save Station Central - Right Door] and [Blue Tower - Bottom-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 78,
+          "roomName": "ARC Save Station Central",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 84,
+          "roomName": "Blue Tower",
+          "nodeid": 6,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [ARC Save Station North - Right Door] and [Blue Tower - Top-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 79,
+          "roomName": "ARC Save Station North",
+          "nodeid": 1,
+          "nodeName": "Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 84,
+          "roomName": "Blue Tower",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [ARC-NOC Tube - Left Door] and [Crow\u0027s Nest - Right-Lower Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 80,
+          "roomName": "ARC-NOC Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 85,
+          "roomName": "Crow\u0027s Nest",
+          "nodeid": 1,
+          "nodeName": "Right-Lower Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [ARC-PYR Access - Top-Right Tunnel] and [Speedblock Spiral - Bottom-Left Tunnel]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Upper ARC",
           "roomid": 81,
-          "roomName": "ARC Navigation Room",
-          "nodeid": 341,
-          "nodeName": "East-Upper Door",
+          "roomName": "ARC-PYR Access",
+          "nodeid": 1,
+          "nodeName": "Top-Right Tunnel",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 82,
-          "roomName": "ARC Save Station Central",
-          "nodeid": 342,
-          "nodeName": "West-Upper Door",
+          "roomid": 86,
+          "roomName": "Speedblock Spiral / Gerubus Gully",
+          "nodeid": 2,
+          "nodeName": "Speedblock Spiral - Bottom-Left Tunnel",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC Save Station Central and Blue Tower",
+      "description": "Horizontal Door connection between [ARC-PYR Access - Right-Lower Door] and [Gerubus Gully - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 82,
-          "roomName": "ARC Save Station Central",
-          "nodeid": 343,
-          "nodeName": "East-Upper Door",
+          "roomid": 81,
+          "roomName": "ARC-PYR Access",
+          "nodeid": 2,
+          "nodeName": "Right-Lower Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 89,
-          "roomName": "Blue Tower",
-          "nodeid": 361,
-          "nodeName": "South-West Door",
+          "roomid": 86,
+          "roomName": "Speedblock Spiral / Gerubus Gully",
+          "nodeid": 4,
+          "nodeName": "Gerubus Gully - Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC Save Station North and Blue Tower",
+      "description": "Horizontal Door connection between [ARC-PYR Access - Bottom-Left Door] and [ARC-PYR Tube - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 81,
+          "roomName": "ARC-PYR Access",
+          "nodeid": 3,
+          "nodeName": "Bottom-Left Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 82,
+          "roomName": "ARC-PYR Tube",
+          "nodeid": 2,
+          "nodeName": "Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [ARC-SRX Tube - Left Door] and [Weapons Testing Grounds - Bottom-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Upper ARC",
           "roomid": 83,
-          "roomName": "ARC Save Station North",
-          "nodeid": 344,
-          "nodeName": "East-Upper Door",
-          "position": "right"
+          "roomName": "ARC-SRX Tube",
+          "nodeid": 1,
+          "nodeName": "Left Door",
+          "position": "left"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
-          "roomid": 89,
-          "roomName": "Blue Tower",
-          "nodeid": 356,
-          "nodeName": "North-West Door",
-          "position": "left"
+          "roomid": 88,
+          "roomName": "Weapons Testing Grounds",
+          "nodeid": 2,
+          "nodeName": "Bottom-Right Door",
+          "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC-NOC Access and ARC-NOC Tube",
+      "description": "Horizontal Door connection between [Blue Tower - Top-Right Door] and [Weapons Testing Grounds - Top-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Upper ARC",
           "roomid": 84,
-          "roomName": "ARC-NOC Access",
-          "nodeid": 345,
-          "nodeName": "East Door",
+          "roomName": "Blue Tower",
+          "nodeid": 2,
+          "nodeName": "Top-Right Door",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 88,
+          "roomName": "Weapons Testing Grounds",
+          "nodeid": 1,
+          "nodeName": "Top-Left Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Blue Tower - Left Door] and [Speedblock Spiral - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 84,
+          "roomName": "Blue Tower",
+          "nodeid": 3,
+          "nodeName": "Left Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 86,
+          "roomName": "Speedblock Spiral / Gerubus Gully",
+          "nodeid": 1,
+          "nodeName": "Speedblock Spiral - Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Blue Tower - Left-Lower Door] and [Gerubus Gully - Right Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 84,
+          "roomName": "Blue Tower",
+          "nodeid": 4,
+          "nodeName": "Left-Lower Door",
+          "position": "left"
+        },
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 86,
+          "roomName": "Speedblock Spiral / Gerubus Gully",
+          "nodeid": 5,
+          "nodeName": "Gerubus Gully - Right Door",
+          "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Blue Tower - Right-Lower Door] and [Crow\u0027s Nest - Bottom-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "Upper ARC",
+          "roomid": 84,
+          "roomName": "Blue Tower",
+          "nodeid": 5,
+          "nodeName": "Right-Lower Door",
           "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
           "roomid": 85,
-          "roomName": "ARC-NOC Tube",
-          "nodeid": 347,
-          "nodeName": "West-Upper Door",
+          "roomName": "Crow\u0027s Nest",
+          "nodeid": 2,
+          "nodeName": "Bottom-Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC-NOC Access and Blue Tower",
+      "description": "Horizontal Door connection between [Blue Tower - Bottom-Right Door] and [X-B.O.X. Arena - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
           "area": "ARC",
           "subarea": "Upper ARC",
           "roomid": 84,
-          "roomName": "ARC-NOC Access",
-          "nodeid": 346,
-          "nodeName": "South-West Door",
-          "position": "left"
+          "roomName": "Blue Tower",
+          "nodeid": 7,
+          "nodeName": "Bottom-Right Door",
+          "position": "right"
         },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
           "roomid": 89,
-          "roomName": "Blue Tower",
-          "nodeid": 360,
-          "nodeName": "East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalMorphBallHole",
-      "description": "Horizontal Morph Ball Hole connection between ARC-PYR Access and Speedblock Spiral",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 86,
-          "roomName": "ARC-PYR Access",
-          "nodeid": 349,
-          "nodeName": "North-East Morph Ball Hole",
-          "position": "right"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 91,
-          "roomName": "Speedblock Spiral",
-          "nodeid": 366,
-          "nodeName": "South-West Morph Ball Hole",
+          "roomName": "X-B.O.X. Arena",
+          "nodeid": 1,
+          "nodeName": "Left Door",
           "position": "left"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC-PYR Access and Gerubus Gully",
+      "description": "Horizontal Door connection between [Tactical Evasion Course - Right Door] and [Weapons Testing Grounds - Bottom Door]",
       "direction": "Bidirectional",
       "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 86,
-          "roomName": "ARC-PYR Access",
-          "nodeid": 350,
-          "nodeName": "East Door",
-          "position": "right"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 90,
-          "roomName": "Gerubus Gully",
-          "nodeid": 363,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between ARC-PYR Access and ARC-PYR Tube",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 86,
-          "roomName": "ARC-PYR Access",
-          "nodeid": 351,
-          "nodeName": "South-West Door",
-          "position": "left"
-        },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
           "roomid": 87,
-          "roomName": "ARC-PYR Tube",
-          "nodeid": 353,
-          "nodeName": "East-Upper Door",
+          "roomName": "Tactical Evasion Course",
+          "nodeid": 1,
+          "nodeName": "Right Door",
           "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "TransitionTube",
-      "description": "Transition Tube connection between ARC-SRX Tube and Weapons Testing Grounds",
-      "direction": "Bidirectional",
-      "nodes": [
+        },
         {
           "area": "ARC",
           "subarea": "Upper ARC",
           "roomid": 88,
-          "roomName": "ARC-SRX Tube",
-          "nodeid": 354,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 93,
           "roomName": "Weapons Testing Grounds",
-          "nodeid": 370,
-          "nodeName": "South-East Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Blue Tower and Weapons Testing Grounds",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 89,
-          "roomName": "Blue Tower",
-          "nodeid": 357,
-          "nodeName": "North-East Door",
-          "position": "right"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 93,
-          "roomName": "Weapons Testing Grounds",
-          "nodeid": 368,
-          "nodeName": "North-West Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Blue Tower and Speedblock Spiral",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 89,
-          "roomName": "Blue Tower",
-          "nodeid": 358,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 91,
-          "roomName": "Speedblock Spiral",
-          "nodeid": 365,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Blue Tower and Gerubus Gully",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 89,
-          "roomName": "Blue Tower",
-          "nodeid": 359,
-          "nodeName": "West Door",
-          "position": "left"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 90,
-          "roomName": "Gerubus Gully",
-          "nodeid": 364,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Blue Tower and X-B.O.X. Arena",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 89,
-          "roomName": "Blue Tower",
-          "nodeid": 362,
-          "nodeName": "South-East Door",
-          "position": "right"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 94,
-          "roomName": "X-B.O.X. Arena",
-          "nodeid": 371,
-          "nodeName": "West-Upper Door",
-          "position": "left"
-        }
-      ]
-    },
-    {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between Tactical Evasion Course and Weapons Testing Grounds",
-      "direction": "Bidirectional",
-      "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 92,
-          "roomName": "Tactical Evasion Course",
-          "nodeid": 367,
-          "nodeName": "East-Upper Door",
-          "position": "right"
-        },
-        {
-          "area": "ARC",
-          "subarea": "Upper ARC",
-          "roomid": 93,
-          "roomName": "Weapons Testing Grounds",
-          "nodeid": 369,
-          "nodeName": "South Door",
+          "nodeid": 3,
+          "nodeName": "Bottom Door",
           "position": "left"
         }
       ]
