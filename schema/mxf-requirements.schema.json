@@ -49,6 +49,8 @@
                 "enum": [
                   "Missile",
                   "Super",
+                  "Ice Missile",
+                  "Diffusion",
                   "PowerBomb"
                 ],
                 "title": "Ammo Type",
@@ -77,6 +79,8 @@
                 "enum": [
                   "Missile",
                   "Super",
+                  "Ice Missile",
+                  "Diffusion",
                   "PowerBomb"
                 ],
                 "title": "Ammo Type",

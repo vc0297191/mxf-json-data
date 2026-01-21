@@ -4,8 +4,6 @@
   "name": "Central Nexus / Nexus Storage / Concourse",
   "area": "MDK",
   "subarea": "West Main Deck",
-  "roomImageFile": "MDK_Room_13.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -18,6 +16,27 @@
     ]
   ],
   "nodes": [
+    {
+      "id": 8,
+      "idMinorItemPlm": "0x02",
+      "name": "Nexus Storage - Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 432,
+          "y": 672,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#37c90e",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7D35E",
+      "mapTileX": 27,
+      "mapTileY": 16
+    },
     {
       "id": 1,
       "name": "Central Nexus - Top-Left Door",
@@ -180,27 +199,6 @@
       ]
     },
     {
-      "id": 8,
-      "idMinorItemPlm": "0x02",
-      "name": "Nexus Storage - Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 432,
-          "y": 672,
-          "w": 16,
-          "h": 16
-        }
-      ],
-      "color": "#37c90e",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7D35E",
-      "mapTileX": 27,
-      "mapTileY": 16
-    },
-    {
       "id": 9,
       "name": "Concourse - Top-Right Door",
       "nodeType": "door",
@@ -316,9 +314,75 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Green Geron",
+      "obstacleType": "inanimate",
+      "id": "A"
+    }
+  ],
+"strats": [
+    {
+      "link": [1, 2],
+      "name": "Base",
+      "requires": []
+    },
+    {
+      "link": [2, 1],
+      "name": "Base",
+      "requires": []
+    },
+    {
+      "link": [2, 3],
+      "name": "Base",
+      "requires": []
+    },
+    {
+      "link": [3, 2],
+      "name": "Base",
+      "requires": []
+    },
+    {
+      "link": [3, 3],
+      "name": "Kill Green Geron",
+      "requires": [
+        "h_killGreenGeron"
+      ],
+      "clearsObstacles": ["A"],
+      "setsFlags": ["f_CentralNexus_GreenGeronDestroyed"]
+    },
+    {
+      "link": [3, 4],
+      "name": "Base",
+      "requires": [
+        {"or": [
+          {"obstaclesCleared": ["A"]},
+          "f_CentralNexus_GreenGeronDestroyed"
+        ]}
+      ]
+    },
+    {
+      "link": [4, 4],
+      "name": "Kill Green Geron",
+      "requires": [
+        "h_killGreenGeron"
+      ],
+      "clearsObstacles": ["A"],
+      "setsFlags": ["f_CentralNexus_GreenGeronDestroyed"]
+    },
+    {
+      "link": [4, 5],
+      "name": "Base",
+      "requires": []
+    },
+    {
+      "link": [5, 4],
+      "name": "Base",
+      "requires": []
+    }
+  ],
+  "roomImageFile": "MDK_Room_13.png",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }
