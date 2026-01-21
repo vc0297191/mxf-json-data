@@ -23,6 +23,16 @@
       "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 512,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 352,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -49,6 +69,16 @@
       "name": "Left-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 608,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -62,6 +92,16 @@
       "name": "Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1232,
+          "y": 320,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -75,6 +115,16 @@
       "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 352,
+          "y": 976,
+          "w": 64,
+          "h": 48
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "down",
       "doorEnvironments": [
@@ -88,6 +138,16 @@
       "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 976,
+          "y": 864,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -101,6 +161,16 @@
       "name": "Right-Bottom Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1120,
+          "y": 720,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "down",
       "doorEnvironments": [
@@ -115,6 +185,16 @@
       "name": "Cheddar Bay [Top-Left] - Hidden Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 40,
+          "y": 48,
+          "w": 56,
+          "h": 56
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "PowerBomb",
       "nodeAddress": "0x7DD9E",
       "mapTileX": 26,
@@ -126,6 +206,16 @@
       "name": "Cheddar Bay [Bottom-Right] - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1064,
+          "y": 680,
+          "w": 32,
+          "h": 40
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "PowerBomb",
       "nodeAddress": "0x7DDD6",
       "mapTileX": 30,

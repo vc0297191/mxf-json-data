@@ -23,6 +23,16 @@
       "name": "Right-Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1104,
+          "y": 0,
+          "w": 96,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "up",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "Left-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 336,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -49,6 +69,16 @@
       "name": "Right-Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1096,
+          "y": 448,
+          "w": 112,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "down",
       "doorEnvironments": [
@@ -63,6 +93,16 @@
       "name": "Crumble City - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 192,
+          "y": 96,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "PowerBomb",
       "nodeAddress": "0x7D7EA",
       "mapTileX": 25,
@@ -74,6 +114,16 @@
       "name": "Crumble City - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 400,
+          "y": 288,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "Missile",
       "nodeAddress": "0x7D7F0",
       "mapTileX": 24,

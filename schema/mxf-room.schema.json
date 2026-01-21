@@ -1802,25 +1802,72 @@
             ],
             "pattern": "^(.*)$"
           },
-          "x":{
-            "type": "integer",
-            "title": "Node X-Position",
-            "description": "This node's X-Position within the room"
-          },
-          "y":{
-            "type": "integer",
-            "title": "Node Y-Position",
-            "description": "This node's Y-Position within the room"
-          },
-          "w":{
-            "type": "integer",
-            "title": "Node Width",
-            "description": "This node's occupied width within the room"
-          },
-          "h":{
-            "type": "integer",
-            "title": "Node Height",
-            "description": "This node's occupied height within the room"
+          "geometry": {
+            "type": "array",
+            "title": "Node Geometry",
+            "description": "Composite geometry made of grid-snapped shapes forming a polygonal area.",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "title": "Geometry Shape",
+              "required": ["shape"],
+              "additionalProperties": false,
+              "properties": {
+                "shape": {
+                  "type": "string",
+                  "title": "Shape Type",
+                  "enum": ["rect", "tri"]
+                },
+                "x": {
+                  "type": "integer",
+                  "description": "Left X coordinate in the room."
+                },
+                "y": {
+                  "type": "integer",
+                  "description": "Top Y coordinate in the room."
+                },
+                "w": {
+                  "type": "integer",
+                  "description": "The shape's Rectangular Width",
+                  "minimum": 8
+                },
+                "h": {
+                  "type": "integer",
+                  "description": "The shape's Rectangular Height",
+                  "minimum": 8
+                },
+                "points": {
+                  "type": "array",
+                  "title": "Triangle Points",
+                  "description": "Exactly three x/y points defining a triangle.",
+                  "minItems": 3,
+                  "maxItems": 3,
+                  "items": {
+                    "type": "object",
+                    "required": ["x", "y"],
+                    "additionalProperties": false,
+                    "properties": {
+                      "x": {
+                        "type": "integer"
+                      },
+                      "y": {
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              },
+              "allOf": [
+                {
+                  "if": { "properties": { "shape": { "const": "rect" } } },
+                  "then": { "required": ["x", "y", "w", "h"] }
+                },
+                {
+                  "if": { "properties": { "shape": { "const": "tri" } } },
+                  "then": { "required": ["points"] }
+                }
+              ]
+            }
           },
           "color":{
             "type": "string",

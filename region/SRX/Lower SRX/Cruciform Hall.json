@@ -23,6 +23,16 @@
       "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 512,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 352,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -49,6 +69,16 @@
       "name": "Left-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 608,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -62,6 +92,16 @@
       "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 976,
+          "y": 352,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -75,6 +115,16 @@
       "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 496,
+          "y": 608,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -88,6 +138,16 @@
       "name": "Bottom-Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 976,
+          "y": 944,
+          "w": 48,
+          "h": 16
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [

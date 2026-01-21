@@ -23,6 +23,16 @@
       "name": "Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 160,
+          "w": 32,
+          "h": 16
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -37,6 +47,16 @@
       "name": "Gamepad Room - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 192,
+          "y": 96,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "Missile",
       "nodeAddress": "0x7DDF4",
       "mapTileX": 26,

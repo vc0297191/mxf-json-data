@@ -23,6 +23,16 @@
       "name": "AQA-PYR Access - Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 440,
+          "y": 40,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "AQA-PYR Access - Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -49,6 +69,16 @@
       "name": "Serris Speedway - Top-Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 768,
+          "y": 40,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -62,6 +92,16 @@
       "name": "Serris Speedway - Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1232,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -76,6 +116,16 @@
       "name": "Serris Speedway - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 816,
+          "y": 152,
+          "w": 32,
+          "h": 40
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "Missile",
       "nodeAddress": "0x7DE32",
       "mapTileX": 20,

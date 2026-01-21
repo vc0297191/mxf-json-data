@@ -23,6 +23,16 @@
       "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 64,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -37,6 +47,16 @@
       "name": "Docking Bay Supply Room - Hidden Missile Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 80,
+          "y": 80,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "Missile",
       "nodeAddress": "0x7D472",
       "mapTileX": 35,

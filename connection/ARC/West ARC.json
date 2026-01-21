@@ -3,18 +3,9 @@
   "connections": [
     {
       "connectionType": "VerticalDoor",
-      "description": "Vertical Door connection between [Brain Freezer - Left-Bottom Door] and [ARC Auxiliary Room Access - Top Door]",
-      "direction": "Forward",
+      "description": "Vertical Door connection between [ARC Auxiliary Room Access - Top Door] and [Brain Freezer - Left-Bottom Door]",
+      "direction": "Bidirectional",
       "nodes": [
-        {
-          "area": "ARC",
-          "subarea": "West ARC",
-          "roomid": 96,
-          "roomName": "Brain Freezer",
-          "nodeid": 2,
-          "nodeName": "Left-Bottom Door",
-          "position": "bottom"
-        },
         {
           "area": "ARC",
           "subarea": "West ARC",
@@ -23,6 +14,15 @@
           "nodeid": 4,
           "nodeName": "Top Door",
           "position": "top"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 96,
+          "roomName": "Brain Freezer",
+          "nodeid": 3,
+          "nodeName": "Left-Bottom Door",
+          "position": "bottom"
         }
       ]
     },
@@ -203,7 +203,7 @@
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Brain Freezer - Right Door] and [Freezer Shaft East - Bottom-Left Door]",
+      "description": "Horizontal Door connection between [Brain Freezer - Right Door] and [Freezer Shaft East - Left-Lower Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -220,8 +220,33 @@
           "subarea": "West ARC",
           "roomid": 100,
           "roomName": "Freezer Shaft East",
-          "nodeid": 4,
-          "nodeName": "Bottom-Left Door",
+          "nodeid": 3,
+          "nodeName": "Left-Lower Door",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [Brain Freezer - Bottom-Right Tunnel] and [Freezer Shaft East - Bottom-Left Tunnel]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 96,
+          "roomName": "Brain Freezer",
+          "nodeid": 2,
+          "nodeName": "Bottom-Right Tunnel",
+          "position": "right"
+        },
+        {
+          "area": "ARC",
+          "subarea": "West ARC",
+          "roomid": 100,
+          "roomName": "Freezer Shaft East",
+          "nodeid": 5,
+          "nodeName": "Bottom-Left Tunnel",
           "position": "left"
         }
       ]
@@ -245,7 +270,7 @@
           "subarea": "West ARC",
           "roomid": 100,
           "roomName": "Freezer Shaft East",
-          "nodeid": 3,
+          "nodeid": 4,
           "nodeName": "Right Door",
           "position": "right"
         }
@@ -270,7 +295,7 @@
           "subarea": "West ARC",
           "roomid": 100,
           "roomName": "Freezer Shaft East",
-          "nodeid": 5,
+          "nodeid": 6,
           "nodeName": "Bottom-Right Door",
           "position": "right"
         }

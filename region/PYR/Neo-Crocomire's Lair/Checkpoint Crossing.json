@@ -23,6 +23,16 @@
       "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 240,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 256,
+          "y": 608,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -49,6 +69,16 @@
       "name": "Bottom-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 464,
+          "y": 608,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -62,6 +92,16 @@
       "name": "Checkpoint Crossing - PYR Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 40,
+          "y": 360,
+          "w": 48,
+          "h": 24
+        }
+      ],
+      "color": "#8d0cad",
       "nodeItem": "Major",
       "nodeAddress": "0x0",
       "note": ""

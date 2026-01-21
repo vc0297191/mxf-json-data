@@ -23,6 +23,16 @@
       "name": "Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 224,
+          "y": 112,
+          "w": 32,
+          "h": 16
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "NOC Etecoon Room - NOC Etecoon",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 80,
+          "y": 112,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#8d0cad",
       "nodeItem": "Major",
       "nodeAddress": "0x0",
       "note": ""

@@ -23,6 +23,16 @@
       "name": "Speedblock Spiral - Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 208,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "Speedblock Spiral - Bottom-Left Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 160,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -49,6 +69,16 @@
       "name": "Speedblock Spiral - ARC Aux Power Cell",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 120,
+          "y": 144,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#8d0cad",
       "nodeItem": "Major",
       "nodeAddress": "0x0",
       "note": ""
@@ -58,6 +88,16 @@
       "name": "Gerubus Gully - Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 608,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -71,6 +111,16 @@
       "name": "Gerubus Gully - Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 208,
+          "y": 608,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -85,6 +135,16 @@
       "name": "Gerubus Gully - Hidden Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 176,
+          "y": 928,
+          "w": 32,
+          "h": 48
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "PowerBomb",
       "nodeAddress": "0x7DF68",
       "mapTileX": 27,

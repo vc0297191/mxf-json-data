@@ -23,6 +23,16 @@
       "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 256,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 352,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -50,6 +70,16 @@
       "name": "Stabilizer Shaft - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 320,
+          "y": 400,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "PowerBomb",
       "nodeAddress": "0x7E178",
       "mapTileX": 38,

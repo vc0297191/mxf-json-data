@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
   "id": 85,
-  "name": "Crow\u0027s Nest",
+  "name": "Crow's Nest",
   "area": "ARC",
   "subarea": "Upper ARC",
   "roomImageFile": "ARC Room 79000.jpg",
@@ -23,6 +23,16 @@
       "name": "Right-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 208,
+          "y": 608,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 864,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -43,6 +63,27 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 3,
+      "idMinorItemPlm": "0x53",
+      "name": "Crow's Nest - Power Bomb Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 88,
+          "y": 104,
+          "w": 32,
+          "h": 40
+        }
+      ],
+      "color": "#37c90e",
+      "nodeItem": "PowerBomb",
+      "nodeAddress": "0x7DF84",
+      "mapTileX": 29,
+      "mapTileY": 12
     }
   ],
   "enemies": [],

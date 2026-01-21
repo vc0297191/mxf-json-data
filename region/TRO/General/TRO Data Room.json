@@ -23,6 +23,16 @@
       "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 208,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "TRO Data Room - Charge Beam",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 88,
+          "y": 160,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#8d0cad",
       "nodeItem": "Major",
       "nodeAddress": "0x0",
       "note": ""

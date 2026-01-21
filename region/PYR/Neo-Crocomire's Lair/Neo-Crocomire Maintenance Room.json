@@ -3,7 +3,7 @@
   "id": 258,
   "name": "Neo-Crocomire Maintenance Room",
   "area": "PYR",
-  "subarea": "Neo-Crocomire\u0027s Lair",
+  "subarea": "Neo-Crocomire's Lair",
   "roomImageFile": "PYR Room 79F00.jpg",
   "roomAddress": "0x79F00",
   "roomEnvironments": [
@@ -23,6 +23,16 @@
       "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 96,
+          "y": 464,
+          "w": 64,
+          "h": 48
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [

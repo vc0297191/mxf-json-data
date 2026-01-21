@@ -1,11 +1,11 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
-  "id": 305,
-  "name": "L-X-SRX Normal Exit Tube",
-  "area": "SRX",
-  "subarea": "Upper SRX",
-  "roomImageFile": "AQA Room 78900.jpg",
-  "roomAddress": "0x78900",
+  "id": 40,
+  "name": "Spark Runway / Spark Shaft",
+  "area": "AQA",
+  "subarea": "Upper East AQA",
+  "roomImageFile": "AQA Room 79400.jpg",
+  "roomAddress": "0x79400",
   "roomEnvironments": [
     {
       "heated": false,
@@ -20,14 +20,14 @@
   "nodes": [
     {
       "id": 1,
-      "name": "Left Door",
+      "name": "Spark Runway - Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "geometry": [
         {
           "shape": "rect",
           "x": 0,
-          "y": 64,
+          "y": 352,
           "w": 48,
           "h": 64
         }
@@ -43,14 +43,37 @@
     },
     {
       "id": 2,
-      "name": "Left-Lower Door",
+      "name": "Spark Runway - Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "geometry": [
         {
           "shape": "rect",
-          "x": 0,
-          "y": 144,
+          "x": 464,
+          "y": 352,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Spark Shaft - Top-Left Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 512,
+          "y": 96,
           "w": 48,
           "h": 64
         }
@@ -65,14 +88,14 @@
       ]
     },
     {
-      "id": 3,
-      "name": "Right Door",
+      "id": 4,
+      "name": "Spark Shaft - Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "geometry": [
         {
           "shape": "rect",
-          "x": 464,
+          "x": 720,
           "y": 96,
           "w": 48,
           "h": 64
@@ -81,6 +104,29 @@
       "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
+      "doorEnvironments": [
+        {
+          "physics": "air"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Spark Shaft - Bottom-Left Door",
+      "nodeType": "door",
+      "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 512,
+          "y": 352,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "doorEnvironments": [
         {
           "physics": "air"

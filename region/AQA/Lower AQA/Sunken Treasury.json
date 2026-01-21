@@ -23,6 +23,16 @@
       "name": "Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1232,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "right",
       "doorEnvironments": [
@@ -37,6 +47,16 @@
       "name": "Sunken Treasury - Energy Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 120,
+          "y": 112,
+          "w": 32,
+          "h": 32
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "ETank",
       "nodeAddress": "0x7DE96",
       "mapTileX": 33,

@@ -23,6 +23,16 @@
       "name": "Left-Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 352,
+          "y": 0,
+          "w": 64,
+          "h": 48
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "up",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "Right-Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1120,
+          "y": 0,
+          "w": 64,
+          "h": 48
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "up",
       "doorEnvironments": [
@@ -50,6 +70,16 @@
       "name": "Vacuum Verge - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 120,
+          "y": 96,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "Missile",
       "nodeAddress": "0x7D726",
       "mapTileX": 29,

@@ -23,6 +23,16 @@
       "name": "Top Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 32,
+          "y": 0,
+          "w": 192,
+          "h": 56
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "up",
       "doorEnvironments": [
@@ -36,6 +46,16 @@
       "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -49,6 +69,16 @@
       "name": "Yakuza Arena - Space Jump",
       "nodeType": "item",
       "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 120,
+          "y": 320,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#8d0cad",
       "nodeItem": "Major",
       "nodeAddress": "0x0",
       "note": ""

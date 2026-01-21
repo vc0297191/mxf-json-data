@@ -23,6 +23,16 @@
       "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 96,
+          "w": 48,
+          "h": 64
+        }
+      ],
+      "color": "#ffffff",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "doorEnvironments": [
@@ -37,6 +47,16 @@
       "name": "Overgrown Cache - Hidden Energy Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1416,
+          "y": 88,
+          "w": 80,
+          "h": 72
+        }
+      ],
+      "color": "#37c90e",
       "nodeItem": "ETank",
       "nodeAddress": "0x7D88C",
       "mapTileX": 37,

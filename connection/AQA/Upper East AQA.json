@@ -78,7 +78,7 @@
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [AQA Navigation Room - Right Door] and [Spark Shaft Runway - Bottom-Left Door]",
+      "description": "Horizontal Door connection between [AQA Navigation Room - Right Door] and [Spark Runway - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -94,9 +94,9 @@
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 40,
-          "roomName": "Spark Shaft Runway",
-          "nodeid": 2,
-          "nodeName": "Bottom-Left Door",
+          "roomName": "Spark Runway / Spark Shaft",
+          "nodeid": 1,
+          "nodeName": "Spark Runway - Left Door",
           "position": "left"
         }
       ]
@@ -303,7 +303,7 @@
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Assembly Line - Right Door] and [Spark Shaft Runway - Top Door]",
+      "description": "Horizontal Door connection between [Assembly Line - Right Door] and [Spark Shaft - Top-Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -319,9 +319,9 @@
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 40,
-          "roomName": "Spark Shaft Runway",
+          "roomName": "Spark Runway / Spark Shaft",
           "nodeid": 3,
-          "nodeName": "Top Door",
+          "nodeName": "Spark Shaft - Top-Left Door",
           "position": "left"
         }
       ]
@@ -378,7 +378,7 @@
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Reservoir East - Top-Left Door] and [Spark Shaft Runway - Top-Right Door]",
+      "description": "Horizontal Door connection between [Reservoir East - Top-Left Door] and [Spark Shaft - Top-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -394,9 +394,9 @@
           "area": "AQA",
           "subarea": "Upper East AQA",
           "roomid": 40,
-          "roomName": "Spark Shaft Runway",
-          "nodeid": 1,
-          "nodeName": "Top-Right Door",
+          "roomName": "Spark Runway / Spark Shaft",
+          "nodeid": 4,
+          "nodeName": "Spark Shaft - Top-Right Door",
           "position": "right"
         }
       ]
@@ -448,6 +448,31 @@
           "nodeid": 2,
           "nodeName": "Right Door",
           "position": "right"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Spark Runway - Right Door] and [Spark Shaft - Bottom-Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 40,
+          "roomName": "Spark Runway / Spark Shaft",
+          "nodeid": 2,
+          "nodeName": "Spark Runway - Right Door",
+          "position": "right"
+        },
+        {
+          "area": "AQA",
+          "subarea": "Upper East AQA",
+          "roomid": 40,
+          "roomName": "Spark Runway / Spark Shaft",
+          "nodeid": 5,
+          "nodeName": "Spark Shaft - Bottom-Left Door",
+          "position": "left"
         }
       ]
     }

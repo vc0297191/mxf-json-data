@@ -252,6 +252,31 @@
       ]
     },
     {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [Lava Lake - Bottom-Right Tunnel] and [Twin-Wing Crossing - Bottom-Left Tunnel]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 288,
+          "roomName": "Lava Lake",
+          "nodeid": 3,
+          "nodeName": "Bottom-Right Tunnel",
+          "position": "right"
+        },
+        {
+          "area": "SRX",
+          "subarea": "Lower SRX",
+          "roomid": 298,
+          "roomName": "Twin-Wing Crossing",
+          "nodeid": 4,
+          "nodeName": "Bottom-Left Tunnel",
+          "position": "left"
+        }
+      ]
+    },
+    {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [Searpent\u0027s Coil - Bottom-Right Door] and [West Spike Tower - Left-Lower Door]",
       "direction": "Bidirectional",

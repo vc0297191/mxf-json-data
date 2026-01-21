@@ -427,8 +427,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [NOC Auxiliary Room Access - Bottom-Right Door] and [NOC Auxiliary Room - Left Door]",
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [NOC Auxiliary Room Access - Right-Lower Door] and [NOC Auxiliary Room - Left-Lower Tunnel]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -437,7 +437,32 @@
           "roomid": 220,
           "roomName": "NOC Auxiliary Room Access",
           "nodeid": 2,
-          "nodeName": "Bottom-Right Door",
+          "nodeName": "Right-Lower Door",
+          "position": "right"
+        },
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 221,
+          "roomName": "NOC Auxiliary Room",
+          "nodeid": 2,
+          "nodeName": "Left-Lower Tunnel",
+          "position": "left"
+        }
+      ]
+    },
+    {
+      "connectionType": "HorizontalTunnel",
+      "description": "Horizontal Tunnel connection between [NOC Auxiliary Room Access - Bottom-Right Tunnel] and [NOC Auxiliary Room - Left Door]",
+      "direction": "Bidirectional",
+      "nodes": [
+        {
+          "area": "NOC",
+          "subarea": "Upper NOC",
+          "roomid": 220,
+          "roomName": "NOC Auxiliary Room Access",
+          "nodeid": 3,
+          "nodeName": "Bottom-Right Tunnel",
           "position": "right"
         },
         {
