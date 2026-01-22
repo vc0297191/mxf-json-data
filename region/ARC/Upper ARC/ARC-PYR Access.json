@@ -4,8 +4,6 @@
   "name": "ARC-PYR Access",
   "area": "ARC",
   "subarea": "Upper ARC",
-  "roomImageFile": "ARC Room 78F00.jpg",
-  "roomAddress": "0x78F00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -19,6 +17,27 @@
   ],
   "nodes": [
     {
+      "id": 4,
+      "idMinorItemPlm": "0x52",
+      "name": "ARC-PYR Access - Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 160,
+          "y": 104,
+          "w": 40,
+          "h": 40
+        }
+      ],
+      "color": "#37c90e",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7DF76",
+      "mapTileX": 26,
+      "mapTileY": 11
+    },
+    {
       "id": 1,
       "name": "Top-Right Tunnel",
       "nodeType": "door",
@@ -26,10 +45,10 @@
       "geometry": [
         {
           "shape": "rect",
-          "x": 208,
-          "y": 88,
-          "w": 48,
-          "h": 64
+          "x": 216,
+          "y": 176,
+          "w": 40,
+          "h": 16
         }
       ],
       "color": "#ffffff",
@@ -86,32 +105,105 @@
           "physics": "air"
         }
       ]
-    },
-    {
-      "id": 4,
-      "idMinorItemPlm": "0x52",
-      "name": "ARC-PYR Access - Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 72,
-          "y": 104,
-          "w": 40,
-          "h": 40
-        }
-      ],
-      "color": "#37c90e",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7DF76",
-      "mapTileX": 26,
-      "mapTileY": 11
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                "Grapple",
+                "canWalljump",
+                "Space Jump"
+              ]
+            },
+            "Missile Level 2"
+          ]
+        }
+      ],
+      "collectsItems": [
+        4
+      ]
+    },
+    {
+      "name": "Precise Wall Jump from Right-Lower Door to Missile Tank",
+      "link": [
+        2,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "Missile Level 2",
+            "canPreciseWalljump"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            "canWalljump",
+            "Super Jump",
+            "Space Jump"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        1
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        2
+      ],
+      "requires": [
+        "Missile Level 2"
+      ]
+    }
+  ],
+  "roomImageFile": "ARC Room 78F00.jpg",
+  "roomAddress": "0x78F00",
   "nextStratId": 1,
   "nextNotableId": 1
 }
