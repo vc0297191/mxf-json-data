@@ -107,6 +107,13 @@
       "mapTileY": 13
     }
   ],
+  "obstacles": [
+    {
+      "name": "Frozen Enemy",
+      "obstacleType": "inanimate",
+      "id": "A"
+    }
+  ],
   "strats": [
     {
       "name": "Base",
@@ -149,6 +156,22 @@
       ]
     },
     {
+      "name": "Kill Frozen Enemy",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        "Charge Beam"
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_ReoCourtyard_FrozenEnemyObstacleCleared"
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         2,
@@ -159,9 +182,8 @@
           "and": [
             "Morph",
             {
-              "or": [
-                "Charge Beam",
-                "f_ReoCourtyard_FrozenEnemyObstacleCleared"
+              "obstaclesCleared": [
+                "A"
               ]
             }
           ]
@@ -208,13 +230,25 @@
               ]
             },
             {
-              "or": [
-                "f_ReoCourtyard_FrozenEnemyObstacleCleared",
-                "Charge Beam"
+              "obstaclesCleared": [
+                "A"
               ]
             }
           ]
         }
+      ]
+    },
+    {
+      "name": "Kill Frozen Enemy",
+      "link": [
+        3,
+        3
+      ],
+      "requires": [
+        "Charge Beam"
+      ],
+      "clearsObstacles": [
+        "A"
       ],
       "setsFlags": [
         "f_ReoCourtyard_FrozenEnemyObstacleCleared"
@@ -244,6 +278,20 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        4
+      ],
+      "collectsItems": [
+        4
+      ],
+      "setsFlags": [
+        "f_ReoCourtyard_MissileTank_Collected"
+      ],
+      "requires": []
     }
   ],
   "roomImageFile": "TRO Room 78B00.jpg",

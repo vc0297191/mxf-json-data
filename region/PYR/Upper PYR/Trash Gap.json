@@ -4,11 +4,9 @@
   "name": "Trash Gap",
   "area": "PYR",
   "subarea": "Upper PYR",
-  "roomImageFile": "PYR Room 78C00.jpg",
-  "roomAddress": "0x78C00",
   "roomEnvironments": [
     {
-      "heated": false,
+      "heated": true,
       "cold": false
     }
   ],
@@ -65,9 +63,68 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Space Jump",
+                {
+                  "heatFrames": 500
+                }
+              ]
+            },
+            {
+              "and": [
+                "Grapple",
+                {
+                  "heatFrames": 700
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Space Jump",
+                {
+                  "heatFrames": 500
+                }
+              ]
+            },
+            {
+              "and": [
+                "Grapple",
+                {
+                  "heatFrames": 700
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "PYR Room 78C00.jpg",
+  "roomAddress": "0x78C00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

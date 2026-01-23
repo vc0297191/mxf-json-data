@@ -4,8 +4,6 @@
   "name": "Garbage Chute",
   "area": "PYR",
   "subarea": "Upper PYR",
-  "roomImageFile": "PYR Room 78D00.jpg",
-  "roomAddress": "0x78D00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -163,8 +161,8 @@
       "geometry": [
         {
           "shape": "rect",
-          "x": 96,
-          "y": 1136,
+          "x": 80,
+          "y": 720,
           "w": 16,
           "h": 16
         }
@@ -174,11 +172,576 @@
       "nodeAddress": "0x7DA2E",
       "mapTileX": 21,
       "mapTileY": 12
+    },
+    {
+      "id": 8,
+      "name": "Above Right Door",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 208,
+          "y": 776,
+          "w": 16,
+          "h": 24
+        }
+      ],
+      "color": "#0000ff"
+    },
+    {
+      "id": 9,
+      "name": "Bottom-Left Corner",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 32,
+          "y": 1416,
+          "w": 16,
+          "h": 24
+        }
+      ],
+      "color": "#0000ff"
+    },
+    {
+      "id": 10,
+      "name": "Central Junction",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 128,
+          "y": 1112,
+          "w": 24,
+          "h": 40
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Top-Leftmost Speedbooster Blocks",
+      "obstacleType": "inanimate",
+      "id": "A"
+    },
+    {
+      "name": "Left-Side Speedbooster Blocks (Except Topmost)",
+      "obstacleType": "inanimate",
+      "id": "B"
+    },
+    {
+      "name": "Top-Right Crumble Blocks",
+      "obstacleType": "inanimate",
+      "id": "C"
+    },
+    {
+      "name": "Bottom-Left Screw Blocks",
+      "obstacleType": "inanimate",
+      "id": "D"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "heatFrames": 380
+            },
+            "Screw Attack",
+            {
+              "obstaclesCleared": [
+                "B"
+              ]
+            },
+            "Morph",
+            {
+              "lavaFrames": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        8
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 3
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "heatFrames": 320
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        9
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "heatFrames": 330
+            },
+            {
+              "obstaclesCleared": [
+                "B"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "heatFrames": 250
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        7
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "heatFrames": 341
+            },
+            "Screw Attack",
+            {
+              "or": [
+                "Space Jump",
+                "Super Jump",
+                "canWalljump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        8
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "heatFrames": 130
+            },
+            "Screw Attack",
+            {
+              "or": [
+                "Space Jump",
+                "Super Jump",
+                "canWalljump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "heatFrames": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reach Right Door from Bottom-Right Door via Consecutive Wall Jumps",
+      "link": [
+        4,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "heatFrames": 500
+            },
+            "canConsecutiveWalljump",
+            "canTrickyWalljump"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "Space Jump",
+            {
+              "heatFrames": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "heatFrames": 222
+            },
+            {
+              "or": [
+                "Super Jump",
+                "Space Jump",
+                "canWalljump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Come In Shinecharged",
+      "link": [
+        4,
+        9
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {},
+        "comesThroughToilet": "yes"
+      },
+      "requires": [
+        {
+          "heatFrames": 60
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "heatFrames": 370
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "C"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        6
+      ],
+      "collectsItems": [
+        6
+      ],
+      "setsFlags": [
+        "f_GarbageChute_PowerBombTank_Collected"
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        7,
+        7
+      ],
+      "collectsItems": [
+        7
+      ],
+      "setsFlags": [
+        "f_GarbageChute_MissileTank_Collected"
+      ],
+      "requires": []
+    },
+    {
+      "name": "Reach Top-Right Door with Wall Jumps",
+      "link": [
+        8,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "heatFrames": 670
+            },
+            "canTrickyWalljump",
+            {
+              "or": [
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 3
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reach Top-Right Door with Space Jump",
+      "link": [
+        8,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "heatFrames": 670
+            },
+            {
+              "or": [
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 3
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "Screw Attack",
+            {
+              "heatFrames": 130
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        7
+      ],
+      "requires": [
+        {
+          "heatFrames": 130
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        9,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            "Screw Attack",
+            {
+              "lavaFrames": 15
+            },
+            {
+              "heatFrames": 80
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "D"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        9,
+        6
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "shinespark": {
+                "frames": 150
+              }
+            },
+            {
+              "heatFrames": 150
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ],
+      "resetsObstacles": [
+        "A"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        9,
+        10
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "and": [
+                    {
+                      "heatFrames": 250
+                    },
+                    {
+                      "ammo": {
+                        "type": "Diffusion",
+                        "count": 1
+                      }
+                    }
+                  ]
+                },
+                {
+                  "and": [
+                    {
+                      "heatFrames": 400
+                    },
+                    {
+                      "ammo": {
+                        "type": "Super",
+                        "count": 3
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "or": [
+                "canConsecutiveWalljump",
+                "Space Jump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        10,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "heatFrames": 140
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "PYR Room 78D00.jpg",
+  "roomAddress": "0x78D00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

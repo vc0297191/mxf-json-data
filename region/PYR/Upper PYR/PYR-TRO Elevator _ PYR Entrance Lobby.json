@@ -4,8 +4,6 @@
   "name": "PYR-TRO Elevator / PYR Entrance Lobby",
   "area": "PYR",
   "subarea": "Upper PYR",
-  "roomImageFile": "PYR Room 78A00.jpg",
-  "roomAddress": "0x78A00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -180,7 +178,13 @@
       ]
     }
   ],
-  "enemies": [],
+  "obstacles": [
+    {
+      "name": "Red Geron",
+      "obstacleType": "inanimate",
+      "id": "A"
+    }
+  ],
   "strats": [
     {
       "name": "Base",
@@ -209,6 +213,22 @@
       "requires": []
     },
     {
+      "name": "Kill Red Geron",
+      "link": [
+        3,
+        3
+      ],
+      "requires": [
+        "h_killRedGeron"
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_PYRTROElevator_RedGeronDestroyed"
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         3,
@@ -223,6 +243,20 @@
       "link": [
         3,
         5
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        6
       ],
       "requires": []
     },
@@ -239,10 +273,24 @@
     {
       "name": "Base",
       "link": [
-        5,
+        4,
         3
       ],
       "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        3
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
     },
     {
       "name": "Base",
@@ -261,7 +309,8 @@
       "requires": []
     }
   ],
-  "notables": [],
+  "roomImageFile": "PYR Room 78A00.jpg",
+  "roomAddress": "0x78A00",
   "nextStratId": 1,
   "nextNotableId": 1
 }
