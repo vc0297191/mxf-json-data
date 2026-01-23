@@ -25,6 +25,7 @@
               "VerticalDoor",
               "HorizontalMorphTunnel",
               "VerticalMorphTunnel",
+              "ConnectionBridge",
               "Elevator",
               "TransitionTube",
               "StoryMarker"
@@ -34,6 +35,7 @@
               "VerticalDoor",
               "HorizontalMorphTunnel",
               "VerticalMorphTunnel",
+              "ConnectionBridge",
               "Elevator",
               "TransitionTube",
               "StoryMarker"
