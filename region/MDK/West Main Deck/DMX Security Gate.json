@@ -4,8 +4,6 @@
   "name": "DMX Security Gate",
   "area": "MDK",
   "subarea": "West Main Deck",
-  "roomImageFile": "MDK Room 21.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -65,9 +63,46 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Enter DMX",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "f_AllAuxiliaryStations_Active",
+            "f_SRXAuxiliaryRoom_Engaged",
+            "f_TROAuxiliaryRoom_Engaged",
+            "f_PYRAuxiliaryRoom_Engaged",
+            "f_AQAAuxiliaryRoom_Engaged",
+            "f_ARCAuxiliaryRoom_Engaged",
+            "f_NOCAuxiliaryRoom_Engaged"
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "MDK Room 21.png",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

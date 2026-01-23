@@ -4,8 +4,6 @@
   "name": "ARC Save Station South",
   "area": "ARC",
   "subarea": "Lower ARC",
-  "roomImageFile": "Misc Room Reusable 5.jpg",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -59,9 +57,36 @@
       "nodeAddress": "0x0"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        "h_useSaveStation"
+      ]
+    }
+  ],
+  "roomImageFile": "Misc Room Reusable 5.jpg",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

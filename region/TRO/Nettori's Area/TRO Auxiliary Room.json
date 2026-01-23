@@ -4,8 +4,6 @@
   "name": "TRO Auxiliary Room",
   "area": "TRO",
   "subarea": "Nettori's Area",
-  "roomImageFile": "Misc Room Aux 2.jpg",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -59,9 +57,51 @@
       "nodeAddress": "0x0"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "not": "f_HardMode"
+            },
+            {
+              "and": [
+                "f_HardMode",
+                "f_TRO_PowerCellAcquired"
+              ]
+            }
+          ]
+        }
+      ],
+      "setsFlags": [
+        "f_TROAuxiliaryRoom_Engaged"
+      ]
+    }
+  ],
+  "roomImageFile": "Misc Room Aux 2.jpg",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

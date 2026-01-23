@@ -4,8 +4,6 @@
   "name": "Genesis Speedway",
   "area": "MDK",
   "subarea": "East Main Deck",
-  "roomImageFile": "MDK Room 31.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -86,9 +84,50 @@
       "mapTileY": 18
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": [
+        "h_bombThings"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        3
+      ],
+      "collectsItems": [
+        3
+      ],
+      "setsFlags": [
+        "f_GenesisSpeedway_MissileTank_Collected"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "MDK Room 31.png",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

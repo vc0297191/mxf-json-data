@@ -4,8 +4,6 @@
   "name": "Docking Bay Supply Room",
   "area": "MDK",
   "subarea": "Docking Bay",
-  "roomImageFile": "MDK Room 1.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -27,7 +25,7 @@
         {
           "shape": "rect",
           "x": 0,
-          "y": 64,
+          "y": 96,
           "w": 48,
           "h": 64
         }
@@ -50,8 +48,8 @@
       "geometry": [
         {
           "shape": "rect",
-          "x": 80,
-          "y": 80,
+          "x": 160,
+          "y": 112,
           "w": 16,
           "h": 16
         }
@@ -63,9 +61,40 @@
       "mapTileY": 16
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        2
+      ],
+      "collectsItems": [
+        2
+      ],
+      "setsFlags": [
+        "f_DockingBaySupplyRoom_MissileTank_Collected"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "MDK Room 1.png",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

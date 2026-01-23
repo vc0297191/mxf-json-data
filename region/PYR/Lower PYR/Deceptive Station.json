@@ -4,8 +4,6 @@
   "name": "Deceptive Station",
   "area": "PYR",
   "subarea": "Lower PYR",
-  "roomImageFile": "PYR Room 7A700.jpg",
-  "roomAddress": "0x7A700",
   "roomEnvironments": [
     {
       "heated": false,
@@ -59,9 +57,41 @@
       "nodeAddress": "0x0"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        {
+          "not": "f_DeceptiveStation_TerminalDestroyed"
+        }
+      ],
+      "setsFlags": [
+        "f_DeceptiveStation_TerminalDestroyed"
+      ]
+    }
+  ],
+  "roomImageFile": "PYR Room 7A700.jpg",
+  "roomAddress": "0x7A700",
   "nextStratId": 1,
   "nextNotableId": 1
 }

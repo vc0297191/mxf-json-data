@@ -4,8 +4,6 @@
   "name": "MDK Navigation Room",
   "area": "MDK",
   "subarea": "West Main Deck",
-  "roomImageFile": "Misc Room Reusable 3.jpg",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -82,9 +80,53 @@
       "nodeAddress": "0x0"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Talk to Adam",
+      "link": [
+        3,
+        3
+      ],
+      "setsFlags": [
+        "f_MDKNavigationRoom_TalkingToAdam"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "Misc Room Reusable 3.jpg",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

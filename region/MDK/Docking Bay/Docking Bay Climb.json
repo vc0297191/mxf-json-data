@@ -4,8 +4,6 @@
   "name": "Docking Bay Climb",
   "area": "MDK",
   "subarea": "Docking Bay",
-  "roomImageFile": "MDK Room 20.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -134,9 +132,109 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Power Bomb Blocks",
+      "obstacleType": "inanimate",
+      "id": "A"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        4
+      ],
+      "requires": [
+        {
+          "ammo": {
+            "type": "PowerBomb",
+            "count": 1
+          }
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        4
+      ],
+      "requires": [
+        {
+          "ammo": {
+            "type": "PowerBomb",
+            "count": 1
+          }
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    }
+  ],
+  "roomImageFile": "MDK Room 20.png",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

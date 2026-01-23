@@ -4,8 +4,6 @@
   "name": "Silo Entry",
   "area": "MDK",
   "subarea": "Reactor Silo",
-  "roomImageFile": "MDK Room 2.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -111,9 +109,103 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Frozen Enemy",
+      "obstacleType": "inanimate",
+      "id": "A"
+    },
+    {
+      "name": "Bottom Crumble Block",
+      "obstacleType": "inanimate",
+      "id": "B"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Kill Frozen Enemy",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        "Charge Beam"
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_SiloEntry_FrozenEnemyObstacleCleared"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            },
+            "Morph"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            },
+            "Morph"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kill Frozen Enemy",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        "Charge Beam"
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_SiloEntry_FrozenEnemyObstacleCleared"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "clearsObstacles": [
+        "B"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "MDK Room 2.png",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

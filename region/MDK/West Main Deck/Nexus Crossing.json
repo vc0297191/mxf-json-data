@@ -4,8 +4,6 @@
   "name": "Nexus Crossing",
   "area": "MDK",
   "subarea": "West Main Deck",
-  "roomImageFile": "MDK Room 12.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -111,9 +109,58 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        4
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        1
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "MDK Room 12.png",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }
