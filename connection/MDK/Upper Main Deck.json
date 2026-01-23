@@ -77,8 +77,8 @@
       ]
     },
     {
-      "connectionType": "HorizontalTunnel",
-      "description": "Horizontal Tunnel connection between [Etecoon Hangar Bay - Left Door] and [MDK Security Room - Right-Lower Tunnel]",
+      "connectionType": "HorizontalDoor",
+      "description": "Horizontal Door connection between [Etecoon Hangar Bay - Left Door] and [MDK Security Room - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -95,15 +95,15 @@
           "subarea": "Upper Main Deck",
           "roomid": 167,
           "roomName": "MDK Security Room",
-          "nodeid": 3,
-          "nodeName": "Right-Lower Tunnel",
+          "nodeid": 2,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalTunnel",
-      "description": "Horizontal Tunnel connection between [Etecoon Hangar Bay - Left-Lower Tunnel] and [MDK Security Room - Right Door]",
+      "description": "Horizontal Tunnel connection between [Etecoon Hangar Bay - Left-Lower Tunnel] and [MDK Security Room - Right-Lower Tunnel]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -120,8 +120,8 @@
           "subarea": "Upper Main Deck",
           "roomid": 167,
           "roomName": "MDK Security Room",
-          "nodeid": 2,
-          "nodeName": "Right Door",
+          "nodeid": 3,
+          "nodeName": "Right-Lower Tunnel",
           "position": "right"
         }
       ]
