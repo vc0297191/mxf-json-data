@@ -70,11 +70,11 @@
         },
         {
           "id": 7,
-          "name": "canSuitlessMaridia",
+          "name": "canSuitlessLowGravRoom",
           "techRequires": [],
           "otherRequires": [],
           "note": [
-            "Navigating underwater without Gravity.",
+            "Navigating low-gravity rooms (AQA underwater, NOC low-G rooms) without Gravity.",
             "This is not required for falling down a submerged room or for simple underwater platforming, such as where missing a jump does not leave Samus stuck somewhere."
           ],
           "devNote": "",
@@ -83,7 +83,7 @@
               "id": 8,
               "name": "canSunkenTileWideWallClimb",
               "techRequires": [
-                "canSuitlessMaridia",
+                "canSuitlessLowGravRoom",
                 "canConsecutiveWalljump"
               ],
               "otherRequires": [],
@@ -98,7 +98,7 @@
               "id": 9,
               "name": "canCrossRoomJumpIntoWater",
               "techRequires": [
-                "canSuitlessMaridia"
+                "canSuitlessLowGravRoom"
               ],
               "otherRequires": [],
               "note": "Using the momentum from jumping through a doorway from normal to water physics.",
@@ -109,7 +109,7 @@
               "id": 10,
               "name": "canSpaceJumpWaterBounce",
               "techRequires": [
-                "canSuitlessMaridia"
+                "canSuitlessLowGravRoom"
               ],
               "otherRequires": [
                 "SpaceJump"
@@ -174,7 +174,7 @@
                 "canPlayInSand",
                 "canCrouchJump",
                 "canDownGrab",
-                "canSuitlessMaridia"
+                "canSuitlessLowGravRoom"
               ],
               "otherRequires": [],
               "note": [
@@ -192,7 +192,7 @@
               "name": "canSandfallBounce",
               "techRequires": [
                 "canPlayInSand",
-                "canSuitlessMaridia"
+                "canSuitlessLowGravRoom"
               ],
               "otherRequires": [],
               "note": [
@@ -206,7 +206,7 @@
               "name": "canSandBombBoost",
               "techRequires": [
                 "canPlayInSand",
-                "canSuitlessMaridia"
+                "canSuitlessLowGravRoom"
               ],
               "otherRequires": [
                 "Morph",
@@ -229,7 +229,7 @@
               "name": "canSandGrappleBoost",
               "techRequires": [
                 "canPlayInSand",
-                "canSuitlessMaridia",
+                "canSuitlessLowGravRoom",
                 "canUseGrapple"
               ],
               "otherRequires": [],
@@ -1146,7 +1146,7 @@
                   "id": 74,
                   "name": "canUnderwaterBombIntoSpringBallJump",
                   "techRequires": [
-                    "canSuitlessMaridia",
+                    "canSuitlessLowGravRoom",
                     "canDoubleSpringBallJumpMidAir",
                     "canJumpIntoIBJ"
                   ],
@@ -1335,7 +1335,7 @@
                   "name": "canUnderwaterWalljump",
                   "techRequires": [
                     "canConsecutiveWalljump",
-                    "canSuitlessMaridia",
+                    "canSuitlessLowGravRoom",
                     "canMidairWiggle"
                   ],
                   "otherRequires": [
@@ -1421,6 +1421,18 @@
           "note": [
             "The ability to jump through a horizontal door transition from a nearby platform below the doorway,",
             "jumping close and low enough through the door to be able to pass through while carrying upward momentum into the next room."
+          ],
+          "devNote": "",
+          "extensionTechs": []
+        },
+        {
+          "id": 183,
+          "name": "canRespin",
+          "techRequires": [],
+          "otherRequires": [],
+          "note": [
+            "The ability to put Samus back in a spinning state by pressing jump while in midair,",
+            "if she was in a neutral state when originally starting the jump."
           ],
           "devNote": "",
           "extensionTechs": []
@@ -1697,7 +1709,7 @@
           "id": 109,
           "name": "canBombJumpWaterEscape",
           "techRequires": [
-            "canSuitlessMaridia",
+            "canSuitlessLowGravRoom",
             "canMidAirMorph"
           ],
           "otherRequires": [
@@ -2552,7 +2564,7 @@
           "id": 161,
           "name": "canWaterShineCharge",
           "techRequires": [
-            "canSuitlessMaridia"
+            "canSuitlessLowGravRoom"
           ],
           "otherRequires": [
             "SpeedBooster",
@@ -2975,5 +2987,5 @@
       ]
     }
   ],
-  "nextTechId": 183
+  "nextTechId": 184
 }

@@ -18,7 +18,7 @@
   "nodes": [
     {
       "id": 1,
-      "name": "Lava Horseshoe - Right Tunnel",
+      "name": "Right Tunnel",
       "nodeType": "door",
       "nodeSubType": "passage",
       "geometry": [
@@ -41,7 +41,7 @@
     },
     {
       "id": 3,
-      "name": "Lava Tornado - Top-Left Door",
+      "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "geometry": [
@@ -64,7 +64,7 @@
     },
     {
       "id": 4,
-      "name": "Lava Tornado - Top-Right Door",
+      "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "geometry": [
@@ -87,7 +87,7 @@
     },
     {
       "id": 5,
-      "name": "Lava Tornado - Bottom Door",
+      "name": "Bottom Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "geometry": [
@@ -111,7 +111,7 @@
     {
       "id": 2,
       "idMinorItemPlm": "0x14",
-      "name": "Lava Horseshoe - Hidden Power Bomb Tank",
+      "name": "Hidden Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "hidden",
       "geometry": [
@@ -132,7 +132,7 @@
   ],
   "strats": [
     {
-      "name": "Lava Horseshoe - Base",
+      "name": "Base",
       "link": [
         1,
         2
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "name": "Lava Horseshoe - Reach Power Bomb Tank with Wall Jumps",
+      "name": "Reach Power Bomb Tank with Wall Jumps",
       "link": [
         1,
         2
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "name": "Lava Horseshoe - Return from Power Bomb Tank without Super Jump or Space Jump",
+      "name": "Return from Power Bomb Tank without Super Jump or Space Jump",
       "link": [
         2,
         1
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "name": "Lava Horseshoe - Base",
+      "name": "Base",
       "link": [
         2,
         1
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "name": "Lava Tornado - Base",
+      "name": "Base",
       "link": [
         3,
         4
@@ -232,7 +232,7 @@
       "requires": []
     },
     {
-      "name": "Lava Tornado - Base",
+      "name": "Base",
       "link": [
         3,
         5
@@ -240,7 +240,7 @@
       "requires": []
     },
     {
-      "name": "Lava Tornado - Base",
+      "name": "Base",
       "link": [
         4,
         3
@@ -248,7 +248,7 @@
       "requires": []
     },
     {
-      "name": "Lava Tornado - Base",
+      "name": "Base",
       "link": [
         5,
         3

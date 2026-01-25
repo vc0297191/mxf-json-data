@@ -480,7 +480,7 @@
           "requires": [
             {"or":[
               "Gravity",
-              "canSuitlessMaridia"
+              "canSuitlessLowGravRoom"
             ]}
           ]
         },
@@ -489,7 +489,7 @@
           "requires": [
             {"or":[
               "Gravity",
-              "canSuitlessMaridia",
+              "canSuitlessLowGravRoom",
               "NightmareArena_CoreXAbsorbed"
             ]}
           ]

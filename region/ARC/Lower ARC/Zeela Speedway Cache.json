@@ -4,8 +4,6 @@
   "name": "Zeela Speedway Cache",
   "area": "ARC",
   "subarea": "Lower ARC",
-  "roomImageFile": "ARC Room 79700.jpg",
-  "roomAddress": "0x79700",
   "roomEnvironments": [
     {
       "heated": false,
@@ -63,9 +61,95 @@
       "mapTileY": 17
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Come in Shinecharging",
+      "link": [
+        1,
+        1
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 9,
+          "openEnd": 0,
+          "steepDownTiles": 2
+        }
+      },
+      "requires": []
+    },
+    {
+      "name": "Come in Shinecharged",
+      "link": [
+        1,
+        1
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": []
+    },
+    {
+      "name": "Leave With Runway",
+      "link": [
+        1,
+        1
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 9,
+          "openEnd": null,
+          "steepUpTiles": 2
+        }
+      },
+      "requires": []
+    },
+    {
+      "name": "Reach Missile Tank Shinecharged",
+      "link": [
+        1,
+        2
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "and": [
+                    {
+                      "or": [
+                        "Super Jump",
+                        "Space Jump"
+                      ]
+                    },
+                    "canTrivialMidAirMorph"
+                  ]
+                },
+                {
+                  "and": [
+                    "canMidAirMorph",
+                    "h_JumpAssist"
+                  ]
+                }
+              ]
+            },
+            "canIBJ"
+          ]
+        }
+      ],
+      "collectsItems": [
+        2
+      ],
+      "setsFlags": [
+        "f_ZeelaSpeedwayCache_EnergyTank_Collected"
+      ]
+    }
+  ],
+  "roomImageFile": "ARC Room 79700.jpg",
+  "roomAddress": "0x79700",
   "nextStratId": 1,
   "nextNotableId": 1
 }

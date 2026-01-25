@@ -195,7 +195,7 @@
                       ]
                     },
                     "canTrickyJump",
-                    "canSuitlessMaridia"
+                    "canSuitlessLowGravRoom"
                   ]
                 }
               ]
@@ -329,7 +329,7 @@
                 }
               ]
             },
-            "canSuitlessMaridia",
+            "canSuitlessLowGravRoom",
             "canSuitlessBeamlessKillMochtroidX",
             {
               "or": [

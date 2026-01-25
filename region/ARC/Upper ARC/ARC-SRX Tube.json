@@ -4,8 +4,6 @@
   "name": "ARC-SRX Tube",
   "area": "ARC",
   "subarea": "Upper ARC",
-  "roomImageFile": "Misc Room Reusable 1.jpg",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -23,6 +21,8 @@
       "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
@@ -33,12 +33,37 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
           "physics": "air"
         }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
       ]
     },
     {
@@ -65,8 +90,21 @@
       ]
     }
   ],
-  "enemies": [],
   "strats": [
+    {
+      "name": "Leave with Runway",
+      "link": [
+        1,
+        1
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 30,
+          "openEnd": 0
+        }
+      },
+      "requires": []
+    },
     {
       "name": "Base",
       "link": [
@@ -82,9 +120,24 @@
         1
       ],
       "requires": []
+    },
+    {
+      "name": "Leave with Runway",
+      "link": [
+        2,
+        2
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 30,
+          "openEnd": 0
+        }
+      },
+      "requires": []
     }
   ],
-  "notables": [],
+  "roomImageFile": "Misc Room Reusable 1.jpg",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

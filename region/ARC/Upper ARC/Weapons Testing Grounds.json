@@ -4,8 +4,6 @@
   "name": "Weapons Testing Grounds",
   "area": "ARC",
   "subarea": "Upper ARC",
-  "roomImageFile": "ARC Room 78B00.jpg",
-  "roomAddress": "0x78B00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -68,7 +66,9 @@
       "id": 2,
       "name": "Bottom-Right Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
       "geometry": [
         {
           "shape": "rect",
@@ -79,11 +79,50 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                "f_TacticalEvasionCourse_WTGSAXDoorDestroyed"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -109,9 +148,53 @@
       "mapTileY": 8
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "enemies": [
+    {
+      "groupName": "SA-X",
+      "enemyName": "Puyo",
+      "quantity": 1,
+      "betweenNodes": [
+        1,
+        4
+      ],
+      "stopSpawn": [
+        {
+          "and": [
+            {
+              "resourceCapacity": [
+                {
+                  "type": "PowerBomb",
+                  "count": 1
+                }
+              ]
+            },
+            "Missile Level 4",
+            "Wave Beam"
+          ]
+        }
+      ],
+      "id": "e1"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Leave With Runway",
+      "link": [
+        2,
+        2
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 10,
+          "openEnd": 0,
+          "gentleUpTiles": 4
+        }
+      },
+      "requires": []
+    }
+  ],
+  "roomImageFile": "ARC Room 78B00.jpg",
+  "roomAddress": "0x78B00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

@@ -4,8 +4,6 @@
   "name": "Tactical Evasion Course",
   "area": "ARC",
   "subarea": "Upper ARC",
-  "roomImageFile": "ARC Room 78C00.jpg",
-  "roomAddress": "0x78C00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -40,11 +38,55 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "Door Unlock Trigger",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 16,
+          "y": 120,
+          "w": 24,
+          "h": 40
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Unlock the Bottom-Right Door of Weapons Training Grounds",
+      "link": [
+        2,
+        2
+      ],
+      "setsFlags": [
+        "f_TacticalEvasionCourse_WTGSAXDoorDestroyed"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "ARC Room 78C00.jpg",
+  "roomAddress": "0x78C00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

@@ -935,6 +935,11 @@
             "title": "Disable Equipment",
             "description": "A requirement to disable a specific item."
           },
+          "unownedEquipment": {
+            "type": "string",
+            "title": "Unowned Equipment",
+            "description": "A requirement that the player does not have a specific item."
+          },
           "ridleyKill": {
             "type": "object",
             "description": "Fulfilled by killing Ridley, including ammo, energy, and skill requirements.",

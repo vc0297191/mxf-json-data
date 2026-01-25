@@ -200,7 +200,7 @@
       "requires": [
         {
           "and": [
-            "canSuitlessMaridia",
+            "canSuitlessLowGravRoom",
             {
               "enemyKill": {
                 "enemies": [
@@ -233,7 +233,7 @@
       "requires": [
         {
           "and": [
-            "canSuitlessMaridia",
+            "canSuitlessLowGravRoom",
             "canLongIBJ",
             {
               "enemyKill": {
@@ -382,7 +382,7 @@
       "requires": [
         {
           "and": [
-            "canSuitlessMaridia",
+            "canSuitlessLowGravRoom",
             {
               "or": [
                 "canTrickyGrappleJump",
@@ -509,7 +509,7 @@
       "requires": [
         {
           "and": [
-            "canSuitlessMaridia",
+            "canSuitlessLowGravRoom",
             {
               "or": [
                 "canTrickyGrappleJump",
