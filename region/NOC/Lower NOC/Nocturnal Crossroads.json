@@ -381,7 +381,7 @@
             {
               "or": [
                 "canIBJ",
-                "canConsecutiveWalljump",
+                "canConsecutiveSingleWallJump",
                 "Space Jump",
                 {
                   "and": [

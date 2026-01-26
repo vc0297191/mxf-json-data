@@ -84,7 +84,7 @@
               "name": "canSunkenTileWideWallClimb",
               "techRequires": [
                 "canSuitlessLowGravRoom",
-                "canConsecutiveWalljump"
+                "canConsecutiveSingleWallJump"
               ],
               "otherRequires": [],
               "note": [
@@ -1311,19 +1311,25 @@
             },
             {
               "id": 86,
-              "name": "canConsecutiveWalljump",
+              "name": "canConsecutiveAlternatingWallJump",
               "techRequires": [
                 "canWalljump"
               ],
               "otherRequires": [],
-              "note": "Climbing a wall with three or more consecutive wall jumps without a mistake.",
+                "note": [
+                "Climbing a wall with three or more consecutive wall jumps without a mistake.",
+                "The user may wall jump by utilizing a single wall per wall jump.",
+                "This behavior is only present in X-Mode gameplay,",
+                "covered by all difficulties and is a special game mode.",
+                "(Not to be confused with X-Ray glitching in SM)"
+              ],
               "devNote": "",
               "extensionTechs": [
                 {
                   "id": 87,
                   "name": "canFastWalljumpClimb",
                   "techRequires": [
-                    "canConsecutiveWalljump"
+                    "canConsecutiveAlternatingWallJump"
                   ],
                   "otherRequires": [],
                   "note": "Climbing a wall with consecutive wall jumps very quickly, e.g. for setting up a full halfie.",
@@ -1334,7 +1340,7 @@
                   "id": 88,
                   "name": "canUnderwaterWalljump",
                   "techRequires": [
-                    "canConsecutiveWalljump",
+                    "canConsecutiveAlternatingWallJump",
                     "canSuitlessLowGravRoom",
                     "canMidairWiggle"
                   ],
@@ -1397,6 +1403,23 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": 184,
+              "name": "canConsecutiveSingleWallJump",
+              "techRequires": [
+                "canWalljump"
+              ],
+              "otherRequires": [],
+                "note": [
+                "Climbing a wall with three or more consecutive wall jumps without a mistake.",
+                "The user may only wall jump by alternating between left and right per wall jump.",
+                "This behavior is only present in vanilla gameplay,",
+                "covered by all difficulties without playing with X-Mode gameplay enabled.",
+                "(Not to be confused with X-Ray glitching in SM)"
+              ],
+              "devNote": "",
+              "extensionTechs": []
             }
           ]
         },
@@ -1549,6 +1572,7 @@
           ],
           "note": [
             "Infinite Bomb Jump (IBJ) uses consecutive bomb jumps to gain height indefinitely. To start and continue an IBJ, place a bomb as the previous one is exploding.",
+            "It will only work in X-Mode or in underwater (very difficult in the vanilla game mode), because the timing is different from vanilla gameplay.",
             "The vertical speed with which Samus moves is controlled by how high or how low each bomb is placed relative to the previous one.",
             "The speed of the IBJ ranges from moving fairly fast with high bombs, to no movement or even losing height with low bomb placements.",
             "This tech alone only requires maintaining an IBJ for a vertical distance of approximately 11 tiles (the same distance as Samus can jump with HiJump),",
@@ -2987,5 +3011,5 @@
       ]
     }
   ],
-  "nextTechId": 184
+  "nextTechId": 185
 }

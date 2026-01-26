@@ -198,7 +198,7 @@
             "h_navigateLowGrav",
             {
               "or": [
-                "canConsecutiveWalljump",
+                "canConsecutiveSingleWallJump",
                 "Space Jump"
               ]
             }

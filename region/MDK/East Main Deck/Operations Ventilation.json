@@ -446,7 +446,7 @@
         10
       ],
       "requires": [
-        "canConsecutiveWalljump"
+        "canConsecutiveSingleWallJump"
       ]
     },
     {

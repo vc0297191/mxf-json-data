@@ -393,7 +393,7 @@
             {
               "heatFrames": 500
             },
-            "canConsecutiveWalljump",
+            "canConsecutiveSingleWallJump",
             "canTrickyWalljump"
           ]
         }
@@ -687,7 +687,7 @@
             },
             {
               "or": [
-                "canConsecutiveWalljump",
+                "canConsecutiveSingleWallJump",
                 "Space Jump"
               ]
             }
