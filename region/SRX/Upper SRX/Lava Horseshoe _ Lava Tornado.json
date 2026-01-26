@@ -171,7 +171,7 @@
                 }
               ]
             },
-            "canConsecutiveSingleWallJump"
+            "canConsecutiveAlternatingWallJump"
           ]
         }
       ]
@@ -198,7 +198,7 @@
                 }
               ]
             },
-            "canConsecutiveSingleWallJump"
+            "canConsecutiveAlternatingWallJump"
           ]
         }
       ]

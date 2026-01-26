@@ -83,7 +83,7 @@
             "canCarefulJump",
             {
               "or": [
-                "canConsecutiveSingleWallJump",
+                "canConsecutiveAlternatingWallJump",
                 "Space Jump"
               ]
             },

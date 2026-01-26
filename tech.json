@@ -84,7 +84,7 @@
               "name": "canSunkenTileWideWallClimb",
               "techRequires": [
                 "canSuitlessLowGravRoom",
-                "canConsecutiveSingleWallJump"
+                "canConsecutiveAlternatingWallJump"
               ],
               "otherRequires": [],
               "note": [
@@ -1311,7 +1311,7 @@
             },
             {
               "id": 86,
-              "name": "canConsecutiveAlternatingWallJump",
+              "name": "canConsecutiveSingleWallJump",
               "techRequires": [
                 "canWalljump"
               ],
@@ -1319,8 +1319,8 @@
                 "note": [
                 "Climbing a wall with three or more consecutive wall jumps without a mistake.",
                 "The user may wall jump by utilizing a single wall per wall jump.",
-                "This behavior is only present in X-Mode gameplay,",
-                "covered by all difficulties and is a special game mode.",
+                "If it's possible to perform the trick by alternating walls instead, use \"canConsecutiveAlternatingWallJump\" instead.",
+                "This behavior is only present in X-Mode gameplay, covered by all difficulties and is a special game mode.",
                 "(Not to be confused with X-Ray glitching in SM)"
               ],
               "devNote": "",
@@ -1329,7 +1329,7 @@
                   "id": 87,
                   "name": "canFastWalljumpClimb",
                   "techRequires": [
-                    "canConsecutiveAlternatingWallJump"
+                    "canConsecutiveSingleWallJump"
                   ],
                   "otherRequires": [],
                   "note": "Climbing a wall with consecutive wall jumps very quickly, e.g. for setting up a full halfie.",
@@ -1340,7 +1340,7 @@
                   "id": 88,
                   "name": "canUnderwaterWalljump",
                   "techRequires": [
-                    "canConsecutiveAlternatingWallJump",
+                    "canConsecutiveSingleWallJump",
                     "canSuitlessLowGravRoom",
                     "canMidairWiggle"
                   ],
@@ -1406,7 +1406,7 @@
             },
             {
               "id": 184,
-              "name": "canConsecutiveSingleWallJump",
+              "name": "canConsecutiveAlternatingWallJump",
               "techRequires": [
                 "canWalljump"
               ],
