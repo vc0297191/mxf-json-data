@@ -1319,7 +1319,7 @@
                 "note": [
                 "Climbing a wall with three or more consecutive wall jumps without a mistake.",
                 "The user may wall jump by utilizing a single wall per wall jump.",
-                "If it's possible to perform the trick by alternating walls instead, use \"canConsecutiveAlternatingWallJump\" instead.",
+                "If this strat can be achieved by alternating walls, use \"canConsecutiveAlternatingWallJump\" instead.",
                 "This behavior is only present in X-Mode gameplay, covered by all difficulties and is a special game mode.",
                 "(Not to be confused with X-Ray glitching in SM)"
               ],
