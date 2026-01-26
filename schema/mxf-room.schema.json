@@ -693,7 +693,7 @@
                       "environment": {
                         "type": "string",
                         "description": "Environment that Samus is in while exiting the previous room.",
-                        "enum": ["water", "air", "any"],
+                        "enum": ["water", "air", "lowGrav", "any"],
                         "default": "any"
                       },
                       "requires": {
@@ -741,7 +741,7 @@
                       "environment": {
                         "type": "string",
                         "description": "Environment that Samus is in while using this block to swing out of the previous room.",
-                        "enum": ["water", "air"],
+                        "enum": ["water", "air", "lowGrav"],
                         "default": "air"
                       },
                       "obstructions": {
@@ -1245,7 +1245,7 @@
                       "environment": {
                         "type": "string",
                         "description": "Environment that Samus is in while using this block to swing out of the room.",
-                        "enum": ["water", "air"],
+                        "enum": ["water", "air", "lowGrav"],
                         "default": "air"
                       },
                       "obstructions": {
@@ -1509,6 +1509,7 @@
       "enum": [
         "air",
         "water",
+        "lowGrav",
         "lava",
         "acid",
         "normal"

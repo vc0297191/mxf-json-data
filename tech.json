@@ -70,7 +70,7 @@
         },
         {
           "id": 7,
-          "name": "canSuitlessLowGravRoom",
+          "name": "canSuitlessWaterRoom",
           "techRequires": [],
           "otherRequires": [],
           "note": [
@@ -83,7 +83,7 @@
               "id": 8,
               "name": "canSunkenTileWideWallClimb",
               "techRequires": [
-                "canSuitlessLowGravRoom",
+                "canSuitlessWaterRoom",
                 "canConsecutiveAlternatingWallJump"
               ],
               "otherRequires": [],
@@ -98,7 +98,7 @@
               "id": 9,
               "name": "canCrossRoomJumpIntoWater",
               "techRequires": [
-                "canSuitlessLowGravRoom"
+                "canSuitlessWaterRoom"
               ],
               "otherRequires": [],
               "note": "Using the momentum from jumping through a doorway from normal to water physics.",
@@ -109,7 +109,7 @@
               "id": 10,
               "name": "canSpaceJumpWaterBounce",
               "techRequires": [
-                "canSuitlessLowGravRoom"
+                "canSuitlessWaterRoom"
               ],
               "otherRequires": [
                 "SpaceJump"
@@ -119,6 +119,70 @@
               "extensionTechs": [
                 {
                   "id": 11,
+                  "name": "canSpaceJumpWaterEscape",
+                  "techRequires": [
+                    "canSpaceJumpWaterBounce"
+                  ],
+                  "otherRequires": [],
+                  "note": "Using HiJump to escape the waterline during a Space Jump Water Bounce.",
+                  "devNote": "Escaping tidal water without HiJump could be added as a more advanced tech.",
+                  "extensionTechs": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 186,
+          "name": "canSuitlessWaterRoom",
+          "techRequires": [],
+          "otherRequires": [],
+          "note": [
+            "Navigating low-gravity rooms (AQA underwater, NOC low-G rooms) without Gravity.",
+            "This is not required for falling down a submerged room or for simple underwater platforming, such as where missing a jump does not leave Samus stuck somewhere."
+          ],
+          "devNote": "",
+          "extensionTechs": [
+            {
+              "id": 187,
+              "name": "canSunkenTileWideWallClimb",
+              "techRequires": [
+                "canSuitlessWaterRoom",
+                "canConsecutiveAlternatingWallJump"
+              ],
+              "otherRequires": [],
+              "note": [
+                "Using two walls spaced 1 tile apart to climb upward underwater.",
+                "Samus will not be able to move away from the wall while wall jumping and so will be able to continuously gain height with fast jump presses."
+              ],
+              "devNote": "",
+              "extensionTechs": []
+            },
+            {
+              "id": 188,
+              "name": "canCrossRoomJumpIntoWater",
+              "techRequires": [
+                "canSuitlessWaterRoom"
+              ],
+              "otherRequires": [],
+              "note": "Using the momentum from jumping through a doorway from normal to water physics.",
+              "devNote": "",
+              "extensionTechs": []
+            },
+            {
+              "id": 189,
+              "name": "canSpaceJumpWaterBounce",
+              "techRequires": [
+                "canSuitlessWaterRoom"
+              ],
+              "otherRequires": [
+                "SpaceJump"
+              ],
+              "note": "Using Space Jump to bounce along the water line. It can be used to escape the water with a wall jump, or to get onto low platforms just above the water level.",
+              "devNote": "",
+              "extensionTechs": [
+                {
+                  "id": 190,
                   "name": "canSpaceJumpWaterEscape",
                   "techRequires": [
                     "canSpaceJumpWaterBounce"
@@ -174,7 +238,7 @@
                 "canPlayInSand",
                 "canCrouchJump",
                 "canDownGrab",
-                "canSuitlessLowGravRoom"
+                "canSuitlessWaterRoom"
               ],
               "otherRequires": [],
               "note": [
@@ -192,7 +256,7 @@
               "name": "canSandfallBounce",
               "techRequires": [
                 "canPlayInSand",
-                "canSuitlessLowGravRoom"
+                "canSuitlessWaterRoom"
               ],
               "otherRequires": [],
               "note": [
@@ -206,7 +270,7 @@
               "name": "canSandBombBoost",
               "techRequires": [
                 "canPlayInSand",
-                "canSuitlessLowGravRoom"
+                "canSuitlessWaterRoom"
               ],
               "otherRequires": [
                 "Morph",
@@ -229,7 +293,7 @@
               "name": "canSandGrappleBoost",
               "techRequires": [
                 "canPlayInSand",
-                "canSuitlessLowGravRoom",
+                "canSuitlessWaterRoom",
                 "canUseGrapple"
               ],
               "otherRequires": [],
@@ -1146,7 +1210,7 @@
                   "id": 74,
                   "name": "canUnderwaterBombIntoSpringBallJump",
                   "techRequires": [
-                    "canSuitlessLowGravRoom",
+                    "canSuitlessWaterRoom",
                     "canDoubleSpringBallJumpMidAir",
                     "canJumpIntoIBJ"
                   ],
@@ -1341,7 +1405,7 @@
                   "name": "canUnderwaterWalljump",
                   "techRequires": [
                     "canConsecutiveSingleWallJump",
-                    "canSuitlessLowGravRoom",
+                    "canSuitlessWaterRoom",
                     "canMidairWiggle"
                   ],
                   "otherRequires": [
@@ -1746,7 +1810,7 @@
           "id": 109,
           "name": "canBombJumpWaterEscape",
           "techRequires": [
-            "canSuitlessLowGravRoom",
+            "canSuitlessWaterRoom",
             "canMidAirMorph"
           ],
           "otherRequires": [
@@ -2601,7 +2665,7 @@
           "id": 161,
           "name": "canWaterShineCharge",
           "techRequires": [
-            "canSuitlessLowGravRoom"
+            "canSuitlessWaterRoom"
           ],
           "otherRequires": [
             "SpeedBooster",
@@ -3024,5 +3088,5 @@
       ]
     }
   ],
-  "nextTechId": 186
+  "nextTechId": 191
 }

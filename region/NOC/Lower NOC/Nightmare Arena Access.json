@@ -261,7 +261,8 @@
             {
               "or": [
                 "Space Jump",
-                "Speed Booster Level 2"
+                "Speed Booster Level 2",
+                "canBombJumpWaterEscape"
               ]
             }
           ]

@@ -44,6 +44,8 @@
       "name": "Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
@@ -54,12 +56,37 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
-          "physics": "air"
+          "physics": "lowGrav"
         }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
       ]
     },
     {
@@ -67,6 +94,8 @@
       "name": "Right-Lower Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
       "geometry": [
         {
           "shape": "rect",
@@ -77,12 +106,37 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
       "doorEnvironments": [
         {
-          "physics": "air"
+          "physics": "lowGrav"
         }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
       ]
     },
     {
@@ -90,6 +144,8 @@
       "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
@@ -100,12 +156,37 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
-          "physics": "air"
+          "physics": "lowGrav"
         }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
       ]
     },
     {
@@ -157,7 +238,16 @@
         1,
         2
       ],
-      "id": "e1"
+      "id": "e1",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
     },
     {
       "groupName": "Lower Mochtroid-X",
@@ -167,7 +257,16 @@
         4,
         6
       ],
-      "id": "e2"
+      "id": "e2",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
     },
     {
       "groupName": "Middle Mochtroid-X",
@@ -177,7 +276,16 @@
         2,
         6
       ],
-      "id": "e3"
+      "id": "e3",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
     },
     {
       "groupName": "Lowest Mochtroid-X",
@@ -187,7 +295,16 @@
         4,
         5
       ],
-      "id": "e4"
+      "id": "e4",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
     }
   ],
   "strats": [
@@ -200,7 +317,7 @@
       "requires": [
         {
           "and": [
-            "canSuitlessLowGravRoom",
+            "canSuitlessWaterRoom",
             {
               "enemyKill": {
                 "enemies": [
@@ -233,7 +350,7 @@
       "requires": [
         {
           "and": [
-            "canSuitlessLowGravRoom",
+            "canSuitlessWaterRoom",
             "canLongIBJ",
             {
               "enemyKill": {
@@ -382,7 +499,7 @@
       "requires": [
         {
           "and": [
-            "canSuitlessLowGravRoom",
+            "canSuitlessWaterRoom",
             {
               "or": [
                 "canTrickyGrappleJump",
@@ -509,7 +626,7 @@
       "requires": [
         {
           "and": [
-            "canSuitlessLowGravRoom",
+            "canSuitlessWaterRoom",
             {
               "or": [
                 "canTrickyGrappleJump",

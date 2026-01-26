@@ -44,6 +44,8 @@
       "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
       "geometry": [
         {
           "shape": "rect",
@@ -54,12 +56,37 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
       "doorEnvironments": [
         {
-          "physics": "air"
+          "physics": "lowGrav"
         }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
       ]
     },
     {
@@ -111,7 +138,16 @@
         3,
         4
       ],
-      "id": "e1"
+      "id": "e1",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
     }
   ],
   "strats": [
@@ -195,7 +231,7 @@
                       ]
                     },
                     "canTrickyJump",
-                    "canSuitlessLowGravRoom"
+                    "canSuitlessWaterRoom"
                   ]
                 }
               ]
@@ -329,7 +365,7 @@
                 }
               ]
             },
-            "canSuitlessLowGravRoom",
+            "canSuitlessWaterRoom",
             "canSuitlessBeamlessKillMochtroidX",
             {
               "or": [

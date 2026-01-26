@@ -58,7 +58,7 @@
       "color": "#ffffff",
       "doorEnvironments": [
         {
-          "physics": "air"
+          "physics": "lowGrav"
         }
       ],
       "useImplicitDoorUnlocks": true,
