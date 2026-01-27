@@ -99,11 +99,6 @@
                 "f_SRXNavigationRoom_TalkingToAdam"
               ]
             }
-          ],
-          "lock": [
-            {
-              "not": "f_SRXNavigationRoom_TalkingToAdam"
-            }
           ]
         }
       ]

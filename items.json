@@ -126,7 +126,7 @@
       }
     },
     {
-      "name": "Speed Booster Level 1",
+      "name": "Speed Booster",
       "wram": "0x7E09A4",
       "data": {
         "itemType": "equipment",

@@ -67,10 +67,15 @@
       ],
       "locks": [
         {
-          "name": "Lock 1",
-          "lockType": "coloredDoor",
+          "name": "Locked Security Door",
+          "lockType": "gameFlag",
           "unlockStrats": [
-            "f_AQASecurityRoomSouth_DoorsUnlocked"
+            {
+              "name": "Unlock Security Doors",
+              "requires": [
+                "f_AQASecurityRoomSouth_DoorsUnlocked"
+              ]
+            }
           ]
         }
       ]

@@ -368,7 +368,7 @@ Items that **upgrade themselves** when collected multiple times. For example, co
 
 ```
 Collect "Progressive Speed Booster" #1
-→ Unlocks "Speed Booster Level 1"
+→ Unlocks "Speed Booster"
 
 Collect "Progressive Speed Booster" #2
 → Unlocks "Speed Booster Level 2"

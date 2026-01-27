@@ -1180,6 +1180,17 @@
                       }
                     }
                   ]
+                },
+                {
+                  "and": [
+                    "f_OmegaMode",
+                    {
+                      "partialRefill": {
+                        "type": "Energy",
+                        "limit": 0
+                      }
+                    }
+                  ]
                 }
               ]
             }

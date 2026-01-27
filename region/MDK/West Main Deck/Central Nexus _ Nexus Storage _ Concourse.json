@@ -339,7 +339,7 @@
     {
       "id": 8,
       "idMinorItemPlm": "0x02",
-      "name": "Central Nexus - Missile Tank",
+      "name": "Nexus Storage - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "geometry": [

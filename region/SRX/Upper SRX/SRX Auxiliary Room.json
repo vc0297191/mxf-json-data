@@ -68,7 +68,7 @@
       "locks": [
         {
           "name": "Gray Door Lock",
-          "lockType": "coloredDoor",
+          "lockType": "gameFlag",
           "unlockStrats": [],
           "lock": [
             {
