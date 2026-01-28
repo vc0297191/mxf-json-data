@@ -92,7 +92,7 @@
         2
       ],
       "requires": [
-        "Space Jump"
+        "SpaceJump"
       ]
     },
     {
@@ -102,7 +102,7 @@
         3
       ],
       "requires": [
-        "Space Jump"
+        "SpaceJump"
       ]
     },
     {
@@ -112,7 +112,7 @@
         1
       ],
       "requires": [
-        "Space Jump"
+        "SpaceJump"
       ]
     },
     {
@@ -122,7 +122,7 @@
         1
       ],
       "requires": [
-        "Space Jump"
+        "SpaceJump"
       ]
     }
   ],

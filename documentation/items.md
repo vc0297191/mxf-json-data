@@ -368,10 +368,10 @@ Items that **upgrade themselves** when collected multiple times. For example, co
 
 ```
 Collect "Progressive Speed Booster" #1
-→ Unlocks "Speed Booster"
+→ Unlocks "SpeedBooster"
 
 Collect "Progressive Speed Booster" #2
-→ Unlocks "Speed Booster Level 2"
+→ Unlocks "SpeedBoosterLv2"
 ```
 
 ### Fields Explained
@@ -513,7 +513,7 @@ Here's what a complete items.json might look like:
       }
     },
     {
-      "name": "Speed Booster",
+      "name": "SpeedBooster",
       "wram": "0x09A8",
       "data": {
         "itemType": "equipment",
@@ -624,7 +624,7 @@ Here's what a complete items.json might look like:
 ### Adding an Expansion Item
 
 **Step 1**: Decide the details
-- Name: "Super Missile"
+- Name: "SuperMissile"
 - Resource type: "super"
 - Amount: 5 per pack
 
@@ -669,7 +669,7 @@ Here's what a complete items.json might look like:
 
 ```json
 {
-  "name": "Varia Suit",
+  "name": "Varia",
   "wram": "0x09A2",
   "data": {
     "itemType": "equipment",
@@ -691,7 +691,7 @@ Here's what a complete items.json might look like:
 
 ```json
 {
-  "name": "Wide Beam",
+  "name": "Wide",
   "wram": "0x09A8",
   "data": {
     "itemType": "beam",

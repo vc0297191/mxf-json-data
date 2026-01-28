@@ -513,7 +513,7 @@
         {
           "and": [
             "Morph",
-            "Screw Attack",
+            "ScrewAttack",
             "canTrivialMidAirMorph"
           ]
         }
@@ -561,7 +561,7 @@
         {
           "and": [
             "Morph",
-            "Screw Attack"
+            "ScrewAttack"
           ]
         }
       ],

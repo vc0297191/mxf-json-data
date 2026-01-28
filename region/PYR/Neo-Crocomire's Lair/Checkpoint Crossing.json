@@ -162,7 +162,7 @@
           "or": [
             {
               "or": [
-                "Wave Beam",
+                "Wave",
                 {
                   "obstaclesCleared": [
                     "A"
@@ -312,7 +312,7 @@
       "requires": [
         {
           "or": [
-            "Screw Attack",
+            "ScrewAttack",
             "Morph",
             {
               "enemyKill": {
@@ -434,11 +434,11 @@
             "Morph",
             {
               "or": [
-                "Screw Attack",
+                "ScrewAttack",
                 "h_bombThings"
               ]
             },
-            "Wave Beam"
+            "Wave"
           ]
         }
       ]

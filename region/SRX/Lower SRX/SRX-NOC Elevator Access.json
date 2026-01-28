@@ -99,7 +99,7 @@
         1
       ],
       "requires": [
-        "Spike Breaker"
+        "SpikeBreaker"
       ],
       "clearsObstacles": [
         "A"
@@ -139,7 +139,7 @@
               "spikeHits": 1
             },
             "h_shinechargeMaxRunway",
-            "Space Jump"
+            "SpaceJump"
           ]
         }
       ]
@@ -151,7 +151,7 @@
         3
       ],
       "requires": [
-        "Spike Breaker"
+        "SpikeBreaker"
       ],
       "clearsObstacles": [
         "A"
@@ -175,7 +175,7 @@
               "spikeHits": 1
             },
             "h_shinechargeMaxRunway",
-            "Space Jump"
+            "SpaceJump"
           ]
         }
       ]
@@ -187,7 +187,7 @@
         2
       ],
       "requires": [
-        "Spike Breaker"
+        "SpikeBreaker"
       ],
       "clearsObstacles": [
         "A"
@@ -200,7 +200,7 @@
         3
       ],
       "requires": [
-        "Spike Breaker"
+        "SpikeBreaker"
       ],
       "clearsObstacles": [
         "A"

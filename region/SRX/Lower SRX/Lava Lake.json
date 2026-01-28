@@ -285,7 +285,7 @@
       "requires": [
         {
           "or": [
-            "Space Jump",
+            "SpaceJump",
             "h_lavaProof"
           ]
         }
@@ -348,7 +348,7 @@
         2
       ],
       "requires": [
-        "Space Jump"
+        "SpaceJump"
       ]
     },
     {

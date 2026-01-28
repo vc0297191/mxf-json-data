@@ -271,7 +271,7 @@
         1
       ],
       "requires": [
-        "Screw Attack"
+        "ScrewAttack"
       ],
       "clearsObstacles": [
         "A"
@@ -295,7 +295,7 @@
         1
       ],
       "requires": [
-        "Space Jump"
+        "SpaceJump"
       ],
       "collectsItems": [
         6

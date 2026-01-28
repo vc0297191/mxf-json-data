@@ -125,7 +125,7 @@
         1
       ],
       "requires": [
-        "Spike Breaker"
+        "SpikeBreaker"
       ],
       "clearsObstacles": [
         "B"
@@ -182,7 +182,7 @@
         2
       ],
       "requires": [
-        "Spike Breaker"
+        "SpikeBreaker"
       ],
       "clearsObstacles": [
         "B"
@@ -201,7 +201,7 @@
             {
               "or": [
                 "h_bombThings",
-                "Super Jump",
+                "SuperJump",
                 "can3HighWallMidAirMorph"
               ]
             }

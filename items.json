@@ -81,7 +81,7 @@
       }
     },
     {
-      "name": "Super Jump",
+      "name": "SuperJump",
       "wram": "0x7E09A4",
       "data": {
         "itemType": "equipment",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "name": "Super Missile",
+      "name": "SuperMissile",
       "wram": "0x7E09A4",
       "data": {
         "itemType": "equipment",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "name": "Speed Booster",
+      "name": "SpeedBooster",
       "wram": "0x7E09A4",
       "data": {
         "itemType": "equipment",
@@ -141,7 +141,7 @@
       }
     },
     {
-      "name": "Wide Beam",
+      "name": "Wide",
       "wram": "0x7E09A8",
       "data": {
         "itemType": "beam",
@@ -171,7 +171,7 @@
       }
     },
     {
-      "name": "Ice Missile",
+      "name": "IceMissile",
       "wram": "0x7E09A4",
       "data": {
         "itemType": "equipment",
@@ -186,7 +186,7 @@
       }
     },
     {
-      "name": "Space Jump",
+      "name": "SpaceJump",
       "wram": "0x7E09A4",
       "data": {
         "itemType": "equipment",
@@ -201,7 +201,7 @@
       }
     },
     {
-      "name": "Spike Breaker",
+      "name": "SpikeBreaker",
       "wram": "0x7E09A4",
       "data": {
         "itemType": "equipment",
@@ -216,7 +216,7 @@
       }
     },
     {
-      "name": "Plasma Beam",
+      "name": "Plasma",
       "wram": "0x7E09A8",
       "data": {
         "itemType": "beam",
@@ -246,7 +246,7 @@
       }
     },
     {
-      "name": "Wave Beam",
+      "name": "Wave",
       "wram": "0x7E09A8",
       "data": {
         "itemType": "beam",
@@ -261,7 +261,7 @@
       }
     },
     {
-      "name": "Screw Attack",
+      "name": "ScrewAttack",
       "wram": "0x7E09A4",
       "data": {
         "itemType": "equipment",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "name": "Diffusion Missile",
+      "name": "DiffusionMissile",
       "wram": "0x7E09A4",
       "data": {
         "itemType": "equipment",
@@ -291,7 +291,7 @@
       }
     },
     {
-      "name": "Speed Booster Level 2",
+      "name": "SpeedBoosterLv2",
       "wram": "0x7E09A4",
       "data": {
         "itemType": "equipment",
@@ -415,17 +415,17 @@
   ],
   "progressiveUpgrades": [
     {
-      "name": "Super Missile",
+      "name": "SuperMissile",
       "pcAddress": "0x028190",
       "value": "0x0040"
     },
     {
-      "name": "Ice Missile",
+      "name": "IceMissile",
       "pcAddress": "0x028192",
       "value": "0x0090"
     },
     {
-      "name": "Diffusion Missile",
+      "name": "DiffusionMissile",
       "pcAddress": "0x028194",
       "value": "0x0100"
     },

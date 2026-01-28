@@ -245,7 +245,7 @@
               "lavaFrames": 850
             },
             "canPreciseWalljump",
-            "Spike Breaker"
+            "SpikeBreaker"
           ]
         }
       ]
@@ -259,12 +259,12 @@
       "requires": [
         {
           "and": [
-            "Spike Breaker",
+            "SpikeBreaker",
             "h_lavaProof",
             {
               "or": [
-                "Super Jump",
-                "Space Jump"
+                "SuperJump",
+                "SpaceJump"
               ]
             }
           ]
@@ -341,12 +341,12 @@
       "requires": [
         {
           "and": [
-            "Spike Breaker",
+            "SpikeBreaker",
             "h_lavaProof",
             {
               "or": [
-                "Super Jump",
-                "Space Jump"
+                "SuperJump",
+                "SpaceJump"
               ]
             }
           ]
@@ -367,7 +367,7 @@
               "lavaFrames": 850
             },
             "canPreciseWalljump",
-            "Spike Breaker"
+            "SpikeBreaker"
           ]
         }
       ]
@@ -404,15 +404,15 @@
           "and": [
             {
               "or": [
-                "Screw Attack",
+                "ScrewAttack",
                 {
                   "and": [
                     "Charge",
-                    "Plasma Beam",
+                    "Plasma",
                     {
                       "or": [
-                        "Wave Beam",
-                        "Wide Beam"
+                        "Wave",
+                        "Wide"
                       ]
                     }
                   ]
@@ -463,7 +463,7 @@
       "requires": [
         {
           "and": [
-            "Spike Breaker",
+            "SpikeBreaker",
             "Morph",
             "h_lavaProof"
           ]
@@ -479,7 +479,7 @@
       "requires": [
         {
           "and": [
-            "Spike Breaker",
+            "SpikeBreaker",
             "Morph",
             {
               "lavaFrames": 400
@@ -511,7 +511,7 @@
                   }
                 },
                 "canLongIBJ",
-                "Space Jump"
+                "SpaceJump"
               ]
             }
           ]
@@ -532,7 +532,7 @@
             },
             "canSuitlessLavaDive",
             "Morph",
-            "Spike Breaker"
+            "SpikeBreaker"
           ]
         }
       ]
@@ -547,11 +547,11 @@
         {
           "and": [
             "Morph",
-            "Spike Breaker",
+            "SpikeBreaker",
             {
               "or": [
-                "Super Jump",
-                "Space Jump"
+                "SuperJump",
+                "SpaceJump"
               ]
             },
             "h_lavaProof"
@@ -569,11 +569,11 @@
         {
           "and": [
             "Morph",
-            "Spike Breaker",
+            "SpikeBreaker",
             {
               "or": [
-                "Super Jump",
-                "Space Jump"
+                "SuperJump",
+                "SpaceJump"
               ]
             },
             "h_lavaProof",

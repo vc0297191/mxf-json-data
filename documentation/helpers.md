@@ -206,7 +206,7 @@ or multiple lines:
   "requires": [
     {
       "or": [
-        "Space Jump",
+        "SpaceJump",
         ["Hi-Jump", "canWallJump"],
         ["canIBJ", "Morph Ball", "Bombs"]
       ]
@@ -261,7 +261,7 @@ or multiple lines:
   "requires": [
     {
       "or": [
-        "Varia Suit",
+        "Varia",
         "Gravity",
         {
           "resourceCapacity": [
@@ -328,8 +328,8 @@ or multiple lines:
           "or": [
             ["Morph Ball", "Bombs"],
             ["Morph Ball", "Power Bomb"],
-            "Speed Booster",
-            "Screw Attack"
+            "SpeedBooster",
+            "ScrewAttack"
           ]
         }
       ],
@@ -379,7 +379,7 @@ Just reference the helper name:
       "or": [
         "canFly",           // Helper
         "canUseMorphBombs", // Another helper
-        "Space Jump"        // Direct item
+        "SpaceJump"        // Direct item
       ]
     }
   ]
@@ -433,7 +433,7 @@ When tech makes items more useful:
 {
   "name": "canShortChargeRun",
   "requires": [
-    "Speed Booster",
+    "SpeedBooster",
     "canShortCharge",
     {
       "canShineCharge": {
@@ -458,7 +458,7 @@ For hazard navigation:
         "Gravity",
         {
           "and": [
-            "Varia Suit",
+            "Varia",
             {
               "resourceCapacity": [
                 {"type": "Energy", "count": 199}
@@ -483,7 +483,7 @@ Multiple ways to reach a location:
     {
       "or": [
         "Hi-Jump",
-        "Space Jump",
+        "SpaceJump",
         ["canWallJump", "canPreciseWallJump"],
         ["canIBJ", "Morph Ball", "Bombs"],
         ["canSpringBallJump", "Spring Ball"]

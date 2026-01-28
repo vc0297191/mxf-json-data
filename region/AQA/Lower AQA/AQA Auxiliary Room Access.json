@@ -117,7 +117,7 @@
             {
               "or": [
                 "canShinechargeMovementComplex",
-                "Speed Booster Level 2"
+                "SpeedBoosterLv2"
               ]
             },
             "canShinechargeMovement"

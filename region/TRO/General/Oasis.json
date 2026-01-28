@@ -151,8 +151,8 @@
       "requires": [
         {
           "or": [
-            "Super Jump",
-            "Space Jump",
+            "SuperJump",
+            "SpaceJump",
             {
               "and": [
                 "canIBJ",
@@ -175,7 +175,7 @@
             {
               "and": [
                 "canTrivialMidAirMorph",
-                "Space Jump"
+                "SpaceJump"
               ]
             },
             {
@@ -184,12 +184,12 @@
                 {
                   "or": [
                     "canIBJ",
-                    "Screw Attack"
+                    "ScrewAttack"
                   ]
                 }
               ]
             },
-            "Screw Attack"
+            "ScrewAttack"
           ]
         }
       ]
@@ -214,7 +214,7 @@
             {
               "and": [
                 "canTrivialMidAirMorph",
-                "Space Jump"
+                "SpaceJump"
               ]
             },
             {
@@ -223,12 +223,12 @@
                 {
                   "or": [
                     "canIBJ",
-                    "Screw Attack"
+                    "ScrewAttack"
                   ]
                 }
               ]
             },
-            "Screw Attack"
+            "ScrewAttack"
           ]
         }
       ]

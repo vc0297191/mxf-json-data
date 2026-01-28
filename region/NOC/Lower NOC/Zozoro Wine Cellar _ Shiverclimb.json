@@ -214,7 +214,7 @@
       "requires": [
         {
           "and": [
-            "Wave Beam",
+            "Wave",
             {
               "or": [
                 "canTrickyDodgeEnemies",
@@ -318,7 +318,7 @@
               "or": [
                 "canConsecutiveSingleWallJump",
                 "Grapple",
-                "Space Jump",
+                "SpaceJump",
                 {
                   "and": [
                     {

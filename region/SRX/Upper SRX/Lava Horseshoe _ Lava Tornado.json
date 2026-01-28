@@ -141,7 +141,7 @@
         {
           "and": [
             "h_lavaProof",
-            "Space Jump"
+            "SpaceJump"
           ]
         }
       ],
@@ -215,8 +215,8 @@
             "h_lavaProof",
             {
               "or": [
-                "Space Jump",
-                "Super Jump"
+                "SpaceJump",
+                "SuperJump"
               ]
             }
           ]
@@ -256,8 +256,8 @@
       "requires": [
         {
           "or": [
-            "Space Jump",
-            "Super Jump",
+            "SpaceJump",
+            "SuperJump",
             "canCarefulJump"
           ]
         }

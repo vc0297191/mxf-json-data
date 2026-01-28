@@ -114,7 +114,7 @@
       "requires": [
         {
           "and": [
-            "Screw Attack",
+            "ScrewAttack",
             {
               "or": [
                 "h_bombThings"
@@ -134,7 +134,7 @@
         {
           "and": [
             "h_JumpAssist",
-            "Screw Attack"
+            "ScrewAttack"
           ]
         }
       ]

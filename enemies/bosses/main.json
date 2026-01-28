@@ -91,7 +91,7 @@
       "damageMultipliers": [],
       "vuln": [],
       "dropsUpgrade": [
-        "Varia Suit"
+        "Varia"
       ],
       "areas": [
         "NOC"
@@ -124,7 +124,7 @@
       "damageMultipliers": [],
       "vuln": [],
       "dropsUpgrade": [
-        "Super Missile"
+        "SuperMissile"
       ],
       "areas": [
         "DMX"
@@ -471,7 +471,7 @@
       "damageMultipliers": [],
       "vuln": [],
       "dropsUpgrade": [
-        "Screw Attack"
+        "ScrewAttack"
       ],
       "areas": [
         "PYR"
@@ -694,7 +694,7 @@
       "damageMultipliers": [],
       "vuln": [],
       "dropsUpgrade": [
-        "Plasma Beam"
+        "Plasma"
       ],
       "areas": [
         "TRO"
@@ -853,7 +853,7 @@
       "damageMultipliers": [],
       "vuln": [],
       "dropsUpgrade": [
-        "Spike Breaker"
+        "SpikeBreaker"
       ],
       "areas": [
         "SRX"
@@ -948,7 +948,7 @@
       "damageMultipliers": [],
       "vuln": [],
       "dropsUpgrade": [
-        "Wave Beam"
+        "Wave"
       ],
       "areas": [
         "ARC"
@@ -981,7 +981,7 @@
       "damageMultipliers": [],
       "vuln": [],
       "dropsUpgrade": [
-        "Wide Beam"
+        "Wide"
       ],
       "areas": [
         "ARC"
@@ -1045,7 +1045,7 @@
       "damageMultipliers": [],
       "vuln": [],
       "dropsUpgrade": [
-        "Space Jump"
+        "SpaceJump"
       ],
       "areas": [
         "MDK"
@@ -1078,7 +1078,7 @@
       "damageMultipliers": [],
       "vuln": [],
       "dropsUpgrade": [
-        "Super Jump"
+        "SuperJump"
       ],
       "areas": [
         "TRO"

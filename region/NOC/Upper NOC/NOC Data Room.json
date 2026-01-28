@@ -84,7 +84,7 @@
             {
               "or": [
                 "canConsecutiveAlternatingWallJump",
-                "Space Jump"
+                "SpaceJump"
               ]
             },
             {

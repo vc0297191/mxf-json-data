@@ -160,7 +160,7 @@
           "and": [
             {
               "or": [
-                "Space Jump",
+                "SpaceJump",
                 {
                   "spikeHits": 5
                 }
@@ -221,7 +221,7 @@
           "and": [
             {
               "or": [
-                "Space Jump",
+                "SpaceJump",
                 {
                   "spikeHits": 5
                 }

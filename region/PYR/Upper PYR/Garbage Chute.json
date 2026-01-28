@@ -328,11 +328,11 @@
             {
               "heatFrames": 341
             },
-            "Screw Attack",
+            "ScrewAttack",
             {
               "or": [
-                "Space Jump",
-                "Super Jump",
+                "SpaceJump",
+                "SuperJump",
                 "canWalljump"
               ]
             }
@@ -352,11 +352,11 @@
             {
               "heatFrames": 130
             },
-            "Screw Attack",
+            "ScrewAttack",
             {
               "or": [
-                "Space Jump",
-                "Super Jump",
+                "SpaceJump",
+                "SuperJump",
                 "canWalljump"
               ]
             }
@@ -408,7 +408,7 @@
       "requires": [
         {
           "and": [
-            "Space Jump",
+            "SpaceJump",
             {
               "heatFrames": 500
             }
@@ -430,8 +430,8 @@
             },
             {
               "or": [
-                "Super Jump",
-                "Space Jump",
+                "SuperJump",
+                "SpaceJump",
                 "canWalljump"
               ]
             }
@@ -576,7 +576,7 @@
       "requires": [
         {
           "and": [
-            "Screw Attack",
+            "ScrewAttack",
             {
               "heatFrames": 130
             }
@@ -605,7 +605,7 @@
       "requires": [
         {
           "and": [
-            "Screw Attack",
+            "ScrewAttack",
             {
               "lavaFrames": 15
             },
@@ -688,7 +688,7 @@
             {
               "or": [
                 "canConsecutiveAlternatingWallJump",
-                "Space Jump"
+                "SpaceJump"
               ]
             }
           ]

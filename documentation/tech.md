@@ -147,7 +147,7 @@ Items or other requirements needed:
 ```json
 "otherRequires": [
   "Hi-Jump",
-  "Speed Booster"
+  "SpeedBooster"
 ]
 ```
 
@@ -217,7 +217,7 @@ More advanced versions of this tech:
   "name": "canShortCharge",
   "techRequires": [],
   "otherRequires": [
-    "Speed Booster"
+    "SpeedBooster"
   ],
   "note": [
     "Charge a shinespark with less runway than normal.",
@@ -311,7 +311,7 @@ More advanced versions of this tech:
       "techRequires": [],
       "otherRequires": [
         "Morph Ball",
-        "Speed Booster"
+        "SpeedBooster"
       ],
       "note": "Roll at high speed while appearing to run"
     }
@@ -346,7 +346,7 @@ More advanced versions of this tech:
       "or": [
         "Hi-Jump",              // Option 1: Use item
         "canWallJump",          // Option 2: Use tech
-        "Space Jump"            // Option 3: Different item
+        "SpaceJump"            // Option 3: Different item
       ]
     }
   ]
@@ -362,7 +362,7 @@ More advanced versions of this tech:
   "link": [1, 2],
   "name": "Short Charge Through",
   "requires": [
-    "Speed Booster",
+    "SpeedBooster",
     "canShortCharge"
   ]
 }
@@ -391,7 +391,7 @@ More advanced versions of this tech:
 {
   "name": "canShortCharge",
   "techRequires": [],
-  "otherRequires": ["Speed Booster"],
+  "otherRequires": ["SpeedBooster"],
   "note": "Charge shinespark with less runway"
 }
 ```
@@ -407,7 +407,7 @@ More advanced versions of this tech:
     "canShinespark",
     "canShortCharge"
   ],
-  "otherRequires": ["Speed Booster"],
+  "otherRequires": ["SpeedBooster"],
   "note": "Chain multiple shinesparks together"
 }
 ```

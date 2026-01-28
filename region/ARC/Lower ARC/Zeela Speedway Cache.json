@@ -121,8 +121,8 @@
                   "and": [
                     {
                       "or": [
-                        "Super Jump",
-                        "Space Jump"
+                        "SuperJump",
+                        "SpaceJump"
                       ]
                     },
                     "canTrivialMidAirMorph"

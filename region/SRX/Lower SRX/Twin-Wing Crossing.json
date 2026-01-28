@@ -186,7 +186,7 @@
         {
           "and": [
             "Morph",
-            "Space Jump"
+            "SpaceJump"
           ]
         }
       ]
@@ -224,7 +224,7 @@
             },
             {
               "ammo": {
-                "type": "Ice Missile",
+                "type": "IceMissile",
                 "count": 2
               }
             },

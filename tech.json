@@ -2257,7 +2257,7 @@
       ]
     },
     {
-      "name": "Speed Booster",
+      "name": "SpeedBooster",
       "description": "Techs related to Speed Booster use. Note that short charging is not a tech per se.",
       "techs": [
         {

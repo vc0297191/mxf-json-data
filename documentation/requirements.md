@@ -34,7 +34,7 @@ The simplest form - just check if the player has something:
 "requires": [
   "Morph Ball",
   "Bombs",
-  "Speed Booster"
+  "SpeedBooster"
 ]
 ```
 
@@ -104,7 +104,7 @@ This means: `Bombs OR Power Bomb OR Spring Ball`
     "or": [
       ["Bombs", "Hi-Jump"],
       ["Power Bomb"],
-      ["Spring Ball", "Space Jump"]
+      ["Spring Ball", "SpaceJump"]
     ]
   }
 ]
@@ -272,7 +272,7 @@ Surviving heated rooms:
   {
     "or": [
       {"heatFrames": 180},
-      ["Varia Suit", {"heatFrames": 600}]
+      ["Varia", {"heatFrames": 600}]
     ]
   }
 ]
@@ -355,7 +355,7 @@ Similar to acid frames:
 **Example**:
 ```json
 "requires": [
-  "Speed Booster",
+  "SpeedBooster",
   {
     "canShineCharge": {
       "usedTiles": 32,
@@ -394,7 +394,7 @@ Similar fields to `canShineCharge`.
 **Example**:
 ```json
 "requires": [
-  "Speed Booster",
+  "SpeedBooster",
   {
     "canShineCharge": {
       "usedTiles": 28,
@@ -589,7 +589,7 @@ Means: "Must enter from node 1 or 2"
       // Quick kill with good gear
       [
         "Charge",
-        "Varia Suit",
+        "Varia",
         {
           "enemyKill": {
             "enemies": [["Ridley"]],
@@ -602,7 +602,7 @@ Means: "Must enter from node 1 or 2"
       ],
       // Slower kill, more heat
       [
-        "Varia Suit",
+        "Varia",
         {
           "enemyKill": {
             "enemies": [["Ridley"]]
@@ -640,7 +640,7 @@ Means: "Must enter from node 1 or 2"
 
 ```json
 "requires": [
-  "Speed Booster",
+  "SpeedBooster",
   {
     "canShineCharge": {
       "usedTiles": 32,
@@ -768,7 +768,7 @@ Bad:
 "requires": [
   {
     "or": [
-      ["Varia Suit", {"heatFrames": 500}],
+      ["Varia", {"heatFrames": 500}],
       [{"heatFrames": 200}],  // Quick route
       [{"resourceCapacity": [{"type": "Energy", "count": 299}]}, {"heatFrames": 600}]
     ]

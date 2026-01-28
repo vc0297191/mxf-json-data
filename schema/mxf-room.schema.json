@@ -109,7 +109,7 @@
               "properties": {
                 "speedBooster": {
                   "type": ["boolean", "string"],
-                  "title": "Speed Booster",
+                  "title": "SpeedBooster",
                   "description": "Whether or not this run should be performed with Speed Booster.",
                   "enum": [
                     true,
@@ -141,7 +141,7 @@
               "properties": {
                 "speedBooster": {
                   "type": ["boolean", "string"],
-                  "title": "Speed Booster",
+                  "title": "SpeedBooster",
                   "description": "Whether or not this run should be performed with Speed Booster.",
                   "enum": [
                     true,
@@ -170,7 +170,7 @@
               "properties": {
                 "speedBooster": {
                   "type": ["boolean", "string"],
-                  "title": "Speed Booster",
+                  "title": "SpeedBooster",
                   "description": "Whether or not this run should be performed with Speed Booster.",
                   "enum": [
                     true,
@@ -419,7 +419,7 @@
               "properties": {
                 "speedBooster": {
                   "type": ["boolean", "string"],
-                  "title": "Speed Booster",
+                  "title": "SpeedBooster",
                   "description": "Whether or not Speed Booster should be equipped when entering the room.",
                   "enum": [
                     true,
@@ -477,7 +477,7 @@
               "properties": {
                 "speedBooster": {
                   "type": ["boolean", "string"],
-                  "title": "Speed Booster",
+                  "title": "SpeedBooster",
                   "description": "Whether or not Speed Booster should be equipped when entering.",
                   "enum": [
                     true,
@@ -517,7 +517,7 @@
               "properties": {
                 "speedBooster": {
                   "type": ["boolean", "string"],
-                  "title": "Speed Booster",
+                  "title": "SpeedBooster",
                   "description": "Whether or not Speed Booster should be equipped when entering.",
                   "enum": [
                     true,

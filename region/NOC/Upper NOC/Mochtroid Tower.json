@@ -383,7 +383,7 @@
               "or": [
                 "canLongIBJ",
                 "canConsecutiveAlternatingWallJump",
-                "Space Jump"
+                "SpaceJump"
               ]
             }
           ]
@@ -435,12 +435,12 @@
             {
               "or": [
                 "canIBJ",
-                "Space Jump",
+                "SpaceJump",
                 {
                   "and": [
                     {
                       "ammo": {
-                        "type": "Ice Missile",
+                        "type": "IceMissile",
                         "count": 1
                       }
                     },
@@ -505,7 +505,7 @@
                 "canTrickyGrappleJump",
                 {
                   "ammo": {
-                    "type": "Ice Missile",
+                    "type": "IceMissile",
                     "count": 3
                   }
                 },
@@ -552,7 +552,7 @@
                 },
                 {
                   "ammo": {
-                    "type": "Ice Missile",
+                    "type": "IceMissile",
                     "count": 3
                   }
                 }
@@ -574,9 +574,9 @@
             {
               "or": [
                 "canPreciseWalljump",
-                "Space Jump",
+                "SpaceJump",
                 "canIBJ",
-                "Space Jump"
+                "SpaceJump"
               ]
             },
             {
@@ -607,7 +607,7 @@
             },
             {
               "or": [
-                "Space Jump",
+                "SpaceJump",
                 "Grapple",
                 "canIBJ"
               ]
@@ -632,7 +632,7 @@
                 "canTrickyGrappleJump",
                 {
                   "ammo": {
-                    "type": "Ice Missile",
+                    "type": "IceMissile",
                     "count": 3
                   }
                 },
@@ -679,7 +679,7 @@
                 },
                 {
                   "ammo": {
-                    "type": "Ice Missile",
+                    "type": "IceMissile",
                     "count": 3
                   }
                 }
@@ -701,9 +701,9 @@
             {
               "or": [
                 "canPreciseWalljump",
-                "Space Jump",
+                "SpaceJump",
                 "canIBJ",
-                "Space Jump"
+                "SpaceJump"
               ]
             },
             {
@@ -734,7 +734,7 @@
             },
             {
               "or": [
-                "Space Jump",
+                "SpaceJump",
                 "Grapple",
                 "canIBJ"
               ]

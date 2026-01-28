@@ -333,7 +333,7 @@
         2
       ],
       "requires": [
-        "Space Jump"
+        "SpaceJump"
       ]
     },
     {
@@ -387,7 +387,7 @@
       "requires": [
         {
           "and": [
-            "Space Jump"
+            "SpaceJump"
           ]
         }
       ]
@@ -436,7 +436,7 @@
         10
       ],
       "requires": [
-        "Space Jump"
+        "SpaceJump"
       ]
     },
     {

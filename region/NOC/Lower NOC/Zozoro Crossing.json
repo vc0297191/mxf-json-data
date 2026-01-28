@@ -170,7 +170,7 @@
         1
       ],
       "requires": [
-        "Screw Attack"
+        "ScrewAttack"
       ],
       "clearsObstacles": [
         "B"
@@ -219,7 +219,7 @@
         2
       ],
       "requires": [
-        "Screw Attack"
+        "ScrewAttack"
       ],
       "clearsObstacles": [
         "B"
@@ -242,7 +242,7 @@
       "requires": [
         {
           "or": [
-            "Space Jump",
+            "SpaceJump",
             "canIBJ",
             {
               "and": [

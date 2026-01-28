@@ -329,8 +329,8 @@
             "canPreciseWalljump",
             {
               "or": [
-                "Space Jump",
-                "Super Jump",
+                "SpaceJump",
+                "SuperJump",
                 "canIBJ"
               ]
             }

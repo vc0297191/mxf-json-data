@@ -108,8 +108,8 @@
             {
               "or": [
                 "canPreciseWalljump",
-                "Super Jump",
-                "Space Jump",
+                "SuperJump",
+                "SpaceJump",
                 "Grapple",
                 {
                   "and": [
@@ -152,10 +152,10 @@
             "Morph",
             {
               "or": [
-                "Space Jump",
+                "SpaceJump",
                 {
                   "and": [
-                    "Super Jump",
+                    "SuperJump",
                     "canWalljump"
                   ]
                 },

@@ -118,7 +118,7 @@ Requirements to USE this weapon:
   {
     "or": [
       "Ice Beam",
-      "Wave Beam"
+      "Wave"
     ]
   }
 ]
@@ -336,11 +336,11 @@ Weapon categories for grouping:
 ```json
 {
   "id": 40,
-  "name": "Screw Attack",
+  "name": "ScrewAttack",
   "damage": 60,
   "cooldownFrames": 10,
   "useRequires": [
-    "Screw Attack"
+    "ScrewAttack"
   ],
   "shotRequires": [],
   "situational": true,
@@ -388,7 +388,7 @@ Weapon categories for grouping:
   {
     "enemyKill": {
       "enemies": [["Boss"]],
-      "explicitWeapons": ["Missile", "Super Missile"]
+      "explicitWeapons": ["Missile", "SuperMissile"]
     }
   }
 ]
@@ -514,7 +514,7 @@ DPS = (50 * 60) / 30 = 100 damage/second
 
 ### Step 1: Decide Properties
 
-**Name**: "Plasma Beam"
+**Name**: "Plasma"
 **Damage**: 60
 **Cooldown**: 20 frames
 **Requirements**: Plasma Beam item
@@ -540,11 +540,11 @@ Is it a beam? Charged? Special?
 ```json
 {
   "id": 51,
-  "name": "Plasma Beam",
+  "name": "Plasma",
   "damage": 60,
   "cooldownFrames": 20,
   "useRequires": [
-    "Plasma Beam"
+    "Plasma"
   ],
   "shotRequires": [],
   "situational": false,
@@ -562,7 +562,7 @@ Is it a beam? Charged? Special?
     // ... existing weapons ...
     {
       "id": 51,
-      "name": "Plasma Beam",
+      "name": "Plasma",
       // ... rest of weapon data ...
     }
   ]
@@ -576,7 +576,7 @@ Enemies can now reference it:
 ```json
 "damageMultipliers": [
   {
-    "weapon": "Plasma Beam",
+    "weapon": "Plasma",
     "value": 0.5
   }
 ]

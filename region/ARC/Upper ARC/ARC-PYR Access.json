@@ -139,10 +139,10 @@
               "or": [
                 "Grapple",
                 "canWalljump",
-                "Space Jump"
+                "SpaceJump"
               ]
             },
-            "Super Missile"
+            "SuperMissile"
           ]
         }
       ],
@@ -159,7 +159,7 @@
       "requires": [
         {
           "and": [
-            "Super Missile",
+            "SuperMissile",
             "canPreciseWalljump"
           ]
         }
@@ -175,8 +175,8 @@
         {
           "or": [
             "canWalljump",
-            "Super Jump",
-            "Space Jump"
+            "SuperJump",
+            "SpaceJump"
           ]
         }
       ]
@@ -198,7 +198,7 @@
         2
       ],
       "requires": [
-        "Super Missile"
+        "SuperMissile"
       ]
     }
   ],

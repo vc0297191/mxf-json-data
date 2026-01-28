@@ -201,7 +201,7 @@
             {
               "or": [
                 "canDodgeWhileShooting",
-                "Screw Attack"
+                "ScrewAttack"
               ]
             },
             {
@@ -214,7 +214,7 @@
                 },
                 {
                   "and": [
-                    "Super Jump",
+                    "SuperJump",
                     "canWalljump"
                   ]
                 }
@@ -293,7 +293,7 @@
       "requires": [
         {
           "and": [
-            "Screw Attack",
+            "ScrewAttack",
             "h_JumpAssist"
           ]
         }
@@ -354,7 +354,7 @@
         5
       ],
       "requires": [
-        "Screw Attack"
+        "ScrewAttack"
       ],
       "clearsObstacles": [
         "B"

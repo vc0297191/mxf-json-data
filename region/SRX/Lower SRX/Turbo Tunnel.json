@@ -145,7 +145,7 @@
         {
           "or": [
             "Grapple",
-            "Space Jump"
+            "SpaceJump"
           ]
         }
       ]
@@ -164,7 +164,7 @@
             },
             {
               "or": [
-                "Super Jump",
+                "SuperJump",
                 "canWalljump",
                 "Gravity"
               ]
@@ -259,7 +259,7 @@
             },
             {
               "or": [
-                "Super Jump",
+                "SuperJump",
                 "canWalljump",
                 "Gravity"
               ]

@@ -127,7 +127,7 @@
           "and": [
             {
               "or": [
-                "Screw Attack",
+                "ScrewAttack",
                 {
                   "ammo": {
                     "type": "PowerBomb",
@@ -138,7 +138,7 @@
             },
             {
               "or": [
-                "Space Jump",
+                "SpaceJump",
                 "canWalljump"
               ]
             }
@@ -176,7 +176,7 @@
       "requires": [
         {
           "and": [
-            "Super Jump",
+            "SuperJump",
             "canTrivialMidAirMorph"
           ]
         }

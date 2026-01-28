@@ -199,7 +199,7 @@
                 "canWalljump",
                 "Gravity",
                 "canBombJumpWaterEscape",
-                "Space Jump",
+                "SpaceJump",
                 {
                   "and": [
                     "canNeutralDamageBoost",
@@ -230,7 +230,7 @@
                   }
                 },
                 "Gravity",
-                "Screw Attack"
+                "ScrewAttack"
               ]
             }
           ]
@@ -262,7 +262,7 @@
                 "canWalljump",
                 "Gravity",
                 "canBombJumpWaterEscape",
-                "Space Jump",
+                "SpaceJump",
                 {
                   "and": [
                     "canNeutralDamageBoost",
@@ -293,7 +293,7 @@
                   }
                 },
                 "Gravity",
-                "Screw Attack"
+                "ScrewAttack"
               ]
             }
           ]

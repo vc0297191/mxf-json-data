@@ -213,7 +213,7 @@
               "or": [
                 {
                   "and": [
-                    "Super Jump",
+                    "SuperJump",
                     "Grapple",
                     {
                       "or": [
@@ -232,7 +232,7 @@
                             }
                           ]
                         },
-                        "Screw Attack"
+                        "ScrewAttack"
                       ]
                     }
                   ]
@@ -256,7 +256,7 @@
             "Gravity",
             {
               "or": [
-                "Screw Attack",
+                "ScrewAttack",
                 {
                   "and": [
                     "canDodgeWhileShooting",
@@ -276,7 +276,7 @@
             {
               "or": [
                 "Grapple",
-                "Space Jump"
+                "SpaceJump"
               ]
             }
           ]

@@ -313,23 +313,23 @@
       "requires": [
         {
           "or": [
-            "Screw Attack",
+            "ScrewAttack",
             {
               "and": [
-                "Wave Beam",
-                "Wide Beam"
+                "Wave",
+                "Wide"
               ]
             },
             {
               "and": [
-                "Wave Beam",
-                "Plasma Beam"
+                "Wave",
+                "Plasma"
               ]
             },
             {
               "and": [
-                "Wide Beam",
-                "Plasma Beam"
+                "Wide",
+                "Plasma"
               ]
             },
             "canTrickyDodgeEnemies"
@@ -356,23 +356,23 @@
       "requires": [
         {
           "or": [
-            "Screw Attack",
+            "ScrewAttack",
             {
               "and": [
-                "Wave Beam",
-                "Wide Beam"
+                "Wave",
+                "Wide"
               ]
             },
             {
               "and": [
-                "Wave Beam",
-                "Plasma Beam"
+                "Wave",
+                "Plasma"
               ]
             },
             {
               "and": [
-                "Wide Beam",
-                "Plasma Beam"
+                "Wide",
+                "Plasma"
               ]
             },
             "canTrickyDodgeEnemies"
@@ -418,15 +418,15 @@
             },
             {
               "and": [
-                "Screw Attack",
+                "ScrewAttack",
                 {
                   "and": [
                     "Charge",
-                    "Plasma Beam",
+                    "Plasma",
                     {
                       "or": [
-                        "Wave Beam",
-                        "Wide Beam"
+                        "Wave",
+                        "Wide"
                       ]
                     }
                   ]

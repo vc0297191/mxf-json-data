@@ -29,7 +29,7 @@ Form:
 Arrays use **square brackets** `[]` and contain **lists of items**:
 
 ```json
-["Morph Ball", "Bombs", "Speed Booster"]
+["Morph Ball", "Bombs", "SpeedBooster"]
 ```
 
 **Think of it like**:

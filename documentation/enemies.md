@@ -295,7 +295,7 @@ Items dropped when killed (for bosses):
 
 ```json
 "dropsUpgrade": [
-  "Varia Suit",
+  "Varia",
   "Energy Tank"
 ]
 ```
@@ -421,7 +421,7 @@ Where this enemy naturally appears:
       "value": 1.5
     }
   ],
-  "dropsUpgrade": ["Varia Suit"],
+  "dropsUpgrade": ["Varia"],
   "areas": ["MDK"],
   "note": "Large boss. Weak to Super Missiles."
 }

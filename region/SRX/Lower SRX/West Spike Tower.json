@@ -186,8 +186,8 @@
       "requires": [
         {
           "and": [
-            "Super Jump",
-            "Space Jump"
+            "SuperJump",
+            "SpaceJump"
           ]
         }
       ]
@@ -232,7 +232,7 @@
         5
       ],
       "requires": [
-        "Space Jump"
+        "SpaceJump"
       ]
     },
     {
@@ -326,7 +326,7 @@
         3
       ],
       "requires": [
-        "Space Jump"
+        "SpaceJump"
       ]
     },
     {

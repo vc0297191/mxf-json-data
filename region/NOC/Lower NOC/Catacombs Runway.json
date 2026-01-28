@@ -210,8 +210,8 @@
               "or": [
                 "canPreciseWalljump",
                 "canIBJ",
-                "Super Jump",
-                "Space Jump"
+                "SuperJump",
+                "SpaceJump"
               ]
             }
           ]

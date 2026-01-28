@@ -455,7 +455,7 @@ No requirements - anyone can do this:
   "link": [1, 4],
   "name": "Space Jump Path",
   "requires": [
-    "Space Jump"
+    "SpaceJump"
   ]
 },
 {
@@ -491,7 +491,7 @@ For strats that require entering the room in a specific way:
     }
   },
   "requires": [
-    "Speed Booster"
+    "SpeedBooster"
   ]
 }
 ```
@@ -514,7 +514,7 @@ For strats that require entering the room in a specific way:
   "link": [1, 2],
   "name": "Leave Shinecharged",
   "requires": [
-    "Speed Booster",
+    "SpeedBooster",
     {
       "canShineCharge": {
         "usedTiles": 28,
@@ -685,7 +685,7 @@ Named techniques specific to the room:
   "link": [1, 5],
   "name": "Reverse Shinespark to Top",
   "requires": [
-    "Speed Booster",
+    "SpeedBooster",
     {
       "canShineCharge": {
         "usedTiles": 32,

@@ -1096,7 +1096,7 @@
               "h_usePowerBomb",
               {"ammo": {"type": "Missile", "count": 3}},
               {"ammo": {"type": "Super", "count": 1}},
-              {"ammo": {"type": "Ice Missile", "count": 1}},
+              {"ammo": {"type": "IceMissile", "count": 1}},
               {"ammo": {"type": "Diffusion", "count": 1}}
             ]}
           ],
@@ -1109,7 +1109,7 @@
               "ScrewAttack",
               "h_usePowerBomb",
               {"ammo": {"type": "Super", "count": 3}},
-              {"ammo": {"type": "Ice Missile", "count": 2}},
+              {"ammo": {"type": "IceMissile", "count": 2}},
               {"ammo": {"type": "Diffusion", "count": 1}}
             ]}
           ],
@@ -1201,8 +1201,8 @@
           "requires": [
             {
               "or": [
-                "Space Jump",
-                "Super Jump",
+                "SpaceJump",
+                "SuperJump",
                 "canLongIBJ",
                 "canWalljump"
               ]

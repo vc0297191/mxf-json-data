@@ -278,7 +278,7 @@
             {
               "or": [
                 "h_bombThings",
-                "Screw Attack"
+                "ScrewAttack"
               ]
             },
             "h_JumpAssist",

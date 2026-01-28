@@ -230,11 +230,11 @@
           "or": [
             {
               "and": [
-                "Super Jump",
+                "SuperJump",
                 "canCrouchJump"
               ]
             },
-            "Space Jump",
+            "SpaceJump",
             "canIBJ"
           ]
         }
@@ -260,8 +260,8 @@
             "Gravity",
             {
               "or": [
-                "Space Jump",
-                "Speed Booster Level 2",
+                "SpaceJump",
+                "SpeedBoosterLv2",
                 "canBombJumpWaterEscape"
               ]
             }
@@ -292,7 +292,7 @@
         3
       ],
       "requires": [
-        "Speed Booster Level 2"
+        "SpeedBoosterLv2"
       ]
     },
     {

@@ -227,13 +227,13 @@
             },
             {
               "or": [
-                "Super Jump",
+                "SuperJump",
                 "canWalljump",
-                "Space Jump",
+                "SpaceJump",
                 "canIBJ"
               ]
             },
-            "Wave Beam"
+            "Wave"
           ]
         }
       ],
@@ -287,7 +287,7 @@
         1
       ],
       "requires": [
-        "Wave Beam"
+        "Wave"
       ]
     },
     {

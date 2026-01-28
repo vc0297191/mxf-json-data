@@ -218,11 +218,11 @@
     },
     {
       "id": 14,
-      "name": "Super Missile",
+      "name": "SuperMissile",
       "damage": 200,
       "cooldownFrames": 15,
       "useRequires": [
-        "Super Missile"
+        "SuperMissile"
       ],
       "shotRequires": [],
       "situational": false,
@@ -269,11 +269,11 @@
     },
     {
       "id": 17,
-      "name": "Ice Missile",
+      "name": "IceMissile",
       "damage": 300,
       "cooldownFrames": 15,
       "useRequires": [
-        "Ice Missile"
+        "IceMissile"
       ],
       "shotRequires": [],
       "situational": false,
@@ -303,11 +303,11 @@
     },
     {
       "id": 19,
-      "name": "Diffusion Missile",
+      "name": "DiffusionMissile",
       "damage": 100,
       "cooldownFrames": 15,
       "useRequires": [
-        "Diffusion Missile"
+        "DiffusionMissile"
       ],
       "shotRequires": [],
       "situational": false,

@@ -71,7 +71,7 @@
         2
       ],
       "requires": [
-        "Screw Attack"
+        "ScrewAttack"
       ]
     },
     {
@@ -81,7 +81,7 @@
         1
       ],
       "requires": [
-        "Screw Attack"
+        "ScrewAttack"
       ]
     }
   ],
