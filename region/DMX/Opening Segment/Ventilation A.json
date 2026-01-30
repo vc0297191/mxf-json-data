@@ -4,8 +4,6 @@
   "name": "Ventilation A",
   "area": "DMX",
   "subarea": "Opening Segment",
-  "roomImageFile": "DMX Room 78600.jpg",
-  "roomAddress": "0x78600",
   "roomEnvironments": [
     {
       "heated": false,
@@ -111,9 +109,151 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "enemies": [
+    {
+      "groupName": "Metroid",
+      "enemyName": "Metroid",
+      "quantity": 1,
+      "betweenNodes": [
+        2,
+        4
+      ],
+      "id": "e1"
+    },
+    {
+      "groupName": "Baby Metroid (Lower)",
+      "enemyName": "Baby Metroid",
+      "quantity": 1,
+      "betweenNodes": [
+        2,
+        4
+      ],
+      "id": "e2"
+    },
+    {
+      "groupName": "Baby Metroid (Upper)",
+      "enemyName": "Baby Metroid",
+      "quantity": 1,
+      "betweenNodes": [
+        1,
+        2
+      ],
+      "id": "e3"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                "SpaceJump",
+                {
+                  "or": [
+                    "canConsecutiveAlternatingWallJump",
+                    {
+                      "and": [
+                        "canWalljump",
+                        "SuperJump"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "canTrivialMidAirMorph",
+            "h_bombThings",
+            {
+              "enemyKill": {
+                "enemies": [
+                  [
+                    "e3"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                "SpaceJump",
+                {
+                  "or": [
+                    "canConsecutiveAlternatingWallJump",
+                    {
+                      "and": [
+                        "canWalljump",
+                        "SuperJump"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "canTrivialMidAirMorph",
+            "h_bombThings",
+            {
+              "enemyKill": {
+                "enemies": [
+                  [
+                    "e1"
+                  ]
+                ]
+              }
+            },
+            {
+              "enemyKill": {
+                "enemies": [
+                  [
+                    "e2"
+                  ]
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "DMX Room 78600.jpg",
+  "roomAddress": "0x78600",
   "nextStratId": 1,
   "nextNotableId": 1
 }

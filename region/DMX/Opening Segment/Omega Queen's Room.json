@@ -1,11 +1,9 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
   "id": 127,
-  "name": "Omega Queen\u0027s Room",
+  "name": "Omega Queen's Room",
   "area": "DMX",
   "subarea": "Opening Segment",
-  "roomImageFile": "DMX Room 78900.jpg",
-  "roomAddress": "0x78900",
   "roomEnvironments": [
     {
       "heated": false,
@@ -86,11 +84,108 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Above the Fall",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 80,
+          "y": 192,
+          "w": 48,
+          "h": 16
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        4
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "can3HighWallMidAirMorph",
+            {
+              "or": [
+                "canTrickyWalljump",
+                "SpaceJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "or": [
+                "SpaceJump",
+                "canConsecutiveAlternatingWallJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "can3HighWallMidAirMorph",
+            {
+              "or": [
+                "canTrickyWalljump",
+                "SpaceJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": [
+        "Morph"
+      ]
+    }
+  ],
+  "roomImageFile": "DMX Room 78900.jpg",
+  "roomAddress": "0x78900",
   "nextStratId": 1,
   "nextNotableId": 1
 }

@@ -4,8 +4,6 @@
   "name": "DMX Hub",
   "area": "DMX",
   "subarea": "Opening Segment",
-  "roomImageFile": "DMX Room 78200x.jpg",
-  "roomAddress": "0x78200",
   "roomEnvironments": [
     {
       "heated": false,
@@ -157,9 +155,25 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_bombThings",
+            "ScrewAttack"
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "DMX Room 78200x.jpg",
+  "roomAddress": "0x78200",
   "nextStratId": 1,
   "nextNotableId": 1
 }

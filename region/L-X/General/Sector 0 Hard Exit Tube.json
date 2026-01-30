@@ -4,8 +4,6 @@
   "name": "Sector 0 Hard Exit Tube",
   "area": "L-X",
   "subarea": "General",
-  "roomImageFile": "L-X Room 79200.jpg",
-  "roomAddress": "0x79200",
   "roomEnvironments": [
     {
       "heated": false,
@@ -65,9 +63,26 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "L-X Room 79200.jpg",
+  "roomAddress": "0x79200",
   "nextStratId": 1,
   "nextNotableId": 1
 }

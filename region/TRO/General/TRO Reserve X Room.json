@@ -4,8 +4,6 @@
   "name": "TRO Reserve X Room",
   "area": "TRO",
   "subarea": "General",
-  "roomImageFile": "TRO Room 79100.jpg",
-  "roomAddress": "0x79100",
   "roomEnvironments": [
     {
       "heated": false,
@@ -61,9 +59,44 @@
       "note": ""
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        "canTrivialMidAirMorph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        2
+      ],
+      "collectsItems": [
+        2
+      ],
+      "setsFlags": [
+        "f_TROReserveXRoom_ReserveXCollected"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 79100.jpg",
+  "roomAddress": "0x79100",
   "nextStratId": 1,
   "nextNotableId": 1
 }

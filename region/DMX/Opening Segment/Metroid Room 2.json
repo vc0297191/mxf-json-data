@@ -4,8 +4,6 @@
   "name": "Metroid Room 2",
   "area": "DMX",
   "subarea": "Opening Segment",
-  "roomImageFile": "DMX Room 78500.jpg",
-  "roomAddress": "0x78500",
   "roomEnvironments": [
     {
       "heated": false,
@@ -65,9 +63,69 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "enemies": [
+    {
+      "groupName": "Metroids",
+      "enemyName": "Metroid",
+      "quantity": 3,
+      "betweenNodes": [
+        1,
+        2
+      ],
+      "id": "e1"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "enemyKill": {
+                "enemies": [
+                  [
+                    "e1"
+                  ]
+                ]
+              }
+            },
+            {
+              "or": [
+                "SpaceJump",
+                {
+                  "and": [
+                    "canLongIBJ",
+                    "canMochtroidIceClimb"
+                  ]
+                },
+                {
+                  "and": [
+                    "SuperJump",
+                    "canWalljump"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "DMX Room 78500.jpg",
+  "roomAddress": "0x78500",
   "nextStratId": 1,
   "nextNotableId": 1
 }

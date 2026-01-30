@@ -154,17 +154,8 @@
     {
       "connectionType": "HorizontalTunnel",
       "description": "Horizontal Tunnel connection between [Metroid Nest - Bottom-Left Tunnel] and [Omega Queen\u0027s Room - Right Tunnel]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
-        {
-          "area": "DMX",
-          "subarea": "Opening Segment",
-          "roomid": 124,
-          "roomName": "Metroid Nest",
-          "nodeid": 2,
-          "nodeName": "Bottom-Left Tunnel",
-          "position": "left"
-        },
         {
           "area": "DMX",
           "subarea": "Opening Segment",
@@ -173,6 +164,15 @@
           "nodeid": 2,
           "nodeName": "Right Tunnel",
           "position": "right"
+        },
+        {
+          "area": "DMX",
+          "subarea": "Opening Segment",
+          "roomid": 124,
+          "roomName": "Metroid Nest",
+          "nodeid": 2,
+          "nodeName": "Bottom-Left Tunnel",
+          "position": "left"
         }
       ]
     },
