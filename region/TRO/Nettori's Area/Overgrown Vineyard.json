@@ -3,9 +3,7 @@
   "id": 358,
   "name": "Overgrown Vineyard",
   "area": "TRO",
-  "subarea": "Nettori\u0027s Area",
-  "roomImageFile": "TRO Room 7AB00.jpg",
-  "roomAddress": "0x7AB00",
+  "subarea": "Nettori's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -65,9 +63,87 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Kago-X (Left and Right)",
+      "obstacleType": "inanimate",
+      "id": "A"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Destroy Both Kago-X",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        "Morph"
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_OvergrownVineyard_KagoXLeft_Destroyed",
+        "f_OvergrownVineyard_KagoXRight_Destroyed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            },
+            "canTrivialMidAirMorph"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            },
+            "canTrivialMidAirMorph"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Both Kago-X",
+      "link": [
+        2,
+        2
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_OvergrownVineyard_KagoXLeft_Destroyed",
+        "f_OvergrownVineyard_KagoXRight_Destroyed"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 7AB00.jpg",
+  "roomAddress": "0x7AB00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

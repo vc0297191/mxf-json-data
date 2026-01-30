@@ -3,9 +3,7 @@
   "id": 349,
   "name": "Double Helix",
   "area": "TRO",
-  "subarea": "Nettori\u0027s Area",
-  "roomImageFile": "TRO Room 7A200.jpg",
-  "roomAddress": "0x7A200",
+  "subarea": "Nettori's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -63,11 +61,153 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "Under Gravity SA-X",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 160,
+          "y": 448,
+          "w": 40,
+          "h": 24
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Red Geron (Left)",
+      "obstacleType": "inanimate",
+      "id": "A"
+    },
+    {
+      "name": "Red Geron (Right)",
+      "obstacleType": "inanimate",
+      "id": "B"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        3
+      ],
+      "requires": [
+        "h_bombThings"
+      ]
+    },
+    {
+      "name": "Destroy Both Red Gerons",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_killRedGeron",
+            "h_killRedGeron"
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A",
+        "B"
+      ],
+      "setsFlags": [
+        "f_DoubleHelix_RedGeronLeft_Destroyed",
+        "f_DoubleHelix_RedGeronRight_Destroyed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A",
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": [
+        "h_bombThings"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "A",
+                "B"
+              ]
+            },
+            {
+              "or": [
+                "SuperJump",
+                "SpaceJump",
+                {
+                  "enemyDamage": {
+                    "enemy": "SA-X",
+                    "type": "shot",
+                    "hits": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Both Red Gerons",
+      "link": [
+        3,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_killRedGeron",
+            "h_killRedGeron"
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A",
+        "B"
+      ],
+      "setsFlags": [
+        "f_DoubleHelix_RedGeronLeft_Destroyed",
+        "f_DoubleHelix_RedGeronRight_Destroyed"
+      ]
+    }
+  ],
+  "roomImageFile": "TRO Room 7A200.jpg",
+  "roomAddress": "0x7A200",
   "nextStratId": 1,
   "nextNotableId": 1
 }

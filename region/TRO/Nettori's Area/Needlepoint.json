@@ -3,9 +3,7 @@
   "id": 350,
   "name": "Needlepoint",
   "area": "TRO",
-  "subarea": "Nettori\u0027s Area",
-  "roomImageFile": "TRO Room 7AA00.jpg",
-  "roomAddress": "0x7AA00",
+  "subarea": "Nettori's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -27,7 +25,7 @@
         {
           "shape": "rect",
           "x": 0,
-          "y": 64,
+          "y": 96,
           "w": 48,
           "h": 64
         }
@@ -50,8 +48,8 @@
       "geometry": [
         {
           "shape": "rect",
-          "x": 80,
-          "y": 80,
+          "x": 400,
+          "y": 48,
           "w": 16,
           "h": 16
         }
@@ -63,9 +61,76 @@
       "mapTileY": 14
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                "SpaceJump",
+                {
+                  "or": [
+                    {
+                      "spikeHits": 3
+                    },
+                    "SpikeBreaker"
+                  ]
+                }
+              ]
+            },
+            {
+              "or": [
+                "canIBJ",
+                {
+                  "canShineCharge": {
+                    "usedTiles": 7,
+                    "openEnd": 2
+                  }
+                },
+                {
+                  "and": [
+                    "canCrouchJump",
+                    {
+                      "spikeHits": 1
+                    }
+                  ]
+                },
+                "canSpringBallJumpMidAir",
+                "SpaceJump",
+                "SuperJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            "SpikeBreaker",
+            {
+              "spikeHits": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "TRO Room 7AA00.jpg",
+  "roomAddress": "0x7AA00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

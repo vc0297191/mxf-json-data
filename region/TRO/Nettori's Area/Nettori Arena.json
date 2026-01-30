@@ -3,9 +3,7 @@
   "id": 352,
   "name": "Nettori Arena",
   "area": "TRO",
-  "subarea": "Nettori\u0027s Area",
-  "roomImageFile": "TRO Room 7A300.jpg",
-  "roomAddress": "0x7A300",
+  "subarea": "Nettori's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -105,11 +103,103 @@
       "nodeItem": "Major",
       "nodeAddress": "0x0",
       "note": ""
+    },
+    {
+      "id": 5,
+      "name": "Nettori Arena 1",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 288,
+          "y": 352,
+          "w": 168,
+          "h": 88
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        5
+      ],
+      "requires": [
+        "f_NettoriArena_CoreXAbsorbed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        4
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        4
+      ],
+      "collectsItems": [
+        4
+      ],
+      "setsFlags": [
+        "f_NettoriArena_CoreXAbsorbed",
+        "f_NettoriArena_DoorsUnlocked"
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        1
+      ],
+      "requires": [
+        "f_NettoriArena_CoreXAbsorbed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        4
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 7A300.jpg",
+  "roomAddress": "0x7A300",
   "nextStratId": 1,
   "nextNotableId": 1
 }

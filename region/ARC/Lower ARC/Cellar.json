@@ -4,8 +4,6 @@
   "name": "Cellar",
   "area": "ARC",
   "subarea": "Lower ARC",
-  "roomImageFile": "ARC Room 79D00.jpg",
-  "roomAddress": "0x79D00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -91,7 +89,9 @@
       "id": 4,
       "name": "Bottom-Left Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
@@ -102,18 +102,217 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
           "physics": "air"
         }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                "f_ARCSecurityRoom_DoorsUnlocked"
+              ]
+            }
+          ]
+        }
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            {
+              "and": [
+                "SuperJump",
+                "canConsecutiveAlternatingWallJump"
+              ]
+            },
+            {
+              "and": [
+                {
+                  "or": [
+                    {
+                      "and": [
+                        "canCrouchJump",
+                        "canWalljump"
+                      ]
+                    }
+                  ]
+                },
+                "Grapple"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Come in Shinecharged, Leave through Top-Left Door",
+      "link": [
+        2,
+        1
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "shinespark": {
+            "frames": 25
+          }
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Come in Shinecharging, Leave Shinecharging",
+      "link": [
+        2,
+        3
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 12,
+          "openEnd": 0
+        }
+      },
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 12,
+          "openEnd": 0
+        }
+      },
+      "requires": []
+    },
+    {
+      "name": "Come in Shinecharged, Leave through Top-Left Door",
+      "link": [
+        3,
+        1
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "shinespark": {
+            "frames": 25
+          }
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Come in Shinecharging, Leave Shinecharging",
+      "link": [
+        3,
+        2
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 12,
+          "openEnd": 0
+        }
+      },
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 12,
+          "openEnd": 0
+        }
+      },
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                {
+                  "and": [
+                    "canCrumbleJump",
+                    "canCarefulJump",
+                    "canWalljump"
+                  ]
+                }
+              ]
+            },
+            "SuperJump",
+            "SpaceJump"
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "ARC Room 79D00.jpg",
+  "roomAddress": "0x79D00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

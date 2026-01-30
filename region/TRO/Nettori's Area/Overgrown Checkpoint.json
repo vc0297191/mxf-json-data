@@ -3,9 +3,7 @@
   "id": 353,
   "name": "Overgrown Checkpoint",
   "area": "TRO",
-  "subarea": "Nettori\u0027s Area",
-  "roomImageFile": "TRO Room 7A100x.jpg",
-  "roomAddress": "0x7A100",
+  "subarea": "Nettori's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -23,6 +21,8 @@
       "name": "Top-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
@@ -33,11 +33,46 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Door Gets Destroyed",
+          "lockType": "gameFlag",
+          "unlockStrats": [],
+          "lock": [
+            "f_NettoriArena_CoreXAbsorbed"
+          ]
         }
       ]
     },
@@ -88,9 +123,89 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "enemies": [
+    {
+      "groupName": "Top-Left Kihunter",
+      "enemyName": "Kihunter",
+      "quantity": 1,
+      "homeNodes": [
+        1
+      ],
+      "id": "e1"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            "f_NettoriArena_CoreXAbsorbed",
+            "Wave"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        3
+      ],
+      "requires": [
+        "f_NettoriArena_CoreXAbsorbed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e1"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "enemyDamage": {
+                    "enemy": "Kihunter",
+                    "type": "contact",
+                    "hits": 1
+                  }
+                }
+              ]
+            },
+            "h_JumpAssist",
+            "f_NettoriArena_CoreXAbsorbed"
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "TRO Room 7A100x.jpg",
+  "roomAddress": "0x7A100",
   "nextStratId": 1,
   "nextNotableId": 1
 }

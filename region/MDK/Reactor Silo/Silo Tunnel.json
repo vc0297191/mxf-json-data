@@ -4,8 +4,6 @@
   "name": "Silo Tunnel",
   "area": "MDK",
   "subarea": "Reactor Silo",
-  "roomImageFile": "MDK Room 4.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -65,9 +63,35 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_bombThings",
+            "canTrivialMidAirMorph"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        "h_bombThings"
+      ]
+    }
+  ],
+  "roomImageFile": "MDK Room 4.png",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

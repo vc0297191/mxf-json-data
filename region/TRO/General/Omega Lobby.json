@@ -4,8 +4,6 @@
   "name": "Omega Lobby",
   "area": "TRO",
   "subarea": "General",
-  "roomImageFile": "TRO Room 78900.jpg",
-  "roomAddress": "0x78900",
   "roomEnvironments": [
     {
       "heated": false,
@@ -134,9 +132,74 @@
       "note": ""
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        3
+      ],
+      "requires": [
+        "SpaceJump"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_JumpAssist",
+            "SpikeBreaker",
+            "ScrewAttack"
+          ]
+        }
+      ],
+      "collectsItems": [
+        4
+      ],
+      "setsFlags": [
+        "f_TRO_PowerCellAcquired"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        1
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 78900.jpg",
+  "roomAddress": "0x78900",
   "nextStratId": 1,
   "nextNotableId": 1
 }

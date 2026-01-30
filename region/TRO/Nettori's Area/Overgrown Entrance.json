@@ -3,9 +3,7 @@
   "id": 354,
   "name": "Overgrown Entrance",
   "area": "TRO",
-  "subarea": "Nettori\u0027s Area",
-  "roomImageFile": "TRO Room 7A000x.jpg",
-  "roomAddress": "0x7A000",
+  "subarea": "Nettori's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -86,11 +84,92 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Above SA-X",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 96,
+          "y": 208,
+          "w": 32,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "f_NettoriArena_CoreXAbsorbed",
+            {
+              "or": [
+                "h_JumpAssist",
+                "canCrouchJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        4
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        1
+      ],
+      "requires": [
+        "h_JumpAssist"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_JumpAssist",
+            "f_NettoriArena_CoreXAbsorbed",
+            "Morph"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 7A000x.jpg",
+  "roomAddress": "0x7A000",
   "nextStratId": 1,
   "nextNotableId": 1
 }

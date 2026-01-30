@@ -4,8 +4,6 @@
   "name": "Crew Quarters Hallway",
   "area": "MDK",
   "subarea": "East Main Deck",
-  "roomImageFile": "MDK Room 19.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -88,9 +86,263 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "enemies": [
+    {
+      "groupName": "Small Yameba",
+      "enemyName": "Yameba (Small)",
+      "quantity": 5,
+      "homeNodes": [
+        2,
+        3
+      ],
+      "spawn": [
+        {
+          "resourceCapacity": [
+            {
+              "type": "PowerBomb",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "id": "e1"
+    },
+    {
+      "groupName": "Medium Yameba",
+      "enemyName": "Yameba (Medium)",
+      "quantity": 2,
+      "homeNodes": [
+        2,
+        3
+      ],
+      "spawn": [
+        {
+          "resourceCapacity": [
+            {
+              "type": "PowerBomb",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "id": "e2"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                {
+                  "and": [
+                    "canDodgeWhileShooting",
+                    "canTrickyDodgeEnemies"
+                  ]
+                }
+              ]
+            },
+            {
+              "resourceConsumed": [
+                {
+                  "type": "Energy",
+                  "count": 40
+                }
+              ]
+            },
+            {
+              "and": [
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e1"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e2"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "SuperJump",
+                "canWalljump"
+              ]
+            },
+            "SpaceJump",
+            "canIBJ",
+            "canConsecutiveAlternatingWallJump",
+            {
+              "resourceConsumed": [
+                {
+                  "type": "Energy",
+                  "count": 50
+                }
+              ]
+            },
+            {
+              "and": [
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e1"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e2"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                {
+                  "and": [
+                    "canDodgeWhileShooting",
+                    "canTrickyDodgeEnemies"
+                  ]
+                }
+              ]
+            },
+            {
+              "resourceConsumed": [
+                {
+                  "type": "RegularEnergy",
+                  "count": 10
+                }
+              ]
+            },
+            {
+              "and": [
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e1"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e2"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                {
+                  "and": [
+                    "canDodgeWhileShooting",
+                    "canTrickyDodgeEnemies"
+                  ]
+                }
+              ]
+            },
+            {
+              "resourceConsumed": [
+                {
+                  "type": "RegularEnergy",
+                  "count": 10
+                }
+              ]
+            },
+            {
+              "and": [
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e1"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e2"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "MDK Room 19.png",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

@@ -3,9 +3,7 @@
   "id": 365,
   "name": "Zazabi Speedway",
   "area": "TRO",
-  "subarea": "Zazabi\u0027s Area",
-  "roomImageFile": "TRO Room 79B00.jpg",
-  "roomAddress": "0x79B00",
+  "subarea": "Zazabi's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -27,7 +25,7 @@
         {
           "shape": "rect",
           "x": 0,
-          "y": 0,
+          "y": 96,
           "w": 48,
           "h": 64
         }
@@ -50,8 +48,8 @@
       "geometry": [
         {
           "shape": "rect",
-          "x": 80,
-          "y": 80,
+          "x": 64,
+          "y": 64,
           "w": 16,
           "h": 16
         }
@@ -63,9 +61,39 @@
       "mapTileY": 20
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "canHorizontalShinespark",
+            "canShinechargeMovementComplex"
+          ]
+        }
+      ],
+      "collectsItems": [
+        2
+      ],
+      "setsFlags": [
+        "f_ZazabiSpeedway_PowerBombTank_Collected"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 79B00.jpg",
+  "roomAddress": "0x79B00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

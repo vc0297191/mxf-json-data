@@ -82,11 +82,45 @@
   ],
   "strats": [
     {
+      "name": "Leave Shinecharged",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        {
+          "canShineCharge": {
+            "usedTiles": 12,
+            "openEnd": 2,
+            "steepUpTiles": 2,
+            "steepDownTiles": 2
+          }
+        }
+      ],
+      "exitCondition": {
+        "leaveShinecharged": {}
+      }
+    },
+    {
       "name": "Base",
       "link": [
         1,
         3
       ],
+      "requires": []
+    },
+    {
+      "name": "Come in Shinecharged, Leave Shinecharged",
+      "link": [
+        2,
+        1
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "exitCondition": {
+        "leaveShinecharged": {}
+      },
       "requires": []
     },
     {

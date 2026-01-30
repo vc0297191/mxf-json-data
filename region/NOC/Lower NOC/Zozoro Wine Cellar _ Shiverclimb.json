@@ -155,10 +155,30 @@
       ],
       "requires": [
         {
-          "and": [
+          "or": [
             {
-              "or": [
+              "and": [
                 "h_useSpringBall",
+                {
+                  "or": [
+                    {
+                      "ammo": {
+                        "type": "Diffusion",
+                        "count": 1
+                      }
+                    },
+                    {
+                      "ammo": {
+                        "type": "Super",
+                        "count": 4
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "and": [
                 {
                   "and": [
                     "can3HighWallMidAirMorph",
@@ -166,21 +186,31 @@
                     "canTrickyWalljump"
                   ]
                 },
-                "canCeilingBombJump"
+                {
+                  "or": [
+                    {
+                      "ammo": {
+                        "type": "Diffusion",
+                        "count": 1
+                      }
+                    },
+                    {
+                      "ammo": {
+                        "type": "Super",
+                        "count": 4
+                      }
+                    }
+                  ]
+                }
               ]
             },
             {
-              "or": [
+              "and": [
+                "canCeilingBombJump",
                 {
                   "ammo": {
                     "type": "Diffusion",
                     "count": 1
-                  }
-                },
-                {
-                  "ammo": {
-                    "type": "Super",
-                    "count": 4
                   }
                 }
               ]

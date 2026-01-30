@@ -3,9 +3,7 @@
   "id": 355,
   "name": "Overgrown Pipeway",
   "area": "TRO",
-  "subarea": "Nettori\u0027s Area",
-  "roomImageFile": "TRO Room 7A800.jpg",
-  "roomAddress": "0x7A800",
+  "subarea": "Nettori's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -86,11 +84,82 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Bottom of the Room",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 96,
+          "y": 416,
+          "w": 48,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        4
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        4
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        1
+      ],
+      "requires": [
+        "h_JumpAssist"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": [
+        "canTrivialMidAirMorph"
+      ]
+    }
+  ],
+  "roomImageFile": "TRO Room 7A800.jpg",
+  "roomAddress": "0x7A800",
   "nextStratId": 1,
   "nextNotableId": 1
 }

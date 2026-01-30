@@ -4,8 +4,6 @@
   "name": "AQA-NOC Tube",
   "area": "AQA",
   "subarea": "Upper East AQA",
-  "roomImageFile": "Misc Room Reusable 1.jpg",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -65,8 +63,20 @@
       ]
     }
   ],
-  "enemies": [],
   "strats": [
+    {
+      "name": "Leave with Shinecharged",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        "h_shinechargeMaxRunway"
+      ],
+      "exitCondition": {
+        "leaveShinecharged": {}
+      }
+    },
     {
       "name": "Base",
       "link": [
@@ -84,7 +94,8 @@
       "requires": []
     }
   ],
-  "notables": [],
+  "roomImageFile": "Misc Room Reusable 1.jpg",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

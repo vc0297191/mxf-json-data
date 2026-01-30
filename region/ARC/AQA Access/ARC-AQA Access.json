@@ -4,8 +4,6 @@
   "name": "ARC-AQA Access",
   "area": "ARC",
   "subarea": "AQA Access",
-  "roomImageFile": "ARC Room 79200.jpg",
-  "roomAddress": "0x79200",
   "roomEnvironments": [
     {
       "heated": false,
@@ -88,9 +86,56 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            "f_NightmareArena_CoreXAbsorbed"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            "f_NightmareArena_CoreXAbsorbed",
+            "h_JumpAssist"
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "ARC Room 79200.jpg",
+  "roomAddress": "0x79200",
   "nextStratId": 1,
   "nextNotableId": 1
 }

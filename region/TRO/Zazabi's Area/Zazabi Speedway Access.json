@@ -3,9 +3,7 @@
   "id": 364,
   "name": "Zazabi Speedway Access",
   "area": "TRO",
-  "subarea": "Zazabi\u0027s Area",
-  "roomImageFile": "TRO Room 79A00.jpg",
-  "roomAddress": "0x79A00",
+  "subarea": "Zazabi's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -27,7 +25,7 @@
         {
           "shape": "rect",
           "x": 0,
-          "y": 64,
+          "y": 96,
           "w": 48,
           "h": 64
         }
@@ -49,8 +47,8 @@
       "geometry": [
         {
           "shape": "rect",
-          "x": 208,
-          "y": 64,
+          "x": 464,
+          "y": 96,
           "w": 48,
           "h": 64
         }
@@ -65,9 +63,82 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "enemies": [
+    {
+      "groupName": "Kihunters",
+      "enemyName": "Kago",
+      "quantity": 3,
+      "betweenNodes": [
+        1,
+        2
+      ],
+      "id": "e1"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            "canTrickyDodgeEnemies",
+            {
+              "enemyKill": {
+                "enemies": [
+                  [
+                    "e1"
+                  ]
+                ]
+              }
+            },
+            {
+              "enemyDamage": {
+                "enemy": "Kihunter",
+                "type": "contact",
+                "hits": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            "canTrickyDodgeEnemies",
+            {
+              "enemyKill": {
+                "enemies": [
+                  [
+                    "e1"
+                  ]
+                ]
+              }
+            },
+            {
+              "enemyDamage": {
+                "enemy": "Kihunter",
+                "type": "contact",
+                "hits": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "TRO Room 79A00.jpg",
+  "roomAddress": "0x79A00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

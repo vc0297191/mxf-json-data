@@ -4,8 +4,6 @@
   "name": "AQA-ARC Elevator Access",
   "area": "AQA",
   "subarea": "Upper East AQA",
-  "roomImageFile": "AQA Room 78B00.jpg",
-  "roomAddress": "0x78B00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -111,9 +109,77 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Speed Booster Blocks",
+      "obstacleType": "inanimate",
+      "id": "A"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                "canTrivialMidAirMorph",
+                "h_bombThings",
+                "SuperJump"
+              ]
+            },
+            {
+              "or": [
+                "h_JumpAssist",
+                {
+                  "obstaclesCleared": [
+                    "A"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Come in with Spark",
+      "link": [
+        4,
+        1
+      ],
+      "entranceCondition": {
+        "comeInWithSpark": {}
+      },
+      "requires": [
+        {
+          "shinespark": {
+            "frames": 56
+          }
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    }
+  ],
+  "roomImageFile": "AQA Room 78B00.jpg",
+  "roomAddress": "0x78B00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

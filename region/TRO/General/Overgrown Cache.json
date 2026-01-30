@@ -4,8 +4,6 @@
   "name": "Overgrown Cache",
   "area": "TRO",
   "subarea": "General",
-  "roomImageFile": "TRO Room 79C00.jpg",
-  "roomAddress": "0x79C00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -63,9 +61,78 @@
       "mapTileY": 19
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Leave Shinecharged",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_shinechargeMaxRunway",
+            "Gravity"
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveShinecharged": {}
+      }
+    },
+    {
+      "name": "Reach Energy Tank without Speedbooster via SA-X",
+      "note": "Run toward the SA-X, jumping over it and avoiding its initial shot. Perform a air ball, and buffer a Spring Ball Jump toward the wall to the right, and quickly wall jump up the ledge. The SA-X should Speed Boost through the speed blocks leading to the E-Tank. As the SA-X Speed Boosts toward the west, follow it, positioning yourself 1 tile to the right of the edge of the ledge. This will prompt the SA-X to jump up onto the ledge after Samus. Morph and roll underneath the SA-X, and position yourself 1 tile away from the ledge wall on the way down, before immediately making your way to the right. Bounce on the ground in morph form before buffering a Spring Ball jump, then carefully perform manual Spring Ball jumps to avoid the SA-X's diagonal shots toward you. If enough distance between you and the SA-X is made, it will Speed Boost toward the right. Immediately move toward the left to manipulate it into Speed Boosting toward the left to the ledge, and immediately unmorph, and run through the water, arm pumping as you do so. Grab the E-Tank. On the way back, as the SA-X Speed Boosts toward the left, run and arm pump through the water. The SA-X will stop and fire a diagonal shot toward Samus twice, barely missing her. Continue to run toward the door to the west of the room, opening the door as soon as you are able. You will need to tank the SA-X's Speed Boost before exiting the room. Quickly move toward the Save Room to the left of the door leading to Overgrown Cache to end the chase sequence.",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "canSuitlessWaterRoom",
+            "canInsaneJump",
+            "canTrickyDodgeEnemies"
+          ]
+        }
+      ],
+      "collectsItems": [
+        2
+      ],
+      "setsFlags": [
+        "f_OvergrownCache_EnergyTank_Collected"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Gravity",
+                "h_shinechargeMaxRunway"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 79C00.jpg",
+  "roomAddress": "0x79C00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

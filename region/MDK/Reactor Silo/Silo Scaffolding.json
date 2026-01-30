@@ -4,8 +4,6 @@
   "name": "Silo Scaffolding",
   "area": "MDK",
   "subarea": "Reactor Silo",
-  "roomImageFile": "MDK Room 5.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -45,7 +43,9 @@
       "id": 2,
       "name": "Right Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
       "geometry": [
         {
           "shape": "rect",
@@ -56,11 +56,50 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                "f_YakuzaArena_DoorsUnlocked"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -91,7 +130,9 @@
       "id": 4,
       "name": "Bottom Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
       "geometry": [
         {
           "shape": "rect",
@@ -102,11 +143,50 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                "f_YakuzaArena_CoreXAbsorbed"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -153,11 +233,504 @@
       "nodeAddress": "0x7D492",
       "mapTileX": 36,
       "mapTileY": 19
+    },
+    {
+      "id": 7,
+      "name": "Before Crumble Bridge",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 776,
+          "y": 376,
+          "w": 24,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
+    },
+    {
+      "id": 8,
+      "name": "Top-Left Runway",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 288,
+          "y": 80,
+          "w": 480,
+          "h": 80
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Speed Booster Blocks",
+      "obstacleType": "inanimate",
+      "id": "A"
+    }
+  ],
+  "enemies": [
+    {
+      "groupName": "Zebesians (Upper Half)",
+      "enemyName": "Zebesian",
+      "quantity": 2,
+      "betweenNodes": [
+        1,
+        7
+      ],
+      "id": "e1",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
+    },
+    {
+      "groupName": "Zebesian (Lower Half)",
+      "enemyName": "Zebesian",
+      "quantity": 1,
+      "betweenNodes": [
+        3,
+        4
+      ],
+      "id": "e2",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
+    },
+    {
+      "groupName": "Zebesian (Top-Left)",
+      "enemyName": "Zebesian",
+      "quantity": 1,
+      "homeNodes": [
+        6,
+        8
+      ],
+      "id": "e3",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        7
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        7
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            "canCrumbleJump",
+            "canCeilingBombJump",
+            {
+              "and": [
+                "SuperJump",
+                "Morph"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Come in Shinecharged, Spark to the Top-Left Runway",
+      "link": [
+        2,
+        8
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 1
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "or": [
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 3
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "shinespark": {
+                "frames": 20
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        8
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "and": [
+                    {
+                      "and": [
+                        "canConsecutiveAlternatingWallJump",
+                        {
+                          "or": [
+                            {
+                              "enemyDamage": {
+                                "enemy": "Zebesian",
+                                "type": "laser",
+                                "hits": 1
+                              }
+                            },
+                            {
+                              "enemyDamage": {
+                                "enemy": "Zebesian",
+                                "type": "contact",
+                                "hits": 1
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "canConsecutiveSingleWallJump",
+                "SpaceJump",
+                "canLongIBJ"
+              ]
+            },
+            {
+              "or": [
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 1
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "or": [
+                {
+                  "and": [
+                    {
+                      "ammo": {
+                        "type": "Super",
+                        "count": 1
+                      }
+                    },
+                    "canMidAirMorph"
+                  ]
+                },
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 3
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            "canTrivialMidAirMorph"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "acidFrames": 10
+                },
+                "canCarefulJump"
+              ]
+            },
+            {
+              "or": [
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e2"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "acidFrames": 10
+                },
+                "canCarefulJump"
+              ]
+            },
+            {
+              "or": [
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "e2"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        7,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "enemyKill": {
+                "enemies": [
+                  [
+                    "e1"
+                  ]
+                ]
+              }
+            },
+            {
+              "enemyDamage": {
+                "enemy": "Zebesian",
+                "type": "contact",
+                "hits": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        7,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            "canCrumbleJump",
+            "canCeilingBombJump",
+            {
+              "and": [
+                "SuperJump",
+                "Morph"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        7,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        6
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            },
+            "Morph",
+            {
+              "or": [
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 1
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "collectsItems": [
+        6
+      ],
+      "setsFlags": [
+        "f_SiloScaffolding_PowerBombTank_Collected"
+      ]
+    },
+    {
+      "name": "Destroy Speed Booster Blocks",
+      "link": [
+        8,
+        8
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_shinechargeMaxRunway",
+            {
+              "enemyKill": {
+                "enemies": [
+                  [
+                    "e3"
+                  ]
+                ]
+              }
+            },
+            {
+              "or": [
+                {
+                  "and": [
+                    "canSpeedball",
+                    "canShinechargeMovement"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    }
+  ],
+  "roomImageFile": "MDK Room 5.png",
+  "roomAddress": "0x0",
   "nextStratId": 1,
   "nextNotableId": 1
 }

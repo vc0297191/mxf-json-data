@@ -285,6 +285,23 @@
       "requires": []
     },
     {
+      "name": "Come in Shinecharged, Spark to Right-Top Door",
+      "link": [
+        5,
+        4
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "shinespark": {
+            "frames": 20
+          }
+        }
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         5,

@@ -84,6 +84,13 @@
       "mapTileY": 18
     }
   ],
+  "obstacles": [
+    {
+      "name": "Bomb Blocks",
+      "obstacleType": "inanimate",
+      "id": "A"
+    }
+  ],
   "strats": [
     {
       "name": "Base",
@@ -106,6 +113,54 @@
       "link": [
         2,
         3
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Bomb Blocks",
+      "link": [
+        2,
+        3
+      ],
+      "requires": [
+        "h_bombThings"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Bomb Blocks",
+      "link": [
+        3,
+        2
       ],
       "requires": [
         "h_bombThings"

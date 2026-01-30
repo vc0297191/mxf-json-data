@@ -4,8 +4,6 @@
   "name": "Puyo Palace",
   "area": "TRO",
   "subarea": "General",
-  "roomImageFile": "TRO Room 78A00.jpg",
-  "roomAddress": "0x78A00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -119,8 +117,8 @@
       "geometry": [
         {
           "shape": "rect",
-          "x": 448,
-          "y": 144,
+          "x": 960,
+          "y": 272,
           "w": 16,
           "h": 16
         }
@@ -132,9 +130,133 @@
       "mapTileY": 12
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        "canTrivialMidAirMorph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            {
+              "and": [
+                "canSpringBallJumpMidAir",
+                "canConsecutiveSingleWallJump",
+                "canLongIBJ"
+              ]
+            },
+            {
+              "and": [
+                "h_shinechargeMaxRunway",
+                {
+                  "shinespark": {
+                    "frames": 45
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            {
+              "and": [
+                "canConsecutiveSingleWallJump",
+                "canIBJ"
+              ]
+            },
+            {
+              "and": [
+                "h_shinechargeMaxRunway",
+                {
+                  "shinespark": {
+                    "frames": 21
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        2
+      ],
+      "requires": [
+        "h_JumpAssist"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        3
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 78A00.jpg",
+  "roomAddress": "0x78A00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

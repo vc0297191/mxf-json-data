@@ -4,8 +4,6 @@
   "name": "Crumble City",
   "area": "TRO",
   "subarea": "General",
-  "roomImageFile": "TRO Room 78E00.jpg",
-  "roomAddress": "0x78E00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -143,12 +141,143 @@
           "h": 40
         }
       ],
-      "color": "#0000FF"
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Come in Shinecharged",
+      "link": [
+        1,
+        1
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        4
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            {
+              "and": [
+                {
+                  "and": [
+                    "canCrumbleJump",
+                    "canWalljump"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        5
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            {
+              "and": [
+                {
+                  "and": [
+                    "canCrumbleJump",
+                    "canWalljump"
+                  ]
+                },
+                {
+                  "or": [
+                    "SuperJump",
+                    "canConsecutiveSingleWallJump"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        6
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        6
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        1
+      ],
+      "requires": [
+        "h_shinechargeMaxRunway"
+      ]
+    },
+    {
+      "name": "Spark up the room",
+      "link": [
+        6,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_shinechargeMaxRunway",
+            {
+              "shinespark": {
+                "frames": 20
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 78E00.jpg",
+  "roomAddress": "0x78E00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

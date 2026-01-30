@@ -4,8 +4,6 @@
   "name": "AQA-ARC Elevator",
   "area": "AQA",
   "subarea": "Upper East AQA",
-  "roomImageFile": "AQA Room 78A00.jpg",
-  "roomAddress": "0x78A00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -88,9 +86,42 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "AQA Room 78A00.jpg",
+  "roomAddress": "0x78A00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

@@ -4,8 +4,6 @@
   "name": "TRO Data Room Access",
   "area": "TRO",
   "subarea": "General",
-  "roomImageFile": "TRO Room 79500.jpg",
-  "roomAddress": "0x79500",
   "roomEnvironments": [
     {
       "heated": false,
@@ -88,9 +86,96 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Frozen Enemy",
+      "obstacleType": "inanimate",
+      "id": "A"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_JumpAssist",
+            "canTrivialMidAirMorph"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Frozen Enemy",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        "Charge"
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_TRODataRoomAccess_FrozenEnemyObstacleCleared"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            },
+            "Morph"
+          ]
+        }
+      ]
+    }
+  ],
+  "roomImageFile": "TRO Room 79500.jpg",
+  "roomAddress": "0x79500",
   "nextStratId": 1,
   "nextNotableId": 1
 }

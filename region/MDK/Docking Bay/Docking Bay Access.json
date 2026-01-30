@@ -63,14 +63,43 @@
       ]
     }
   ],
+  "obstacles": [
+    {
+      "name": "Orange Geron",
+      "obstacleType": "inanimate",
+      "id": "A"
+    }
+  ],
   "strats": [
+    {
+      "name": "Destroy Orange Geron",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        "h_killOrangeGeron"
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_DockingBayAccess_OrangeGeronDestroyed"
+      ]
+    },
     {
       "name": "Base",
       "link": [
         1,
         2
       ],
-      "requires": []
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
     },
     {
       "name": "Base",
@@ -78,7 +107,29 @@
         2,
         1
       ],
-      "requires": []
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Orange Geron",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        "h_killOrangeGeron"
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_DockingBayAccess_OrangeGeronDestroyed"
+      ]
     }
   ],
   "roomImageFile": "MDK Room 7.png",

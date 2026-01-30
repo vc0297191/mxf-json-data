@@ -4,8 +4,6 @@
   "name": "Fusion Cathedral",
   "area": "TRO",
   "subarea": "General",
-  "roomImageFile": "TRO Room 79600x.jpg",
-  "roomAddress": "0x79600",
   "roomEnvironments": [
     {
       "heated": false,
@@ -206,7 +204,9 @@
       "id": 9,
       "name": "Right-Bottom Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
       "geometry": [
         {
           "shape": "rect",
@@ -217,18 +217,362 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
       "doorEnvironments": [
         {
           "physics": "air"
         }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                "f_NettoriArena_CoreXAbsorbed"
+              ]
+            }
+          ]
+        }
       ]
+    },
+    {
+      "id": 10,
+      "name": "Middle Junction",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 88,
+          "y": 1184,
+          "w": 48,
+          "h": 40
+        }
+      ],
+      "color": "#0000ff"
+    },
+    {
+      "id": 11,
+      "name": "Topmost Junction",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 112,
+          "y": 360,
+          "w": 24,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        "f_NettoriArena_CoreXAbsorbed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        "f_NettoriArena_CoreXAbsorbed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        11
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        11
+      ],
+      "requires": [
+        "f_NettoriArena_CoreXAbsorbed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        10
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        4
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        5
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        11
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            "canLongIBJ",
+            {
+              "shinespark": {
+                "frames": 25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Come In Shinecharged, Spark up to Topmost Junction",
+      "link": [
+        5,
+        11
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "shinespark": {
+                "frames": 25
+              }
+            },
+            "canConsecutiveAlternatingWallJump"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        7
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        10
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "SuperJump",
+                {
+                  "or": [
+                    {
+                      "and": [
+                        "canCrouchJump",
+                        "canInsaneWalljump",
+                        "canConsecutiveAlternatingWallJump",
+                        "canRespin",
+                        {
+                          "spikeHits": 1
+                        }
+                      ]
+                    },
+                    {
+                      "and": [
+                        "SpikeBreaker",
+                        "canConsecutiveAlternatingWallJump"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "SpaceJump",
+            "canLongIBJ"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Come in Shinecharged, Spark up to Middle Junction",
+      "link": [
+        6,
+        10
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        7,
+        6
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        7,
+        8
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "note": "Although it is possible to wall-jump top reach this door without Super Jump, the player can drop down from above and hold right to reach the door without much effort. They may need to fall twice, so they can shoot the door open on the first fall.",
+      "link": [
+        7,
+        9
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        7
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        9,
+        7
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        10,
+        4
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        10,
+        6
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        11,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "canTrivialMidAirMorph",
+                {
+                  "or": [
+                    "canWalljump",
+                    "SpaceJump"
+                  ]
+                }
+              ]
+            },
+            "canIBJ"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        11,
+        3
+      ],
+      "requires": [
+        "f_NettoriArena_CoreXAbsorbed"
+      ]
+    },
+    {
+      "name": "Base",
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 79600x.jpg",
+  "roomAddress": "0x79600",
   "nextStratId": 1,
   "nextNotableId": 1
 }

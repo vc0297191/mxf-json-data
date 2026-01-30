@@ -3,9 +3,7 @@
   "id": 356,
   "name": "Overgrown Speedway",
   "area": "TRO",
-  "subarea": "Nettori\u0027s Area",
-  "roomImageFile": "TRO Room 7A700.jpg",
-  "roomAddress": "0x7A700",
+  "subarea": "Nettori's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -65,9 +63,48 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            "canCeilingBombJump",
+            {
+              "and": [
+                "canTrivialMidAirMorph",
+                {
+                  "or": [
+                    "SpaceJump",
+                    "canWalljump"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Leave Shinecharged",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        "h_shinechargeMaxRunway"
+      ],
+      "exitCondition": {
+        "leaveShinecharged": {}
+      }
+    }
+  ],
+  "roomImageFile": "TRO Room 7A700.jpg",
+  "roomAddress": "0x7A700",
   "nextStratId": 1,
   "nextNotableId": 1
 }

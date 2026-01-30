@@ -4,8 +4,6 @@
   "name": "Underpressure",
   "area": "ARC",
   "subarea": "West ARC",
-  "roomImageFile": "ARC Room 79F00.jpg",
-  "roomAddress": "0x79F00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -65,9 +63,31 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "note": "The Super Missile Blocks can be skipped entirely by morphing through the wall underwater; Only the SA-X can destroy the first pillar of blocks.",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        "h_bombThings"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        "h_bombThings"
+      ]
+    }
+  ],
+  "roomImageFile": "ARC Room 79F00.jpg",
+  "roomAddress": "0x79F00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

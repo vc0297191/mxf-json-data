@@ -3,9 +3,7 @@
   "id": 363,
   "name": "Zazabi Arena",
   "area": "TRO",
-  "subarea": "Zazabi\u0027s Area",
-  "roomImageFile": "TRO Room 79900.jpg",
-  "roomAddress": "0x79900",
+  "subarea": "Zazabi's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -22,22 +20,63 @@
       "id": 1,
       "name": "Top-Left Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
           "x": 0,
-          "y": 0,
+          "y": 96,
           "w": 48,
           "h": 64
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                "f_ZazabiArena_DoorsUnlocked"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -45,22 +84,63 @@
       "id": 2,
       "name": "Top-Right Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
       "geometry": [
         {
           "shape": "rect",
-          "x": 208,
-          "y": 0,
+          "x": 464,
+          "y": 96,
           "w": 48,
           "h": 64
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                "f_ZazabiArena_DoorsUnlocked"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -68,22 +148,63 @@
       "id": 3,
       "name": "Bottom-Left Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
           "x": 0,
-          "y": 192,
+          "y": 352,
           "w": 48,
           "h": 64
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                "f_ZazabiArena_DoorsUnlocked"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -95,8 +216,8 @@
       "geometry": [
         {
           "shape": "rect",
-          "x": 80,
-          "y": 80,
+          "x": 200,
+          "y": 336,
           "w": 16,
           "h": 16
         }
@@ -105,11 +226,225 @@
       "nodeItem": "Major",
       "nodeAddress": "0x0",
       "note": ""
+    },
+    {
+      "id": 5,
+      "name": "Above Zazabi",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 288,
+          "y": 104,
+          "w": 16,
+          "h": 56
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        4
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        5
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                {
+                  "or": [
+                    "can4HighMidAirMorph",
+                    "canIBJ",
+                    "h_bombThings"
+                  ]
+                },
+                {
+                  "or": [
+                    {
+                      "ammo": {
+                        "type": "Super",
+                        "count": 3
+                      }
+                    },
+                    {
+                      "ammo": {
+                        "type": "Diffusion",
+                        "count": 1
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            "canLongIBJ",
+            {
+              "and": [
+                {
+                  "and": [
+                    "canPreciseWalljump",
+                    "canConsecutiveSingleWallJump"
+                  ]
+                },
+                "SuperJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        4
+      ],
+      "collectsItems": [
+        4
+      ],
+      "setsFlags": [
+        "f_ZazabiArena_CoreXAbsorbed",
+        "f_ZazabiArena_DoorsUnlocked"
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        5
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            "canLongIBJ",
+            {
+              "and": [
+                {
+                  "and": [
+                    "canPreciseWalljump",
+                    "canConsecutiveSingleWallJump"
+                  ]
+                },
+                "SuperJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            {
+              "and": [
+                "canCeilingBombJump",
+                "canDiagonalBombJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Morph",
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 3
+                  }
+                }
+              ]
+            },
+            {
+              "ammo": {
+                "type": "Diffusion",
+                "count": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        4
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 79900.jpg",
+  "roomAddress": "0x79900",
   "nextStratId": 1,
   "nextNotableId": 1
 }

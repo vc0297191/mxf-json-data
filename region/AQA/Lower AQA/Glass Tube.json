@@ -4,8 +4,6 @@
   "name": "Glass Tube",
   "area": "AQA",
   "subarea": "Lower AQA",
-  "roomImageFile": "AQA Room 7B000.jpg",
-  "roomAddress": "0x7B000",
   "roomEnvironments": [
     {
       "heated": false,
@@ -151,11 +149,337 @@
       "nodeItem": "Major",
       "nodeAddress": "0x0",
       "note": ""
+    },
+    {
+      "id": 7,
+      "name": "Below Glass Tube",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 104,
+          "y": 696,
+          "w": 40,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
+    },
+    {
+      "id": 8,
+      "name": "Under Top-Right Door",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 160,
+          "y": 192,
+          "w": 32,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Glass Tube Walls",
+      "obstacleType": "inanimate",
+      "id": "A"
+    },
+    {
+      "name": "Kago-X",
+      "obstacleType": "inanimate",
+      "id": "B"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        4
+      ],
+      "requires": [
+        {
+          "or": [
+            "canSuitlessUnderwaterIBJ",
+            {
+              "and": [
+                "canSuitlessWaterRoom",
+                {
+                  "or": [
+                    "SuperJump",
+                    "SpaceJump",
+                    "canIBJ"
+                  ]
+                }
+              ]
+            },
+            "canSpringBallJumpMidAir"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        8
+      ],
+      "requires": []
+    },
+    {
+      "name": "Destroy Glass Tube",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        {
+          "ammo": {
+            "type": "PowerBomb",
+            "count": 1
+          }
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_GlassTube_Destroyed"
+      ]
+    },
+    {
+      "name": "Destroy Kago-X",
+      "link": [
+        2,
+        2
+      ],
+      "clearsObstacles": [
+        "B"
+      ],
+      "setsFlags": [
+        "f_GlassTube_KagoXDestroyed"
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            },
+            {
+              "obstaclesCleared": [
+                "B"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        8
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Gravity",
+                {
+                  "or": [
+                    "SpaceJump",
+                    {
+                      "and": [
+                        "SuperJump",
+                        "canWalljump"
+                      ]
+                    },
+                    "canConsecutiveAlternatingWallJump",
+                    "canLongIBJ"
+                  ]
+                }
+              ]
+            },
+            {
+              "and": [
+                "canSuitlessWaterRoom",
+                "canSuitlessUnderwaterIBJ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Destroy Kago-X",
+      "link": [
+        5,
+        5
+      ],
+      "clearsObstacles": [
+        "B"
+      ],
+      "setsFlags": [
+        "f_GlassTube_KagoXDestroyed"
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        7
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "and": [
+                    "Gravity",
+                    {
+                      "or": [
+                        "SpaceJump",
+                        "canIBJ",
+                        {
+                          "and": [
+                            "SuperJump",
+                            "canConsecutiveAlternatingWallJump"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "canSuitlessUnderwaterIBJ"
+              ]
+            },
+            {
+              "obstaclesCleared": [
+                "B"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        8
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        7,
+        2
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Glass Tube",
+      "link": [
+        7,
+        7
+      ],
+      "requires": [
+        {
+          "ammo": {
+            "type": "PowerBomb",
+            "count": 1
+          }
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_GlassTube_Destroyed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        6
+      ],
+      "collectsItems": [
+        6
+      ],
+      "setsFlags": [
+        "f_AQA_PowerCellAcquired"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "AQA Room 7B000.jpg",
+  "roomAddress": "0x7B000",
   "nextStratId": 1,
   "nextNotableId": 1
 }

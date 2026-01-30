@@ -3,9 +3,7 @@
   "id": 359,
   "name": "Thornvault",
   "area": "TRO",
-  "subarea": "Nettori\u0027s Area",
-  "roomImageFile": "TRO Room 7A500.jpg",
-  "roomAddress": "0x7A500",
+  "subarea": "Nettori's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -107,11 +105,170 @@
       "nodeAddress": "0x7D92E",
       "mapTileX": 37,
       "mapTileY": 13
+    },
+    {
+      "id": 5,
+      "name": "Above Flower Pit",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 440,
+          "y": 96,
+          "w": 32,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Kago-X (Left and Right)",
+      "obstacleType": "abstract",
+      "id": "A"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Come In With Spark",
+      "link": [
+        1,
+        4
+      ],
+      "entranceCondition": {
+        "comeInWithSpark": {}
+      },
+      "collectsItems": [
+        4
+      ],
+      "setsFlags": [
+        "f_Thornvault_MissileTank_Collected"
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        5
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            {
+              "and": [
+                {
+                  "spikeHits": 2
+                },
+                "canCarefulJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        "canTrivialMidAirMorph"
+      ]
+    },
+    {
+      "name": "Destroy Kago-X",
+      "link": [
+        3,
+        3
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_Thornvault_KagoXDestroyed"
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            {
+              "and": [
+                {
+                  "spikeHits": 2
+                },
+                "canCarefulJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        3
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Kago-X",
+      "link": [
+        5,
+        5
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_Thornvault_KagoXDestroyed"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "TRO Room 7A500.jpg",
+  "roomAddress": "0x7A500",
   "nextStratId": 1,
   "nextNotableId": 1
 }

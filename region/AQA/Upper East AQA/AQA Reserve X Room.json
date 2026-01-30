@@ -4,8 +4,6 @@
   "name": "AQA Reserve X Room",
   "area": "AQA",
   "subarea": "Upper East AQA",
-  "roomImageFile": "AQA Room 78C00.jpg",
-  "roomAddress": "0x78C00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -61,9 +59,44 @@
       "note": ""
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        2
+      ],
+      "collectsItems": [
+        2
+      ],
+      "setsFlags": [
+        "f_AQAReserveXRoom_ReserveXCollected"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "AQA Room 78C00.jpg",
+  "roomAddress": "0x78C00",
   "nextStratId": 1,
   "nextNotableId": 1
 }
