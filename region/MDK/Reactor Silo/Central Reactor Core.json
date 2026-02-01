@@ -202,6 +202,16 @@
     {
       "name": "Base",
       "link": [
+        2,
+        2
+      ],
+      "requires": [
+        "h_bombThings"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
         4,
         1
       ],

@@ -41,7 +41,7 @@
     },
     {
       "id": 2,
-      "name": "TRO Data Room - Charge Beam",
+      "name": "TRO Data Room - TRO Data",
       "nodeType": "item",
       "nodeSubType": "visible",
       "geometry": [
@@ -54,7 +54,7 @@
         }
       ],
       "color": "#8d0cad",
-      "nodeItem": "Major",
+      "nodeItem": "Charge",
       "nodeAddress": "0x0",
       "note": ""
     },

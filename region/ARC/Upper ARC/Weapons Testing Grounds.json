@@ -188,6 +188,7 @@
       "color": "#37c90e",
       "nodeItem": "PowerBomb",
       "nodeAddress": "0x7DF12",
+      "nodeAltAddress": "0x7DF44",
       "mapTileX": 30,
       "mapTileY": 8
     },

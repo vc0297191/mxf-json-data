@@ -82,6 +82,7 @@
       "color": "#37c90e",
       "nodeItem": "ETank",
       "nodeAddress": "0x7DB22",
+      "nodeAltAddress": "0x7DB30",
       "mapTileX": 40,
       "mapTileY": 16
     }

@@ -1891,6 +1891,12 @@
             "description": "Memory address of this location",
             "examples": ["0x0019852", "0x001985e"]
           },
+          "nodeAltAddress": {
+            "type": "string",
+            "title": "Memory Address",
+            "description": "Memory address of this location, in its alternate room state (if present)",
+            "examples": ["0x0019852", "0x001985e"]
+          },
           "doorOrientation": {
             "type": "string",
             "title": "Door Orientation",

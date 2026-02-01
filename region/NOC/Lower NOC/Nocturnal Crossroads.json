@@ -144,7 +144,7 @@
         }
       ],
       "color": "#8d0cad",
-      "nodeItem": "Major",
+      "nodeItem": "Aux Power Cell",
       "nodeAddress": "0x0",
       "note": "Jump through the wall at the bottom-right of the room"
     },

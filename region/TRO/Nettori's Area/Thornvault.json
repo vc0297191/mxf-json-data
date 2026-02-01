@@ -103,6 +103,7 @@
       "color": "#37c90e",
       "nodeItem": "Missile",
       "nodeAddress": "0x7D92E",
+      "nodeAltAddress": "0x7D94E",
       "mapTileX": 37,
       "mapTileY": 13
     },
