@@ -86,16 +86,16 @@
       ]
     },
     {
-      "id": 5,
+      "id": 4,
       "idMinorItemPlm": "0x26",
-      "name": "Crumble City [Top-Left] - Power Bomb Tank",
+      "name": "Crumble City [Middle] - Power Bomb Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "geometry": [
         {
           "shape": "rect",
-          "x": 192,
-          "y": 96,
+          "x": 400,
+          "y": 288,
           "w": 16,
           "h": 16
         }
@@ -107,16 +107,16 @@
       "mapTileY": 16
     },
     {
-      "id": 4,
+      "id": 5,
       "idMinorItemPlm": "0x25",
-      "name": "Crumble City [Middle] - Missile Tank",
+      "name": "Crumble City [Top-Left] - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "geometry": [
         {
           "shape": "rect",
-          "x": 400,
-          "y": 288,
+          "x": 192,
+          "y": 96,
           "w": 16,
           "h": 16
         }
@@ -258,6 +258,28 @@
               "shinespark": {
                 "frames": 20
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            "SpaceJump",
+            "canIBJ",
+            "canConsecutiveSingleWallJump",
+            {
+              "and": [
+                "canConsecutiveAlternatingWallJump",
+                "SuperJump"
+              ]
             }
           ]
         }
