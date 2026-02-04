@@ -7,7 +7,7 @@
   "roomEnvironments": [
     {
       "heated": false,
-      "cold": false
+      "cold": true
     }
   ],
   "mapTileMask": [
@@ -141,7 +141,16 @@
         3,
         5
       ],
-      "id": "e1"
+      "id": "e1",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
     }
   ],
   "strats": [
