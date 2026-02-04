@@ -265,6 +265,9 @@
               "shinespark": {
                 "frames": 21
               }
+            },
+            {
+              "shineChargeFrames": 0
             }
           ]
         }

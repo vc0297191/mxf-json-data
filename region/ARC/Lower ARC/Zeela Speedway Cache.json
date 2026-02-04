@@ -97,7 +97,7 @@
       "exitCondition": {
         "leaveWithRunway": {
           "length": 9,
-          "openEnd": null,
+          "openEnd": 0,
           "steepUpTiles": 2
         }
       },
@@ -145,6 +145,23 @@
       ],
       "setsFlags": [
         "f_ZeelaSpeedwayCache_EnergyTank_Collected"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "coldFrames": 1
+            }
+          ]
+        }
       ]
     }
   ],
