@@ -261,6 +261,16 @@
     {
       "name": "Base",
       "link": [
+        1,
+        4
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
         2,
         1
       ],
@@ -301,7 +311,12 @@
         5
       ],
       "requires": [
-        "Morph"
+        {
+          "or": [
+            "h_bombThings",
+            "f_NettoriArena_CoreXAbsorbed"
+          ]
+        }
       ]
     },
     {
