@@ -221,34 +221,47 @@
   ],
   "strats": [
     {
-      "name": "Come In Shinecharged, Leave Shinecharged",
+      "name": "Come In With Temporary Blue, Leave Shinecharged",
       "link": [
         1,
         2
       ],
       "entranceCondition": {
-        "comeInShinecharged": {}
+        "comeInWithTemporaryBlue": {}
       },
       "requires": [
-        "canTrickyDodgeEnemies"
+        {
+          "and": [
+            {
+              "and": [
+                "canDodgeWhileShooting",
+                {
+                  "shineChargeFrames": 30
+                }
+              ]
+            }
+          ]
+        }
       ],
       "exitCondition": {
         "leaveShinecharged": {}
       }
     },
     {
-      "name": "Come in Shinecharged, Leave with Spark",
+      "name": "Come In With Temporary Blue, Leave with Spark",
       "link": [
         1,
         2
       ],
       "entranceCondition": {
-        "comeInShinecharged": {}
+        "comeInWithTemporaryBlue": {}
       },
+      "requires": [
+        "canHorizontalShinespark"
+      ],
       "exitCondition": {
         "leaveWithSpark": {}
-      },
-      "requires": []
+      }
     },
     {
       "name": "Base",

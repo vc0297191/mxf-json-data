@@ -129,6 +129,11 @@
       "name": "Kago-X (Left and Right)",
       "obstacleType": "abstract",
       "id": "A"
+    },
+    {
+      "name": "Speed Booster Blocks",
+      "obstacleType": "inanimate",
+      "id": "B"
     }
   ],
   "strats": [
@@ -141,6 +146,9 @@
       "entranceCondition": {
         "comeInWithSpark": {}
       },
+      "clearsObstacles": [
+        "B"
+      ],
       "collectsItems": [
         4
       ],
@@ -204,7 +212,8 @@
       "requires": [
         {
           "obstaclesCleared": [
-            "A"
+            "A",
+            "B"
           ]
         }
       ]
@@ -215,7 +224,13 @@
         4,
         5
       ],
-      "requires": []
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "B"
+          ]
+        }
+      ]
     },
     {
       "name": "Base",
