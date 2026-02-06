@@ -4,8 +4,6 @@
   "name": "Resevoir West",
   "area": "AQA",
   "subarea": "Upper West AQA",
-  "roomImageFile": "AQA Room 7A000.jpg",
-  "roomAddress": "0x7A000",
   "roomEnvironments": [
     {
       "heated": false,
@@ -86,11 +84,259 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Left of Grapple Blocks",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 464,
+          "y": 112,
+          "w": 32,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
+    },
+    {
+      "id": 5,
+      "name": "Ledge Near Top-Right Door",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 912,
+          "y": 176,
+          "w": 32,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
+    },
+    {
+      "id": 6,
+      "name": "Right of Power Bomb Blocks",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 192,
+          "y": 352,
+          "w": 16,
+          "h": 64
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Bomb Wall",
+      "obstacleType": "inanimate",
+      "id": "A"
+    },
+    {
+      "name": "Power Bomb Blocks",
+      "obstacleType": "inanimate",
+      "id": "B"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        4
+      ],
+      "requires": [
+        "h_destroyBombWalls"
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        5
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "canTrivialMidAirMorph",
+            {
+              "or": [
+                "Grapple",
+                {
+                  "and": [
+                    "SpaceJump",
+                    {
+                      "or": [
+                        "Gravity",
+                        {
+                          "aqaWaterLevel": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Destroy Power Bomb Blocks",
+      "link": [
+        3,
+        3
+      ],
+      "requires": [
+        {
+          "ammo": {
+            "type": "PowerBomb",
+            "count": 1
+          }
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        6
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        1
+      ],
+      "requires": [
+        "h_destroyBombWalls"
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "aqaWaterLevel": 2
+            },
+            {
+              "or": [
+                "canCrouchJump",
+                "SuperJump",
+                "SpaceJump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        6
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        3
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "B"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Destroy Power Bomb Blocks",
+      "link": [
+        6,
+        6
+      ],
+      "requires": [
+        {
+          "ammo": {
+            "type": "PowerBomb",
+            "count": 1
+          }
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    }
+  ],
+  "roomImageFile": "AQA Room 7A000.jpg",
+  "roomAddress": "0x7A000",
   "nextStratId": 1,
   "nextNotableId": 1
 }
