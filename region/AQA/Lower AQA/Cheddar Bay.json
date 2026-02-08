@@ -313,6 +313,11 @@
       "name": "Super Missile Block (Above Right Tunnel)",
       "obstacleType": "inanimate",
       "id": "D"
+    },
+    {
+      "name": "Super Missile Block (Near Left-Lower Door)",
+      "obstacleType": "inanimate",
+      "id": "E"
     }
   ],
   "enemies": [
@@ -324,16 +329,7 @@
         1,
         4
       ],
-      "id": "e1",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 0,
-          "y": 0,
-          "w": 16,
-          "h": 16
-        }
-      ]
+      "id": "e1"
     }
   ],
   "strats": [
@@ -541,6 +537,53 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Super Missile Block (Near Left-Lower Door)",
+      "link": [
+        3,
+        3
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "ammo": {
+                "type": "Super",
+                "count": 1
+              }
+            },
+            {
+              "ammo": {
+                "type": "Diffusion",
+                "count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "E"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        6
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "E"
+              ]
+            },
+            "Morph"
           ]
         }
       ]
