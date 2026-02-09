@@ -4,8 +4,6 @@
   "name": "ARC Reserve X Room",
   "area": "ARC",
   "subarea": "Lower ARC",
-  "roomImageFile": "ARC Room 79C00.jpg",
-  "roomAddress": "0x79C00",
   "roomEnvironments": [
     {
       "heated": false,
@@ -61,9 +59,40 @@
       "note": ""
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        2
+      ],
+      "collectsItems": [
+        2
+      ],
+      "setsFlags": [
+        "f_ARCReserveXRoom_ReserveXCollected"
+      ],
+      "requires": []
+    }
+  ],
+  "roomImageFile": "ARC Room 79C00.jpg",
+  "roomAddress": "0x79C00",
   "nextStratId": 1,
   "nextNotableId": 1
 }

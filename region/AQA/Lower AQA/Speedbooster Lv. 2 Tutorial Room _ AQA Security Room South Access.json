@@ -4,8 +4,6 @@
   "name": "Speedbooster Lv. 2 Tutorial Room / AQA Security Room South Access",
   "area": "AQA",
   "subarea": "Lower AQA",
-  "roomImageFile": "AQA Room 7B600.jpg",
-  "roomAddress": "0x7B600",
   "roomEnvironments": [
     {
       "heated": false,
@@ -111,9 +109,185 @@
       ]
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
+  "obstacles": [
+    {
+      "name": "Speed Booster Blocks | Speed Booster Lv. 2 Tutorial Room",
+      "obstacleType": "inanimate",
+      "id": "A"
+    },
+    {
+      "name": "Speed Booster Blocks | AQA Security Room South Access",
+      "obstacleType": "inanimate",
+      "id": "B"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Leave With Runway",
+      "link": [
+        3,
+        3
+      ],
+      "requires": [
+        "Gravity"
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 9,
+          "openEnd": 1
+        }
+      }
+    },
+    {
+      "name": "Leave With Temporary Blue",
+      "link": [
+        3,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            {
+              "or": [
+                {
+                  "canShineCharge": {
+                    "usedTiles": 9,
+                    "openEnd": 1
+                  }
+                },
+                {
+                  "and": [
+                    "SpeedBoosterLv2",
+                    "canShinechargeMovement",
+                    "h_shinechargeMaxRunway",
+                    {
+                      "obstaclesCleared": [
+                        "B"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveWithTemporaryBlue": {}
+      }
+    },
+    {
+      "name": "Break Speed Booster Blocks",
+      "link": [
+        3,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            "SpeedBoosterLv2",
+            {
+              "canShineCharge": {
+                "usedTiles": 9,
+                "openEnd": 1
+              }
+            },
+            "canShinechargeMovement"
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    },
+    {
+      "name": "Come In Shinecharging, Break Speed Booster Blocks",
+      "link": [
+        3,
+        4
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 9,
+          "openEnd": 0
+        }
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "and": [
+                    "Gravity",
+                    "SpeedBoosterLv2",
+                    "canShinechargeMovement"
+                  ]
+                },
+                {
+                  "shinespark": {
+                    "frames": 62
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            "h_shinechargeMaxRunway",
+            {
+              "or": [
+                "SpeedBoosterLv2",
+                {
+                  "shinespark": {
+                    "frames": 62
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    },
+    {
+      "name": "Leave With Temporary Blue",
+      "link": [
+        4,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            "h_shinechargeMaxRunway"
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveWithTemporaryBlue": {}
+      }
+    }
+  ],
+  "roomImageFile": "AQA Room 7B600.jpg",
+  "roomAddress": "0x7B600",
   "nextStratId": 1,
   "nextNotableId": 1
 }

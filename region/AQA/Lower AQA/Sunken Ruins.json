@@ -63,6 +63,22 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "Middle of the Room",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 344,
+          "y": 64,
+          "w": 48,
+          "h": 88
+        }
+      ],
+      "color": "#0000FF"
     }
   ],
   "enemies": [],

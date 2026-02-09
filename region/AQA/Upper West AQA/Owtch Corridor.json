@@ -98,6 +98,22 @@
         }
       ],
       "color": "#0000ff"
+    },
+    {
+      "id": 5,
+      "name": "Missing Connection",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 704,
+          "y": 176,
+          "w": 40,
+          "h": 16
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
   "obstacles": [
@@ -112,7 +128,7 @@
       "name": "Base",
       "link": [
         1,
-        2
+        5
       ],
       "requires": [
         "Morph"
@@ -125,29 +141,6 @@
         3
       ],
       "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        2,
-        4
-      ],
-      "requires": [
-        {
-          "and": [
-            "h_bombThings",
-            {
-              "or": [
-                "can4HighMidAirMorph",
-                "SuperJump"
-              ]
-            }
-          ]
-        }
-      ],
-      "clearsObstacles": [
-        "A"
-      ]
     },
     {
       "name": "Base",
@@ -210,6 +203,29 @@
                 "type": "Diffusion",
                 "count": 1
               }
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_bombThings",
+            {
+              "or": [
+                "can4HighMidAirMorph",
+                "SuperJump"
+              ]
             }
           ]
         }

@@ -132,7 +132,49 @@
       ]
     }
   ],
+  "obstacles": [
+    {
+      "name": "Speed Booster Blocks (Upper Half)",
+      "obstacleType": "inanimate",
+      "id": "A"
+    },
+    {
+      "name": "Speed Booster Blocks (Lower Half)",
+      "obstacleType": "inanimate",
+      "id": "B"
+    }
+  ],
   "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 1
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            "Morph"
+          ]
+        }
+      ]
+    },
     {
       "name": "Base",
       "link": [
@@ -144,10 +186,75 @@
     {
       "name": "Base",
       "link": [
+        3,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
         4,
         3
       ],
       "requires": []
+    },
+    {
+      "name": "Come In With Temporary Blue, Spark to Top-Left Door",
+      "link": [
+        5,
+        1
+      ],
+      "entranceCondition": {
+        "comeInWithTemporaryBlue": {}
+      },
+      "requires": [
+        {
+          "shinespark": {
+            "frames": 82,
+            "excessFrames": 4
+          }
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        3
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Gravity",
+                {
+                  "or": [
+                    "canCrouchJump",
+                    "h_JumpAssist"
+                  ]
+                }
+              ]
+            },
+            {
+              "and": [
+                "canSuitlessWaterRoom",
+                {
+                  "or": [
+                    "SuperJump",
+                    "canSuitlessUnderwaterIBJ",
+                    "canSpringBallJumpMidAir"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "roomImageFile": "AQA Room 7B400.jpg",
