@@ -644,6 +644,51 @@
       ]
     },
     {
+      "name": "Leave With Runway",
+      "link": [
+        5,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            {
+              "doorUnlockedAtNode": 5
+            }
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 8,
+          "openEnd": 1,
+          "gentleUpTiles": 2
+        }
+      }
+    },
+    {
+      "name": "Leave With Temporary Blue",
+      "link": [
+        5,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "doorUnlockedAtNode": 5
+            },
+            "Gravity",
+            "SpeedBoosterLv2"
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveWithTemporaryBlue": {}
+      }
+    },
+    {
       "name": "Base",
       "link": [
         5,
@@ -1025,6 +1070,6 @@
   ],
   "roomImageFile": "AQA Room 7A800.jpg",
   "roomAddress": "0x7A800",
-  "nextStratId": 28,
+  "nextStratId": 30,
   "nextNotableId": 1
 }

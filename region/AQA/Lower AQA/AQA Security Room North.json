@@ -187,6 +187,42 @@
   ],
   "strats": [
     {
+      "name": "Come In With Temporary Blue, Leave With Spark",
+      "link": [
+        1,
+        2
+      ],
+      "entranceCondition": {
+        "comeInWithTemporaryBlue": {}
+      },
+      "exitCondition": {
+        "leaveWithSpark": {}
+      },
+      "requires": []
+    },
+    {
+      "name": "Come In Shinecharging, Leave With Spark",
+      "link": [
+        1,
+        2
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 10,
+          "openEnd": 0,
+          "steepDownTiles": 2
+        }
+      },
+      "requires": [
+        {
+          "shineChargeFrames": 14
+        }
+      ],
+      "exitCondition": {
+        "leaveWithSpark": {}
+      }
+    },
+    {
       "name": "Base",
       "link": [
         1,
@@ -242,9 +278,6 @@
   ],
   "roomImageFile": "AQA Room 7AA00.jpg",
   "roomAddress": "0x7AA00",
-  "nextStratId": 7,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 9,
+  "nextNotableId": 1
 }

@@ -183,7 +183,7 @@
     },
     {
       "id": 7,
-      "name": "Fake E-Tank",
+      "name": "Fake Tank (E-Tank)",
       "attacks": [
         {
           "name": "contact",
@@ -207,7 +207,8 @@
       "damageMultipliers": [],
       "vuln": [],
       "areas": [
-        "PYR"
+        "PYR",
+        "NOC"
       ],
       "note": ""
     },
@@ -1283,6 +1284,10 @@
         {
           "name": "contact",
           "baseDamage": 0
+        },
+        {
+          "name": "bullet",
+          "baseDamage": 96
         }
       ],
       "hp": 256,
@@ -2003,6 +2008,70 @@
       "vuln": [],
       "areas": [
         "PYR"
+      ],
+      "note": ""
+    },
+    {
+      "id": 65,
+      "name": "Evir-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 56
+        },
+        {
+          "name": "bullet",
+          "baseDamage": 20
+        }
+      ],
+      "hp": 636,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 52,
+        "greenX": 52,
+        "redX": 0
+      },
+      "dims": {
+        "w": 32,
+        "h": 52
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "vuln": [],
+      "areas": [
+        "AQA"
+      ],
+      "note": ""
+    },
+    {
+      "id": 66,
+      "name": "Fake Tank (Missile)",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 0
+        }
+      ],
+      "hp": 200,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 52,
+        "greenX": 52,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "vuln": [],
+      "areas": [
+        "AQA"
       ],
       "note": ""
     }

@@ -115,8 +115,8 @@
   ],
   "enemies": [
     {
-      "groupName": "Mini Draygon",
-      "enemyName": "Zoro",
+      "groupName": "Evir-X",
+      "enemyName": "Evir-X",
       "quantity": 1,
       "betweenNodes": [
         1,
@@ -126,6 +126,29 @@
     }
   ],
   "strats": [
+    {
+      "name": "Leave With Runway",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "doorUnlockedAtNode": 1
+            },
+            "Gravity"
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 12,
+          "openEnd": 2
+        }
+      }
+    },
     {
       "name": "Base",
       "link": [
@@ -145,7 +168,7 @@
                       "enemyKill": {
                         "enemies": [
                           [
-                            "Zoro"
+                            "Evir-X"
                           ]
                         ]
                       }
@@ -187,7 +210,7 @@
                       "enemyKill": {
                         "enemies": [
                           [
-                            "Zoro"
+                            "Evir-X"
                           ]
                         ]
                       }
@@ -221,8 +244,6 @@
   ],
   "roomImageFile": "AQA Room 7B300.jpg",
   "roomAddress": "0x7B300",
-  "nextStratId": 4,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "notables": []
+  "nextStratId": 5,
+  "nextNotableId": 1
 }

@@ -64,7 +64,7 @@
   "enemies": [
     {
       "groupName": "Fake Missile Tanks",
-      "enemyName": "Fake E-Tank",
+      "enemyName": "Fake Tank (Missile)",
       "quantity": 5,
       "betweenNodes": [
         1,
@@ -87,18 +87,18 @@
               "enemyKill": {
                 "enemies": [
                   [
-                    "Fake E-Tank",
-                    "Fake E-Tank",
-                    "Fake E-Tank",
-                    "Fake E-Tank",
-                    "Fake E-Tank"
+                    "Fake Tank (Missile)",
+                    "Fake Tank (Missile)",
+                    "Fake Tank (Missile)",
+                    "Fake Tank (Missile)",
+                    "Fake Tank (Missile)"
                   ]
                 ]
               }
             },
             {
               "enemyDamage": {
-                "enemy": "Fake E-Tank",
+                "enemy": "Fake Tank (Missile)",
                 "type": "contact",
                 "hits": 1
               }
@@ -120,18 +120,18 @@
               "enemyKill": {
                 "enemies": [
                   [
-                    "Fake E-Tank",
-                    "Fake E-Tank",
-                    "Fake E-Tank",
-                    "Fake E-Tank",
-                    "Fake E-Tank"
+                    "Fake Tank (Missile)",
+                    "Fake Tank (Missile)",
+                    "Fake Tank (Missile)",
+                    "Fake Tank (Missile)",
+                    "Fake Tank (Missile)"
                   ]
                 ]
               }
             },
             {
               "enemyDamage": {
-                "enemy": "Fake E-Tank",
+                "enemy": "Fake Tank (Missile)",
                 "type": "contact",
                 "hits": 1
               }
@@ -158,7 +158,5 @@
   "roomImageFile": "AQA Room 79A00.jpg",
   "roomAddress": "0x79A00",
   "nextStratId": 4,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "notables": []
+  "nextNotableId": 1
 }

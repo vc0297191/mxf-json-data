@@ -4,8 +4,6 @@
   "name": "Sunken Ruins",
   "area": "AQA",
   "subarea": "Lower AQA",
-  "roomImageFile": "AQA Room 7B500.jpg",
-  "roomAddress": "0x7B500",
   "roomEnvironments": [
     {
       "heated": false,
@@ -29,7 +27,7 @@
           "x": 544,
           "y": 0,
           "w": 64,
-          "h": 32
+          "h": 56
         }
       ],
       "color": "#ffffff",
@@ -101,13 +99,244 @@
           "h": 88
         }
       ],
-      "color": "#0000FF"
+      "color": "#0000ff"
     }
   ],
-  "enemies": [],
-  "strats": [],
-  "notables": [],
-  "nextStratId": 1,
-  "nextNotableId": 1,
-  "obstacles": []
+  "obstacles": [
+    {
+      "name": "Screw Attack Blocks",
+      "obstacleType": "inanimate",
+      "id": "A"
+    },
+    {
+      "name": "Speed Booster Blocks",
+      "obstacleType": "inanimate",
+      "id": "B"
+    }
+  ],
+  "enemies": [
+    {
+      "groupName": "Yard-X",
+      "enemyName": "Yard-X",
+      "quantity": 1,
+      "betweenNodes": [
+        3,
+        4
+      ],
+      "id": "e1"
+    }
+  ],
+  "strats": [
+    {
+      "name": "Base",
+      "link": [
+        1,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Come In Shinecharging, Spark to Right Door",
+      "link": [
+        2,
+        3
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 8,
+          "openEnd": 0
+        }
+      },
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            {
+              "shinespark": {
+                "frames": 62
+              }
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    },
+    {
+      "name": "Come In Shinecharged, Spark to Left Door",
+      "link": [
+        2,
+        3
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "shinespark": {
+            "frames": 62
+          }
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        4
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": []
+    },
+    {
+      "name": "Come In Shinecharging, Spark to Left Door",
+      "link": [
+        3,
+        2
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 7,
+          "openEnd": 0
+        }
+      },
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            {
+              "shinespark": {
+                "frames": 62
+              }
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    },
+    {
+      "name": "Come In Shinecharged, Spark to Left Door",
+      "link": [
+        3,
+        2
+      ],
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "shinespark": {
+            "frames": 62
+          }
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            "ScrewAttack",
+            {
+              "or": [
+                {
+                  "and": [
+                    "canPlayInSand",
+                    "canWalljump"
+                  ]
+                },
+                "h_JumpAssist"
+              ]
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        2
+      ],
+      "requires": [
+        "canTrivialMidAirMorph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            {
+              "or": [
+                "ScrewAttack",
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "Yard-X"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "enemyDamage": {
+                    "enemy": "Yard-X",
+                    "type": "contact",
+                    "hits": 2
+                  }
+                },
+                "canTrickyDodgeEnemies"
+              ]
+            },
+            {
+              "or": [
+                "canPlayInSand",
+                "canWalljump",
+                "h_JumpAssist"
+              ]
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    }
+  ],
+  "roomImageFile": "AQA Room 7B500.jpg",
+  "roomAddress": "0x7B500",
+  "nextStratId": 11,
+  "nextNotableId": 1
 }
