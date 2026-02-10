@@ -264,10 +264,6 @@
           ]
         }
       ],
-      "unlocksDoors": [
-        "[object Object]",
-        "[object Object]"
-      ],
       "setsFlags": [
         "f_YamebaCorridor_DoorsUnlocked"
       ]
@@ -280,7 +276,5 @@
   "roomImageFile": "SRX Room 79500.jpg",
   "roomAddress": "0x79500",
   "nextStratId": 7,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "notables": []
+  "nextNotableId": 1
 }

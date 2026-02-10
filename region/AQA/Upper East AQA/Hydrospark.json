@@ -48,9 +48,9 @@
         {
           "shape": "rect",
           "x": 16,
-          "y": 384,
+          "y": 336,
           "w": 48,
-          "h": 64
+          "h": 16
         }
       ],
       "color": "#ffffff",
@@ -61,22 +61,6 @@
           "physics": "air"
         }
       ]
-    },
-    {
-      "id": 3,
-      "name": "Lower Half of the Room",
-      "nodeType": "junction",
-      "nodeSubType": "visible",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 296,
-          "y": 368,
-          "w": 40,
-          "h": 56
-        }
-      ],
-      "color": "#0000ff"
     },
     {
       "id": 4,
@@ -98,6 +82,22 @@
       "nodeAddress": "0x7DCCE",
       "mapTileX": 31,
       "mapTileY": 13
+    },
+    {
+      "id": 3,
+      "name": "Lower Half of the Room",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 296,
+          "y": 368,
+          "w": 40,
+          "h": 56
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
   "obstacles": [
@@ -119,7 +119,122 @@
   ],
   "strats": [
     {
+      "name": "Base",
+      "link": [
+        1,
+        3
+      ],
+      "requires": [
+        "h_bombThings"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        3
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_bombThings",
+            {
+              "or": [
+                "SuperJump",
+                {
+                  "and": [
+                    "Gravity",
+                    "canIBJ"
+                  ]
+                },
+                {
+                  "and": [
+                    {
+                      "and": [
+                        "canSuitlessWaterRoom",
+                        "canSuitlessUnderwaterIBJ"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Gravity",
+                {
+                  "or": [
+                    {
+                      "and": [
+                        "Morph",
+                        "SuperJump"
+                      ]
+                    },
+                    {
+                      "and": [
+                        "canTrivialMidAirMorph",
+                        "canIBJ"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "and": [
+                "canSuitlessWaterRoom",
+                "Morph",
+                {
+                  "or": [
+                    "SuperJump",
+                    "canSuitlessUnderwaterIBJ",
+                    {
+                      "and": [
+                        {
+                          "and": [
+                            "canTrivialMidAirMorph",
+                            "canCrouchJump"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Speedball",
+      "link": [
+        4,
+        1
+      ],
       "requires": [
         {
           "and": [
@@ -131,8 +246,6 @@
   ],
   "roomImageFile": "AQA Room 79300.jpg",
   "roomAddress": "0x79300",
-  "nextStratId": 2,
-  "nextNotableId": 1,
-  "enemies": [],
-  "notables": []
+  "nextStratId": 6,
+  "nextNotableId": 1
 }

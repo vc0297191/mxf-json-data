@@ -20,7 +20,9 @@
       "id": 1,
       "name": "Speedbooster Lv. 2 Tutorial Room - Left Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "eye",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
@@ -31,11 +33,55 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                {
+                  "or": [
+                    "f_MetaDraygonXArena_DoorsUnlocked",
+                    "f_MetaDraygonXAccess_GadoraDefeated"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -123,6 +169,86 @@
   ],
   "strats": [
     {
+      "name": "Base",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            "h_shinechargeMaxRunway",
+            {
+              "or": [
+                {
+                  "and": [
+                    "SpeedBoosterLv2",
+                    "canShinechargeMovementComplex"
+                  ]
+                },
+                {
+                  "shinespark": {
+                    "frames": 40
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Speed Booster Blocks",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            "SpeedBoosterLv2",
+            "canMomentumConservingTurnaround"
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    },
+    {
       "name": "Leave With Runway",
       "link": [
         3,
@@ -178,7 +304,7 @@
       }
     },
     {
-      "name": "Break Speed Booster Blocks",
+      "name": "Destroy Speed Booster Blocks",
       "link": [
         3,
         3
@@ -288,8 +414,6 @@
   ],
   "roomImageFile": "AQA Room 7B600.jpg",
   "roomAddress": "0x7B600",
-  "nextStratId": 7,
-  "nextNotableId": 1,
-  "enemies": [],
-  "notables": []
+  "nextStratId": 11,
+  "nextNotableId": 1
 }

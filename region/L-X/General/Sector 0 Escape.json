@@ -21,6 +21,8 @@
       "name": "Top-Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
       "geometry": [
         {
           "shape": "rect",
@@ -31,11 +33,60 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                {
+                  "or": [
+                    "f_EasyMode",
+                    "f_NormalMode",
+                    "f_HardMode",
+                    "f_SuperMode"
+                  ]
+                }
+              ]
+            }
+          ],
+          "lock": [
+            "f_OmegaMetroidArena_EscapeActivated"
+          ]
         }
       ]
     },
@@ -43,7 +94,9 @@
       "id": 2,
       "name": "Left Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
@@ -54,11 +107,55 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                {
+                  "and": [
+                    "f_OmegaMetroidArena_EscapeActivated",
+                    "f_OmegaMode"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -101,9 +198,7 @@
         2,
         1
       ],
-      "requires": [
-        "h_JumpAssist"
-      ]
+      "requires": []
     },
     {
       "name": "Base",
@@ -125,8 +220,5 @@
   "roomImageFile": "L-X Room 79000.jpg",
   "roomAddress": "0x79000",
   "nextStratId": 5,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextNotableId": 1
 }
