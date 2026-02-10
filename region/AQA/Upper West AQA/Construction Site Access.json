@@ -43,7 +43,9 @@
       "id": 2,
       "name": "Top-Right Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
       "geometry": [
         {
           "shape": "rect",
@@ -54,11 +56,56 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Solid Wall",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Serris Third Encounter",
+              "requires": [
+                "f_AQASecurityRoomNorthAccess_SerrisEncountered"
+              ]
+            },
+            {
+              "name": "Serris Defeated",
+              "requires": [
+                "f_SerrisArena_CoreXAbsorbed"
+              ]
+            }
+          ]
         }
       ]
     },
