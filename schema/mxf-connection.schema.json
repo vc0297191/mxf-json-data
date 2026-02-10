@@ -23,8 +23,8 @@
             "examples": [
               "HorizontalDoor",
               "VerticalDoor",
-              "HorizontalMorphTunnel",
-              "VerticalMorphTunnel",
+              "HorizontalTunnel",
+              "VerticalTunnel",
               "ConnectionBridge",
               "Elevator",
               "TransitionTube",
@@ -33,8 +33,8 @@
             "enum": [
               "HorizontalDoor",
               "VerticalDoor",
-              "HorizontalMorphTunnel",
-              "VerticalMorphTunnel",
+              "HorizontalTunnel",
+              "VerticalTunnel",
               "ConnectionBridge",
               "Elevator",
               "TransitionTube",

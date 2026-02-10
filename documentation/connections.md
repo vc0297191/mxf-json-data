@@ -88,12 +88,12 @@ Doors you jump up through or fall down through:
 - Room A's top door → Room B's bottom door
 - Room B's bottom door → Room A's top door
 
-### HorizontalMorphTunnel
+### HorizontalTunnel
 Small tunnels only accessible with Morph Ball:
 
 ```json
 {
-  "connectionType": "HorizontalMorphTunnel",
+  "connectionType": "HorizontalTunnel",
   "direction": "Bidirectional",
   "nodes": [...]
 }
@@ -103,12 +103,12 @@ Small tunnels only accessible with Morph Ball:
 
 **Example**: Morph ball tunnels between rooms
 
-### VerticalMorphTunnel
+### VerticalTunnel
 Vertical shafts requiring Morph Ball:
 
 ```json
 {
-  "connectionType": "VerticalMorphTunnel",
+  "connectionType": "VerticalTunnel",
   "direction": "Bidirectional",
   "nodes": [...]
 }
@@ -385,7 +385,7 @@ Small passage requiring Morph Ball:
 
 ```json
 {
-  "connectionType": "HorizontalMorphTunnel",
+  "connectionType": "HorizontalTunnel",
   "direction": "Bidirectional",
   "description": "Secret morph tunnel",
   "nodes": [
@@ -768,8 +768,8 @@ Developer notes:
 |------|---------|-----------|
 | `HorizontalDoor` | Side-by-side rooms | Usually Bidirectional |
 | `VerticalDoor` | Stacked rooms | Usually Bidirectional |
-| `HorizontalMorphTunnel` | Horizontal morph passages | Bidirectional |
-| `VerticalMorphTunnel` | Vertical morph passages | Bidirectional |
+| `HorizontalTunnel` | Horizontal morph passages | Bidirectional |
+| `VerticalTunnel` | Vertical morph passages | Bidirectional |
 | `Elevator` | Sector transitions | Bidirectional |
 | `TransitionTube` | Special transitions | Usually Forward |
 | `StoryMarker` | Story progression | Forward |
