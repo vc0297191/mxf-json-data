@@ -219,38 +219,6 @@
       ]
     },
     {
-      "id": 8,
-      "name": "Right of Middle Speedway",
-      "nodeType": "junction",
-      "nodeSubType": "visible",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 1016,
-          "y": 320,
-          "w": 40,
-          "h": 40
-        }
-      ],
-      "color": "#0000ff"
-    },
-    {
-      "id": 9,
-      "name": "Above Right-Bottom Tunnel",
-      "nodeType": "junction",
-      "nodeSubType": "visible",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 1216,
-          "y": 704,
-          "w": 16,
-          "h": 16
-        }
-      ],
-      "color": "#0000ff"
-    },
-    {
       "id": 10,
       "idMinorItemPlm": "0x48",
       "name": "Cheddar Bay [Top-Left] - Hidden Power Bomb Tank",
@@ -291,6 +259,54 @@
       "nodeAddress": "0x7DDD6",
       "mapTileX": 30,
       "mapTileY": 15
+    },
+    {
+      "id": 8,
+      "name": "Right of Middle Speedway",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1016,
+          "y": 320,
+          "w": 40,
+          "h": 40
+        }
+      ],
+      "color": "#0000ff"
+    },
+    {
+      "id": 9,
+      "name": "Above Right-Bottom Tunnel",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1216,
+          "y": 704,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#0000ff"
+    },
+    {
+      "id": 12,
+      "name": "Left of Right Tunnel",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 1192,
+          "y": 312,
+          "w": 32,
+          "h": 40
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
   "obstacles": [
@@ -318,6 +334,11 @@
       "name": "Super Missile Block (Near Left-Lower Door)",
       "obstacleType": "inanimate",
       "id": "E"
+    },
+    {
+      "name": "Bomb Block (Above Right-Bottom Tunnel)",
+      "obstacleType": "inanimate",
+      "id": "F"
     }
   ],
   "enemies": [
@@ -327,7 +348,7 @@
       "quantity": 1,
       "betweenNodes": [
         1,
-        2
+        12
       ],
       "id": "e1"
     }
@@ -337,7 +358,7 @@
       "name": "Base",
       "link": [
         1,
-        2
+        12
       ],
       "requires": [
         {
@@ -400,7 +421,6 @@
                 }
               ]
             },
-            "Morph",
             "Gravity"
           ]
         }
@@ -415,7 +435,7 @@
       "note": "Perform consecutive horizontal shinecharges on the slopes; The last spark is a bit tricky: Just make sure you're not crouching, or you'll clip the ceiling and break your shinespark too early. Breaking the Super Missile blocks isn't necessary, but it will make the trick a bit easier to perform.",
       "link": [
         1,
-        2
+        12
       ],
       "entranceCondition": {
         "comeInShinecharged": {}
@@ -443,7 +463,7 @@
       "note": "Perform consecutive horizontal shinecharges on the slopes; The last spark is a bit tricky: Just make sure you're not crouching, or you'll clip the ceiling and break your shinespark too early. Breaking the Super Missile blocks isn't necessary, but it will make the trick a bit easier to perform.",
       "link": [
         1,
-        2
+        12
       ],
       "entranceCondition": {
         "comeInShinecharged": {}
@@ -469,8 +489,8 @@
     {
       "name": "Base",
       "link": [
-        3,
-        5
+        2,
+        12
       ],
       "requires": [
         "Morph"
@@ -480,22 +500,10 @@
       "name": "Base",
       "link": [
         3,
-        10
+        5
       ],
       "requires": [
-        {
-          "and": [
-            "Gravity",
-            "h_JumpAssist",
-            "canTrivialMidAirMorph"
-          ]
-        }
-      ],
-      "collectsItems": [
-        10
-      ],
-      "setsFlags": [
-        "f_CheddarBay_PowerBombTank_Collected"
+        "Morph"
       ]
     },
     {
@@ -542,6 +550,28 @@
       ]
     },
     {
+      "name": "Base",
+      "link": [
+        3,
+        10
+      ],
+      "requires": [
+        {
+          "and": [
+            "Gravity",
+            "h_JumpAssist",
+            "canTrivialMidAirMorph"
+          ]
+        }
+      ],
+      "collectsItems": [
+        10
+      ],
+      "setsFlags": [
+        "f_CheddarBay_PowerBombTank_Collected"
+      ]
+    },
+    {
       "name": "Destroy Super Missile Block (Near Left-Lower Door)",
       "link": [
         4,
@@ -584,26 +614,6 @@
               ]
             },
             "Morph"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        2,
-        9
-      ],
-      "requires": [
-        {
-          "and": [
-            "h_bombThings",
-            {
-              "or": [
-                "SuperJump",
-                "canTrivialMidAirMorph"
-              ]
-            }
           ]
         }
       ]
@@ -708,36 +718,6 @@
     {
       "name": "Base",
       "link": [
-        10,
-        3
-      ],
-      "requires": [
-        "Morph"
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        11,
-        9
-      ],
-      "requires": [
-        {
-          "and": [
-            "Morph",
-            {
-              "or": [
-                "SuperJump",
-                "canSuitlessUnderwaterIBJ"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
         8,
         3
       ],
@@ -748,6 +728,14 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        5
+      ],
+      "requires": []
     },
     {
       "name": "Destroy Middle Speed Booster Blocks",
@@ -784,22 +772,6 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        9,
-        11
-      ],
-      "requires": [
-        "h_bombThings"
-      ],
-      "collectsItems": [
-        11
-      ],
-      "setsFlags": [
-        "f_CheddarBay_PowerBombTankBottomRight_Collected"
       ]
     },
     {
@@ -840,11 +812,219 @@
           }
         }
       ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        9,
+        11
+      ],
+      "requires": [
+        "h_bombThings"
+      ],
+      "collectsItems": [
+        11
+      ],
+      "setsFlags": [
+        "f_CheddarBay_PowerBombTankBottomRight_Collected"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        9,
+        12
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Gravity",
+                {
+                  "and": [
+                    "Morph",
+                    {
+                      "or": [
+                        "h_bombThings",
+                        {
+                          "obstaclesCleared": [
+                            "F"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "or": [
+                    "SuperJump",
+                    "canIBJ"
+                  ]
+                }
+              ]
+            },
+            {
+              "and": [
+                "canSuitlessWaterRoom",
+                {
+                  "and": [
+                    "Morph",
+                    {
+                      "or": [
+                        "h_bombThings",
+                        {
+                          "obstaclesCleared": [
+                            "F"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "or": [
+                    "canSuitlessUnderwaterIBJ",
+                    "SuperJump"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        10,
+        3
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        11,
+        9
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "or": [
+                "SuperJump",
+                "canSuitlessUnderwaterIBJ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        12,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "C"
+              ]
+            },
+            {
+              "or": [
+                {
+                  "and": [
+                    "Gravity",
+                    {
+                      "or": [
+                        "SpaceJump",
+                        {
+                          "and": [
+                            "SuperJump",
+                            "canWalljump"
+                          ]
+                        },
+                        "canConsecutiveAlternatingWallJump",
+                        "canIBJ",
+                        "canSpringBallJumpMidAir"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "and": [
+                    "canSuitlessWaterRoom",
+                    {
+                      "or": [
+                        {
+                          "and": [
+                            "canSpringBallJumpMidAir",
+                            {
+                              "and": [
+                                {
+                                  "and": [
+                                    "canLongIBJ",
+                                    "canSuitlessUnderwaterIBJ"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        12,
+        2
+      ],
+      "requires": [
+        "Morph"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        12,
+        9
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_bombThings",
+            {
+              "or": [
+                "SuperJump",
+                "canTrivialMidAirMorph"
+              ]
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "F"
+      ]
     }
   ],
   "roomImageFile": "AQA Room 7A800.jpg",
   "roomAddress": "0x7A800",
-  "nextStratId": 23,
-  "nextNotableId": 1,
-  "notables": []
+  "nextStratId": 28,
+  "nextNotableId": 1
 }
