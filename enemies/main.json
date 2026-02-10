@@ -2074,6 +2074,66 @@
         "AQA"
       ],
       "note": ""
+    },
+    {
+      "id": 67,
+      "name": "Skree-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 64
+        }
+      ],
+      "hp": 192,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 52,
+        "greenX": 52,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "vuln": [],
+      "areas": [
+        "AQA"
+      ],
+      "note": ""
+    },
+    {
+      "id": 68,
+      "name": "Tornado-X",
+      "attacks": [
+        {
+          "name": "contact",
+          "baseDamage": 74
+        }
+      ],
+      "hp": 404,
+      "amountOfDrops": 0,
+      "drops": {
+        "noDrop": 0,
+        "yellowX": 52,
+        "greenX": 52,
+        "redX": 0
+      },
+      "dims": {
+        "w": 16,
+        "h": 16
+      },
+      "freezable": false,
+      "grapplable": false,
+      "damageMultipliers": [],
+      "vuln": [],
+      "areas": [
+        "AQA"
+      ],
+      "note": ""
     }
   ]
 }

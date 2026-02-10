@@ -3,7 +3,7 @@
   "connections": [
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [AQA Auxiliary Room Access - Top-Left Door] and [Yard Firing Range - Right Door]",
+      "description": "Horizontal Door connection between [AQA Auxiliary Room Access - Top-Left Door] and [Skree Firing Range - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -19,7 +19,7 @@
           "area": "AQA",
           "subarea": "Lower AQA",
           "roomid": 25,
-          "roomName": "Yard Firing Range",
+          "roomName": "Skree Firing Range",
           "nodeid": 2,
           "nodeName": "Right Door",
           "position": "right"
@@ -453,7 +453,7 @@
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Aquarium Hub East - Bottom Door] and [Yard Firing Range - Left Door]",
+      "description": "Horizontal Door connection between [Aquarium Hub East - Bottom Door] and [Skree Firing Range - Left Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -469,7 +469,7 @@
           "area": "AQA",
           "subarea": "Lower AQA",
           "roomid": 25,
-          "roomName": "Yard Firing Range",
+          "roomName": "Skree Firing Range",
           "nodeid": 1,
           "nodeName": "Left Door",
           "position": "left"

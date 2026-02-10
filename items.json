@@ -1757,10 +1757,10 @@
         "description": "[Gamepad Room] Hidden Missile Tank Collected"
       },
       {
-        "name": "f_YardFiringRange_PowerBombTank_Collected",
+        "name": "f_SkreeFiringRange_PowerBombTank_Collected",
         "address": "7ED879",
         "bit": 3,
-        "description": "[Yard Firing Range] Power Bomb Tank Collected"
+        "description": "[Skree Firing Range] Power Bomb Tank Collected"
       },
       {
         "name": "f_SerrisSpeedway_MissileTank_Collected",
