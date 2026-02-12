@@ -329,7 +329,7 @@
     {
       "connectionType": "HorizontalDoor",
       "description": "Horizontal Door connection between [Sector 0 Escape - Left Door] and [Sector 0 Omega Exit - Right Door]",
-      "direction": "Bidirectional",
+      "direction": "Forward",
       "nodes": [
         {
           "area": "L-X",

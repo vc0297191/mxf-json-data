@@ -190,7 +190,9 @@
         1,
         2
       ],
-      "requires": []
+      "requires": [
+        "f_OmegaMetroidArena_EscapeActivated"
+      ]
     },
     {
       "name": "Base",
@@ -198,7 +200,9 @@
         2,
         1
       ],
-      "requires": []
+      "requires": [
+        "f_OmegaMetroidArena_EscapeActivated"
+      ]
     },
     {
       "name": "Base",

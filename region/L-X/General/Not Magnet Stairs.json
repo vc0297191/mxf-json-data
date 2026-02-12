@@ -88,6 +88,8 @@
       "name": "Bottom-Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
@@ -98,11 +100,46 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": true,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked on Escape",
+          "lockType": "gameFlag",
+          "unlockStrats": [],
+          "lock": [
+            "f_OmegaMetroidArena_EscapeActivated"
+          ]
         }
       ]
     },
@@ -157,7 +194,7 @@
       ],
       "locks": [
         {
-          "name": "Locked Door",
+          "name": "Locked on Escape",
           "lockType": "gameFlag",
           "unlockStrats": [
             {
@@ -207,10 +244,18 @@
         1
       ],
       "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": []
     }
   ],
   "roomImageFile": "L-X Room 78A00.jpg",
   "roomAddress": "0x78A00",
-  "nextStratId": 4,
+  "nextStratId": 5,
   "nextNotableId": 1
 }
