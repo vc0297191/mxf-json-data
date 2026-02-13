@@ -94,9 +94,12 @@
                 "ChargedBeam",
                 "UnchargedBeam",
                 "UnchargedWideBeam",
-                "UnchargedIceBeam",
                 "BeamNoPlasma",
                 "UnchargedBeamNoPlasma",
+                "Missile",
+                "Supers",
+                "IceMissile",
+                "Diffusion",
                 "PowerBombBlast",
                 "SpecialBeamAttack"
               ],

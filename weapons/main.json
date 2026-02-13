@@ -31,7 +31,7 @@
       "categories": [
         "All"
       ],
-      "additionalComments": "Startup: [16x16] for 2 frames → [32x16] until it dies."
+      "additionalComments": "Startup: [16x16] for 2 frames -> [32x16] until it dies."
     },
     {
       "id": 3,
@@ -63,7 +63,7 @@
       "categories": [
         "All"
       ],
-      "additionalComments": "Startup: [16x16] for 10 frames → [16x32] until it dies."
+      "additionalComments": "Startup: [16x16] for 10 frames -> [16x32] until it dies."
     },
     {
       "id": 5,
@@ -79,7 +79,7 @@
       "categories": [
         "All"
       ],
-      "additionalComments": "Startup: [16x24] for 6 frames → [16x32] until it dies."
+      "additionalComments": "Startup: [16x24] for 6 frames -> [16x32] until it dies."
     },
     {
       "id": 6,
@@ -95,7 +95,7 @@
       "categories": [
         "All"
       ],
-      "additionalComments": "Startup: [16x16] for 2 frames → [24x24] until it dies."
+      "additionalComments": "Startup: [16x16] for 2 frames -> [24x24] until it dies."
     },
     {
       "id": 7,
@@ -133,74 +133,11 @@
         "Beam",
         "BeamNoPlasma",
         "ChargedBeam"
-      ]
+      ],
+      "additionalComments": "Loop: cycles between heights 40 -> 36 -> 32 -> 24 -> 16 -> 24 -> 32 with corresponding frame durations."
     },
     {
       "id": 9,
-      "name": "",
-      "damage": 0,
-      "cooldownFrames": 15,
-      "useRequires": [
-        ""
-      ],
-      "shotRequires": [],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": [
-        "All"
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Loop: cycles between heights 40 → 36 → 32 → 24 → 16 → 24 → 32 with corresponding frame durations.",
-      "damage": 0,
-      "cooldownFrames": 15,
-      "useRequires": [
-        "Loop: cycles between heights 40 → 36 → 32 → 24 → 16 → 24 → 32 with corresponding frame durations."
-      ],
-      "shotRequires": [],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": [
-        "All"
-      ]
-    },
-    {
-      "id": 11,
-      "name": "MissileAll",
-      "damage": 588,
-      "cooldownFrames": 15,
-      "useRequires": [
-        "MissileAll"
-      ],
-      "shotRequires": [],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": [
-        "All",
-        "Missile"
-      ],
-      "additionalComments": "Startup: [8x8] while travelling → [16x16] on impact → [24x24] at peak impact."
-    },
-    {
-      "id": 12,
-      "name": "MissileAllParticles",
-      "damage": 144,
-      "cooldownFrames": 15,
-      "useRequires": [
-        "MissileAllParticles"
-      ],
-      "shotRequires": [],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": [
-        "All",
-        "Missile"
-      ],
-      "additionalComments": "Loop: cycles hitbox ([16x16] 3 frames → [24x24] 3 frames → [32x32] 14 frames)."
-    },
-    {
-      "id": 13,
       "name": "Missile",
       "damage": 100,
       "cooldownFrames": 15,
@@ -224,17 +161,18 @@
       "note": "Base missile - requires having missile capacity"
     },
     {
-      "id": 14,
-      "name": "SuperMissile",
+      "id": 10,
+      "name": "Super",
       "damage": 200,
       "cooldownFrames": 15,
       "useRequires": [
+        "Missile",
         "SuperMissile"
       ],
       "shotRequires": [
         {
           "ammo": {
-            "type": "Missile",
+            "type": "Super",
             "count": 1
           }
         }
@@ -247,51 +185,19 @@
       ]
     },
     {
-      "id": 15,
-      "name": "Super Missile+Ice Missile",
-      "damage": 300,
-      "cooldownFrames": 15,
-      "useRequires": [
-        "Super Missile+Ice Missile"
-      ],
-      "shotRequires": [],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": [
-        "All",
-        "Missile"
-      ],
-      "additionalComments": "Startup: [8x8] while travelling → [16x16] on impact → [24x24] at peak impact."
-    },
-    {
-      "id": 16,
-      "name": "Super Missile+Diffusion Missile",
+      "id": 11,
+      "name": "IceMissile",
       "damage": 200,
       "cooldownFrames": 15,
       "useRequires": [
-        "Super Missile+Diffusion Missile"
-      ],
-      "shotRequires": [],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": [
-        "All",
-        "Missile"
-      ],
-      "additionalComments": "Startup: [8x8] while travelling → [16x16] on impact → [24x24] at peak impact."
-    },
-    {
-      "id": 17,
-      "name": "IceMissile",
-      "damage": 300,
-      "cooldownFrames": 15,
-      "useRequires": [
+        "Missile",
+        "SuperMissile",
         "IceMissile"
       ],
       "shotRequires": [
         {
           "ammo": {
-            "type": "Missile",
+            "type": "IceMissile",
             "count": 1
           }
         }
@@ -300,38 +206,25 @@
       "hitsGroup": false,
       "categories": [
         "All",
-        "Missile"
+        "Missile",
+        "IceMissile"
       ]
     },
     {
-      "id": 18,
-      "name": "Ice Missile+Diffusion Missile",
-      "damage": 100,
+      "id": 12,
+      "name": "Diffusion",
+      "damage": 200,
       "cooldownFrames": 15,
       "useRequires": [
-        "Ice Missile+Diffusion Missile"
-      ],
-      "shotRequires": [],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": [
-        "All",
-        "Missile"
-      ],
-      "additionalComments": "Startup: [8x8] while travelling → [16x16] on impact."
-    },
-    {
-      "id": 19,
-      "name": "DiffusionMissile",
-      "damage": 100,
-      "cooldownFrames": 15,
-      "useRequires": [
+        "Missile",
+        "SuperMissile",
+        "IceMissile",
         "DiffusionMissile"
       ],
       "shotRequires": [
         {
           "ammo": {
-            "type": "Missile",
+            "type": "Diffusion",
             "count": 1
           }
         }
@@ -340,11 +233,12 @@
       "hitsGroup": false,
       "categories": [
         "All",
-        "Missile"
+        "Missile",
+        "Diffusion"
       ]
     },
     {
-      "id": 20,
+      "id": 13,
       "name": "PowerBeam",
       "damage": 20,
       "cooldownFrames": 15,
@@ -364,7 +258,7 @@
       "additionalComments": "(Seems to be 30 for intro Omega Metroid!?)"
     },
     {
-      "id": 21,
+      "id": 14,
       "name": "WideBeam",
       "damage": 60,
       "cooldownFrames": 15,
@@ -382,10 +276,10 @@
         "UnchargedBeamNoPlasma",
         "UnchargedWideBeam"
       ],
-      "additionalComments": "Startup: [16x16] for 10 frames → [16x32] until it dies."
+      "additionalComments": "Startup: [16x16] for 10 frames -> [16x32] until it dies."
     },
     {
-      "id": 27,
+      "id": 15,
       "name": "Bombs",
       "damage": 30,
       "cooldownFrames": 16,
@@ -400,7 +294,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 16,
       "name": "PowerBomb",
       "damage": 400,
       "cooldownFrames": 160,
@@ -425,7 +319,7 @@
       "note": "The regular Power Bomb weapon assumes the enemy is near the center of the blast and gets hit twice per Power Bomb, hence the 400 damage"
     },
     {
-      "id": 29,
+      "id": 17,
       "name": "PowerBombPeriphery",
       "damage": 200,
       "cooldownFrames": 160,
@@ -453,7 +347,7 @@
       ]
     },
     {
-      "id": 30,
+      "id": 18,
       "name": "ScrewAttack",
       "damage": 2000,
       "cooldownFrames": 1,
@@ -468,7 +362,7 @@
       "note": "Damage is per frame"
     },
     {
-      "id": 31,
+      "id": 19,
       "name": "PseudoScrew",
       "damage": 200,
       "cooldownFrames": 60,
@@ -485,7 +379,7 @@
       "note": "This is situational because it also causes contact damage for every time it is used without killing the enemy"
     },
     {
-      "id": 32,
+      "id": 20,
       "name": "Shinespark",
       "damage": 300,
       "cooldownFrames": 1,
@@ -500,7 +394,7 @@
       "note": "Damage is per frame. This is situational because charging Speed Booster is situational"
     },
     {
-      "id": 33,
+      "id": 21,
       "name": "BlueSuit",
       "damage": 500,
       "cooldownFrames": 1,
@@ -515,7 +409,7 @@
       "note": "Damage is per frame. This is situational because charging Speed Booster is situational"
     },
     {
-      "id": 34,
+      "id": 22,
       "name": "SpeedEchoes",
       "damage": 4096,
       "cooldownFrames": 1,
@@ -530,7 +424,7 @@
       "note": "Damage is per frame. This is situational because charging Speed Booster is situational"
     },
     {
-      "id": 35,
+      "id": 23,
       "name": "Grapple",
       "damage": 200,
       "cooldownFrames": 15,
