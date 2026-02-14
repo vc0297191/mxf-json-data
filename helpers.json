@@ -557,9 +557,8 @@
           "requires": [
             {"or": [
               "Charge",
-              "Ice",
               "Wave",
-              "Spazer",
+              "Wide",
               "Plasma"
             ]}
           ]

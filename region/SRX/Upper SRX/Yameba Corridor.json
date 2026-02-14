@@ -196,7 +196,16 @@
       "stopSpawn": [
         "f_YamebaCorridor_DoorsUnlocked"
       ],
-      "id": "e1"
+      "id": "e1",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
     },
     {
       "groupName": "Yameba",
@@ -212,7 +221,16 @@
       "stopSpawn": [
         "f_YamebaCorridor_DoorsUnlocked"
       ],
-      "id": "e2"
+      "id": "e2",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
     }
   ],
   "strats": [
@@ -259,7 +277,19 @@
           "and": [
             "f_SRXAuxiliaryRoom_Engaged",
             {
-              "doorUnlockedAtNode": 1
+              "enemyKill": {
+                "enemies": [
+                  [
+                    "Yameba (Large)"
+                  ],
+                  [
+                    "Yameba (Small)",
+                    "Yameba (Small)",
+                    "Yameba (Small)",
+                    "Yameba (Small)"
+                  ]
+                ]
+              }
             }
           ]
         }

@@ -1900,7 +1900,7 @@
                 "canUseEnemies"
               ],
               "otherRequires": [
-                "Ice"
+                "IceMissile"
               ],
               "note": [
                 "Can use Ice Beam to freeze enemies to use as platforms.",
@@ -2161,9 +2161,8 @@
             "PowerBomb",
             {
               "or": [
-                "Ice",
                 "Wave",
-                "Spazer",
+                "Wide",
                 "Plasma"
               ]
             }

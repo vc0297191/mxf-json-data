@@ -123,7 +123,7 @@
         }
       ],
       "color": "#8d0cad",
-      "nodeItem": "Aux Power Cell",
+      "nodeItem": "AuxPowerCell",
       "nodeAddress": "0x0",
       "note": ""
     },

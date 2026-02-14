@@ -20,7 +20,7 @@
       "id": 1,
       "name": "Left Door",
       "nodeType": "door",
-      "nodeSubType": "gray",
+      "nodeSubType": "blue",
       "nodeAddress": "0x0",
       "doorOrientation": "left",
       "geometry": [
@@ -38,7 +38,6 @@
           "physics": "air"
         }
       ],
-      "useImplicitDoorUnlocks": false,
       "mapTileMask": [
         [
           0,
@@ -64,18 +63,6 @@
           0,
           0
         ]
-      ],
-      "locks": [
-        {
-          "name": "Gray Door Lock",
-          "lockType": "gameFlag",
-          "unlockStrats": [],
-          "lock": [
-            {
-              "not": "f_SRXAuxiliaryRoom_Engaged"
-            }
-          ]
-        }
       ]
     },
     {
@@ -110,7 +97,7 @@
         }
       ],
       "color": "#8d0cad",
-      "nodeItem": "Aux Power Cell",
+      "nodeItem": "AuxPowerCell",
       "nodeAddress": "0x0",
       "note": ""
     }
