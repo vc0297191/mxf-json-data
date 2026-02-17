@@ -148,6 +148,7 @@
           "physics": "air"
         }
       ],
+      "useImplicitDoorUnlocks": true,
       "mapTileMask": [
         [
           0,
@@ -178,7 +179,10 @@
         {
           "name": "Blocked Entry",
           "lockType": "gameFlag",
-          "unlockStrats": []
+          "unlockStrats": [],
+          "lock": [
+            "f_OmegaMetroidArena_EscapeActivated"
+          ]
         }
       ]
     }
@@ -246,14 +250,15 @@
         3,
         4
       ],
-      "requires": []
+      "requires": [
+        {
+          "not": "f_OmegaMetroidArena_EscapeActivated"
+        }
+      ]
     }
   ],
   "roomImageFile": "L-X Room 78D00.jpg",
   "roomAddress": "0x78D00",
   "nextStratId": 7,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextNotableId": 1
 }

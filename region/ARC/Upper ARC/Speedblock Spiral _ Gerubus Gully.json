@@ -237,6 +237,9 @@
       "collectsItems": [
         5
       ],
+      "setsFlags": [
+        "f_ARC_PowerCellAcquired"
+      ],
       "requires": []
     },
     {

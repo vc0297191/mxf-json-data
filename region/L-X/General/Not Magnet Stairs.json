@@ -165,7 +165,6 @@
           "physics": "air"
         }
       ],
-      "useImplicitDoorUnlocks": false,
       "mapTileMask": [
         [
           0,
@@ -203,7 +202,8 @@
                 {
                   "or": [
                     "f_EasyMode",
-                    "f_NormalMode"
+                    "f_NormalMode",
+                    "f_SuperMode"
                   ]
                 }
               ]

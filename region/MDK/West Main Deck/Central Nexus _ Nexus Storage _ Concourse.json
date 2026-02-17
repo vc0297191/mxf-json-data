@@ -379,6 +379,14 @@
     {
       "name": "Base",
       "link": [
+        1,
+        4
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
         2,
         3
       ],
@@ -397,194 +405,6 @@
       "link": [
         3,
         6
-      ],
-      "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        6,
-        3
-      ],
-      "requires": []
-    },
-    {
-      "name": "Kill Green Geron",
-      "link": [
-        6,
-        6
-      ],
-      "requires": [
-        "h_killGreenGeron"
-      ],
-      "clearsObstacles": [
-        "A"
-      ],
-      "setsFlags": [
-        "f_CentralNexus_GreenGeronDestroyed"
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        6,
-        11
-      ],
-      "requires": [
-        {
-          "or": [
-            {
-              "obstaclesCleared": [
-                "A"
-              ]
-            },
-            "f_CentralNexus_GreenGeronDestroyed"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        11,
-        6
-      ],
-      "requires": [
-        {
-          "obstaclesCleared": [
-            "A"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Kill Green Geron",
-      "link": [
-        11,
-        11
-      ],
-      "requires": [
-        "h_killGreenGeron"
-      ],
-      "clearsObstacles": [
-        "A"
-      ],
-      "setsFlags": [
-        "f_CentralNexus_GreenGeronDestroyed"
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        11,
-        12
-      ],
-      "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        12,
-        11
-      ],
-      "requires": []
-    },
-    {
-      "name": "Collect Item with Crystal Flash",
-      "devNote": "Crystal Flash directly under the item, hold forward to collect the item.",
-      "link": [
-        7,
-        7
-      ],
-      "requires": [
-        "canCrystalFlash"
-      ],
-      "collectsItems": [
-        13
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        7,
-        8
-      ],
-      "requires": [
-        {
-          "and": [
-            "Morph",
-            "ScrewAttack",
-            "canTrivialMidAirMorph"
-          ]
-        }
-      ],
-      "clearsObstacles": [
-        "C"
-      ],
-      "collectsItems": [
-        13
-      ]
-    },
-    {
-      "name": "Reach Right Tunnel from Left Door with Crystal Flash Clip",
-      "link": [
-        7,
-        13
-      ],
-      "requires": [
-        "canCrystalFlashClip"
-      ],
-      "resetsObstacles": [
-        "B"
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        8,
-        7
-      ],
-      "requires": [
-        "h_bombThings"
-      ],
-      "resetsObstacles": [
-        "B"
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        8,
-        7
-      ],
-      "requires": [
-        {
-          "and": [
-            "Morph",
-            "ScrewAttack"
-          ]
-        }
-      ],
-      "clearsObstacles": [
-        "C"
-      ],
-      "collectsItems": [
-        13
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        13,
-        8
-      ],
-      "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        1,
-        4
       ],
       "requires": []
     },
@@ -633,6 +453,108 @@
     {
       "name": "Base",
       "link": [
+        6,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Kill Green Geron",
+      "link": [
+        6,
+        6
+      ],
+      "requires": [
+        "h_killGreenGeron"
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_CentralNexus_GreenGeronDestroyed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        11
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            },
+            "f_CentralNexus_GreenGeronDestroyed"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Collect Item with Crystal Flash",
+      "devNote": "Crystal Flash directly under the item, hold forward to collect the item.",
+      "link": [
+        7,
+        7
+      ],
+      "requires": [
+        "canCrystalFlash"
+      ],
+      "collectsItems": [
+        13
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        7,
+        13
+      ],
+      "requires": [
+        "ScrewAttack"
+      ],
+      "clearsObstacles": [
+        "C"
+      ],
+      "collectsItems": [
+        13
+      ]
+    },
+    {
+      "name": "Reach Right Tunnel from Left Door with Crystal Flash Clip",
+      "link": [
+        7,
+        13
+      ],
+      "requires": [
+        "canCrystalFlashClip"
+      ],
+      "resetsObstacles": [
+        "B"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        13
+      ],
+      "requires": [
+        "Morph"
+      ],
+      "collectsItems": [
+        13
+      ],
+      "setsFlags": [
+        "f_NexusStorage_MissileTank_Collected"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
         9,
         5
       ],
@@ -647,12 +569,100 @@
         5
       ],
       "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        11,
+        6
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kill Green Geron",
+      "link": [
+        11,
+        11
+      ],
+      "requires": [
+        "h_killGreenGeron"
+      ],
+      "clearsObstacles": [
+        "A"
+      ],
+      "setsFlags": [
+        "f_CentralNexus_GreenGeronDestroyed"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        11,
+        12
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        12,
+        11
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        13,
+        7
+      ],
+      "requires": [
+        "h_bombThings"
+      ],
+      "resetsObstacles": [
+        "B"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        13,
+        7
+      ],
+      "requires": [
+        "ScrewAttack"
+      ],
+      "clearsObstacles": [
+        "C"
+      ],
+      "collectsItems": [
+        13
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        13,
+        8
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            "canTrivialMidAirMorph"
+          ]
+        }
+      ]
     }
   ],
   "roomImageFile": "MDK_Room_13.png",
   "roomAddress": "0x0",
-  "nextStratId": 25,
-  "nextNotableId": 1,
-  "enemies": [],
-  "notables": []
+  "nextStratId": 26,
+  "nextNotableId": 1
 }

@@ -142,6 +142,9 @@
       ],
       "requires": [
         "h_usePowerBomb"
+      ],
+      "clearsObstacles": [
+        "A"
       ]
     },
     {
@@ -164,6 +167,12 @@
             "A"
           ]
         }
+      ],
+      "collectsItems": [
+        3
+      ],
+      "setsFlags": [
+        "f_ElevatorToNeoRidley_EnergyTank_Collected"
       ]
     },
     {
@@ -196,13 +205,14 @@
       ],
       "requires": [
         "h_usePowerBomb"
+      ],
+      "clearsObstacles": [
+        "A"
       ]
     }
   ],
   "roomImageFile": "PYR Room 7A800.jpg",
   "roomAddress": "0x7A800",
   "nextStratId": 7,
-  "nextNotableId": 1,
-  "enemies": [],
-  "notables": []
+  "nextNotableId": 1
 }

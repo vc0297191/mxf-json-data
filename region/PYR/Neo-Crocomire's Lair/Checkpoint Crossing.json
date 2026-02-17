@@ -468,6 +468,12 @@
             "Wave"
           ]
         }
+      ],
+      "collectsItems": [
+        5
+      ],
+      "setsFlags": [
+        "f_PYR_PowerCellAcquired"
       ]
     }
   ],

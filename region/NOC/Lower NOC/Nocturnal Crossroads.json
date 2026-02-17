@@ -109,22 +109,6 @@
       ]
     },
     {
-      "id": 5,
-      "name": "Above Grapple Blocks",
-      "nodeType": "junction",
-      "nodeSubType": "visible",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 320,
-          "y": 288,
-          "w": 72,
-          "h": 32
-        }
-      ],
-      "color": "#0000ff"
-    },
-    {
       "id": 6,
       "idMinorItemPlm": "0x6A",
       "name": "Nocturnal Crossroads - Missile Tank",
@@ -163,6 +147,38 @@
       "nodeItem": "AuxPowerCell",
       "nodeAddress": "0x0",
       "note": "Jump through the wall at the bottom-right of the room"
+    },
+    {
+      "id": 5,
+      "name": "Above Grapple Blocks",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 320,
+          "y": 288,
+          "w": 72,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
+    },
+    {
+      "id": 8,
+      "name": "Left of Aux Power Cell",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 440,
+          "y": 848,
+          "w": 32,
+          "h": 40
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
   "obstacles": [
@@ -270,13 +286,19 @@
       "name": "Base",
       "link": [
         3,
-        4
+        5
       ],
       "requires": [
         {
           "or": [
-            "canCarefulJump",
-            "canWalljump"
+            "SpaceJump",
+            {
+              "and": [
+                "Grapple",
+                "canWalljump"
+              ]
+            },
+            "canIBJ"
           ]
         }
       ]
@@ -299,81 +321,26 @@
       "name": "Base",
       "link": [
         3,
-        5
+        8
       ],
-      "requires": [
-        {
-          "or": [
-            "SpaceJump",
-            {
-              "and": [
-                "Grapple",
-                "canWalljump"
-              ]
-            },
-            "canIBJ"
-          ]
-        }
-      ]
+      "requires": []
     },
     {
       "name": "Base",
       "link": [
         4,
-        3
-      ],
-      "requires": [
-        "canCarefulJump"
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        4,
-        7
-      ],
-      "requires": [
-        {
-          "and": [
-            "f_HardMode",
-            {
-              "or": [
-                "canCarefulJump",
-                "canWalljump"
-              ]
-            }
-          ]
-        }
-      ],
-      "collectsItems": [
-        7
-      ],
-      "setsFlags": [
-        "f_NOC_PowerCellAcquired"
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        7,
-        4
+        8
       ],
       "requires": [
         {
           "or": [
             "canCarefulJump",
-            "canWalljump"
+            "SpaceJump",
+            "Gravity",
+            "h_JumpAssist"
           ]
         }
       ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        6,
-        3
-      ],
-      "requires": []
     },
     {
       "name": "Base",
@@ -423,12 +390,65 @@
       "clearsObstacles": [
         "A"
       ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        7,
+        8
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        3
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        4
+      ],
+      "requires": [
+        {
+          "or": [
+            "canCarefulJump",
+            "canWalljump",
+            "h_JumpAssist",
+            "Gravity"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        8,
+        7
+      ],
+      "collectsItems": [
+        7
+      ],
+      "setsFlags": [
+        "f_NOC_PowerCellAcquired"
+      ],
+      "requires": []
     }
   ],
   "roomImageFile": "NOC Room 7AE00.jpg",
   "roomAddress": "0x7AE00",
-  "nextStratId": 16,
-  "nextNotableId": 1,
-  "enemies": [],
-  "notables": []
+  "nextStratId": 18,
+  "nextNotableId": 1
 }
