@@ -203,14 +203,60 @@
     },
     {
       "name": "Base",
+      "note": "It is possible to shoot the ceiling to reveal a hidden morph tunnel, bypassing the speed booster requirements entirely.",
       "link": [
         1,
         2
       ],
       "requires": [
         {
-          "obstaclesCleared": [
-            "A"
+          "or": [
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            },
+            {
+              "and": [
+                {
+                  "or": [
+                    "SuperJump",
+                    "Gravity",
+                    "canIBJ"
+                  ]
+                },
+                {
+                  "or": [
+                    {
+                      "and": [
+                        "SuperJump",
+                        "Morph"
+                      ]
+                    },
+                    "canIBJ",
+                    {
+                      "and": [
+                        "Gravity",
+                        {
+                          "or": [
+                            "h_bombThings",
+                            "canInsaneMidAirMorph"
+                          ]
+                        },
+                        {
+                          "and": [
+                            "can3HighWallMidAirMorph",
+                            {
+                              "disableEquipment": "Gravity"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
