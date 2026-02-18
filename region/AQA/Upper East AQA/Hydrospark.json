@@ -98,6 +98,22 @@
         }
       ],
       "color": "#0000ff"
+    },
+    {
+      "id": 5,
+      "name": "Middle of the Speedball Blocks",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 304,
+          "y": 96,
+          "w": 32,
+          "h": 40
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
   "obstacles": [
@@ -115,6 +131,16 @@
       "name": "Bomb Blocks Below Left Platform in Right Half of Room",
       "obstacleType": "inanimate",
       "id": "C"
+    },
+    {
+      "name": "Power Bomb Blocks",
+      "obstacleType": "inanimate",
+      "id": "D"
+    },
+    {
+      "name": "Speed Blocks Below Missile Tank",
+      "obstacleType": "inanimate",
+      "id": "E"
     }
   ],
   "strats": [
@@ -126,6 +152,34 @@
       ],
       "requires": [
         "h_bombThings"
+      ]
+    },
+    {
+      "name": "Speedball",
+      "link": [
+        1,
+        4
+      ],
+      "requires": [
+        "Gravity"
+      ],
+      "clearsObstacles": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "name": "Speedball",
+      "link": [
+        1,
+        5
+      ],
+      "requires": [
+        "Gravity"
+      ],
+      "clearsObstacles": [
+        "A",
+        "B"
       ]
     },
     {
@@ -230,22 +284,151 @@
       ]
     },
     {
-      "name": "Speedball",
+      "name": "Destroy Power Bomb Blocks",
+      "link": [
+        3,
+        3
+      ],
+      "requires": [
+        "h_usePowerBomb"
+      ],
+      "clearsObstacles": [
+        "D"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "ScrewAttack",
+            {
+              "obstaclesCleared": [
+                "B",
+                "D"
+              ]
+            },
+            "Gravity",
+            "h_shinechargeMaxRunway",
+            {
+              "shinespark": {
+                "frames": 20
+              }
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "E"
+      ],
+      "collectsItems": [
+        4
+      ],
+      "setsFlags": [
+        "f_Hydrospark_MissileTank_Collected"
+      ]
+    },
+    {
+      "name": "Base",
       "link": [
         4,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "E"
+              ]
+            },
+            {
+              "or": [
+                "Morph",
+                {
+                  "and": [
+                    "ScrewAttack",
+                    "Gravity"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "obstaclesCleared": [
+                "B"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
         1
       ],
       "requires": [
         {
           "and": [
-            "canSpeedball"
+            "Morph",
+            {
+              "obstaclesCleared": [
+                "B"
+              ]
+            }
           ]
         }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        3
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "D"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Destroy Power Bomb Blocks",
+      "link": [
+        5,
+        5
+      ],
+      "requires": [
+        "h_usePowerBomb"
+      ],
+      "clearsObstacles": [
+        "D"
       ]
     }
   ],
   "roomImageFile": "AQA Room 79300.jpg",
   "roomAddress": "0x79300",
-  "nextStratId": 6,
+  "nextStratId": 14,
   "nextNotableId": 1
 }
