@@ -288,7 +288,7 @@
         6
       ],
       "requires": [
-        "h_bombThings"
+        "h_destroyBombWalls"
       ]
     },
     {
@@ -298,7 +298,7 @@
         5
       ],
       "requires": [
-        "h_bombThings"
+        "h_destroyBombWalls"
       ]
     },
     {
