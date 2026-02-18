@@ -263,6 +263,26 @@
   ],
   "strats": [
     {
+      "name": "Destroy Power Bomb Blocks",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "coldFrames": 1
+            },
+            "h_usePowerBomb"
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         1,
@@ -371,10 +391,74 @@
       ]
     },
     {
+      "name": "Destroy Power Bomb Blocks",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "coldFrames": 1
+            },
+            "h_usePowerBomb"
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         2,
         3
+      ],
+      "requires": [
+        {
+          "coldFrames": 1
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        {
+          "coldFrames": 1
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        4
+      ],
+      "requires": [
+        {
+          "coldFrames": 1
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        7
       ],
       "requires": [
         {
@@ -411,6 +495,14 @@
       "name": "Base",
       "link": [
         4,
+        5
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
         6
       ],
       "requires": [
@@ -420,47 +512,15 @@
     {
       "name": "Base",
       "link": [
-        4,
-        5
-      ],
-      "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        3,
-        2
-      ],
-      "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        3,
-        2
-      ],
-      "requires": [
-        {
-          "coldFrames": 1
-        }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        3,
+        5,
         4
       ],
-      "requires": [
-        {
-          "coldFrames": 1
-        }
-      ]
+      "requires": []
     },
     {
       "name": "Base",
       "link": [
-        3,
+        5,
         7
       ],
       "requires": [
@@ -522,16 +582,8 @@
     {
       "name": "Base",
       "link": [
-        5,
-        4
-      ],
-      "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        5,
-        7
+        7,
+        5
       ],
       "requires": [
         {
@@ -558,18 +610,6 @@
               "coldFrames": 1
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        7,
-        5
-      ],
-      "requires": [
-        {
-          "coldFrames": 1
         }
       ]
     },
@@ -604,8 +644,6 @@
   ],
   "roomImageFile": "ARC Room 7A300.jpg",
   "roomAddress": "0x7A300",
-  "nextStratId": 19,
-  "nextNotableId": 1,
-  "enemies": [],
-  "notables": []
+  "nextStratId": 21,
+  "nextNotableId": 1
 }
