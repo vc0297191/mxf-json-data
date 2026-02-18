@@ -73,7 +73,7 @@
             {
               "name": "Unlock Door",
               "requires": [
-                "f_PhantomireArena_DoorsUnlocked"
+                "f_NeoCrocomireArena_DoorsUnlocked"
               ]
             }
           ]
@@ -137,7 +137,7 @@
             {
               "name": "Unlock Door",
               "requires": [
-                "f_PhantomireArena_DoorsUnlocked"
+                "f_NeoCrocomireArena_DoorsUnlocked"
               ]
             }
           ]
@@ -183,6 +183,9 @@
         1,
         3
       ],
+      "setsFlags": [
+        "f_NeoCrocomire_Defeated"
+      ],
       "requires": []
     },
     {
@@ -205,8 +208,5 @@
   "roomImageFile": "PYR Room 79E00.jpg",
   "roomAddress": "0x79E00",
   "nextStratId": 5,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextNotableId": 1
 }

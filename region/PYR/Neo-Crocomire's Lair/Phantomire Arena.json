@@ -249,6 +249,7 @@
       ],
       "setsFlags": [
         "f_PhantomireArena_CoreXAbsorbed",
+        "f_NeoCrocomireArena_DoorsUnlocked",
         "f_PhantomireArena_DoorsUnlocked"
       ]
     }
