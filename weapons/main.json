@@ -119,25 +119,6 @@
     },
     {
       "id": 8,
-      "name": "EverythingBeam,Charge",
-      "damage": 640,
-      "cooldownFrames": 15,
-      "useRequires": [
-        "EverythingBeam,Charge"
-      ],
-      "shotRequires": [],
-      "situational": false,
-      "hitsGroup": false,
-      "categories": [
-        "All",
-        "Beam",
-        "BeamNoPlasma",
-        "ChargedBeam"
-      ],
-      "additionalComments": "Loop: cycles between heights 40 -> 36 -> 32 -> 24 -> 16 -> 24 -> 32 with corresponding frame durations."
-    },
-    {
-      "id": 9,
       "name": "Missile",
       "damage": 100,
       "cooldownFrames": 15,
@@ -161,7 +142,7 @@
       "note": "Base missile - requires having missile capacity"
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "Super",
       "damage": 200,
       "cooldownFrames": 15,
@@ -185,7 +166,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 10,
       "name": "IceMissile",
       "damage": 200,
       "cooldownFrames": 15,
@@ -211,7 +192,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "Diffusion",
       "damage": 200,
       "cooldownFrames": 15,
@@ -238,7 +219,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "PowerBeam",
       "damage": 20,
       "cooldownFrames": 15,
@@ -258,7 +239,7 @@
       "additionalComments": "(Seems to be 30 for intro Omega Metroid!?)"
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "WideBeam",
       "damage": 60,
       "cooldownFrames": 15,
@@ -279,7 +260,7 @@
       "additionalComments": "Startup: [16x16] for 10 frames -> [16x32] until it dies."
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "Bombs",
       "damage": 30,
       "cooldownFrames": 16,
@@ -294,7 +275,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "PowerBomb",
       "damage": 400,
       "cooldownFrames": 160,
@@ -319,7 +300,7 @@
       "note": "The regular Power Bomb weapon assumes the enemy is near the center of the blast and gets hit twice per Power Bomb, hence the 400 damage"
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "PowerBombPeriphery",
       "damage": 200,
       "cooldownFrames": 160,
@@ -347,7 +328,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "ScrewAttack",
       "damage": 2000,
       "cooldownFrames": 1,
@@ -362,7 +343,7 @@
       "note": "Damage is per frame"
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "PseudoScrew",
       "damage": 200,
       "cooldownFrames": 60,
@@ -379,7 +360,7 @@
       "note": "This is situational because it also causes contact damage for every time it is used without killing the enemy"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Shinespark",
       "damage": 300,
       "cooldownFrames": 1,
@@ -394,7 +375,7 @@
       "note": "Damage is per frame. This is situational because charging Speed Booster is situational"
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "BlueSuit",
       "damage": 500,
       "cooldownFrames": 1,
@@ -409,7 +390,7 @@
       "note": "Damage is per frame. This is situational because charging Speed Booster is situational"
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "SpeedEchoes",
       "damage": 4096,
       "cooldownFrames": 1,
@@ -424,7 +405,7 @@
       "note": "Damage is per frame. This is situational because charging Speed Booster is situational"
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "Grapple",
       "damage": 200,
       "cooldownFrames": 15,

@@ -1963,9 +1963,10 @@
       "damageMultipliers": [],
       "vuln": [
         "Grapple",
-        "UnchargedBeam",
+        "Beam",
         "Bombs",
         "PowerBombBlast",
+        "PowerBombPeriphery",
         "ScrewAttack",
         "Shinespark",
         "BlueSuit",

@@ -1012,7 +1012,18 @@
       "freezable": false,
       "grapplable": false,
       "damageMultipliers": [],
-      "vuln": [],
+      "vuln": [
+        "Grapple",
+        "UnchargedBeam",
+        "Bombs",
+        "PowerBombBlast",
+        "PowerBombPeriphery",
+        "ScrewAttack",
+        "Shinespark",
+        "BlueSuit",
+        "SpeedEchoes",
+        "PseudoScrew"
+      ],
       "dropsUpgrade": [],
       "areas": [
         "MDK"
