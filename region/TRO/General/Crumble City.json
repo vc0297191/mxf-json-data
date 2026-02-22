@@ -102,7 +102,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "Missile",
-      "nodeAddress": "0x7D815",
+      "nodeAddress": "0x7D7CB",
       "mapTileX": 24,
       "mapTileY": 15
     },
@@ -123,7 +123,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7D80F",
+      "nodeAddress": "0x7D7C5",
       "mapTileX": 25,
       "mapTileY": 16
     },
