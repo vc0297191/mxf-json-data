@@ -97,8 +97,8 @@
       }
     },
 
-    "itemDefinitionTableAddr": { "$ref": "#/definitions/hexString" },
-    "progressiveUpgradeTableAddr": { "$ref": "#/definitions/hexString" },
+    "coreXRewardLookupTableAddr": { "$ref": "#/definitions/hexString" },
+    "majorItemLookupTableAddr": { "$ref": "#/definitions/hexString" },
 
     "implicitItems": {
       "type": "array",

@@ -29,8 +29,8 @@
       "maxAmount": 0
     }
   ],
-  "itemDefinitionTableAddr": "0x028000",
-  "progressiveUpgradeTableAddr": "0x028190",
+  "coreXRewardLookupTableAddr": "0x028000",
+  "majorItemLookupTableAddr": "0x0281C0",
   "implicitItems": [
     "PowerBeam"
   ],

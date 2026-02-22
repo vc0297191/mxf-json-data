@@ -61,6 +61,25 @@
           "physics": "air"
         }
       ]
+    },
+    {
+      "id": 3,
+      "name": "Gold Gadora-X Arena - Super Missile",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 360,
+          "y": 616,
+          "w": 40,
+          "h": 40
+        }
+      ],
+      "color": "#8d0cad",
+      "nodeItem": "SuperMissile",
+      "nodeAddress": "0x0",
+      "note": ""
     }
   ],
   "strats": [
