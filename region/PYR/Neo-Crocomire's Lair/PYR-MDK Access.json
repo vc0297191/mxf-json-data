@@ -3,7 +3,7 @@
   "id": 265,
   "name": "PYR-MDK Access",
   "area": "PYR",
-  "subarea": "Neo-Crocomire's Lair",
+  "subarea": "Neo-Crocomire\u0027s Lair",
   "roomEnvironments": [
     {
       "heated": true,
@@ -79,7 +79,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "Missile",
-      "nodeAddress": "0x7DB0E",
+      "nodeAddress": "0x7DB33",
       "mapTileX": 45,
       "mapTileY": 16
     }

@@ -3,7 +3,7 @@
   "id": 365,
   "name": "Zazabi Speedway",
   "area": "TRO",
-  "subarea": "Zazabi's Area",
+  "subarea": "Zazabi\u0027s Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -56,7 +56,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7D87E",
+      "nodeAddress": "0x7D8A3",
       "mapTileX": 36,
       "mapTileY": 20
     }

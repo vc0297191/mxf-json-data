@@ -102,7 +102,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "ETank",
-      "nodeAddress": "0x7D3F0",
+      "nodeAddress": "0x7D415",
       "mapTileX": 29,
       "mapTileY": 11
     },
@@ -123,7 +123,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "ETank",
-      "nodeAddress": "0x7D3F6",
+      "nodeAddress": "0x7D41B",
       "mapTileX": 31,
       "mapTileY": 11
     }

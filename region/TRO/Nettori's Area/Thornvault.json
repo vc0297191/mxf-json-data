@@ -3,7 +3,7 @@
   "id": 360,
   "name": "Thornvault",
   "area": "TRO",
-  "subarea": "Nettori's Area",
+  "subarea": "Nettori\u0027s Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -118,7 +118,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "Missile",
-      "nodeAddress": "0x7D92E",
+      "nodeAddress": "0x7D953",
       "nodeAltAddress": "0x7D94E",
       "mapTileX": 37,
       "mapTileY": 13

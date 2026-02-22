@@ -233,7 +233,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7E1AA",
+      "nodeAddress": "0x7E1CF",
       "mapTileX": 33,
       "mapTileY": 9
     },
@@ -254,7 +254,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "Missile",
-      "nodeAddress": "0x7E1B0",
+      "nodeAddress": "0x7E1D5",
       "mapTileX": 34,
       "mapTileY": 10
     }
@@ -271,7 +271,7 @@
       "id": "B"
     },
     {
-      "name": "Super Missile Blocks & Bomb Blocks",
+      "name": "Super Missile Blocks \u0026 Bomb Blocks",
       "obstacleType": "inanimate",
       "id": "C"
     }
@@ -378,7 +378,7 @@
       ]
     },
     {
-      "name": "Destroy Super Missile Blocks & Bomb Blocks",
+      "name": "Destroy Super Missile Blocks \u0026 Bomb Blocks",
       "link": [
         3,
         3
@@ -517,7 +517,7 @@
       ]
     },
     {
-      "name": "Destroy Super Missile Blocks & Bomb Blocks",
+      "name": "Destroy Super Missile Blocks \u0026 Bomb Blocks",
       "link": [
         4,
         4

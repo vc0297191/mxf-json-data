@@ -102,7 +102,9 @@
                 "Fake Ship"
               ]
             ],
-            "excludedWeapons": ["Missile"]
+            "excludedWeapons": [
+              "Missile"
+            ]
           }
         }
       ],

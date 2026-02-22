@@ -3,7 +3,7 @@
   "id": 351,
   "name": "Needlepoint",
   "area": "TRO",
-  "subarea": "Nettori's Area",
+  "subarea": "Nettori\u0027s Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -56,7 +56,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7D97A",
+      "nodeAddress": "0x7D99F",
       "mapTileX": 33,
       "mapTileY": 14
     }

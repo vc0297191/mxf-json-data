@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
   "id": 305,
-  "name": "Just Don't Die Bend",
+  "name": "Just Don\u0027t Die Bend",
   "area": "SRX",
   "subarea": "Upper SRX",
   "roomEnvironments": [
@@ -64,7 +64,7 @@
     },
     {
       "id": 3,
-      "name": "Just Don't Die Bend - SRX Reserve X",
+      "name": "Just Don\u0027t Die Bend - SRX Reserve X",
       "nodeType": "item",
       "nodeSubType": "visible",
       "geometry": [

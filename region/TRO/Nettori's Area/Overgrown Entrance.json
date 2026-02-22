@@ -3,7 +3,7 @@
   "id": 355,
   "name": "Overgrown Entrance",
   "area": "TRO",
-  "subarea": "Nettori's Area",
+  "subarea": "Nettori\u0027s Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -119,7 +119,7 @@
     },
     {
       "name": "Base",
-      "note": "If we run into the SA-X here (Nettori hasn't been defeated), then ensure that the player is either comfortable dodging the SA-X, or that they have at least 399 Energy in total.",
+      "note": "If we run into the SA-X here (Nettori hasn\u0027t been defeated), then ensure that the player is either comfortable dodging the SA-X, or that they have at least 399 Energy in total.",
       "link": [
         2,
         4

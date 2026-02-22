@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
   "id": 270,
-  "name": "Bob's Abode / Deserted Junction",
+  "name": "Bob\u0027s Abode / Deserted Junction",
   "area": "PYR",
   "subarea": "Upper PYR",
   "roomEnvironments": [
@@ -18,7 +18,7 @@
   "nodes": [
     {
       "id": 1,
-      "name": "Bob's Abode - Left Door",
+      "name": "Bob\u0027s Abode - Left Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "geometry": [
@@ -41,7 +41,7 @@
     },
     {
       "id": 2,
-      "name": "Bob's Abode - Right Door",
+      "name": "Bob\u0027s Abode - Right Door",
       "nodeType": "door",
       "nodeSubType": "blue",
       "geometry": [
@@ -150,7 +150,7 @@
     {
       "id": 7,
       "idMinorItemPlm": "0x34",
-      "name": "Bob's Abode - Missile Tank",
+      "name": "Bob\u0027s Abode - Missile Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "geometry": [
@@ -164,7 +164,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "Missile",
-      "nodeAddress": "0x7DA58",
+      "nodeAddress": "0x7DA7D",
       "mapTileX": 27,
       "mapTileY": 13
     }

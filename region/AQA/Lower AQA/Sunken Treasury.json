@@ -79,7 +79,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "ETank",
-      "nodeAddress": "0x7DE96",
+      "nodeAddress": "0x7DEBB",
       "mapTileX": 33,
       "mapTileY": 15
     }
@@ -118,7 +118,7 @@
     },
     {
       "name": "Destroy Speed Booster Blocks",
-      "note": "This assumes that the \"cleared Screw Attack Blocks\" are properly creating the runway to reach the item.",
+      "note": "This assumes that the \u0022cleared Screw Attack Blocks\u0022 are properly creating the runway to reach the item.",
       "link": [
         1,
         1

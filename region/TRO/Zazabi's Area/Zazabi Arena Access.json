@@ -3,7 +3,7 @@
   "id": 364,
   "name": "Zazabi Arena Access",
   "area": "TRO",
-  "subarea": "Zazabi's Area",
+  "subarea": "Zazabi\u0027s Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -170,7 +170,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "Missile",
-      "nodeAddress": "0x7D850",
+      "nodeAddress": "0x7D875",
       "mapTileX": 31,
       "mapTileY": 20
     }

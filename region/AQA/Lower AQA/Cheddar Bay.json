@@ -235,7 +235,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7DD9E",
+      "nodeAddress": "0x7DDC3",
       "mapTileX": 26,
       "mapTileY": 13
     },
@@ -256,7 +256,7 @@
       ],
       "color": "#37c90e",
       "nodeItem": "PowerBomb",
-      "nodeAddress": "0x7DDD6",
+      "nodeAddress": "0x7DDFB",
       "mapTileX": 30,
       "mapTileY": 15
     },
@@ -432,7 +432,7 @@
     },
     {
       "name": "Come In Shinecharged, Spark to Right Tunnel",
-      "note": "Perform consecutive horizontal shinecharges on the slopes; The last spark is a bit tricky: Just make sure you're not crouching, or you'll clip the ceiling and break your shinespark too early. Breaking the Super Missile blocks isn't necessary, but it will make the trick a bit easier to perform.",
+      "note": "Perform consecutive horizontal shinecharges on the slopes; The last spark is a bit tricky: Just make sure you\u0027re not crouching, or you\u0027ll clip the ceiling and break your shinespark too early. Breaking the Super Missile blocks isn\u0027t necessary, but it will make the trick a bit easier to perform.",
       "link": [
         1,
         12
@@ -460,7 +460,7 @@
     },
     {
       "name": "Come In Shinecharged, Spark to Right Tunnel (Suitless)",
-      "note": "Perform consecutive horizontal shinecharges on the slopes; The last spark is a bit tricky: Just make sure you're not crouching, or you'll clip the ceiling and break your shinespark too early. Breaking the Super Missile blocks isn't necessary, but it will make the trick a bit easier to perform.",
+      "note": "Perform consecutive horizontal shinecharges on the slopes; The last spark is a bit tricky: Just make sure you\u0027re not crouching, or you\u0027ll clip the ceiling and break your shinespark too early. Breaking the Super Missile blocks isn\u0027t necessary, but it will make the trick a bit easier to perform.",
       "link": [
         1,
         12
