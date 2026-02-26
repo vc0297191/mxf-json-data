@@ -206,7 +206,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -238,7 +238,7 @@
             },
             "h_shinechargeMaxRunway",
             {
-              "coldFrames": 99999
+              "coldFrames": 500
             }
           ]
         }
@@ -266,7 +266,7 @@
               "and": [
                 "SpikeBreaker",
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 }
               ]
             },
@@ -274,7 +274,7 @@
               "and": [
                 "SpaceJump",
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 }
               ]
             },
@@ -301,7 +301,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -313,7 +313,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -337,7 +337,7 @@
                   "and": [
                     "SuperJump",
                     {
-                      "coldFrames": 99999
+                      "coldFrames": 500
                     }
                   ]
                 },
@@ -345,7 +345,7 @@
                   "and": [
                     "SpaceJump",
                     {
-                      "coldFrames": 99999
+                      "coldFrames": 500
                     }
                   ]
                 },
@@ -355,7 +355,7 @@
                     "SuperJump",
                     "canWalljump",
                     {
-                      "coldFrames": 99999
+                      "coldFrames": 500
                     }
                   ]
                 },
@@ -363,7 +363,7 @@
                   "and": [
                     "canIBJ",
                     {
-                      "coldFrames": 99999
+                      "coldFrames": 500
                     }
                   ]
                 }
@@ -381,7 +381,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -397,7 +397,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "canTrickyWalljump",
                 "canMidAirMorph"
@@ -406,7 +406,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 {
                   "ammo": {
@@ -429,7 +429,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -441,7 +441,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -458,7 +458,7 @@
               "and": [
                 "SpikeBreaker",
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 }
               ]
             },
@@ -466,14 +466,14 @@
               "and": [
                 "SpaceJump",
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 }
               ]
             },
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "canLongCeilingBombJump",
                 {

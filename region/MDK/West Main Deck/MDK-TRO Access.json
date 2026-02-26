@@ -108,23 +108,47 @@
       ],
       "requires": [
         {
-          "or": [
+          "and": [
+            "Morph",
             {
-              "and": [
-                "Morph",
-                {
-                  "obstaclesCleared": [
-                    "A"
-                  ]
-                }
+              "obstaclesCleared": [
+                "A"
               ]
-            },
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "resourceAtMost": [
             {
-              "resourceAtMost": [
-                {
-                  "type": "PowerBomb",
-                  "count": 0
-                }
+              "type": "PowerBomb",
+              "count": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "obstaclesCleared": [
+                "A"
               ]
             }
           ]
@@ -139,24 +163,10 @@
       ],
       "requires": [
         {
-          "or": [
+          "resourceAtMost": [
             {
-              "and": [
-                "Morph",
-                {
-                  "obstaclesCleared": [
-                    "A"
-                  ]
-                }
-              ]
-            },
-            {
-              "resourceAtMost": [
-                {
-                  "type": "PowerBomb",
-                  "count": 0
-                }
-              ]
+              "type": "PowerBomb",
+              "count": 0
             }
           ]
         }
@@ -193,6 +203,6 @@
   ],
   "roomImageFile": "MDK Room 14.png",
   "roomAddress": "0x0",
-  "nextStratId": 5,
+  "nextStratId": 7,
   "nextNotableId": 1
 }

@@ -214,7 +214,7 @@
         {
           "and": [
             {
-              "coldFrames": 99999
+              "coldFrames": 500
             },
             "h_bombThings"
           ]
@@ -231,7 +231,7 @@
         {
           "and": [
             {
-              "coldFrames": 99999
+              "coldFrames": 500
             },
             "h_bombThings"
           ]
@@ -248,7 +248,7 @@
         {
           "and": [
             {
-              "coldFrames": 99999
+              "coldFrames": 500
             },
             "h_bombThings"
           ]
@@ -263,7 +263,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -277,7 +277,7 @@
         {
           "and": [
             {
-              "coldFrames": 99999
+              "coldFrames": 500
             },
             "h_JumpAssist",
             "canTrivialMidAirMorph",
@@ -294,7 +294,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -308,7 +308,7 @@
         {
           "and": [
             {
-              "coldFrames": 99999
+              "coldFrames": 500
             },
             "h_bombThings"
           ]
@@ -325,7 +325,7 @@
         {
           "and": [
             {
-              "coldFrames": 99999
+              "coldFrames": 500
             },
             "h_bombThings"
           ]
@@ -344,7 +344,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "SuperJump",
                 "SpaceJump"
@@ -353,7 +353,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "SuperJump",
                 "canWalljump"
@@ -362,7 +362,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "SpaceJump"
               ]
@@ -383,7 +383,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "canWalljump",
                 "SuperJump"
@@ -392,7 +392,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "canWalljump",
                 "SuperJump"
@@ -401,7 +401,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "canIBJ"
               ]
@@ -409,7 +409,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "SpaceJump"
               ]
@@ -426,7 +426,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -438,7 +438,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -454,7 +454,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "SpaceJump"
               ]
@@ -462,7 +462,7 @@
             {
               "and": [
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 {
                   "or": [
@@ -486,7 +486,7 @@
       ],
       "requires": [
         {
-          "coldFrames": 99999
+          "coldFrames": 500
         }
       ]
     },
@@ -503,7 +503,7 @@
               "and": [
                 "canWalljump",
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 },
                 "SuperJump"
               ]
@@ -512,7 +512,7 @@
               "and": [
                 "SuperJump",
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 }
               ]
             }
@@ -533,7 +533,7 @@
               "and": [
                 "Grapple",
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 }
               ]
             },
@@ -541,7 +541,7 @@
               "and": [
                 "SpaceJump",
                 {
-                  "coldFrames": 99999
+                  "coldFrames": 500
                 }
               ]
             }

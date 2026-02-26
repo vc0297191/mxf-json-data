@@ -161,7 +161,12 @@
         4
       ],
       "requires": [
-        "Gravity"
+        {
+          "and": [
+            "Gravity",
+            "canSpeedball"
+          ]
+        }
       ],
       "clearsObstacles": [
         "A",
@@ -308,7 +313,6 @@
             "ScrewAttack",
             {
               "obstaclesCleared": [
-                "B",
                 "D"
               ]
             },
@@ -414,6 +418,26 @@
       ]
     },
     {
+      "name": "Base",
+      "link": [
+        5,
+        4
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ],
+      "collectsItems": [
+        4
+      ],
+      "setsFlags": [
+        "f_Hydrospark_MissileTank_Collected"
+      ]
+    },
+    {
       "name": "Destroy Power Bomb Blocks",
       "link": [
         5,
@@ -429,6 +453,6 @@
   ],
   "roomImageFile": "AQA Room 79300.jpg",
   "roomAddress": "0x79300",
-  "nextStratId": 14,
+  "nextStratId": 15,
   "nextNotableId": 1
 }

@@ -81,15 +81,13 @@
         2
       ],
       "requires": [
-        "h_useSaveStation"
+        "h_useSaveStation",
+        "f_SRXAuxiliaryRoom_Engaged"
       ]
     }
   ],
   "roomImageFile": "Misc Room Reusable 5.jpg",
   "roomAddress": "0x0",
   "nextStratId": 4,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextNotableId": 1
 }

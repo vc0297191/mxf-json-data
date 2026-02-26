@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
   "id": 305,
-  "name": "Just Don\u0027t Die Bend",
+  "name": "Just Don't Die Bend",
   "area": "SRX",
   "subarea": "Upper SRX",
   "roomEnvironments": [
@@ -64,7 +64,7 @@
     },
     {
       "id": 3,
-      "name": "Just Don\u0027t Die Bend - SRX Reserve X",
+      "name": "Just Don't Die Bend - SRX Reserve X",
       "nodeType": "item",
       "nodeSubType": "visible",
       "geometry": [
@@ -134,20 +134,19 @@
         3,
         3
       ],
+      "requires": [
+        "f_SRXAuxiliaryRoom_Engaged"
+      ],
       "collectsItems": [
         3
       ],
       "setsFlags": [
         "f_JustDontDieBend_ReserveXCollected"
-      ],
-      "requires": []
+      ]
     }
   ],
   "roomImageFile": "SRX Room 79900.jpg",
   "roomAddress": "0x79900",
   "nextStratId": 6,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextNotableId": 1
 }
