@@ -3,7 +3,7 @@
   "id": 365,
   "name": "Zazabi Speedway",
   "area": "TRO",
-  "subarea": "Zazabi\u0027s Area",
+  "subarea": "Zazabi's Area",
   "roomEnvironments": [
     {
       "heated": false,
@@ -69,7 +69,18 @@
         2
       ],
       "requires": [
-        "canConsecutiveHorizontalSparkIntoTemporaryBlue"
+        {
+          "and": [
+            "h_shinechargeMaxRunway",
+            "canConsecutiveHorizontalSparkIntoTemporaryBlue",
+            {
+              "shinespark": {
+                "frames": 6,
+                "excessFrames": 10
+              }
+            }
+          ]
+        }
       ],
       "collectsItems": [
         2
