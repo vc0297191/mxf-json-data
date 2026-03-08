@@ -216,6 +216,10 @@
               [
                 "Barrier Core-X"
               ]
+            ],
+            "excludedWeapons": [
+              "SpeedBooster",
+              "SpeedBoosterLv2"
             ]
           }
         }

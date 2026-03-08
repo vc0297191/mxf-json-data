@@ -28,7 +28,7 @@
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Docking Bay Climb - Left-Lower Door] and [Silo Entry - Right Door]",
+      "description": "Horizontal Door connection between [Docking Bay Climb - Left-Lower Door] and [Silo Entry - Top-Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -45,15 +45,15 @@
           "subarea": "Reactor Silo",
           "roomid": 159,
           "roomName": "Silo Entry",
-          "nodeid": 3,
-          "nodeName": "Right Door",
+          "nodeid": 1,
+          "nodeName": "Top-Right Door",
           "position": "right"
         }
       ]
     },
     {
       "connectionType": "HorizontalDoor",
-      "description": "Horizontal Door connection between [Docking Bay Climb - Bottom-Left Door] and [Silo Entry - Top-Right Door]",
+      "description": "Horizontal Door connection between [Docking Bay Climb - Bottom-Left Door] and [Silo Entry - Right Door]",
       "direction": "Bidirectional",
       "nodes": [
         {
@@ -70,8 +70,8 @@
           "subarea": "Reactor Silo",
           "roomid": 159,
           "roomName": "Silo Entry",
-          "nodeid": 1,
-          "nodeName": "Top-Right Door",
+          "nodeid": 3,
+          "nodeName": "Right Door",
           "position": "right"
         }
       ]
