@@ -4,8 +4,6 @@
   "name": "Elevator to Central Nexus",
   "area": "MDK",
   "subarea": "Upper Main Deck",
-  "roomImageFile": "MDK Room 23.png",
-  "roomAddress": "0x0",
   "roomEnvironments": [
     {
       "heated": false,
@@ -22,7 +20,9 @@
       "id": 1,
       "name": "Left Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "left",
       "geometry": [
         {
           "shape": "rect",
@@ -33,11 +33,46 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "left",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": false,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [],
+          "lock": [
+            "f_MDKSecurityRoom_DoorsUnlocked"
+          ]
         }
       ]
     },
@@ -45,7 +80,9 @@
       "id": 2,
       "name": "Right Door",
       "nodeType": "door",
-      "nodeSubType": "blue",
+      "nodeSubType": "gray",
+      "nodeAddress": "0x0",
+      "doorOrientation": "right",
       "geometry": [
         {
           "shape": "rect",
@@ -56,11 +93,50 @@
         }
       ],
       "color": "#ffffff",
-      "nodeAddress": "0x0",
-      "doorOrientation": "right",
       "doorEnvironments": [
         {
           "physics": "air"
+        }
+      ],
+      "useImplicitDoorUnlocks": false,
+      "mapTileMask": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "locks": [
+        {
+          "name": "Locked Door",
+          "lockType": "gameFlag",
+          "unlockStrats": [
+            {
+              "name": "Unlock Door",
+              "requires": [
+                "f_MDKSecurityRoom_DoorsUnlocked"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -88,7 +164,6 @@
       ]
     }
   ],
-  "enemies": [],
   "strats": [
     {
       "name": "Base",
@@ -127,8 +202,8 @@
       ]
     }
   ],
-  "notables": [],
+  "roomImageFile": "MDK Room 23.png",
+  "roomAddress": "0x0",
   "nextStratId": 5,
-  "nextNotableId": 1,
-  "obstacles": []
+  "nextNotableId": 1
 }
