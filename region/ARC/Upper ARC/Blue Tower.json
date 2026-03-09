@@ -309,14 +309,6 @@
       "name": "Base",
       "link": [
         3,
-        9
-      ],
-      "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        3,
         8
       ],
       "requires": [
@@ -347,6 +339,14 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        9
+      ],
+      "requires": []
     },
     {
       "name": "Destroy Power Bomb Blocks",
@@ -420,8 +420,16 @@
               "and": [
                 {
                   "or": [
-                    "h_JumpAssist"
+                    "h_JumpAssist",
+                    "canCrouchJump"
                   ]
+                },
+                "canTrivialUseFrozenEnemies",
+                {
+                  "ammo": {
+                    "type": "Ice Missile",
+                    "count": 4
+                  }
                 }
               ]
             },
@@ -431,12 +439,24 @@
                   "enemyKill": {
                     "enemies": [
                       [
-                        "Ice-X"
+                        "Ripper",
+                        "Ripper",
+                        "Ripper"
                       ]
                     ]
                   }
                 },
-                "canIBJ"
+                {
+                  "or": [
+                    "canIBJ",
+                    {
+                      "and": [
+                        "canConsecutiveSingleWallJump",
+                        "SuperJump"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -486,8 +506,16 @@
                   "and": [
                     {
                       "or": [
-                        "h_JumpAssist"
+                        "h_JumpAssist",
+                        "canCrouchJump"
                       ]
+                    },
+                    "canTrivialUseFrozenEnemies",
+                    {
+                      "ammo": {
+                        "type": "Ice Missile",
+                        "count": 3
+                      }
                     }
                   ]
                 },
@@ -497,12 +525,19 @@
                       "enemyKill": {
                         "enemies": [
                           [
-                            "Ice-X"
+                            "Ripper",
+                            "Ripper",
+                            "Ripper"
                           ]
                         ]
                       }
                     },
-                    "canIBJ"
+                    {
+                      "or": [
+                        "canLongIBJ",
+                        "canConsecutiveSingleWallJump"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -536,45 +571,6 @@
         6
       ],
       "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        9,
-        3
-      ],
-      "requires": [
-        "h_JumpAssist"
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        9,
-        4
-      ],
-      "requires": [
-        {
-          "obstaclesCleared": [
-            "A"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        9,
-        5
-      ],
-      "requires": [
-        {
-          "and": [
-            "Morph",
-            "canTrickyDodgeEnemies"
-          ]
-        }
-      ]
     },
     {
       "name": "Base",
@@ -615,11 +611,49 @@
       "requires": [
         "canTrickyDodgeEnemies"
       ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        9,
+        3
+      ],
+      "requires": [
+        "h_JumpAssist"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        9,
+        4
+      ],
+      "requires": [
+        {
+          "obstaclesCleared": [
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        9,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            "canTrickyDodgeEnemies"
+          ]
+        }
+      ]
     }
   ],
   "roomImageFile": "ARC Room 78D00.jpg",
   "roomAddress": "0x78D00",
   "nextStratId": 22,
-  "nextNotableId": 1,
-  "notables": []
+  "nextNotableId": 1
 }
