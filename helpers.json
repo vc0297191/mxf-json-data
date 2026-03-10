@@ -1097,6 +1097,16 @@
           ]
         },
         {
+          "name": "h_killFrozenEnemy",
+          "requires": [
+            {"or": [
+              "Charge",
+              "Grapple"
+            ]}
+          ],
+          "note": "Includes standard ways to kill the Frozen Enemy obstacles."
+        },
+        {
           "name": "h_killRedGeron",
           "requires": [
             {"or": [

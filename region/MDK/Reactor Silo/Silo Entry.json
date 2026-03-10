@@ -129,7 +129,7 @@
         1
       ],
       "requires": [
-        "Charge"
+        "h_killFrozenEnemy"
       ],
       "clearsObstacles": [
         "A"
@@ -183,7 +183,7 @@
         2
       ],
       "requires": [
-        "Charge"
+        "h_killFrozenEnemy"
       ],
       "clearsObstacles": [
         "A"

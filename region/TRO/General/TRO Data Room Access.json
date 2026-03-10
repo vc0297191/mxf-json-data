@@ -120,13 +120,13 @@
       ]
     },
     {
-      "name": "Destroy Frozen Enemy",
+      "name": "Kill Frozen Enemy",
       "link": [
         2,
         2
       ],
       "requires": [
-        "Charge"
+        "h_killFrozenEnemy"
       ],
       "clearsObstacles": [
         "A"
