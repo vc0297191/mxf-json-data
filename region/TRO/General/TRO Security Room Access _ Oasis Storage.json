@@ -111,6 +111,27 @@
     {
       "name": "Base",
       "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "or": [
+            "Morph",
+            {
+              "enemyDamage": {
+                "enemy": "Yapping Maw-X",
+                "type": "contact",
+                "hits": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
         2,
         1
       ],
@@ -149,27 +170,6 @@
     {
       "name": "Base",
       "link": [
-        1,
-        2
-      ],
-      "requires": [
-        {
-          "or": [
-            "Morph",
-            {
-              "enemyDamage": {
-                "enemy": "Yapping Maw-X",
-                "type": "contact",
-                "hits": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
         3,
         4
       ],
@@ -195,7 +195,17 @@
         4
       ],
       "requires": [
-        "canIBJ"
+        {
+          "or": [
+            {
+              "and": [
+                "Gravity",
+                "canIBJ"
+              ]
+            },
+            "canSuitlessUnderwaterIBJ"
+          ]
+        }
       ],
       "collectsItems": [
         4
@@ -239,8 +249,5 @@
   "roomImageFile": "TRO Room 79F00.jpg",
   "roomAddress": "0x79F00",
   "nextStratId": 7,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextNotableId": 1
 }
