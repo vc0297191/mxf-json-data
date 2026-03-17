@@ -96,16 +96,34 @@
       ],
       "requires": [
         {
-          "enemyKill": {
-            "enemies": [
-              [
-                "Fake Ship"
+          "and": [
+            {
+              "or": [
+                {
+                  "resourceCapacity": [
+                    {
+                      "type": "Missile",
+                      "count": 17
+                    }
+                  ]
+                },
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 9
+                  }
+                }
               ]
-            ],
-            "excludedWeapons": [
-              "Missile"
-            ]
-          }
+            },
+            {
+              "resourceCapacity": [
+                {
+                  "type": "Energy",
+                  "count": 200
+                }
+              ]
+            }
+          ]
         }
       ],
       "collectsItems": [
@@ -119,7 +137,5 @@
   "roomImageFile": "MDK Room 8.png",
   "roomAddress": "0x0",
   "nextStratId": 4,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "notables": []
+  "nextNotableId": 1
 }
