@@ -199,7 +199,7 @@
       ],
       "requires": [
         {
-          "and":[
+          "and": [
             {
               "enemyKill": {
                 "enemies": [
@@ -211,21 +211,37 @@
               }
             },
             {
-              "or":[
-                "Gravity",
+              "and": [
                 {
-                  "and":[
-                    "canSuitlessWaterRoom",
-                    "canTrickyDodgeEnemies"
+                  "or": [
+                    "Gravity",
+                    {
+                      "and": [
+                        "canSuitlessWaterRoom",
+                        "canTrickyDodgeEnemies"
+                      ]
+                    }
                   ]
                 },
                 {
                   "resourceCapacity": [
                     {
-                      "type":
-                      "ReserveEnergy",
+                      "type": "ReserveEnergy",
                       "count": 200
                     }
+                  ]
+                },
+                {
+                  "or": [
+                    {
+                      "resourceCapacity": [
+                        {
+                          "type": "Missile",
+                          "count": 200
+                        }
+                      ]
+                    },
+                    "Charge"
                   ]
                 }
               ]

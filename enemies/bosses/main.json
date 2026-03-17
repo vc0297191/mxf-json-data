@@ -326,7 +326,7 @@
           "baseDamage": 0
         }
       ],
-      "hp": 0,
+      "hp": 20480,
       "amountOfDrops": 0,
       "drops": {
         "noDrop": 0,
