@@ -445,6 +445,24 @@
       ]
     },
     {
+      "name": "Come In Blue Spinning, Leave With Blue Speed",
+      "link": [
+        5,
+        3
+      ],
+      "entranceCondition": {
+        "comeInBlueSpinning": {
+          "unusableTiles": 0
+        }
+      },
+      "requires": [
+        "canCarefulJump"
+      ],
+      "exitCondition": {
+        "leaveWithBlueSpeed": {}
+      }
+    },
+    {
       "name": "Base",
       "link": [
         5,
@@ -709,8 +727,6 @@
   ],
   "roomImageFile": "NOC Room 78E00.jpg",
   "roomAddress": "0x78E00",
-  "nextStratId": 14,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "notables": []
+  "nextStratId": 15,
+  "nextNotableId": 1
 }

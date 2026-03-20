@@ -1,7 +1,7 @@
 {
   "$schema": "../../../schema/mxf-room.schema.json",
   "id": 289,
-  "name": "Searpent\u0027s Coil",
+  "name": "Searpent's Coil",
   "area": "SRX",
   "subarea": "Lower SRX",
   "roomEnvironments": [
@@ -42,7 +42,7 @@
     {
       "id": 2,
       "idMinorItemPlm": "0x17",
-      "name": "Searpent\u0027s Coil - Energy Tank",
+      "name": "Searpent's Coil - Energy Tank",
       "nodeType": "item",
       "nodeSubType": "visible",
       "geometry": [
@@ -62,6 +62,19 @@
     }
   ],
   "strats": [
+    {
+      "name": "Leave With Blue Speed",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        "h_shinechargeMaxRunway"
+      ],
+      "exitCondition": {
+        "leaveWithBlueSpeed": {}
+      }
+    },
     {
       "name": "Base",
       "link": [
@@ -113,6 +126,30 @@
       ]
     },
     {
+      "name": "Reach Energy Tank via Spring Ball Jumps and Spike Hits",
+      "link": [
+        1,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            "SuperJump",
+            {
+              "spikeHits": 4
+            }
+          ]
+        }
+      ],
+      "collectsItems": [
+        2
+      ],
+      "setsFlags": [
+        "f_SearpentsCoil_EnergyTank_Collected"
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         2,
@@ -133,9 +170,6 @@
   ],
   "roomImageFile": "SRX Room 7A600.jpg",
   "roomAddress": "0x7A600",
-  "nextStratId": 3,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 5,
+  "nextNotableId": 1
 }

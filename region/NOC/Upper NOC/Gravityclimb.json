@@ -176,7 +176,16 @@
         1,
         2
       ],
-      "id": "e1"
+      "id": "e1",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 0,
+          "y": 0,
+          "w": 16,
+          "h": 16
+        }
+      ]
     }
   ],
   "strats": [
@@ -300,6 +309,20 @@
       "requires": []
     },
     {
+      "name": "Come In With Blue Speed, Leave With Blue Speed",
+      "link": [
+        2,
+        3
+      ],
+      "entranceCondition": {
+        "comeInWithBlueSpeed": {}
+      },
+      "exitCondition": {
+        "leaveWithBlueSpeed": {}
+      },
+      "requires": []
+    },
+    {
       "name": "Base",
       "link": [
         3,
@@ -324,8 +347,6 @@
   ],
   "roomImageFile": "NOC Room 79100.jpg",
   "roomAddress": "0x79100",
-  "nextStratId": 8,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "notables": []
+  "nextStratId": 9,
+  "nextNotableId": 1
 }

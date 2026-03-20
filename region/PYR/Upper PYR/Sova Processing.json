@@ -86,6 +86,27 @@
       ]
     },
     {
+      "id": 6,
+      "idMinorItemPlm": "0x33",
+      "name": "Sova Processing - Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 272,
+          "y": 304,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#37c90e",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7DA1F",
+      "mapTileX": 27,
+      "mapTileY": 15
+    },
+    {
       "id": 4,
       "name": "Right of Bomb Blocks",
       "nodeType": "junction",
@@ -116,27 +137,6 @@
         }
       ],
       "color": "#0000ff"
-    },
-    {
-      "id": 6,
-      "idMinorItemPlm": "0x33",
-      "name": "Sova Processing - Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 272,
-          "y": 304,
-          "w": 16,
-          "h": 16
-        }
-      ],
-      "color": "#37c90e",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7DA1F",
-      "mapTileX": 27,
-      "mapTileY": 15
     }
   ],
   "strats": [
@@ -165,6 +165,35 @@
               "heatFrames": 91
             },
             "h_JumpAssist"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        2,
+        5
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Gravity",
+                {
+                  "heatFrames": 501
+                }
+              ]
+            },
+            {
+              "and": [
+                "canSuitlessLavaDive",
+                {
+                  "heatFrames": 328
+                }
+              ]
+            }
           ]
         }
       ]
@@ -215,32 +244,76 @@
       ]
     },
     {
-      "name": "Base",
+      "name": "Spark to Missile Tank",
       "link": [
         2,
-        5
+        6
       ],
       "requires": [
         {
-          "or": [
+          "and": [
+            {
+              "canShineCharge": {
+                "usedTiles": 12,
+                "openEnd": 2,
+                "gentleDownTiles": 2
+              }
+            },
             {
               "and": [
-                "Gravity",
                 {
-                  "heatFrames": 501
+                  "shineChargeFrames": 40
+                },
+                {
+                  "shinespark": {
+                    "frames": 18
+                  }
+                },
+                {
+                  "heatFrames": 80
                 }
               ]
             },
             {
               "and": [
-                "canSuitlessLavaDive",
                 {
-                  "heatFrames": 328
+                  "shineChargeFrames": 50
+                },
+                {
+                  "shinespark": {
+                    "frames": 14
+                  }
+                },
+                {
+                  "heatFrames": 120
+                }
+              ]
+            },
+            {
+              "and": [
+                "canInsaneMidAirMorph",
+                "canTrickyWalljump",
+                {
+                  "heatFrames": 10
+                }
+              ]
+            },
+            {
+              "and": [
+                "Morph",
+                {
+                  "heatFrames": 50
                 }
               ]
             }
           ]
         }
+      ],
+      "collectsItems": [
+        6
+      ],
+      "setsFlags": [
+        "f_SovaProcessing_MissileTank_Collected"
       ]
     },
     {
@@ -277,115 +350,6 @@
                 },
                 {
                   "lavaFrames": 501
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        6,
-        2
-      ],
-      "requires": [
-        {
-          "heatFrames": 43
-        }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        6,
-        5
-      ],
-      "requires": [
-        {
-          "and": [
-            "Morph",
-            {
-              "or": [
-                {
-                  "and": [
-                    "canSuitlessLavaDive",
-                    {
-                      "heatFrames": 501
-                    }
-                  ]
-                },
-                {
-                  "and": [
-                    "Gravity",
-                    {
-                      "heatFrames": 501
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        5,
-        4
-      ],
-      "requires": [
-        {
-          "or": [
-            {
-              "and": [
-                "Gravity",
-                {
-                  "or": [
-                    {
-                      "and": [
-                        "ScrewAttack",
-                        {
-                          "heatFrames": 501
-                        }
-                      ]
-                    },
-                    {
-                      "and": [
-                        "h_bombThings",
-                        {
-                          "heatFrames": 501
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "and": [
-                "canSuitlessLavaDive",
-                {
-                  "or": [
-                    {
-                      "and": [
-                        "ScrewAttack",
-                        {
-                          "heatFrames": 501
-                        }
-                      ]
-                    },
-                    {
-                      "and": [
-                        "h_bombThings",
-                        {
-                          "heatFrames": 501
-                        }
-                      ]
-                    }
-                  ]
                 }
               ]
             }
@@ -568,13 +532,119 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        5,
+        4
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Gravity",
+                {
+                  "or": [
+                    {
+                      "and": [
+                        "ScrewAttack",
+                        {
+                          "heatFrames": 501
+                        }
+                      ]
+                    },
+                    {
+                      "and": [
+                        "h_bombThings",
+                        {
+                          "heatFrames": 501
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "and": [
+                "canSuitlessLavaDive",
+                {
+                  "or": [
+                    {
+                      "and": [
+                        "ScrewAttack",
+                        {
+                          "heatFrames": 501
+                        }
+                      ]
+                    },
+                    {
+                      "and": [
+                        "h_bombThings",
+                        {
+                          "heatFrames": 501
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        2
+      ],
+      "requires": [
+        {
+          "heatFrames": 43
+        }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        6,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "or": [
+                {
+                  "and": [
+                    "canSuitlessLavaDive",
+                    {
+                      "heatFrames": 501
+                    }
+                  ]
+                },
+                {
+                  "and": [
+                    "Gravity",
+                    {
+                      "heatFrames": 501
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "roomImageFile": "PYR Room 78F00.jpg",
   "roomAddress": "0x78F00",
-  "nextStratId": 11,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 12,
+  "nextNotableId": 1
 }

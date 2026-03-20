@@ -188,16 +188,7 @@
         2,
         3
       ],
-      "id": "e1",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 0,
-          "y": 0,
-          "w": 16,
-          "h": 16
-        }
-      ]
+      "id": "e1"
     }
   ],
   "strats": [
@@ -419,10 +410,29 @@
         6
       ],
       "requires": []
+    },
+    {
+      "name": "Come In With Blue Speed, Leave Shinecharged",
+      "link": [
+        7,
+        6
+      ],
+      "entranceCondition": {
+        "comeInWithBlueSpeed": {}
+      },
+      "requires": [
+        {
+          "shineChargeFrames": 30
+        }
+      ],
+      "exitCondition": {
+        "leaveShinecharged": {}
+      },
+      "endsWithShineCharge": true
     }
   ],
   "roomImageFile": "SRX Room 7A300.jpg",
   "roomAddress": "0x7A300",
-  "nextStratId": 15,
+  "nextStratId": 19,
   "nextNotableId": 1
 }

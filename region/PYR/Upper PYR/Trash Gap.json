@@ -65,6 +65,26 @@
   ],
   "strats": [
     {
+      "name": "Leave With Runway",
+      "link": [
+        1,
+        1
+      ],
+      "requires": [
+        {
+          "heatFrames": 501
+        }
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 8,
+          "openEnd": 1,
+          "gentleDownTiles": 2,
+          "heated": true
+        }
+      }
+    },
+    {
       "name": "Base",
       "link": [
         1,
@@ -125,9 +145,6 @@
   ],
   "roomImageFile": "PYR Room 78C00.jpg",
   "roomAddress": "0x78C00",
-  "nextStratId": 3,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 4,
+  "nextNotableId": 1
 }

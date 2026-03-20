@@ -190,6 +190,31 @@
       "requires": []
     },
     {
+      "name": "Short Charge from Top Door to Left Door",
+      "link": [
+        3,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "canShineCharge": {
+                "usedTiles": 15,
+                "openEnd": 1
+              }
+            },
+            {
+              "or": [
+                "SpaceJump",
+                "canPreciseWalljump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         3,
@@ -311,9 +336,6 @@
   ],
   "roomImageFile": "NOC Room 7B000.jpg",
   "roomAddress": "0x7B000",
-  "nextStratId": 12,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 13,
+  "nextNotableId": 1
 }

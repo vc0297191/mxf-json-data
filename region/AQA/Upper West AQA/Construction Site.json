@@ -127,13 +127,21 @@
         2
       ],
       "requires": []
+    },
+    {
+      "name": "Clip Through Work Robot",
+      "note": "Clip through to reach the Bottom-Left Door from the Bottom-Right Door, regardless of the AQA Water Level. On v1.3, the spike pit was removed, allowing access to the left side without taking any spike damage.",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        "canClipThroughWorkRobot"
+      ]
     }
   ],
   "roomImageFile": "AQA Room 79900.jpg",
   "roomAddress": "0x79900",
-  "nextStratId": 5,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 6,
+  "nextNotableId": 1
 }

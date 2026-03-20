@@ -151,13 +151,50 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Reach Left Door from Right Door via Precise Wall Jump and Mid-Air Morph",
+      "note": "It is possible to bypass the leftmost gate by wall-kicking off the left side of the middle gate, morphing before hitting the ceiling, and then holding left towards the leftmost gate. This allows access to the Left Door despite the water level being set to Full (Lv. 1). Note that the gate will deal 10 damage to Samus upon contact.",
+      "link": [
+        3,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "Morph",
+            {
+              "or": [
+                "h_bombThings",
+                {
+                  "and": [
+                    "Wave",
+                    "canCameraManip"
+                  ]
+                }
+              ]
+            },
+            {
+              "and": [
+                "canWallJumpInstantMorph",
+                "canPreciseWalljump"
+              ]
+            },
+            {
+              "resourceConsumed": [
+                {
+                  "type": "Energy",
+                  "count": 10
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "roomImageFile": "AQA Room 79600.jpg",
   "roomAddress": "0x79600",
-  "nextStratId": 5,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 6,
+  "nextNotableId": 1
 }

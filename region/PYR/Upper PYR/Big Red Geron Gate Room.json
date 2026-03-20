@@ -103,7 +103,8 @@
                     "type": "Diffusion",
                     "count": 1
                   }
-                }
+                },
+                "h_blueGateGlitchFromLeft"
               ]
             },
             {
@@ -195,7 +196,5 @@
   "roomImageFile": "PYR Room 79600.jpg",
   "roomAddress": "0x79600",
   "nextStratId": 3,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "notables": []
+  "nextNotableId": 1
 }

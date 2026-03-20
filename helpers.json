@@ -314,12 +314,21 @@
       "description": "Helpers with built in leniency where extra Energy or Ammo are used in a failure.",
       "helpers": [
         {
-          "name": "h_blueGateGlitchLeniency",
+          "name": "h_blueGateGlitchFromRightLeniency",
           "requires": [
             {"or": [
               {"ammo": {"type": "Missile", "count": 1}},
-              {"ammo": {"type": "Super", "count": 1}}
+              "Charge"
             ]}
+          ],
+          "devNote": "Ammo for a second shot for leniency."
+        },
+        {
+          "name": "h_blueGateGlitchFromLeftLeniency",
+          "requires": [
+              {"ammo": {"type": "Super", "count": 1}},
+              "canCameraManip",
+              "canOffScreenSuperShot"
           ],
           "devNote": "Ammo for a second shot for leniency."
         },
@@ -333,7 +342,7 @@
         {
           "name": "h_heatedBlueGateGlitchLeniency",
           "requires": [ 
-            "h_blueGateGlitchLeniency",
+            "h_blueGateGlitchFromRightLeniency",
             {"heatFrames": 60}
           ],
           "devNote": "One ammo and 60 heatFrames for a second shot for leniency."
@@ -633,14 +642,24 @@
           ]
         },
         {
-          "name": "h_blueGateGlitch",
+          "name": "h_blueGateGlitchFromRight",
           "requires": [
             "h_gateGlitch",
             {"or": [
-              {"ammo": {"type": "Missile", "count": 1}},
-              {"ammo": {"type": "Super", "count": 1}}
+              {"and":[{"ammo": {"type": "Missile", "count": 1}}, "canCameraManip"]},
+              "Charge"
             ]},
-            "h_blueGateGlitchLeniency"
+            "h_blueGateGlitchFromRightLeniency"
+          ]
+        },
+        {
+          "name": "h_blueGateGlitchFromLeft",
+          "requires": [
+            "h_gateGlitch",
+            {"ammo": {"type": "Super", "count": 1}},
+            "canCameraManip",
+            "canOffScreenSuperShot",
+            "h_blueGateGlitchFromLeftLeniency"
           ]
         },
         {

@@ -96,6 +96,87 @@
       ]
     },
     {
+      "name": "Come In Shinecharged, Leave With Spark via Chained Shinesparks",
+      "link": [
+        1,
+        2
+      ],
+      "startsWithShineCharge": true,
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "and": [
+                "canShinespark",
+                {
+                  "and": [
+                    {
+                      "and": [
+                        "canHorizontalShinespark",
+                        "canHorizontalShinespark"
+                      ]
+                    },
+                    {
+                      "and": [
+                        "canHorizontalShinespark",
+                        "canHorizontalShinespark"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "and": [
+                    {
+                      "and": [
+                        "canHorizontalSparkIntoTemporaryBlue",
+                        "canHorizontalSparkIntoTemporaryBlue"
+                      ]
+                    },
+                    {
+                      "and": [
+                        "canHorizontalSparkIntoTemporaryBlue",
+                        "canHorizontalSparkIntoTemporaryBlue"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "and": [
+                    {
+                      "and": [
+                        "canConsecutiveHorizontalSparkIntoTemporaryBlue",
+                        "canConsecutiveHorizontalSparkIntoTemporaryBlue"
+                      ]
+                    },
+                    {
+                      "and": [
+                        "canConsecutiveHorizontalSparkIntoTemporaryBlue",
+                        "canConsecutiveHorizontalSparkIntoTemporaryBlue"
+                      ]
+                    }
+                  ]
+                },
+                "canMidairShinespark",
+                "canShinechargeMovement"
+              ]
+            },
+            {
+              "shinespark": {
+                "frames": 9,
+                "excessFrames": 5
+              }
+            }
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveWithSpark": {}
+      }
+    },
+    {
       "name": "Base",
       "link": [
         1,
@@ -128,9 +209,6 @@
   ],
   "roomImageFile": "SRX Room 7A700.jpg",
   "roomAddress": "0x7A700",
-  "nextStratId": 5,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 6,
+  "nextNotableId": 1
 }

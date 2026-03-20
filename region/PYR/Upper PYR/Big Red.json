@@ -300,6 +300,16 @@
       "requires": []
     },
     {
+      "name": "Reach Above Left-Lower Tunnel from Top-Left Door via Precise Wall Jump",
+      "link": [
+        1,
+        8
+      ],
+      "requires": [
+        "canPreciseWalljump"
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         2,
@@ -527,6 +537,62 @@
       ]
     },
     {
+      "name": "Reach Top-Right Door from Central Ledge via Freeze Enemies",
+      "link": [
+        9,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "ammo": {
+                    "type": "Ice Missile",
+                    "count": 2
+                  }
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "and": [
+                "canPreciseWalljump",
+                "canTrivialUseFrozenEnemies",
+                "canUseFrozenEnemies"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reach Above Left-Lower Tunnel from Central Ledge via Horizontal Damage Boost and Wall Jumps",
+      "note": "Wall Jump off the right wall, d-boost off the Powamp to gain access to the ledge under the \"Above Left-Lower Tunnel\" junction, and then perform one more wall jump off the left wall to reach the platform safely.",
+      "link": [
+        9,
+        8
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "and": [
+                "canWalljump",
+                "canHorizontalDamageBoost"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         10,
@@ -560,6 +626,26 @@
                   }
                 },
                 "canIBJ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reach Above Left-Lower Tunnel from Above Lower-Middle Doors via Spring Wall Jump",
+      "link": [
+        10,
+        8
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "and": [
+                "canMidAirMorph",
+                "canSpringBallJumpMidAir",
+                "canSpringwall"
               ]
             }
           ]
@@ -639,6 +725,6 @@
   ],
   "roomImageFile": "PYR Room 79400.jpg",
   "roomAddress": "0x79400",
-  "nextStratId": 26,
+  "nextStratId": 30,
   "nextNotableId": 1
 }

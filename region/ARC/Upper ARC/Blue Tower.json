@@ -341,6 +341,35 @@
       ]
     },
     {
+      "name": "Reach Below Top Rippers from Left Door via Spring Wall",
+      "link": [
+        3,
+        8
+      ],
+      "requires": [
+        {
+          "and": [
+            "canSpringwall",
+            {
+              "or": [
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "Ripper"
+                      ]
+                    ]
+                  }
+                },
+                "canTrickyDodgeEnemies"
+              ]
+            },
+            "h_bombThings"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         3,
@@ -603,6 +632,37 @@
       ]
     },
     {
+      "name": "Reach Top-Left Door from Below Top Rippers via Tricky Consecutive Alternating Wall Jumps and Bomb Above IBJ",
+      "link": [
+        8,
+        1
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                "canTrickyDodgeEnemies",
+                {
+                  "enemyKill": {
+                    "enemies": [
+                      [
+                        "Ripper",
+                        "Ripper",
+                        "Ripper"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            "canConsecutiveAlternatingWallJump",
+            "canBombAboveIBJ"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         8,
@@ -620,6 +680,34 @@
       ],
       "requires": [
         "h_JumpAssist"
+      ]
+    },
+    {
+      "name": "Leave With Spark",
+      "note": "Scroll the camera up slightly and place a Power Bomb to destroy specifically the PB blocks; Use the cleared runway to Recursive Short Charge, and then quickly work your way up to the Left Door and release a Shinespark left out of the room.",
+      "link": [
+        9,
+        3
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_usePowerBomb",
+            "canCameraManip",
+            "canRecursiveShortCharge",
+            {
+              "shinespark": {
+                "frames": 10
+              }
+            }
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveWithSpark": {}
+      },
+      "clearsObstacles": [
+        "A"
       ]
     },
     {
@@ -654,6 +742,6 @@
   ],
   "roomImageFile": "ARC Room 78D00.jpg",
   "roomAddress": "0x78D00",
-  "nextStratId": 22,
+  "nextStratId": 25,
   "nextNotableId": 1
 }

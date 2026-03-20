@@ -138,6 +138,11 @@
       "name": "Bottom-Right Crumble Blocks",
       "obstacleType": "inanimate",
       "id": "B"
+    },
+    {
+      "name": "Wave Gate",
+      "obstacleType": "inanimate",
+      "id": "C"
     }
   ],
   "strats": [
@@ -241,13 +246,47 @@
       ]
     },
     {
+      "name": "Open Wave Gate",
+      "link": [
+        3,
+        3
+      ],
+      "requires": [
+        {
+          "or": [
+            "Wave",
+            {
+              "ammo": {
+                "type": "Diffusion",
+                "count": 1
+              }
+            },
+            "h_blueGateGlitchFromLeft"
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "C"
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         3,
         5
       ],
       "requires": [
-        "Wave"
+        {
+          "obstaclesCleared": [
+            "C"
+          ]
+        }
+      ],
+      "collectsItems": [
+        5
+      ],
+      "setsFlags": [
+        "f_HabitationDeck_EnergyTankRight_Collected"
       ]
     },
     {
@@ -282,11 +321,14 @@
         5,
         3
       ],
+      "clearsObstacles": [
+        "C"
+      ],
       "requires": []
     }
   ],
   "roomImageFile": "MDK Room 27.png",
   "roomAddress": "0x0",
-  "nextStratId": 10,
+  "nextStratId": 11,
   "nextNotableId": 1
 }

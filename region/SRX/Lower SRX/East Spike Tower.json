@@ -137,13 +137,27 @@
       "requires": [
         "SpaceJump"
       ]
+    },
+    {
+      "name": "Spark to Right Door from Bottom Door",
+      "link": [
+        3,
+        2
+      ],
+      "entranceCondition": {
+        "comeInWithSpark": {}
+      },
+      "requires": [
+        {
+          "shinespark": {
+            "frames": 37
+          }
+        }
+      ]
     }
   ],
   "roomImageFile": "SRX Room 7A800.jpg",
   "roomAddress": "0x7A800",
-  "nextStratId": 6,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 7,
+  "nextNotableId": 1
 }

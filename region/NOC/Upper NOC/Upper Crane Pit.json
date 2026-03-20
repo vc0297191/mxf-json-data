@@ -127,6 +127,24 @@
       "requires": []
     },
     {
+      "name": "Come In Blue Spinning, Leave With Blue Speed",
+      "link": [
+        1,
+        2
+      ],
+      "entranceCondition": {
+        "comeInBlueSpinning": {
+          "unusableTiles": null
+        }
+      },
+      "requires": [
+        "SpeedBoosterLv2"
+      ],
+      "exitCondition": {
+        "leaveWithBlueSpeed": {}
+      }
+    },
+    {
       "name": "Base",
       "link": [
         2,
@@ -150,9 +168,6 @@
   ],
   "roomImageFile": "NOC Room 79300.jpg",
   "roomAddress": "0x79300",
-  "nextStratId": 4,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 5,
+  "nextNotableId": 1
 }

@@ -166,6 +166,33 @@
       ]
     },
     {
+      "name": "Reach Missile Tank from Right-Lower Door via Spring Ball Jump Mid-Air",
+      "link": [
+        2,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            "h_JumpAssist",
+            "canSpringBallJumpMidAir",
+            {
+              "ammo": {
+                "type": "Super",
+                "count": 2
+              }
+            }
+          ]
+        }
+      ],
+      "collectsItems": [
+        4
+      ],
+      "setsFlags": [
+        "f_ARCPYRAccess_MissileTank_Collected"
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         3,
@@ -204,9 +231,6 @@
   ],
   "roomImageFile": "ARC Room 78F00.jpg",
   "roomAddress": "0x78F00",
-  "nextStratId": 8,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 9,
+  "nextNotableId": 1
 }

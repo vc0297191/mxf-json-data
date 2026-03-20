@@ -155,6 +155,48 @@
       ]
     },
     {
+      "id": 10,
+      "idMinorItemPlm": "0x07",
+      "name": "Operations Ventilation [Upper] - Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 208,
+          "y": 992,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#37c90e",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7D401",
+      "mapTileX": 32,
+      "mapTileY": 13
+    },
+    {
+      "id": 11,
+      "idMinorItemPlm": "0x08",
+      "name": "Operations Ventilation [Lower] - Missile Tank",
+      "nodeType": "item",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 48,
+          "y": 1552,
+          "w": 16,
+          "h": 16
+        }
+      ],
+      "color": "#37c90e",
+      "nodeItem": "Missile",
+      "nodeAddress": "0x7D407",
+      "mapTileX": 32,
+      "mapTileY": 16
+    },
+    {
       "id": 7,
       "name": "Above Upper Missile Tank",
       "nodeType": "junction",
@@ -201,48 +243,6 @@
         }
       ],
       "color": "#0000ff"
-    },
-    {
-      "id": 10,
-      "idMinorItemPlm": "0x07",
-      "name": "Operations Ventilation [Upper] - Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 208,
-          "y": 992,
-          "w": 16,
-          "h": 16
-        }
-      ],
-      "color": "#37c90e",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7D401",
-      "mapTileX": 32,
-      "mapTileY": 13
-    },
-    {
-      "id": 11,
-      "idMinorItemPlm": "0x08",
-      "name": "Operations Ventilation [Lower] - Missile Tank",
-      "nodeType": "item",
-      "nodeSubType": "visible",
-      "geometry": [
-        {
-          "shape": "rect",
-          "x": 48,
-          "y": 1552,
-          "w": 16,
-          "h": 16
-        }
-      ],
-      "color": "#37c90e",
-      "nodeItem": "Missile",
-      "nodeAddress": "0x7D407",
-      "mapTileX": 32,
-      "mapTileY": 16
     }
   ],
   "strats": [
@@ -313,22 +313,6 @@
     {
       "name": "Base",
       "link": [
-        10,
-        8
-      ],
-      "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        11,
-        9
-      ],
-      "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
         7,
         2
       ],
@@ -352,6 +336,23 @@
       ]
     },
     {
+      "name": "Damage Boost Up the Shaft via Spikes",
+      "link": [
+        7,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            "canNeutralDamageBoost",
+            {
+              "spikeHits": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         7,
@@ -363,10 +364,7 @@
       "name": "Base",
       "link": [
         7,
-        10
-      ],
-      "collectsItems": [
-        10
+        8
       ],
       "requires": []
     },
@@ -374,7 +372,10 @@
       "name": "Base",
       "link": [
         7,
-        8
+        10
+      ],
+      "collectsItems": [
+        10
       ],
       "requires": []
     },
@@ -403,6 +404,23 @@
       ]
     },
     {
+      "name": "Damage Boost Up the Shaft via Spikes",
+      "link": [
+        8,
+        7
+      ],
+      "requires": [
+        {
+          "and": [
+            "canNeutralDamageBoost",
+            {
+              "spikeHits": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         8,
@@ -415,17 +433,6 @@
       "link": [
         9,
         4
-      ],
-      "requires": []
-    },
-    {
-      "name": "Base",
-      "link": [
-        9,
-        11
-      ],
-      "collectsItems": [
-        11
       ],
       "requires": []
     },
@@ -458,13 +465,37 @@
       "requires": [
         "canLongIBJ"
       ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        9,
+        11
+      ],
+      "collectsItems": [
+        11
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        10,
+        8
+      ],
+      "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        11,
+        9
+      ],
+      "requires": []
     }
   ],
   "roomImageFile": "MDK Room 16.png",
   "roomAddress": "0x0",
-  "nextStratId": 24,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 26,
+  "nextNotableId": 1
 }

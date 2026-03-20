@@ -160,11 +160,20 @@
       "clearsObstacles": [
         "A"
       ]
+    },
+    {
+      "name": "Open One-Way Gate via Charge Clip",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        "h_blueGateGlitchFromRight"
+      ]
     }
   ],
   "roomImageFile": "PYR Room 79500.jpg",
   "roomAddress": "0x79500",
-  "nextStratId": 4,
-  "nextNotableId": 1,
-  "notables": []
+  "nextStratId": 5,
+  "nextNotableId": 1
 }

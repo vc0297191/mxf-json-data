@@ -2456,6 +2456,80 @@
               ],
               "devNote": "",
               "extensionTechs": []
+            },
+                        {
+              "id": 142,
+              "name": "canHorizontalShinespark",
+              "techRequires": [
+                "canShinespark"
+              ],
+              "otherRequires": [],
+              "note": [
+                "The ability to shinespark horizontally from the ground.",
+                "This can be achieved by starting without horizontal momentum and pressing jump and then forward while still holding jump (or repressing jump).",
+                "These inputs can be done in rapid succession or with a short delay.",
+                "Shinesparking in water can be done the same way, but requires a slightly longer delay between the jump and forward presses.",
+                "If needing to spark near ground level, avoid being crouched when pressing jump, as crouch jumping will boost Samus vertically and result in a higher position for the spark."
+              ],
+              "devNote": "",
+              "extensionTechs": [
+                {
+                  "id": 186,
+                  "name": "canHorizontalSparkIntoTemporaryBlue",
+                  "techRequires": [
+                    "canHorizontalShinespark"
+                  ],
+                  "otherRequires": [],
+                  "note": [
+                    "The ability to shinespark horizontally towards a slope and regain temporary blue. New feature introduced in X-Fusion, ported over from the GBA titles."
+                  ],
+                  "devNote": "",
+                  "extensionTechs": [
+                    {
+                      "id": 187,
+                      "name": "canConsecutiveHorizontalSparkIntoTemporaryBlue",
+                      "techRequires": [
+                        "canHorizontalShinespark"
+                      ],
+                      "otherRequires": [],
+                      "note": [
+                        "The ability to consecutively shinespark horizontally towards a slope several times, and maintain temporary blue. Though complex, this is expected for Zazabi Speedway."
+                      ],
+                      "devNote": "",
+                      "extensionTechs": []
+                    }
+                  ]
+                },
+                {
+                  "id": 189,
+                  "name": "canMomentumConservation",
+                  "techRequires": [
+                    "SpeedBooster",
+                    "SpeedBoosterLv2"
+                  ],
+                  "otherRequires": [],
+                  "note": [
+                    "The ability to land on the ground and continue running without breaking momentum. This tech only works with Lv.2 SpeedBooster, so both must be obtained, as they are progressive."
+                  ],
+                  "devNote": "",
+                  "extensionTechs": [
+                    {
+                      "id": 190,
+                      "name": "canRecursiveShortCharge",
+                      "techRequires": [
+                        "canMomentumConservation"
+                      ],
+                      "otherRequires": [
+                      ],
+                      "note": [
+                        "The ability to jump back and forth with conservation momentum to build up a speedbooster. The absolute minimum for this tech appears to be 5 tiles of runway. This tech only works with Lv.2 SpeedBooster, so both must be obtained, as they are progressive."
+                      ],
+                      "devNote": "",
+                      "extensionTechs": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -2812,28 +2886,26 @@
           "otherRequires": [
             "Morph",
             {
+              "resourceCapacity": [
+                {
+                  "type": "PowerBomb",
+                  "count": 1
+                }
+              ]
+            },
+            {
               "ammo": {
                 "type": "PowerBomb",
                 "count": 1
               }
             },
             {
-              "ammo": {
-                "type": "Missile",
-                "count": 10
-              }
-            },
-            {
-              "ammo": {
-                "type": "Super",
-                "count": 10
-              }
-            },
-            {
-              "ammo": {
-                "type": "PowerBomb",
-                "count": 10
-              }
+              "resourceCapacity": [
+                {
+                  "type": "Missile",
+                  "count": 10
+                }
+              ]
             },
             {
               "noFlashSuit": {
@@ -2843,11 +2915,11 @@
           ],
           "note": [
             "Performing a Crystal Flash (CF).",
-            "Initiating the Crystal Flash requires energy at 50 or lower, empty Reserve energy, 1 Power Bomb to initiate, and holding L+R+Shoot+Down with no other inputs.",
-            "A Crystal Flash will refill 1500 energy at the cost of 10 Missiles, 10 Supers, and 10 Power Bombs.",
+            "Initiating the Crystal Flash requires energy at 30 or lower, 10 Missiles in the inventory, 1 Power Bomb to initiate, and holding L+R+Shoot+Down with no other inputs.",
+            "A Crystal Flash will refill 40 energy for each Missile remaining in the inventory, and end as soon as either the Missile count is depleted, or if the player reaches max Energy.",
             "The Crystal Flash will also put Samus in a standing position even if she is in a Morph tunnel."
           ],
-          "devNote": "Note that this does not include the refill, as the amount is dependent on Samus' environment.",
+          "devNote": "Note that this does not include the refill or missile ammo spent, as the amount is dependent on Samus' environment and current missile counts.",
           "extensionTechs": [
             {
               "id": 171,
@@ -3062,9 +3134,21 @@
           ],
           "devNote": "",
           "extensionTechs": []
+        },
+        {
+          "id": 191,
+          "name": "canClipThroughWorkRobot",
+          "techRequires": [],
+          "otherRequires": [
+          ],
+          "note": [
+            "Push the Work Robot to the middle platform, wait for it to come back to Samus. Start running when the robot is few pixels away from Samus' hitbox, and she'll eventually pass through."
+          ],
+          "devNote": "",
+          "extensionTechs": []
         }
       ]
     }
   ],
-  "nextTechId": 189
+  "nextTechId": 192
 }
