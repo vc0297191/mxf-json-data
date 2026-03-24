@@ -3,7 +3,7 @@
   "id": 256,
   "name": "Hot Potato",
   "area": "PYR",
-  "subarea": "Neo-Crocomire\u0027s Lair",
+  "subarea": "Neo-Crocomire's Lair",
   "roomEnvironments": [
     {
       "heated": false,
@@ -86,6 +86,39 @@
     }
   ],
   "strats": [
+    {
+      "name": "Come In Shinecharging, Leave Shinecharged",
+      "link": [
+        1,
+        1
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 10,
+          "openEnd": 1
+        }
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "canShineCharge": {
+                "usedTiles": 10,
+                "openEnd": 1
+              }
+            },
+            "canShinechargeMovementComplex",
+            {
+              "shineChargeFrames": 26
+            }
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveShinecharged": {}
+      },
+      "endsWithShineCharge": true
+    },
     {
       "name": "Base",
       "link": [
@@ -182,9 +215,6 @@
   ],
   "roomImageFile": "PYR Room 79B00.jpg",
   "roomAddress": "0x79B00",
-  "nextStratId": 5,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 6,
+  "nextNotableId": 1
 }

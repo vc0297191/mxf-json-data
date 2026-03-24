@@ -100,7 +100,17 @@
         3
       ],
       "requires": [
-        "h_bombThings"
+        {
+          "or": [
+            "h_bombThings",
+            {
+              "and": [
+                "Morph",
+                "canCameraManip"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -110,6 +120,26 @@
         1
       ],
       "requires": []
+    },
+    {
+      "name": "Base",
+      "link": [
+        3,
+        1
+      ],
+      "requires": [
+        {
+          "or": [
+            "h_bombThings",
+            {
+              "and": [
+                "Morph",
+                "canCameraManip"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Base",
@@ -128,9 +158,6 @@
   ],
   "roomImageFile": "TRO Room 78C00.jpg",
   "roomAddress": "0x78C00",
-  "nextStratId": 5,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 6,
+  "nextNotableId": 1
 }

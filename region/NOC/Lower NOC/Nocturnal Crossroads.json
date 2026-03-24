@@ -241,7 +241,7 @@
   ],
   "strats": [
     {
-      "name": "Base",
+      "name": "Destroy Power Bomb Blocks",
       "link": [
         1,
         1
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "name": "Base",
+      "name": "Destroy Screw Attack Blocks",
       "link": [
         1,
         1
@@ -300,7 +300,7 @@
       ]
     },
     {
-      "name": "Base",
+      "name": "Destroy Screw Attack Blocks",
       "link": [
         2,
         2

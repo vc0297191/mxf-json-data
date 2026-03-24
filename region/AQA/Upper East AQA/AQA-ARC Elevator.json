@@ -96,7 +96,7 @@
       "requires": []
     },
     {
-      "name": "Leave With Temporary Blue",
+      "name": "Leave With Blue Speed",
       "link": [
         2,
         2
@@ -105,7 +105,7 @@
         "h_shinechargeMaxRunway"
       ],
       "exitCondition": {
-        "leaveWithTemporaryBlue": {}
+        "leaveWithBlueSpeed": {}
       }
     },
     {
@@ -136,8 +136,5 @@
   "roomImageFile": "AQA Room 78A00.jpg",
   "roomAddress": "0x78A00",
   "nextStratId": 6,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextNotableId": 1
 }

@@ -3,7 +3,7 @@
   "id": 253,
   "name": "Bubble Heights",
   "area": "PYR",
-  "subarea": "Neo-Crocomire\u0027s Lair",
+  "subarea": "Neo-Crocomire's Lair",
   "roomEnvironments": [
     {
       "heated": false,
@@ -127,6 +127,45 @@
       "requires": []
     },
     {
+      "name": "Come In Shinecharged, Leave Shinecharged",
+      "link": [
+        2,
+        1
+      ],
+      "startsWithShineCharge": true,
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "shineChargeFrames": 26
+            },
+            "canShinechargeMovementComplex"
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveShinecharged": {}
+      },
+      "endsWithShineCharge": true
+    },
+    {
+      "name": "Leave With Runway",
+      "link": [
+        2,
+        2
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 8,
+          "openEnd": 1
+        }
+      },
+      "requires": []
+    },
+    {
       "name": "Base",
       "link": [
         2,
@@ -168,9 +207,6 @@
   ],
   "roomImageFile": "PYR Room 79C00.jpg",
   "roomAddress": "0x79C00",
-  "nextStratId": 7,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 9,
+  "nextNotableId": 1
 }

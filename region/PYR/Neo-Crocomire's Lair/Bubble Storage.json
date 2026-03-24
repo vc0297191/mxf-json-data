@@ -3,7 +3,7 @@
   "id": 254,
   "name": "Bubble Storage",
   "area": "PYR",
-  "subarea": "Neo-Crocomire\u0027s Lair",
+  "subarea": "Neo-Crocomire's Lair",
   "roomEnvironments": [
     {
       "heated": false,
@@ -146,6 +146,33 @@
       ]
     },
     {
+      "name": "Come In Shinecharged, Spark to Missile Tank",
+      "link": [
+        1,
+        2
+      ],
+      "startsWithShineCharge": true,
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "shinespark": {
+                "frames": 50,
+                "excessFrames": 6
+              }
+            },
+            "canShinechargeMovementComplex"
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         2,
@@ -196,7 +223,6 @@
   ],
   "roomImageFile": "PYR Room 79D00.jpg",
   "roomAddress": "0x79D00",
-  "nextStratId": 4,
-  "nextNotableId": 1,
-  "notables": []
+  "nextStratId": 5,
+  "nextNotableId": 1
 }

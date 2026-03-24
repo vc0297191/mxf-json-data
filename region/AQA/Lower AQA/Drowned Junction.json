@@ -285,7 +285,7 @@
         4
       ],
       "entranceCondition": {
-        "comeInWithTemporaryBlue": {}
+        "comeInWithBlueSpeed": {}
       },
       "requires": [
         {
@@ -297,6 +297,34 @@
       ],
       "clearsObstacles": [
         "A",
+        "B"
+      ],
+      "collectsItems": [
+        4
+      ],
+      "setsFlags": [
+        "f_DrownedJunction_MissileTank_Collected"
+      ]
+    },
+    {
+      "name": "Reach Missile Tank via Recursive Short Charge",
+      "link": [
+        3,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "A"
+              ]
+            },
+            "canRecursiveShortCharge"
+          ]
+        }
+      ],
+      "clearsObstacles": [
         "B"
       ],
       "collectsItems": [
@@ -329,6 +357,6 @@
   ],
   "roomImageFile": "AQA Room 7A600.jpg",
   "roomAddress": "0x7A600",
-  "nextStratId": 9,
+  "nextStratId": 10,
   "nextNotableId": 1
 }

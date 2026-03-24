@@ -82,6 +82,22 @@
       "nodeAddress": "0x7DAE9",
       "mapTileX": 45,
       "mapTileY": 16
+    },
+    {
+      "id": 4,
+      "name": "Right of Central Wall",
+      "nodeType": "junction",
+      "nodeSubType": "visible",
+      "geometry": [
+        {
+          "shape": "rect",
+          "x": 296,
+          "y": 144,
+          "w": 32,
+          "h": 32
+        }
+      ],
+      "color": "#0000ff"
     }
   ],
   "obstacles": [
@@ -90,6 +106,11 @@
       "obstacleType": "inanimate",
       "note": "These were changed from Screw Attack blocks after v1.3 beta 2.",
       "id": "A"
+    },
+    {
+      "name": "Wave Gate",
+      "obstacleType": "inanimate",
+      "id": "B"
     }
   ],
   "enemies": [
@@ -115,63 +136,6 @@
         {
           "heatFrames": 501
         }
-      ]
-    },
-    {
-      "name": "Base",
-      "link": [
-        1,
-        2
-      ],
-      "requires": [
-        {
-          "and": [
-            {
-              "or": [
-                {
-                  "ammo": {
-                    "type": "Super",
-                    "count": 4
-                  }
-                },
-                {
-                  "and": [
-                    {
-                      "ammo": {
-                        "type": "Super",
-                        "count": 2
-                      }
-                    },
-                    "Morph"
-                  ]
-                },
-                {
-                  "ammo": {
-                    "type": "Diffusion",
-                    "count": 1
-                  }
-                }
-              ]
-            },
-            {
-              "or": [
-                "Wave",
-                {
-                  "ammo": {
-                    "type": "Diffusion",
-                    "count": 1
-                  }
-                }
-              ]
-            },
-            {
-              "heatFrames": 501
-            }
-          ]
-        }
-      ],
-      "clearsObstacles": [
-        "A"
       ]
     },
     {
@@ -215,6 +179,52 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        1,
+        4
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "ammo": {
+                    "type": "Super",
+                    "count": 4
+                  }
+                },
+                {
+                  "and": [
+                    {
+                      "ammo": {
+                        "type": "Super",
+                        "count": 2
+                      }
+                    },
+                    "Morph"
+                  ]
+                },
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                }
+              ]
+            },
+            {
+              "heatFrames": 501
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A"
       ]
     },
     {
@@ -337,7 +347,7 @@
       "name": "Base",
       "link": [
         3,
-        2
+        4
       ],
       "requires": [
         {
@@ -370,14 +380,27 @@
               ]
             },
             {
-              "or": [
-                "Wave",
-                {
-                  "ammo": {
-                    "type": "Diffusion",
-                    "count": 1
-                  }
-                }
+              "heatFrames": 501
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "A"
+      ]
+    },
+    {
+      "name": "Base",
+      "link": [
+        4,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "obstaclesCleared": [
+                "B"
               ]
             },
             {
@@ -386,10 +409,55 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Open Wave Gate",
+      "link": [
+        4,
+        4
+      ],
+      "requires": [
+        {
+          "or": [
+            {
+              "and": [
+                "Wave",
+                {
+                  "heatFrames": 501
+                }
+              ]
+            },
+            {
+              "and": [
+                {
+                  "ammo": {
+                    "type": "Diffusion",
+                    "count": 1
+                  }
+                },
+                {
+                  "heatFrames": 501
+                }
+              ]
+            },
+            {
+              "and": [
+                "h_blueGateGlitchFromLeft",
+                {
+                  "heatFrames": 501
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clearsObstacles": [
+        "B"
+      ]
     }
   ],
   "roomImageFile": "PYR Room 79A00.jpg",
   "roomAddress": "0x79A00",
-  "nextStratId": 9,
+  "nextStratId": 11,
   "nextNotableId": 1
 }

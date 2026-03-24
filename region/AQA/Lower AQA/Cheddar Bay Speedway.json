@@ -117,7 +117,7 @@
       ]
     },
     {
-      "name": "Leave With Temporary Blue",
+      "name": "Leave With Blue Speed",
       "link": [
         1,
         1
@@ -131,7 +131,7 @@
         }
       ],
       "exitCondition": {
-        "leaveWithTemporaryBlue": {}
+        "leaveWithBlueSpeed": {}
       }
     },
     {
@@ -233,7 +233,5 @@
   "roomImageFile": "AQA Room 7A700.jpg",
   "roomAddress": "0x7A700",
   "nextStratId": 6,
-  "nextNotableId": 1,
-  "enemies": [],
-  "notables": []
+  "nextNotableId": 1
 }
