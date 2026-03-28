@@ -59,6 +59,21 @@
   ],
   "strats": [
     {
+      "name": "Leave With Runway",
+      "link": [
+        1,
+        1
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 15,
+          "openEnd": 1,
+          "steepUpTiles": 2
+        }
+      },
+      "requires": []
+    },
+    {
       "name": "Base",
       "link": [
         1,
@@ -87,9 +102,6 @@
   ],
   "roomImageFile": "Misc Room Reusable 6.jpg",
   "roomAddress": "0x0",
-  "nextStratId": 4,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 5,
+  "nextNotableId": 1
 }

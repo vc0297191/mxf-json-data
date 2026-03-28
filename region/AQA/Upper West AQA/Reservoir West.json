@@ -291,6 +291,20 @@
       ]
     },
     {
+      "name": "Leave With Runway",
+      "link": [
+        2,
+        2
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 3,
+          "openEnd": 2
+        }
+      },
+      "requires": []
+    },
+    {
       "name": "Base",
       "link": [
         2,
@@ -807,8 +821,6 @@
   ],
   "roomImageFile": "AQA Room 7A000.jpg",
   "roomAddress": "0x7A000",
-  "nextStratId": 14,
-  "nextNotableId": 1,
-  "enemies": [],
-  "notables": []
+  "nextStratId": 15,
+  "nextNotableId": 1
 }

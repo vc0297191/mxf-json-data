@@ -253,6 +253,50 @@
       "requires": []
     },
     {
+      "name": "Come In Shinecharging, Leave Shinecharged",
+      "link": [
+        3,
+        5
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 3,
+          "openEnd": 1
+        }
+      },
+      "requires": [
+        {
+          "and": [
+            "canShinechargeMovementComplex",
+            {
+              "or": [
+                {
+                  "and": [
+                    "Gravity",
+                    {
+                      "shineChargeFrames": 100
+                    }
+                  ]
+                },
+                {
+                  "and": [
+                    "canSuitlessWaterRoom",
+                    {
+                      "shineChargeFrames": 155
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveShinecharged": {}
+      },
+      "endsWithShineCharge": true
+    },
+    {
       "name": "Base",
       "link": [
         4,
@@ -319,6 +363,6 @@
   ],
   "roomImageFile": "AQA Room 79C00.jpg",
   "roomAddress": "0x79C00",
-  "nextStratId": 10,
+  "nextStratId": 11,
   "nextNotableId": 1
 }

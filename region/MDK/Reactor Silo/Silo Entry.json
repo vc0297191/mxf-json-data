@@ -193,6 +193,78 @@
       ]
     },
     {
+      "name": "Come In Shinecharging, Shinespark Clip to Right Door",
+      "note": "Build a Shinecharge from the previous room(s), then diagonal spark below the shootable block just before the drop to the Gadora door to clip through it.",
+      "link": [
+        2,
+        3
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 3,
+          "openEnd": 0
+        }
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "and": [
+                "canShinespark",
+                "canShinechargeMovement",
+                "canShinechargeMovementComplex",
+                "canShinesparkSlopeClip",
+                "canCeilingClip"
+              ]
+            },
+            {
+              "shinespark": {
+                "frames": 7
+              }
+            },
+            {
+              "shineChargeFrames": 167
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Come In Shinecharged, Shinespark Clip to Right Door",
+      "note": "Build a Shinecharge from the previous room(s), then diagonal spark below the shootable block just before the drop to the Gadora door to clip through it.",
+      "link": [
+        2,
+        3
+      ],
+      "startsWithShineCharge": true,
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "and": [
+                "canShinespark",
+                "canShinechargeMovement",
+                "canShinechargeMovementComplex",
+                "canShinesparkSlopeClip",
+                "canCeilingClip"
+              ]
+            },
+            {
+              "shinespark": {
+                "frames": 7
+              }
+            },
+            {
+              "shineChargeFrames": 167
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         3,
@@ -217,8 +289,6 @@
   ],
   "roomImageFile": "MDK Room 2.png",
   "roomAddress": "0x0",
-  "nextStratId": 7,
-  "nextNotableId": 1,
-  "enemies": [],
-  "notables": []
+  "nextStratId": 9,
+  "nextNotableId": 1
 }

@@ -551,15 +551,20 @@
                 {
                   "and": [
                     {
-                      "enemyKill": {
-                        "enemies": [
-                          [
-                            "Ripper",
-                            "Ripper",
-                            "Ripper"
-                          ]
-                        ]
-                      }
+                      "or": [
+                        {
+                          "enemyKill": {
+                            "enemies": [
+                              [
+                                "Ripper",
+                                "Ripper",
+                                "Ripper"
+                              ]
+                            ]
+                          }
+                        },
+                        "canTrickyDodgeEnemies"
+                      ]
                     },
                     {
                       "or": [
@@ -571,6 +576,21 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spring Ball Bomb Jump",
+      "link": [
+        5,
+        9
+      ],
+      "requires": [
+        {
+          "and": [
+            "f_NightmareArena_CoreXAbsorbed",
+            "canSpringBallBombJump"
           ]
         }
       ]
@@ -742,6 +762,6 @@
   ],
   "roomImageFile": "ARC Room 78D00.jpg",
   "roomAddress": "0x78D00",
-  "nextStratId": 25,
+  "nextStratId": 26,
   "nextNotableId": 1
 }

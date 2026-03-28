@@ -274,6 +274,58 @@
       "requires": []
     },
     {
+      "name": "Come In Shinecharging, Reach Bottom-Left Door via Shinespark",
+      "link": [
+        4,
+        6
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 8,
+          "openEnd": 1,
+          "steepDownTiles": 6
+        }
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "shinespark": {
+                "frames": 1,
+                "excessFrames": 10
+              }
+            },
+            {
+              "and": [
+                "canShinespark",
+                "canMidairShinespark",
+                "canShinechargeMovement",
+                {
+                  "and": [
+                    {
+                      "and": [
+                        "canHorizontalShinespark",
+                        "canHorizontalShinespark"
+                      ]
+                    },
+                    {
+                      "and": [
+                        "canHorizontalShinespark",
+                        "canHorizontalShinespark"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "shineChargeFrames": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         5,
@@ -326,6 +378,6 @@
   ],
   "roomImageFile": "MDK Room 18.png",
   "roomAddress": "0x0",
-  "nextStratId": 12,
+  "nextStratId": 13,
   "nextNotableId": 1
 }

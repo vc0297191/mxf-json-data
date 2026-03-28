@@ -192,13 +192,41 @@
         1
       ],
       "requires": []
+    },
+    {
+      "name": "Come In Shinecharged, Leave With Blue Speed",
+      "link": [
+        3,
+        1
+      ],
+      "startsWithShineCharge": true,
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "and": [
+            {
+              "shineChargeFrames": 30
+            },
+            {
+              "shinespark": {
+                "frames": 1,
+                "excessFrames": 3
+              }
+            },
+            "canHorizontalShinespark"
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveWithBlueSpeed": {}
+      },
+      "comesThroughToilet": true
     }
   ],
   "roomImageFile": "NOC Room 79900.jpg",
   "roomAddress": "0x79900",
-  "nextStratId": 4,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 5,
+  "nextNotableId": 1
 }

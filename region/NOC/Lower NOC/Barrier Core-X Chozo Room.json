@@ -123,13 +123,32 @@
         "f_BarrierCoreXChozoRoom_CoreXRevealed"
       ],
       "requires": []
+    },
+    {
+      "name": "Leave With Runway",
+      "link": [
+        2,
+        2
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "doorUnlockedAtNode": 2
+            }
+          ]
+        }
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 4,
+          "openEnd": 1
+        }
+      }
     }
   ],
   "roomImageFile": "NOC Room 7AC00.jpg",
   "roomAddress": "0x7AC00",
-  "nextStratId": 3,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 4,
+  "nextNotableId": 1
 }

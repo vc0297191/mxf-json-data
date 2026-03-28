@@ -303,12 +303,83 @@
       "requires": []
     },
     {
+      "name": "Come in Shinecharging, Leave With Runway",
+      "link": [
+        5,
+        6
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 16,
+          "openEnd": 1
+        }
+      },
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 16,
+          "openEnd": 1
+        }
+      },
+      "requires": []
+    },
+    {
+      "name": "Come In Shinecharging, Leave Shinecharged",
+      "link": [
+        5,
+        6
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 16,
+          "openEnd": 1
+        }
+      },
+      "exitCondition": {
+        "leaveShinecharged": {}
+      },
+      "endsWithShineCharge": true,
+      "requires": []
+    },
+    {
       "name": "Base",
       "link": [
         6,
         5
       ],
       "requires": []
+    },
+    {
+      "name": "Leave With Runway",
+      "link": [
+        6,
+        6
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 16,
+          "openEnd": 1
+        }
+      },
+      "requires": []
+    },
+    {
+      "name": "Leave Shinecharged",
+      "link": [
+        6,
+        6
+      ],
+      "requires": [
+        {
+          "canShineCharge": {
+            "usedTiles": 16,
+            "openEnd": 1
+          }
+        }
+      ],
+      "exitCondition": {
+        "leaveShinecharged": {}
+      },
+      "endsWithShineCharge": true
     },
     {
       "name": "Base",
@@ -350,6 +421,17 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "name": "Reach Top-Right Door from Above Upper Missile Tank via Spring Jump",
+      "note": "Also requires an initial crumble jump by holding Jump while on top of spikes (Very easy to do, and SuperJump is required for this strat anyway, so the canCrumbleJump tech is not included)",
+      "link": [
+        7,
+        2
+      ],
+      "requires": [
+        "canSpringBallJumpMidAir"
       ]
     },
     {
@@ -415,6 +497,25 @@
             "canNeutralDamageBoost",
             {
               "spikeHits": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reach Above Upper Missile Tank from Below Upper Missile Tank via Spring Jumps",
+      "link": [
+        8,
+        7
+      ],
+      "requires": [
+        {
+          "and": [
+            {
+              "and": [
+                "canSpringBallJumpMidAir",
+                "canDoubleSpringBallJumpMidAir"
+              ]
             }
           ]
         }
@@ -496,6 +597,6 @@
   ],
   "roomImageFile": "MDK Room 16.png",
   "roomAddress": "0x0",
-  "nextStratId": 26,
+  "nextStratId": 32,
   "nextNotableId": 1
 }

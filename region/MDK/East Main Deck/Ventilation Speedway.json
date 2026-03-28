@@ -109,6 +109,20 @@
       "requires": []
     },
     {
+      "name": "Leave With Runway",
+      "link": [
+        2,
+        2
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 4,
+          "openEnd": 1
+        }
+      },
+      "requires": []
+    },
+    {
       "name": "Base",
       "link": [
         2,
@@ -204,6 +218,6 @@
   ],
   "roomImageFile": "MDK Room 31.png",
   "roomAddress": "0x0",
-  "nextStratId": 9,
+  "nextStratId": 10,
   "nextNotableId": 1
 }

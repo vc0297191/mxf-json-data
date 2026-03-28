@@ -106,6 +106,40 @@
       ]
     },
     {
+      "name": "Come In With Blue Speed, Reach Energy Tank via Temporary Blue",
+      "link": [
+        1,
+        2
+      ],
+      "entranceCondition": {
+        "comeInWithBlueSpeed": {}
+      },
+      "requires": [
+        {
+          "or": [
+            "canLongChainTemporaryBlue",
+            {
+              "and": [
+                {
+                  "and": [
+                    "canSpeedKeep",
+                    "canTemporaryBlue",
+                    "canPauseRemorphTemporaryBlue"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "collectsItems": [
+        2
+      ],
+      "setsFlags": [
+        "f_PillarHighway_EnergyTank_Collected"
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         2,
@@ -122,8 +156,6 @@
   ],
   "roomImageFile": "NOC Room 79A00.jpg",
   "roomAddress": "0x79A00",
-  "nextStratId": 4,
-  "nextNotableId": 1,
-  "enemies": [],
-  "notables": []
+  "nextStratId": 5,
+  "nextNotableId": 1
 }

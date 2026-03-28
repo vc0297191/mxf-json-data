@@ -345,6 +345,57 @@
       ]
     },
     {
+      "name": "Reach Above Grapple Blocks from Right-Lower Door via Running Jump + Precise Wall Jump",
+      "note": "With a running jump, it is possible to reach Above Grapple Blocks with a precise wall jump and Super Jump.",
+      "link": [
+        3,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            "SuperJump",
+            "canPreciseWalljump",
+            {
+              "or": [
+                "Varia",
+                "canTrickyDodgeEnemies"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reach Above Grapple Blocks from Right-Lower Door via Spring Jumps",
+      "link": [
+        3,
+        5
+      ],
+      "requires": [
+        {
+          "and": [
+            "SuperJump",
+            {
+              "or": [
+                "canDoubleSpringBallJumpMidAir",
+                {
+                  "and": [
+                    {
+                      "and": [
+                        "canSpringwall",
+                        "canPreciseWalljump"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Base",
       "link": [
         3,
@@ -490,6 +541,6 @@
   ],
   "roomImageFile": "NOC Room 7AE00.jpg",
   "roomAddress": "0x7AE00",
-  "nextStratId": 18,
+  "nextStratId": 20,
   "nextNotableId": 1
 }

@@ -79,13 +79,31 @@
         1
       ],
       "requires": []
+    },
+    {
+      "name": "Come In Shinecharged, Leave Shinecharged",
+      "link": [
+        2,
+        1
+      ],
+      "startsWithShineCharge": true,
+      "entranceCondition": {
+        "comeInShinecharged": {}
+      },
+      "requires": [
+        {
+          "shineChargeFrames": 0
+        }
+      ],
+      "exitCondition": {
+        "leaveShinecharged": {}
+      },
+      "comesThroughToilet": true,
+      "endsWithShineCharge": true
     }
   ],
   "roomImageFile": "NOC Room 79B00.jpg",
   "roomAddress": "0x79B00",
-  "nextStratId": 3,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 4,
+  "nextNotableId": 1
 }

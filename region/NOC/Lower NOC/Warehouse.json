@@ -160,6 +160,30 @@
       "requires": []
     },
     {
+      "name": "Come In Shinecharging, Leave With Runway",
+      "link": [
+        1,
+        2
+      ],
+      "entranceCondition": {
+        "comeInShinecharging": {
+          "length": 12,
+          "openEnd": 1
+        }
+      },
+      "requires": [
+        {
+          "doorUnlockedAtNode": 2
+        }
+      ],
+      "exitCondition": {
+        "leaveWithRunway": {
+          "length": 12,
+          "openEnd": 1
+        }
+      }
+    },
+    {
       "name": "Base",
       "link": [
         1,
@@ -237,9 +261,6 @@
   ],
   "roomImageFile": "NOC Room 7AB00.jpg",
   "roomAddress": "0x7AB00",
-  "nextStratId": 7,
-  "nextNotableId": 1,
-  "obstacles": [],
-  "enemies": [],
-  "notables": []
+  "nextStratId": 8,
+  "nextNotableId": 1
 }
